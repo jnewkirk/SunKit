@@ -22,7 +22,7 @@ public struct SunKit {
         self.calendar = calendar
     }
     
-    public func monkey(_ date: Date) -> Sun {
+    public func monkey(_ date: Date = Date.now) -> Sun {
         let dayOfTheYear = Double(calendar.ordinality(of: .day, in: .year, for: date)!)
         let longitudinalHour = coordinate.longitude / 15
         let risingSunPosition = calculcateSunPosition(isSunrise: true, dayOfTheYear: dayOfTheYear, longitudinalHour: longitudinalHour)
