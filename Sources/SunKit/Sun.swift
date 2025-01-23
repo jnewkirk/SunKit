@@ -9,7 +9,7 @@ import Foundation
 import CoreLocation
 
 public struct Sun: Codable, Sendable {
-    init(for date: Date,
+    public init(for date: Date,
                   coordinate: CLLocationCoordinate2D,
                   sunrise: Date?,
                   sunset: Date?,

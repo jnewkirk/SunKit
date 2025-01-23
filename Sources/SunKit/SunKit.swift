@@ -12,7 +12,7 @@ public struct SunKit {
     let calendar: Calendar
     let coordinate: CLLocationCoordinate2D
     
-    init?(_ coordinate: CLLocationCoordinate2D) {
+    public init?(_ coordinate: CLLocationCoordinate2D) {
         self.coordinate = coordinate
         
         guard let utcTimezone = TimeZone(identifier: "UTC") else { return nil }
