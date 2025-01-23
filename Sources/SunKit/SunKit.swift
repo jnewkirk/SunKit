@@ -2,7 +2,8 @@
 //  SunKit.swift
 //  SunKit
 //
-//  Created by Jim Newkirk on 1/22/25.
+//  Created by James Newkirk on January, 23. 2025.
+//  Copyright © 2025 James Newkirk, Brad Wilson. All rights reserved.
 //
 
 import Foundation

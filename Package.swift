@@ -19,7 +19,9 @@ let package = Package(
             name: "SunKit"),
         .testTarget(
             name: "SunKitTests",
-            dependencies: ["SunKit"]
+            dependencies: ["SunKit"],
+            path: "SunKitTests",
+            resources: [.copy("testLocations.json"), .copy("waypoints.json")]
         ),
     ]
 )
