@@ -50,10 +50,10 @@ public struct SunKit {
             nauticalDusk: calculateSolarEvent(date: date, zenith: Zenith.nautical, sunPosition: settingSunPosition),
             solarNoon: nil,
             solarMidnight: nil,
-            morningBlueHour: getDateInterval(start: civilDawn, end: risingBlueHour),
-            morningGoldenHour: getDateInterval(start: risingBlueHour, end: risingGoldenHour),
-            eveningGoldenHour: getDateInterval(start: settingGoldenHour, end: settingBlueHour),
-            eveningBlueHour: getDateInterval(start: settingBlueHour, end: civilDusk)
+            morningBlueHour: DateInterval(start: civilDawn, end: risingBlueHour),
+            morningGoldenHour: DateInterval(start: risingBlueHour, end: risingGoldenHour),
+            eveningGoldenHour: DateInterval(start: settingGoldenHour, end: settingBlueHour),
+            eveningBlueHour: DateInterval(start: settingBlueHour, end: civilDusk)
         )
     }
     
@@ -63,13 +63,6 @@ public struct SunKit {
         let sunDeclinationSineRadians: Double
         let rightAscensionHours: Double
         let longitudinalHour: Double
-    }
-    
-    fileprivate func getDateInterval(start: Date?, end: Date?) -> DateInterval? {
-        guard let start else { return nil }
-        guard let end else { return nil }
-        
-        return DateInterval(start: start, end: end)
     }
     
     fileprivate func calculcateSunPosition(isSunrise: Bool, dayOfTheYear: Double, longitudinalHour: Double) -> SunPosition {

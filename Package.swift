@@ -20,7 +20,6 @@ let package = Package(
         .testTarget(
             name: "SunKitTests",
             dependencies: ["SunKit"],
-            path: "SunKitTests",
             resources: [.copy("testLocations.json"), .copy("waypoints.json")]
         ),
     ]
