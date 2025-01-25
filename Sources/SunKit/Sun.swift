@@ -11,27 +11,29 @@ import CoreLocation
 
 public struct Sun: Codable, Sendable {
     public init(for date: Date,
-                  coordinate: CLLocationCoordinate2D,
-                  sunrise: Date?,
-                  sunset: Date?,
-                  astronomicalDawn: Date?,
-                  astronomicalDusk: Date?,
-                  civilDawn: Date?,
-                  civilDusk: Date?,
-                  nauticalDawn: Date?,
-                  nauticalDusk: Date?,
-                  solarNoon: Date?,
-                  solarMidnight: Date?,
-                  morningBlueHour: DateInterval?,
-                  morningGoldenHour: DateInterval?,
-                  eveningGoldenHour: DateInterval?,
-                  eveningBlueHour: DateInterval?) {
+                coordinate: CLLocationCoordinate2D,
+                sunrise: Date?,
+                sunset: Date?,
+                daylight: DateInterval?,
+                astronomicalDawn: Date?,
+                astronomicalDusk: Date?,
+                civilDawn: Date?,
+                civilDusk: Date?,
+                nauticalDawn: Date?,
+                nauticalDusk: Date?,
+                solarNoon: Date?,
+                solarMidnight: Date?,
+                morningBlueHour: DateInterval?,
+                morningGoldenHour: DateInterval?,
+                eveningGoldenHour: DateInterval?,
+                eveningBlueHour: DateInterval?) {
         self.inputDate = date
         self.latitude = coordinate.latitude
         self.longitude = coordinate.longitude
         
         self.sunrise = sunrise
         self.sunset = sunset
+        self.daylight = daylight
         self.astronomicalDawn = astronomicalDawn
         self.astronomicalDusk = astronomicalDusk
         self.civilDawn = civilDawn
@@ -51,6 +53,7 @@ public struct Sun: Codable, Sendable {
     let longitude: Double
     public let sunrise: Date?
     public let sunset: Date?
+    public let daylight: DateInterval?
     public let astronomicalDawn: Date?
     public let nauticalDawn: Date?
     public let civilDawn: Date?
@@ -65,17 +68,18 @@ public struct Sun: Codable, Sendable {
     public let eveningBlueHour: DateInterval?
     
     public var isDaylight: Bool {
-        return false
+        guard let daylight else {
+            return false
+        }
+        
+        return daylight.contains(self.inputDate)
     }
 }
 
 /*
  Additions
  
- Total Daylight - 11hrs 21min
- 
  Given a time - what is the angle of the sun
  
- isDaylight
  
  */

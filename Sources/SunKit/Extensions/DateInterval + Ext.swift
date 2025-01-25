@@ -13,4 +13,11 @@ extension DateInterval {
         
         self.init(start: start, end: end)
     }
+    
+    func hoursMinutes() -> (hours: Int, minutes: Int) {
+        let hours = Int(self.duration) / 3600
+        let minutes = (Int(self.duration) % 3600) / 60
+        
+        return (hours, minutes)
+    }
 }

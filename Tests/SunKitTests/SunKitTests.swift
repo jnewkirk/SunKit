@@ -156,7 +156,7 @@ struct SunKitTests {
         }
     }
     
-    @Test(.disabled())
+    @Test
     func isDaylightTrue() async throws {
         let testLocation = try #require(testLocations.first)
         let sunrise = try #require(testLocation.sunModel.sunrise)
@@ -168,7 +168,7 @@ struct SunKitTests {
         #expect(model.isDaylight)
     }
     
-    @Test(.disabled())
+    @Test
     func isDaylightBeforeSunrise() async throws {
         let testLocation = try #require(testLocations.first)
         let sunrise = try #require(testLocation.sunModel.sunrise)
@@ -180,7 +180,7 @@ struct SunKitTests {
         #expect(model.isDaylight == false)
     }
     
-    @Test(.disabled())
+    @Test
     func isDaylightAfterSunset() async throws {
         let testLocation = try #require(testLocations.first)
         let sunset = try #require(testLocation.sunModel.sunset)
@@ -192,7 +192,7 @@ struct SunKitTests {
         #expect(model.isDaylight == false)
     }
     
-    @Test(.disabled())
+    @Test
     func isDaylightAtSunset() async throws {
         let testLocation = try #require(testLocations.first)
         let sunset = try #require(testLocation.sunModel.sunset)
@@ -203,7 +203,7 @@ struct SunKitTests {
         #expect(model.isDaylight == false)
     }
     
-    @Test(.disabled())
+    @Test
     func isDaylightAtSunrise() throws {
         let testLocation = try #require(testLocations.first)
         let sunrise = try #require(testLocation.sunModel.sunrise)
@@ -238,5 +238,28 @@ struct SunKitTests {
         let sunKit = SunKit(invalidCoordinate)
         
         let _ = try #require(sunKit)
+    }
+    
+    @Test
+    func daylightIntervalSeconds() throws {
+        let testDate = Date(timeIntervalSince1970: 1737779072)
+        let sunKit = SunKit(Constant.Cupertino)!
+        let model = sunKit.monkey(testDate)
+           
+        let daylightInterval = try #require(model.daylight)
+        #expect(daylightInterval.duration == 36497.0)
+    }
+    
+    @Test
+    func daylightIntervalHoursMinutes() throws {
+        let testDate = Date(timeIntervalSince1970: 1737779072)
+        let sunKit = SunKit(Constant.Cupertino)!
+        let model = sunKit.monkey(testDate)
+           
+        let daylightInterval = try #require(model.daylight)
+        
+        let (hours, minutes) = daylightInterval.hoursMinutes()
+        #expect(hours == 10)
+        #expect(minutes == 8)
     }
 }

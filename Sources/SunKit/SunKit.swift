@@ -29,6 +29,9 @@ public struct SunKit {
         let risingSunPosition = calculcateSunPosition(isSunrise: true, dayOfTheYear: dayOfTheYear, longitudinalHour: longitudinalHour)
         let settingSunPosition = calculcateSunPosition(isSunrise: false, dayOfTheYear: dayOfTheYear, longitudinalHour: longitudinalHour)
         
+        let sunrise = calculateSolarEvent(date: date, zenith: Zenith.official, sunPosition: risingSunPosition)
+        let sunset = calculateSolarEvent(date: date, zenith: Zenith.official, sunPosition: settingSunPosition)
+        
         let civilDawn = calculateSolarEvent(date: date, zenith: Zenith.civil, sunPosition: risingSunPosition)
         let risingBlueHour = calculateSolarEvent(date: date, zenith: Zenith.blueHour, sunPosition: risingSunPosition)
         let risingGoldenHour = calculateSolarEvent(date: date, zenith: Zenith.goldenHour, sunPosition: risingSunPosition)
@@ -40,8 +43,9 @@ public struct SunKit {
         return Sun(
             for: date,
             coordinate: coordinate,
-            sunrise: calculateSolarEvent(date: date, zenith: Zenith.official, sunPosition: risingSunPosition),
-            sunset: calculateSolarEvent(date: date, zenith: Zenith.official, sunPosition: settingSunPosition),
+            sunrise: sunrise,
+            sunset: sunset,
+            daylight: DateInterval(start: sunrise, end: sunset),
             astronomicalDawn: calculateSolarEvent(date: date, zenith: Zenith.astronimical, sunPosition: risingSunPosition),
             astronomicalDusk: calculateSolarEvent(date: date, zenith: Zenith.astronimical, sunPosition: settingSunPosition),
             civilDawn: civilDawn,
@@ -74,12 +78,14 @@ public struct SunKit {
         }
         
         let meanAnomolyDegrees = (0.9856 * time) - 3.289
+        
         let trueLongitudeDegrees = normalizeDegrees(
             meanAnomolyDegrees +
             (1.916 * sin(meanAnomolyDegrees.degreesToRadians)) +
             (0.020 * sin(2 * meanAnomolyDegrees.degreesToRadians)) +
             282.634
         )
+        
         var sunRightAscensionDegrees = normalizeDegrees(
             atan(0.91764 * tan(trueLongitudeDegrees.degreesToRadians)).radiansToDegrees
         )
