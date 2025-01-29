@@ -188,6 +188,14 @@ public struct SunKit {
     }
 }
 
+private extension DateInterval {
+    init?(start: Date?, end: Date?) {
+        guard let start, let end else { return nil }
+        
+        self.init(start: start, end: end)
+    }
+}
+
 private extension Double {
     var degreesToRadians: Double {
         return Double(self) * (Double.pi / 180.0)

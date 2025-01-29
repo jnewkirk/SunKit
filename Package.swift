@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SunKit",
-    platforms: [.iOS(.v17)],
+    platforms: [.macOS(.v12), .iOS(.v17)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -20,7 +20,7 @@ let package = Package(
         .testTarget(
             name: "SunKitTests",
             dependencies: ["SunKit"],
-            resources: [.copy("testLocations.json"), .copy("waypoints.json")]
+            resources: [.copy("testLocations.json")]
         ),
     ]
 )

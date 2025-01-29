@@ -11,7 +11,6 @@ import CoreLocation
 
 struct Constant {
     static let testLocationFile = "testLocations"
-    static let waypointFile = "waypoints"
 }
 
 extension Constant {

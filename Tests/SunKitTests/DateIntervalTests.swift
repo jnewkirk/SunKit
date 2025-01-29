@@ -10,7 +10,6 @@ import Foundation
 @testable import SunKit
 
 struct DateIntervalTests {
-    
     @Test("Valid Start / End -> DateInterval")
     func validDateInterval() async throws {
         let initialTime = Date.now
@@ -37,5 +36,13 @@ struct DateIntervalTests {
     func nilStartEnd() async throws {
        let dateInterval = DateInterval(start: nil, end: nil)
         try #require(dateInterval == nil)
+    }
+}
+
+private extension DateInterval {
+    init?(start: Date?, end: Date?) {
+        guard let start, let end else { return nil }
+        
+        self.init(start: start, end: end)
     }
 }
