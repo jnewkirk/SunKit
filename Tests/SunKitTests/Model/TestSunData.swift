@@ -1,15 +1,14 @@
 //
-//  Sun.swift
+//  TestSunData.swift
 //  SunKit
 //
-//  Created by James Newkirk on January, 23. 2025.
-//  Copyright © 2025 James Newkirk, Brad Wilson. All rights reserved.
+//  Created by Jim Newkirk on 1/29/25.
 //
 
 import Foundation
 import CoreLocation
 
-public struct Sun: Codable, Sendable {
+public struct TestSunData: Codable, Sendable {
     public init(for date: Date,
                 coordinate: CLLocationCoordinate2D,
                 sunrise: Date?,
