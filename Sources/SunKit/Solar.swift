@@ -84,10 +84,6 @@ public struct Solar {
         return solars;
     }
     
-    public func solarAngle(hour: int, minute: int, second: int) {
-        
-    }
-
     /// TODO: Sunlight angle
     /// TODO: Moon phase
     /// TODO: Moon illumination
