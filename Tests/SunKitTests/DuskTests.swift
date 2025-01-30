@@ -80,6 +80,26 @@ struct DuskTests {
             let dusk = try #require(solar.dusk)
             #expect(testLocation.sunModel.eveningGoldenHour == dusk.goldenHour,
                     "Test Location: \(testLocation.name)")
+            #expect(testLocation.sunModel.eveningGoldenHour?.start == dusk.goldenHour?.start,
+                    "Test Location: \(testLocation.name)")
+            #expect(testLocation.sunModel.eveningGoldenHour?.end == dusk.goldenHour?.end,
+                    "Test Location: \(testLocation.name)")
+        }
+    }
+    
+    @Test
+    func duskInterval() async throws {
+        for testLocation in testData {
+            let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
+            
+            /// TODO: Grytviken has no astronomical dawn
+            if testLocation.name != "Grytviken" {
+                let dusk = try #require(solar.dusk)
+                #expect(testLocation.sunModel.eveningGoldenHour?.start == dusk.interval?.start,
+                        "Test Location: \(testLocation.name)")
+                #expect(testLocation.sunModel.astronomicalDusk == dusk.interval?.end,
+                        "Test Location: \(testLocation.name)")
+            }
         }
     }
 }

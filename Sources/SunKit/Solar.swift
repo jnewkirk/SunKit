@@ -25,14 +25,19 @@ public struct Solar: Sendable {
             let astronomical = Solar.calculateSolarEvent(date, coordinate, Zenith.astronimical, risingSunPosition)
             let nautical = Solar.calculateSolarEvent(date, coordinate, Zenith.nautical, risingSunPosition)
             let blueHour = Solar.calculateSolarEvent(date, coordinate, Zenith.blueHour, risingSunPosition)
-            let goldenHour = Solar.calculateSolarEvent(date, coordinate, Zenith.goldenHour, risingSunPosition)
+            let goldenHourEnd = Solar.calculateSolarEvent(date, coordinate, Zenith.goldenHour, risingSunPosition)
+            
+            let goldenHourInterval = DateInterval(start: blueHour, end: goldenHourEnd)
+            let blueHourInterval = DateInterval(start: civil, end: blueHour)
+            let dawnInterval = DateInterval(start: astronomical, end: goldenHourEnd)
             
             self.dawn = SolarEvents(sunrise,
                                     nautical: nautical,
                                     astronomical: astronomical,
                                     civil: civil,
-                                    goldenHour: DateInterval(start: blueHour, end: goldenHour),
-                                    blueHour: DateInterval(start: civil, end: blueHour))
+                                    goldenHour: goldenHourInterval,
+                                    blueHour: blueHourInterval,
+                                    interval: dawnInterval)
         } else {
             self.dawn = nil
         }
@@ -45,14 +50,15 @@ public struct Solar: Sendable {
             let astronomical = Solar.calculateSolarEvent(date, coordinate, Zenith.astronimical, settingSunPosition)
             let nautical = Solar.calculateSolarEvent(date, coordinate, Zenith.nautical, settingSunPosition)
             let blueHour = Solar.calculateSolarEvent(date, coordinate, Zenith.blueHour, settingSunPosition)
-            let goldenHour = Solar.calculateSolarEvent(date, coordinate, Zenith.goldenHour, settingSunPosition)
+            let goldenHourStart = Solar.calculateSolarEvent(date, coordinate, Zenith.goldenHour, settingSunPosition)
             
             self.dusk = SolarEvents(sunset,
                                     nautical: nautical,
                                     astronomical: astronomical,
                                     civil: civil,
-                                    goldenHour: DateInterval(start: goldenHour, end: blueHour),
-                                    blueHour: DateInterval(start: blueHour, end: civil))
+                                    goldenHour: DateInterval(start: goldenHourStart, end: blueHour),
+                                    blueHour: DateInterval(start: blueHour, end: civil),
+                                    interval: DateInterval(start: goldenHourStart, end: astronomical))
         } else {
             self.dusk = nil
         }

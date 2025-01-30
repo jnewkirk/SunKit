@@ -8,13 +8,14 @@
 import Foundation
 
 public struct SolarEvents: Sendable {
-    public init(_ actual: Date, nautical: Date? = nil, astronomical: Date? = nil, civil: Date? = nil, goldenHour: DateInterval? = nil, blueHour: DateInterval? = nil) {
+    public init(_ actual: Date, nautical: Date? = nil, astronomical: Date? = nil, civil: Date? = nil, goldenHour: DateInterval? = nil, blueHour: DateInterval? = nil, interval: DateInterval?) {
         self.actual = actual
         self.nautical = nautical
         self.astronomical = astronomical
         self.civil = civil
         self.goldenHour = goldenHour
         self.blueHour = blueHour
+        self.interval = interval
     }
     
     /// The actual solar event (e.g., the sunrise or sunset)
@@ -34,4 +35,7 @@ public struct SolarEvents: Sendable {
     
     /// The morning or evening blue hour
     public let blueHour: DateInterval?
+    
+    /// the monring interval from first light to end of the golden hour - the evening interval from the start of the golden hour to astonomical dusk
+    public let interval: DateInterval?
 }

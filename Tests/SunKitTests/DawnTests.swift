@@ -82,4 +82,21 @@ struct DawnTests {
                     "Test Location: \(testLocation.name)")
         }
     }
+    
+    @Test
+    func dawnInterval() async throws {
+        for testLocation in testData {
+            let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
+            
+            /// TODO: Grytviken has no astronomical dawn
+            if testLocation.name != "Grytviken" {
+                let dawn = try #require(solar.dawn)
+                
+                #expect(testLocation.sunModel.astronomicalDawn == dawn.interval?.start,
+                        "Test Location: \(testLocation.name)")
+                #expect(testLocation.sunModel.morningGoldenHour?.end == dawn.interval?.end,
+                        "Test Location: \(testLocation.name)")
+            }
+        }
+    }
 }
