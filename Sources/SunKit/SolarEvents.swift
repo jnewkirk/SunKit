@@ -18,20 +18,20 @@ public struct SolarEvents: Sendable {
     }
     
     /// The actual solar event (e.g., the sunrise or sunset)
-    let actual: Date
+    public let actual: Date
     
     /// The nauticaul dawn or dusk event
-    let nautical: Date?
+    public let nautical: Date?
     
     /// The astronomical dawn or dusk event
-    let astronomical: Date?
+    public let astronomical: Date?
     
     /// The civil dawn or dusk even
-    let civil: Date?
+    public let civil: Date?
     
     /// The morning or evening golden hour
-    let goldenHour: DateInterval?
+    public let goldenHour: DateInterval?
     
     /// The morning or evening blue hour
-    let blueHour: DateInterval?
+    public let blueHour: DateInterval?
 }

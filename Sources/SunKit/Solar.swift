@@ -10,10 +10,10 @@ import CoreLocation
 
 public struct Solar: Sendable {
     public init(date: Date,
-                  coordinate: CLLocationCoordinate2D) {
+                coordinate: CLLocationCoordinate2D) {
         self.date = date
         self.coordinate = coordinate
-
+        
         let dayOfTheYear = Double(Constant.calendar.ordinality(of: .day, in: .year, for: date)!)
         let longitudinalHour = coordinate.longitude / 15
         
@@ -36,7 +36,7 @@ public struct Solar: Sendable {
         } else {
             self.dawn = nil
         }
-
+        
         let settingSunPosition = Solar.calculcateSunPosition(isSunrise: false, dayOfTheYear, longitudinalHour)
         let sunset = Solar.calculateSolarEvent(date, coordinate, Zenith.official, settingSunPosition)
         if (sunset != nil) {
@@ -53,7 +53,7 @@ public struct Solar: Sendable {
                                     civil: civil,
                                     goldenHour: DateInterval(start: goldenHour, end: blueHour),
                                     blueHour: DateInterval(start: blueHour, end: civil))
-                    } else {
+        } else {
             self.dusk = nil
         }
         
@@ -68,14 +68,14 @@ public struct Solar: Sendable {
     
     let date: Date
     let coordinate: CLLocationCoordinate2D
-    let dawn: SolarEvents?
-    let dusk: SolarEvents?
-    let solarNoon: Date?
-    let daylight: DateInterval?
+    public let dawn: SolarEvents?
+    public let dusk: SolarEvents?
+    public let solarNoon: Date?
+    public let daylight: DateInterval?
     
     public static func makeRange(from: Date, at: CLLocationCoordinate2D, forDays: Int = 7) -> [Solar] {
         var solars: [Solar] = []
-
+        
         for day in 0...(forDays - 1) {
             let date = from.addingTimeInterval(60 * 60 * 24 * Double(day))
             solars.append(Solar(date: date, coordinate: at))
@@ -221,7 +221,7 @@ public struct Solar: Sendable {
         
         return value
     }
-
+    
     fileprivate enum Zenith: Double, CaseIterable {
         case goldenHour = 84
         case official = 90.83
