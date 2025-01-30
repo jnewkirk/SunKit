@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-public struct Solar {
+public struct Solar: Sendable {
     internal init(date: Date,
                   coordinate: CLLocationCoordinate2D) {
         self.date = date

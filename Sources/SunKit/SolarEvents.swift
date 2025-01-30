@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct SolarEvents {
+public struct SolarEvents: Sendable {
     internal init(_ actual: Date, nautical: Date? = nil, astronomical: Date? = nil, civil: Date? = nil, goldenHour: DateInterval? = nil, blueHour: DateInterval? = nil) {
         self.actual = actual
         self.nautical = nautical
