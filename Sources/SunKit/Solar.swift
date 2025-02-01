@@ -2,17 +2,18 @@
 //  Solar.swift
 //  SunKit
 //
-//  Created by Jim Newkirk on 1/29/25.
+//  Copyright © 2025 James Newkirk, Brad Wilson. All rights reserved.
 //
 
 import Foundation
 import CoreLocation
 
-public struct Solar: Sendable {
+public struct Solar: Codable, Sendable {
     public init(date: Date,
                 coordinate: CLLocationCoordinate2D) {
         self.date = date
-        self.coordinate = coordinate
+        self.latitude = coordinate.latitude
+        self.longitude = coordinate.longitude
         
         let dayOfTheYear = Double(Constant.calendar.ordinality(of: .day, in: .year, for: date)!)
         let longitudinalHour = coordinate.longitude / 15
@@ -73,11 +74,16 @@ public struct Solar: Sendable {
     }
     
     let date: Date
-    let coordinate: CLLocationCoordinate2D
+    let latitude: Double
+    let longitude: Double
     public let dawn: SolarEvents?
     public let dusk: SolarEvents?
     public let solarNoon: Date?
     public let daylight: DateInterval?
+    
+    var coordinate: CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
     
     public static func makeRange(from: Date, at: CLLocationCoordinate2D, forDays: Int = 7) -> [Solar] {
         var solars: [Solar] = []

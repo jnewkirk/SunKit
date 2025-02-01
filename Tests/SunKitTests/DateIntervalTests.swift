@@ -2,7 +2,7 @@
 //  DateIntervalTests.swift
 //  SunKitTests
 //
-//  Created by Jim Newkirk on 1/22/25.
+//  Copyright © 2025 James Newkirk, Brad Wilson. All rights reserved.
 //
 
 import Testing

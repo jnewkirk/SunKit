@@ -2,8 +2,8 @@
 //  City.swift
 //  SunKitTests
 //
-//  Created by James Newkirk on January, 23. 2025.
-//  Copyright © 2025 James Newkirk. All rights reserved.
+// 
+//  Copyright © 2025 James Newkirk, Brad Wilson. All rights reserved.
 //
 
 import Testing

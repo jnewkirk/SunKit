@@ -2,7 +2,7 @@
 //  TestSunData.swift
 //  SunKit
 //
-//  Created by Jim Newkirk on 1/29/25.
+//  Copyright © 2025 James Newkirk, Brad Wilson. All rights reserved.
 //
 
 import Foundation
@@ -65,14 +65,6 @@ public struct TestSunData: Codable, Sendable {
     public let morningGoldenHour: DateInterval?
     public let eveningGoldenHour: DateInterval?
     public let eveningBlueHour: DateInterval?
-    
-    public var isDaylight: Bool {
-        guard let daylight else {
-            return false
-        }
-        
-        return daylight.contains(self.inputDate)
-    }
 }
 
 /*

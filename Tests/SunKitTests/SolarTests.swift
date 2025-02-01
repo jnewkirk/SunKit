@@ -2,8 +2,7 @@
 //  SolarTests.swift
 //  SunKit
 //
-//  Created by Jim Newkirk on 1/29/25.
-//
+//  Copyright © 2025 James Newkirk, Brad Wilson. All rights reserved.
 
 import Testing
 import Foundation
@@ -124,52 +123,9 @@ struct SolarTests {
     
     @Test
     func daylightIntervalSeconds() throws {
-        let solar = Solar(date: Date(timeIntervalSince1970: 1737779072), coordinate: Constant.Cupertino)
+        let solar = Solar(date: Date(timeIntervalSince1970: 1737779072), coordinate: Constant.cupertino)
 
         let daylight = try #require(solar.daylight)
         #expect(daylight.duration == 36497.0)
-    }
-    
-    @Test(.disabled())
-    func nextSolarEvents() async throws {
-        let now = Date.now.addingTimeInterval(60 * 60 * 2)
-        let nextSolarEvent = try #require(now.nextSolarEvents(coordinate: Constant.Cupertino))
-
-        #expect(nextSolarEvent.isSunrise)
-        debugPrint(nextSolarEvent.events.actual)
-    }
-}
-
-private extension Date {
-    static var calendar: Calendar {
-        var calendar = Calendar(identifier: .gregorian)
-        calendar.timeZone = Date.utcTimezone
-        
-        return calendar
-    }
-
-    static let utcTimezone = TimeZone(identifier: "UTC")!
-
-    func midnightLocal(timeZone: TimeZone = .current) -> Date {
-        let nowComponents = Date.calendar.dateComponents(in: timeZone, from: self)
-        let midnightComponents = DateComponents(timeZone: timeZone, year: nowComponents.year, month: nowComponents.month, day: nowComponents.day, hour: 0, minute: 0, second: 0)
-        return Date.calendar.date(from: midnightComponents)!
-    }
-    
-    func nextSolarEvents(coordinate: CLLocationCoordinate2D, timeZone: TimeZone = .current) -> (isSunrise: Bool, events: SolarEvents)? {
-        let midnightLocal = midnightLocal(timeZone: timeZone)
-        
-        let todayAndTomorrow = Solar.makeRange(from: midnightLocal, at: coordinate, forDays: 2)
-        guard let todayDawn = todayAndTomorrow[0].dawn else { return nil }
-        guard let todayDusk = todayAndTomorrow[0].dusk else { return nil }
-        guard let tomorrowDawn = todayAndTomorrow[1].dawn else { return nil }
-        
-        if (self < todayDawn.actual) {
-            return (isSunrise: true, todayDawn)
-        } else if (self < todayDusk.actual) {
-            return (isSunrise: false, todayDusk)
-        } else {
-            return (isSunrise: true, tomorrowDawn)
-        }
     }
 }

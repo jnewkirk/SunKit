@@ -2,12 +2,12 @@
 //  SolarEvents.swift
 //  SunKit
 //
-//  Created by Jim Newkirk on 1/29/25.
+//  Copyright © 2025 James Newkirk, Brad Wilson. All rights reserved.
 //
 
 import Foundation
 
-public struct SolarEvents: Sendable {
+public struct SolarEvents: Codable, Sendable {
     public init(_ actual: Date, nautical: Date? = nil, astronomical: Date? = nil, civil: Date? = nil, goldenHour: DateInterval? = nil, blueHour: DateInterval? = nil, interval: DateInterval?) {
         self.actual = actual
         self.nautical = nautical

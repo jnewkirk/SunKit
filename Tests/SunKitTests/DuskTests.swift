@@ -2,7 +2,7 @@
 //  DuskTests.swift
 //  SunKit
 //
-//  Created by Jim Newkirk on 1/29/25.
+//  Copyright © 2025 James Newkirk, Brad Wilson. All rights reserved.
 //
 
 import Testing
