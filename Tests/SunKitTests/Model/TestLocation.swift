@@ -13,21 +13,21 @@ import WeatherKit
 @testable import SunKit
 
 final class TestLocation: Identifiable, Codable, Sendable {
-    internal init(id: UUID = UUID(), name: String, longitude: Double, latitude: Double, date: Date, sunModel: TestSunData) {
+    internal init(id: UUID = UUID(), name: String, latitude: Double, longitude: Double, date: Date, sunData: TestSunData) {
         self.id = id
         self.name = name
-        self.longitude = longitude
         self.latitude = latitude
+        self.longitude = longitude
         self.date = date
-        self.sunModel = sunModel
+        self.sunData = sunData
     }
     
     let id: UUID
     let name: String
-    let longitude: Double
     let latitude: Double
+    let longitude: Double
     let date: Date
-    let sunModel: TestSunData
+    let sunData: TestSunData
 }
 
 extension TestLocation {

@@ -16,6 +16,10 @@ struct SolarTests {
         testData = TestLocation.load()
     }
     
+    @Test func testLocationCount() async throws {
+        #expect(testData.count == 246)
+    }
+    
     @Test
     func makeRange() async throws {
         let formatter = ISO8601DateFormatter()
@@ -38,7 +42,7 @@ struct SolarTests {
             /// TODO: This should get re-generated test data using a computed solar noon from Solar using their sunrise
             /// and sunset, rather than using the Apple version (which isn't exactly the same, plus straddles days)
             let computedSolarNoon = try #require (solar.solarNoon)
-            let testDataSolarNoon = try #require (testLocation.sunModel.solarNoon)
+            let testDataSolarNoon = try #require (testLocation.sunData.solarNoon)
             var difference = abs(testDataSolarNoon.timeIntervalSince1970 - computedSolarNoon.timeIntervalSince1970);
             if (difference > 86400) {
                 difference -= 86400
@@ -64,7 +68,7 @@ struct SolarTests {
     func beforeSunriseIsNotDaylight() async throws {
         for testLocation in testData {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
-            let sunrise = try #require(testLocation.sunModel.sunrise)
+            let sunrise = try #require(testLocation.sunData.sunrise)
             let beforeSunrise = sunrise.addingTimeInterval(-1)
             
             let daylight = try #require (solar.daylight)
@@ -76,7 +80,7 @@ struct SolarTests {
     func afterSunsetIsNotDaylight() async throws {
         for testLocation in testData {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
-            let sunset = try #require(testLocation.sunModel.sunset)
+            let sunset = try #require(testLocation.sunData.sunset)
             let afterSunset = sunset.addingTimeInterval(1)
             
             let daylight = try #require (solar.daylight)
@@ -88,7 +92,7 @@ struct SolarTests {
     func sunriseDaylight() async throws {
         for testLocation in testData {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
-            let sunrise = try #require(testLocation.sunModel.sunrise)
+            let sunrise = try #require(testLocation.sunData.sunrise)
             
             let daylight = try #require (solar.daylight)
             #expect(daylight.contains(sunrise))
@@ -99,7 +103,7 @@ struct SolarTests {
     func sunsetDaylight() async throws {
         for testLocation in testData {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
-            let sunset = try #require(testLocation.sunModel.sunset)
+            let sunset = try #require(testLocation.sunData.sunset)
             
             let daylight = try #require (solar.daylight)
             #expect(daylight.contains(sunset))

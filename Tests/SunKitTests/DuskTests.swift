@@ -23,7 +23,7 @@ struct DuskTests {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
             
             let dusk = try #require(solar.dusk)
-            #expect(testLocation.sunModel.sunset == dusk.actual,
+            #expect(testLocation.sunData.sunset == dusk.actual,
                     "Test Location: \(testLocation.name)")
         }
     }
@@ -34,7 +34,7 @@ struct DuskTests {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
             
             let dusk = try #require(solar.dusk)
-            #expect(testLocation.sunModel.astronomicalDusk == dusk.astronomical,
+            #expect(testLocation.sunData.astronomicalDusk == dusk.astronomical,
                     "Test Location: \(testLocation.name)")
         }
     }
@@ -45,7 +45,7 @@ struct DuskTests {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
             
             let dusk = try #require(solar.dusk)
-            #expect(testLocation.sunModel.civilDusk == dusk.civil,
+            #expect(testLocation.sunData.civilDusk == dusk.civil,
                     "Test Location: \(testLocation.name)")
         }
     }
@@ -56,7 +56,7 @@ struct DuskTests {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
             
             let dusk = try #require(solar.dusk)
-            #expect(testLocation.sunModel.nauticalDusk == dusk.nautical,
+            #expect(testLocation.sunData.nauticalDusk == dusk.nautical,
                     "Test Location: \(testLocation.name)")
         }
     }
@@ -67,7 +67,7 @@ struct DuskTests {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
             
             let dusk = try #require(solar.dusk)
-            #expect(testLocation.sunModel.eveningBlueHour == dusk.blueHour,
+            #expect(testLocation.sunData.eveningBlueHour == dusk.blueHour,
                     "Test Location: \(testLocation.name)")
         }
     }
@@ -78,11 +78,11 @@ struct DuskTests {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.coordinate)
             
             let dusk = try #require(solar.dusk)
-            #expect(testLocation.sunModel.eveningGoldenHour == dusk.goldenHour,
+            #expect(testLocation.sunData.eveningGoldenHour == dusk.goldenHour,
                     "Test Location: \(testLocation.name)")
-            #expect(testLocation.sunModel.eveningGoldenHour?.start == dusk.goldenHour?.start,
+            #expect(testLocation.sunData.eveningGoldenHour?.start == dusk.goldenHour?.start,
                     "Test Location: \(testLocation.name)")
-            #expect(testLocation.sunModel.eveningGoldenHour?.end == dusk.goldenHour?.end,
+            #expect(testLocation.sunData.eveningGoldenHour?.end == dusk.goldenHour?.end,
                     "Test Location: \(testLocation.name)")
         }
     }
@@ -95,9 +95,9 @@ struct DuskTests {
             /// TODO: Grytviken has no astronomical dawn
             if testLocation.name != "Grytviken" {
                 let dusk = try #require(solar.dusk)
-                #expect(testLocation.sunModel.eveningGoldenHour?.start == dusk.interval?.start,
+                #expect(testLocation.sunData.eveningGoldenHour?.start == dusk.interval?.start,
                         "Test Location: \(testLocation.name)")
-                #expect(testLocation.sunModel.astronomicalDusk == dusk.interval?.end,
+                #expect(testLocation.sunData.astronomicalDusk == dusk.interval?.end,
                         "Test Location: \(testLocation.name)")
             }
         }

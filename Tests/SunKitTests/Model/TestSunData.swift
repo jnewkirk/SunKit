@@ -9,9 +9,7 @@ import Foundation
 import CoreLocation
 
 public struct TestSunData: Codable, Sendable {
-    public init(for date: Date,
-                coordinate: CLLocationCoordinate2D,
-                sunrise: Date?,
+    public init(sunrise: Date?,
                 sunset: Date?,
                 daylight: DateInterval?,
                 astronomicalDawn: Date?,
@@ -26,10 +24,6 @@ public struct TestSunData: Codable, Sendable {
                 morningGoldenHour: DateInterval?,
                 eveningGoldenHour: DateInterval?,
                 eveningBlueHour: DateInterval?) {
-        self.inputDate = date
-        self.latitude = coordinate.latitude
-        self.longitude = coordinate.longitude
-        
         self.sunrise = sunrise
         self.sunset = sunset
         self.daylight = daylight
@@ -47,9 +41,6 @@ public struct TestSunData: Codable, Sendable {
         self.eveningBlueHour = eveningBlueHour
     }
     
-    let inputDate: Date
-    let latitude: Double
-    let longitude: Double
     public let sunrise: Date?
     public let sunset: Date?
     public let daylight: DateInterval?
