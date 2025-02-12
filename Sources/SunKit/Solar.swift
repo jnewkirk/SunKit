@@ -71,6 +71,13 @@ public struct Solar: Codable, Sendable {
             self.daylight = nil
             self.solarNoon = nil
         }
+        
+        let julianDate = Solar.julianDay(from: date)
+        let moonAge = Solar.moonAge(julianDate: julianDate)
+        let lunarPhase = Solar.lunarPhase(moonAge: moonAge)
+        let lunarIllumination = Solar.lunarIllumination(moonAge: moonAge)
+ 
+        self.lunar = LunarData(illumination: lunarIllumination, phase: lunarPhase)
     }
     
     let date: Date
@@ -78,6 +85,7 @@ public struct Solar: Codable, Sendable {
     let longitude: Double
     public let dawn: SolarEvents?
     public let dusk: SolarEvents?
+    public let lunar: LunarData
     public let solarNoon: Date?
     public let daylight: DateInterval?
     
@@ -241,6 +249,119 @@ public struct Solar: Codable, Sendable {
         case civil = 96
         case nautical = 102
         case astronimical = 108
+    }
+}
+
+extension Solar {
+    /// Convert Date to Julian Day (JD)
+    static func julianDay(from date: Date) -> Double {
+        let components = Constant.calendar.dateComponents([.year, .month, .day, .hour, .minute, .second, .era], from: date)
+        
+        guard var year = components.year,
+              let month = components.month,
+              let day = components.day,
+              let hour = components.hour,
+              let minute = components.minute,
+              let second = components.second else {
+            return 0.0
+        }
+        
+        if (components.era == 0) {
+            year = -year + 1;
+        }
+        
+        var Y = year
+        var M = month
+        
+        // If month is January or February, treat it as the 13th or 14th month of the previous year
+        if M <= 2 {
+            Y -= 1
+            M += 12
+        }
+        
+        let A = Y / 100
+        let B = 2 - A + (A / 4)
+        
+        let JD =
+        floor(365.25 * Double(Y + 4716)) +
+        floor(30.6001 * Double(M + 1)) +
+        Double(day) +
+        Double(B) - 1524
+        
+        // Convert time to fractional day
+        let dayFraction = (Double(hour) - 12.0) / 24.0 + Double(minute) / 1440.0 + Double(second) / 86400.0
+        
+        return JD + dayFraction
+    }
+    
+    static func moonAge(julianDate: Double) -> Double {
+        // Known new moon date (January 6, 2000 at 18:14 UTC)
+        let knownNewMoonJD = 2451549.5
+        
+        var age = fmod(julianDate - knownNewMoonJD, Constant.synodicMonth)
+        if (age < 0) {
+            age = age + Constant.synodicMonth
+        }
+        return round(age * 10.0) / 10.0
+    }
+    
+    static func lunarPhase(moonAge: Double) -> LunarPhase {
+        if (moonAge < Constant.lunarFirstQuarter) {
+            return .waxingCrescent
+        }
+        if (moonAge < Constant.lunarFull) {
+            return .waxingGibbous
+        }
+        if (moonAge < Constant.lunarThirdQuarter) {
+            return .waningGibbous
+        }
+        
+        return .waningCrescent
+    }
+    
+    static func lunarIllumination(moonAge: Double) -> Double {
+        let phaseAngle = (moonAge / Constant.synodicMonth) * 360.0
+        let illumination = 50.0 * (1 - cos(phaseAngle.degreesToRadians))
+        
+        return round(illumination * 100.0) / 100.0
+    }
+    
+    static func calculateMoonriseMoonset(latitude: Double, longitude: Double, moonAge: Double, date: Date, julianDate: Double) -> (moonRise: Date?, moonSet: Date?) {
+        let moonPhaseAngle = (moonAge / Constant.synodicMonth) * 360.0
+        
+        // Approximate Moon's Declination
+        let moonDeclination = 23.44 * sin(moonPhaseAngle.degreesToRadians)
+        let localSiderealTime = getLocalSiderealTime(longitude: longitude, julianDate: julianDate)
+        
+        let cosH =
+            (sin(-0.833.degreesToRadians) - sin(latitude.degreesToRadians) * sin(moonDeclination.degreesToRadians)) /
+            (cos(latitude.degreesToRadians) * cos(moonDeclination.degreesToRadians))
+
+        // Hour Angle Calculation
+        let hourAngle = acos(cosH).radiansToDegrees
+        
+        // Apply Refraction Correction (~0.566° near horizon)
+        let refractionCorrection = 0.566
+        let correctedHourAngle = hourAngle - refractionCorrection
+        
+        // Compute Moonrise & Moonset Times
+        let moonriseTime = (localSiderealTime - correctedHourAngle) / 15.0  // Convert hour angle to time
+        let moonsetTime = (localSiderealTime + correctedHourAngle) / 15.0
+        
+        let today = Constant.calendar.startOfDay(for: date)
+        
+        let riseDate = Constant.calendar.date(byAdding: .hour, value: Int(moonriseTime), to: today)
+        let setDate = Constant.calendar.date(byAdding: .hour, value: Int(moonsetTime), to: today)
+        
+        return (moonRise: riseDate, moonSet: setDate)
+    }
+    
+    static func getLocalSiderealTime(longitude: Double, julianDate: Double) -> Double {
+        let s = julianDate - 2451545.0
+        let t = s / 36525.0
+        let lst = 280.46061837 + 360.98564736629 * s + 0.000387933 * t * t - (t * t * t) / 38710000.0
+        
+        return (lst + longitude).truncatingRemainder(dividingBy: 360.0)
     }
 }
 
