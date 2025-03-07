@@ -16,4 +16,9 @@ struct Constant {
     static var cupertino: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: 37.322998, longitude: -122.032181)
     }
+    static var puyallup: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: 47.185379, longitude: -122.292900)
+    }
+    
+    public static let utcTimezone = TimeZone(identifier: "UTC")!
 }

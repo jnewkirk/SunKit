@@ -8,15 +8,15 @@
 import Foundation
 
 public struct LunarData: Codable, Sendable {
-    internal init(moonRise: Date? = nil, moonSet: Date? = nil, illumination: Double, phase: LunarPhase) {
-        self.moonRise = moonRise
-        self.moonSet = moonSet
+    internal init(rise: Date?, set: Date?, illumination: Double, phase: LunarPhase) {
+        self.rise = rise
+        self.set = set
         self.illumination = illumination
         self.phase = phase
     }
     
-    public let moonRise: Date?
-    public let moonSet: Date?
+    public let rise: Date?
+    public let set: Date?
     public let illumination: Double
     public let phase: LunarPhase
 }

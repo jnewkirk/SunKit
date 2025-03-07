@@ -5,11 +5,12 @@
         "latitude": 47.61,
         "longitude": -122.15,
         "moonData": {
-            "rise": "2025-02-12T00:34:00Z",
-            "set": "2025-02-11T15:21:00Z",
+            "rise": "2025-02-12T00:32:46Z",
+            "set": "2025-02-11T15:19:30Z",
             "phase": "Waxing Gibbous",
-            "illumination": 99.76
-        }
+            "illumination": 99.59
+        },
+        "tzIdentifier": "America/Los_Angeles"
     },
     {
         "name": "Denver, CO",
@@ -17,11 +18,12 @@
         "latitude": 39.72,
         "longitude": -104.98,
         "moonData": {
-            "rise": "2025-02-11T23:45:00Z",
-            "set": "2025-02-11T13:45:00Z",
+            "rise": "2025-02-11T23:43:57Z",
+            "set": "2025-02-11T13:44:15Z",
             "phase": "Waxing Gibbous",
-            "illumination": 99.76
-        }
+            "illumination": 99.55
+        },
+        "tzIdentifier": "America/Denver"
     },
     {
         "name": "Honolulu, HI",
@@ -29,11 +31,12 @@
         "latitude": 21.31,
         "longitude": -157.84,
         "moonData": {
-            "rise": "2025-02-12T04:45:00Z",
-            "set": "2025-02-11T16:42:00Z",
+            "rise": "2025-02-12T04:00:45Z",
+            "set": "2025-02-11T16:40:40Z",
             "phase": "Waxing Gibbous",
-            "illumination": 99.76
-        }
+            "illumination": 99.74
+        },
+        "tzIdentifier": "America/Adak"
     },
     {
         "name": "Chicago, IL",
@@ -41,11 +44,12 @@
         "latitude": 41.85,
         "longitude": -87.68,
         "moonData": {
-            "rise": "2025-02-11T22:27:00Z",
-            "set": "2025-02-11T12:41:00Z",
+            "rise": "2025-02-11T22:25:45Z",
+            "set": "2025-02-11T12:39:47Z",
             "phase": "Waxing Gibbous",
-            "illumination": 99.76
-        }
+            "illumination": 99.48
+        },
+        "tzIdentifier": "America/Chicago"
     },
     {
         "name": "Boston, MA",
@@ -53,10 +57,11 @@
         "latitude": 42.32,
         "longitude": -71.09,
         "moonData": {
-            "rise": "2025-02-11T21:16:00Z",
-            "set": "2025-02-11T11:35:00Z",
+            "rise": "2025-02-11T21:14:48Z",
+            "set": "2025-02-11T11:33:30Z",
             "phase": "Waxing Gibbous",
-            "illumination": 99.76
-        }
+            "illumination": 99.40
+        },
+        "tzIdentifier": "America/New_York"
     },
 ]

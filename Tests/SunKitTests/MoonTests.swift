@@ -5,9 +5,14 @@
 //  Created by Jim Newkirk on 2/11/25.
 //
 
+import CoreLocation
+import SwiftAA
 import Testing
 @testable import SunKit
 
+/// TODO: The test data here isn't very good, because it's shallow, and all the observations happen
+/// on the same day. The test data should spread out locations,. dates, etc., as well as include
+/// scenarios with no moon rise and/or no moon set.
 struct MoonTests {
     var testDatum: [LocationMoonInfo] = []
     
@@ -18,40 +23,44 @@ struct MoonTests {
     @Test func testLocationCount() async throws {
         #expect(testDatum.count == 5)
     }
+
+    @Test
+    func moonRise() async throws {
+        for testData in testDatum {
+            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone!)
+            
+            #expect(testData.moonData.rise == solar.lunar.rise,
+                    "Location: \(testData.name)")
+        }
+    }
     
     @Test
-    func lunarPhase() async throws {
+    func moonSet() async throws {
         for testData in testDatum {
-            let solar = Solar(date: testData.date, coordinate: testData.coordinate)
+            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone!)
             
-            #expect(solar.lunar.phase == testData.moonData.phase,
-                    "Test Location: \(testData.name)")
+            #expect(testData.moonData.set == solar.lunar.set,
+                    "Location: \(testData.name)")
         }
     }
     
     @Test
     func illumination() async throws {
         for testData in testDatum {
-            let solar = Solar(date: testData.date, coordinate: testData.coordinate)
+            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone!)
             
-            #expect(solar.lunar.illumination == testData.moonData.illumination,
-                    "Test Location: \(testData.name)")
+            #expect(testData.moonData.illumination == round (solar.lunar.illumination * 10000.0) / 100.0,
+                    "Location: \(testData.name)")
         }
     }
     
-    @Test(arguments: zip(
-        [2451549.5, 2451551.5, 2451556.9, 2451564.3, 2451579.3],
-        [0.0,       2.0,       7.4,       14.8,      0.3]
-    ))
-    func moonAge(julianDate: Double, moonAge: Double) throws {
-        #expect(moonAge == Solar.moonAge(julianDate: julianDate))
-    }
-    
-    @Test(arguments: zip(
-        [2.0,                       11.5,                     18.2,                     25.1],
-        [LunarPhase.waxingCrescent, LunarPhase.waxingGibbous, LunarPhase.waningGibbous, LunarPhase.waningCrescent]
-    ))
-    func lunarPhaseByAge(moonAge: Double, moonPhase: LunarPhase) throws {
-        #expect(moonPhase == Solar.lunarPhase(moonAge: moonAge))
+    @Test
+    func phase() async throws {
+        for testData in testDatum {
+            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone!)
+            
+            #expect(testData.moonData.phase == solar.lunar.phase,
+                    "Location: \(testData.name)")
+        }
     }
 }

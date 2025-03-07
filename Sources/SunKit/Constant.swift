@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-struct Constant {
+public struct Constant {
     static var calendar: Calendar {
         var calendar = Calendar(identifier: .gregorian)
         calendar.timeZone = Constant.utcTimezone
@@ -24,5 +24,5 @@ struct Constant {
     static let lunarFull = synodicMonth / 2.0
     static let lunarThirdQuarter = lunarFirstQuarter * 3.0
     
-    static let utcTimezone = TimeZone(identifier: "UTC")!
+    public static let utcTimezone = TimeZone(identifier: "UTC")!
 }

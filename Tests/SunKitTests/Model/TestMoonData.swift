@@ -18,19 +18,29 @@ struct MoonData: Codable {
 }
 
 struct LocationMoonInfo: Codable {
-    internal init(name: String, date: Date, latitude: Double, longitude: Double, moonData: MoonData) {
+    internal init(name: String, date: Date, latitude: Double, longitude: Double, tzIdentifier: String, moonData: MoonData) {
         self.name = name
         self.date = date
         self.latitude = latitude
         self.longitude = longitude
         self.moonData = moonData
+        self.tzIdentifier = tzIdentifier
     }
     
     let name: String
     let date: Date
     let latitude: Double
     let longitude: Double
+    let tzIdentifier: String
     let moonData: MoonData
+    
+    var timeZone: TimeZone? {
+        guard let timeZone = TimeZone(identifier: tzIdentifier) else {
+            print ("unknown time zone ID \(tzIdentifier)")
+            return nil
+        }
+        return timeZone
+    }
 }
 
 extension LocationMoonInfo {
@@ -43,7 +53,7 @@ extension LocationMoonInfo {
         
         return coordinate
     }
-
+    
     static func load() -> [LocationMoonInfo] {
         do {
             let url = Bundle.module.url(forResource: Constant.testMoonFile, withExtension: "json")
