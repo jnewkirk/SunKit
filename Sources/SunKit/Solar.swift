@@ -75,7 +75,7 @@ public struct Solar: Sendable {
         
         if let sunrise, let sunset {
             self.daylight = DateInterval(start: sunrise, end: sunset)
-            self.solarNoon = sunrise + ((sunset.timeIntervalSince1970 - sunrise.timeIntervalSince1970) / 2)
+            self.solarNoon = Date(timeIntervalSince1970: (sunrise.timeIntervalSince1970 + ((sunset.timeIntervalSince1970 - sunrise.timeIntervalSince1970) / 2))).withoutNanoseconds()
         } else {
             self.daylight = nil
             self.solarNoon = nil
@@ -136,40 +136,6 @@ public struct Solar: Sendable {
                          illumination: illumination,
                          phase: lunarPhase,
                          nextEvents: nextEvents)
-    }
-    
-    static func nextFullMoon(after: JulianDay) -> Date {
-        let tolerance: Double = 0.0001
-        var jd = after
-        
-        for _ in 0..<20 {
-            let moon = Moon(julianDay: jd)
-            let phaseAngle = moon.phaseAngle().value
-
-            // Stop when we're close enough to 180° (Full Moon)
-            let delta = phaseAngle - 180
-            print("julianDay is \(jd), delta is \(delta)")
-            if abs(delta) < tolerance {
-                return jd.date
-            }
-
-            // Compute derivative (rate of change of phase angle)
-            let deltaJD: JulianDay = 0.001 // Small step for derivative
-            let moonAhead = Moon(julianDay: jd + deltaJD)
-            let derivative = (moonAhead.phaseAngle().value - phaseAngle) / deltaJD.value
-
-            // Newton-Raphson update
-            let newJD = jd - JulianDay(delta / derivative)
-
-            // Ensure we only move forward in time
-            if newJD > jd {
-                jd = newJD
-            } else {
-                jd = jd + 0.5 // If step is negative, move forward manually
-            }
-        }
-
-        return jd.date
     }
 
     static func computeSolarAngle(julianDay: JulianDay, coordinates: GeographicCoordinates) -> Degree {

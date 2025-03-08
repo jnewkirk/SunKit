@@ -16,8 +16,7 @@ struct SolarTests {
         testData = TestLocation.load()
     }
     
-    /// Temporarily disabled until we can get the newly generated data with time zone identifiers
-    @Test(.disabled())
+    @Test
     func testLocationCount() async throws {
         #expect(testData.count == 246)
     }
@@ -108,7 +107,8 @@ struct SolarTests {
         for testLocation in testData {
             let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone!)
             
-            #expect(testLocation.sunData.solarAngle == round(solar.solarAngle * 100) / 100)
+            let roundedActual = round(solar.solarAngle * 100) / 100
+            #expect(testLocation.sunData.solarAngle == roundedActual)
         }
     }
     
