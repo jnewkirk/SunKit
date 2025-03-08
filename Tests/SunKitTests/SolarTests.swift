@@ -104,6 +104,15 @@ struct SolarTests {
     }
     
     @Test
+    func solarAngle() async throws {
+        for testLocation in testData {
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone!)
+            
+            #expect(testLocation.sunData.solarAngle == round(solar.solarAngle * 100) / 100)
+        }
+    }
+    
+    @Test
     func noSunriseOccurs() throws {
         let solar = try Solar.make(date: Date(timeIntervalSince1970: 1486598400),
                           coordinate: CLLocationCoordinate2D(latitude: 78.2186, longitude: 15.64007),

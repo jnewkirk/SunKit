@@ -13,6 +13,7 @@ import Testing
 struct MoonData: Codable {
     let rise: Date
     let set: Date
+    let angle: Double
     let phase: LunarPhase
     let illumination: Double
 }

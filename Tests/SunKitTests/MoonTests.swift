@@ -45,6 +45,30 @@ struct MoonTests {
     }
     
     @Test
+    func angle() async throws {
+        for testData in testDatum {
+            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone!)
+            
+            #expect(testData.moonData.angle == round(solar.lunar.angle * 100) / 100)
+        }
+    }
+    
+    @Test
+    func nextLunarEvents() async throws {
+        let solar = try Solar.make(date: "2025-03-08T00:58:00Z".toDate()!, coordinate: Constant.puyallup, timeZone: TimeZone(identifier: "America/Los_Angeles")!)
+        
+        #expect(4 == solar.lunar.nextEvents.count)
+        #expect(LunarPhase.full == solar.lunar.nextEvents[0].phase)
+        #expect("2025-03-14T06:55:46Z".toDate() == solar.lunar.nextEvents[0].date)
+        #expect(LunarPhase.thirdQuarter == solar.lunar.nextEvents[1].phase)
+        #expect("2025-03-22T11:30:45Z".toDate() == solar.lunar.nextEvents[1].date)
+        #expect(LunarPhase.new == solar.lunar.nextEvents[2].phase)
+        #expect("2025-03-29T10:58:53Z".toDate() == solar.lunar.nextEvents[2].date)
+        #expect(LunarPhase.firstQuarter == solar.lunar.nextEvents[3].phase)
+        #expect("2025-04-05T02:15:48Z".toDate() == solar.lunar.nextEvents[3].date)
+    }
+    
+    @Test
     func illumination() async throws {
         for testData in testDatum {
             let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone!)

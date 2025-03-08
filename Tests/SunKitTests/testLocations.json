@@ -22,6 +22,7 @@
         "duration": 623
       },
       "solarNoon": "2025-02-01T19:24:35Z",
+      "solarAngle": 37.00,
       "nauticalDusk": "2025-02-02T01:35:34Z",
       "morningGoldenHour": {
         "start": "2025-02-01T13:54:41Z",
@@ -46,6 +47,7 @@
     "sunData": {
       "sunset": "2025-02-02T01:14:54Z",
       "solarNoon": "2025-02-01T20:17:59Z",
+      "solarAngle": 27.84,
       "eveningBlueHour": {
         "duration": 705,
         "start": "2025-02-02T01:33:51Z"
@@ -82,6 +84,7 @@
     "sunData": {
       "astronomicalDawn": "2025-02-01T11:25:58Z",
       "solarNoon": "2025-02-01T18:03:13Z",
+      "solarAngle": 28.39,
       "astronomicalDusk": "2025-02-02T00:40:32Z",
       "sunset": "2025-02-01T23:04:58Z",
       "morningGoldenHour": {
@@ -124,6 +127,7 @@
         "duration": 3036
       },
       "solarNoon": "2025-02-01T17:35:37Z",
+      "solarAngle": 34.53,
       "morningBlueHour": {
         "duration": 593,
         "start": "2025-02-01T11:49:49Z"

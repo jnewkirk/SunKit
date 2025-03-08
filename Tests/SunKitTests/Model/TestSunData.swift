@@ -20,6 +20,7 @@ public struct TestSunData: Codable, Sendable {
                 nauticalDusk: Date?,
                 solarNoon: Date?,
                 solarMidnight: Date?,
+                solarAngle: Double,
                 morningBlueHour: DateInterval?,
                 morningGoldenHour: DateInterval?,
                 eveningGoldenHour: DateInterval?,
@@ -39,6 +40,7 @@ public struct TestSunData: Codable, Sendable {
         self.morningGoldenHour = morningGoldenHour
         self.eveningGoldenHour = eveningGoldenHour
         self.eveningBlueHour = eveningBlueHour
+        self.solarAngle = solarAngle
     }
     
     public let sunrise: Date?
@@ -56,12 +58,5 @@ public struct TestSunData: Codable, Sendable {
     public let morningGoldenHour: DateInterval?
     public let eveningGoldenHour: DateInterval?
     public let eveningBlueHour: DateInterval?
+    public let solarAngle: Double
 }
-
-/*
- Additions
- 
- Given a time - what is the angle of the sun
- 
- 
- */
