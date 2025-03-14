@@ -10,11 +10,8 @@ import SunKit
 
 extension Lunar {
     func testLunarData(_ date: Date, waypoint: Waypoint) -> TestLunarData {
-        return TestLunarData(name: waypoint.name,
+        return TestLunarData(waypoint: waypoint,
                              date: date,
-                             latitude: waypoint.latitude,
-                             longitude: waypoint.longitude,
-                             tzIdentifier: waypoint.timeZone.identifier,
                              lunarData: lunarData(date, waypoint: waypoint))
     }
     

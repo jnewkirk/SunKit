@@ -11,12 +11,9 @@ import SunKit
 
 extension Solar {
     func testSolarData(_ date: Date, waypoint: Waypoint) -> TestSolarData {
-        return TestSolarData(name: waypoint.name,
-                             latitude: waypoint.latitude,
-                             longitude: waypoint.longitude,
+        return TestSolarData(waypoint: waypoint,
                              date: date,
-                             solarData: solarData(date, waypoint: waypoint),
-                             tzIdentifier: waypoint.timeZone.identifier)
+                             solarData: solarData(date, waypoint: waypoint))
     }
         
     func solarData(_ date: Date, waypoint: Waypoint) -> SolarData {

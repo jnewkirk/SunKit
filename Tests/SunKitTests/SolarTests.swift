@@ -38,77 +38,82 @@ struct SolarTests {
     @Test
     func solarNoon() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
             #expect(testLocation.solarData.solarNoon == solar.solarNoon,
-                    "Test Location: \(testLocation.name)")
+                    "Test Location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func solarNoonIsDaylight() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
 
             let daylight = try #require (solar.daylight)
             let solarNoon = try #require (solar.solarNoon)
-            #expect(daylight.contains(solarNoon))
+            #expect(daylight.contains(solarNoon),
+                    "location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func beforeSunriseIsNotDaylight() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             let sunrise = try #require(testLocation.solarData.sunrise)
             let beforeSunrise = sunrise.addingTimeInterval(-1)
             
             let daylight = try #require (solar.daylight)
-            #expect(daylight.contains(beforeSunrise) == false)
+            #expect(daylight.contains(beforeSunrise) == false,
+                    "location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func afterSunsetIsNotDaylight() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             let sunset = try #require(testLocation.solarData.sunset)
             let afterSunset = sunset.addingTimeInterval(1)
             
             let daylight = try #require (solar.daylight)
-            #expect(daylight.contains(afterSunset) == false)
+            #expect(daylight.contains(afterSunset) == false,
+                    "location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func sunriseDaylight() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             let sunrise = try #require(testLocation.solarData.sunrise)
             
             let daylight = try #require (solar.daylight)
-            #expect(daylight.contains(sunrise))
+            #expect(daylight.contains(sunrise),
+                    "location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func sunsetDaylight() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             let sunset = try #require(testLocation.solarData.sunset)
             
             let daylight = try #require (solar.daylight)
-            #expect(daylight.contains(sunset))
+            #expect(daylight.contains(sunset),
+                    "location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func solarAngle() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
             #expect(testLocation.solarData.solarAngle == solar.angle,
-                    "location: \(testLocation.name)")
+                    "location: \(testLocation.waypoint.name)")
         }
     }
     

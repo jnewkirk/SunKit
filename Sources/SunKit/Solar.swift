@@ -20,13 +20,6 @@ public struct Solar: Sendable {
         let today = DateInterval(start: date.midnightLocal(timeZone: timeZone), duration: 60 * 60 * 24)
 
         let official = Solar.computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.official)
-        
-//        if let sunrise = official.rise, let sunset = official.set {
-//            if (sunset < sunrise) {
-//                throw SolarError.coordinateTimeZoneMismatch
-//            }
-//        }
-
         let civil = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.civil)
         let astronomical = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.astronimical)
         let nautical = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.nautical)

@@ -20,82 +20,78 @@ struct DuskTests {
     @Test
     func sunset() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
-            let dusk = try #require(solar.dusk, "Test Location: \(testLocation.name), expected sunset of \(testLocation.solarData.sunset)")
+            let dusk = try #require(solar.dusk, "Test Location: \(testLocation.waypoint.name), expected sunset of \(testLocation.solarData.sunset)")
             #expect(testLocation.solarData.sunset == dusk.actual,
-                    "Test Location: \(testLocation.name)")
+                    "Test Location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func astronomical() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
             let dusk = try #require(solar.dusk)
             #expect(testLocation.solarData.astronomicalDusk == dusk.astronomical,
-                    "Test Location: \(testLocation.name)")
+                    "Test Location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func civil() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
             let dusk = try #require(solar.dusk)
             #expect(testLocation.solarData.civilDusk == dusk.civil,
-                    "Test Location: \(testLocation.name)")
+                    "Test Location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func nautical() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
             let dusk = try #require(solar.dusk)
             #expect(testLocation.solarData.nauticalDusk == dusk.nautical,
-                    "Test Location: \(testLocation.name)")
+                    "Test Location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func blueHour() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
             let dusk = try #require(solar.dusk)
             #expect(testLocation.solarData.eveningBlueHour == dusk.blueHour,
-                    "Test Location: \(testLocation.name)")
+                    "Test Location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func goldenHour() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
             let dusk = try #require(solar.dusk)
             #expect(testLocation.solarData.eveningGoldenHour == dusk.goldenHour,
-                    "Test Location: \(testLocation.name)")
+                    "Test Location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
     func duskInterval() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
-            
-            /// TODO: Grytviken has no astronomical dawn
-            if testLocation.name != "Grytviken" {
-                let dusk = try #require(solar.dusk)
-                #expect(testLocation.solarData.eveningGoldenHour?.start == dusk.interval?.start,
-                        "Test Location: \(testLocation.name)")
-                #expect(testLocation.solarData.astronomicalDusk == dusk.interval?.end,
-                        "Test Location: \(testLocation.name)")
-            }
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let dusk = try #require(solar.dusk)
+            #expect(testLocation.solarData.eveningGoldenHour?.start == dusk.interval?.start,
+                    "Test Location: \(testLocation.waypoint.name)")
+            #expect(testLocation.solarData.astronomicalDusk == dusk.interval?.end,
+                    "Test Location: \(testLocation.waypoint.name)")
         }
     }
     
@@ -112,7 +108,7 @@ struct DuskTests {
         #expect(nil == solar.dawn.astronomical)
         #expect(nil == solar.dawn.civil)
         #expect(nil == solar.dawn.nautical)
-
+        
         #expect("2025-04-10T20:18:05Z".toDate() == solar.dusk.actual)
         #expect(nil == solar.dusk.astronomical)
         #expect(nil == solar.dusk.civil)

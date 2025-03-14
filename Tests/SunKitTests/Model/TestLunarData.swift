@@ -11,42 +11,18 @@ import SunKit
 import Testing
 
 struct TestLunarData: Codable {
-    internal init(name: String, date: Date, latitude: Double, longitude: Double, tzIdentifier: String, lunarData: LunarData) {
-        self.name = name
+    internal init(waypoint: Waypoint, date: Date, lunarData: LunarData) {
+        self.waypoint = waypoint
         self.date = date
-        self.latitude = latitude
-        self.longitude = longitude
-        self.tzIdentifier = tzIdentifier
         self.lunarData = lunarData
     }
     
-    let name: String
     let date: Date
-    let latitude: Double
-    let longitude: Double
-    let tzIdentifier: String
+    let waypoint: Waypoint
     let lunarData: LunarData
-    
-    var timeZone: TimeZone {
-        guard let timeZone = TimeZone(identifier: tzIdentifier) else {
-            debugPrint("Invalid timezone \(tzIdentifier), defaulting to UTC")
-            return Constant.utcTimezone
-        }
-        return timeZone
-    }
 }
 
 extension TestLunarData {
-    var coordinate: CLLocationCoordinate2D {
-        let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
-        guard CLLocationCoordinate2DIsValid(coordinate) else {
-            Issue.record("Test Location has invalid coordinates: \(coordinate)")
-            fatalError("Test Location has invalid coordinates: \(coordinate)")
-        }
-        
-        return coordinate
-    }
-    
     static func load() -> [TestLunarData] {
         do {
             let url = Bundle.module.url(forResource: Constant.testLunarDataFile, withExtension: "json")
