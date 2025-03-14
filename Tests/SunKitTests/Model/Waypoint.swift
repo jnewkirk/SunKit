@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-struct Waypoint: Codable, Sendable {
+struct Waypoint: Codable {
     let name: String
     let latitude: Double
     let longitude: Double

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RiseSet: Sendable {
+struct RiseSet {
     let rise: Date?
     let set: Date?
 }

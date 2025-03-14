@@ -11,7 +11,7 @@ import Testing
 @testable import SunKit
 
 struct LunarTests {
-    var testDatum: [TestLunarData] = []
+    let testDatum: [TestLunarData]
     
     internal init() async throws {
         testDatum = TestLunarData.load()

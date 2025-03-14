@@ -11,7 +11,7 @@ import CoreLocation
 @testable import SunKit
 
 struct DuskTests {
-    var testData: [TestSolarData] = []
+    let testData: [TestSolarData]
     
     internal init() async throws {
         testData = TestSolarData.load()

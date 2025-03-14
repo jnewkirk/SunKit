@@ -8,7 +8,7 @@
 import Foundation
 import SwiftAA
 
-enum Zenith: Double, CaseIterable, Sendable {
+enum Zenith: Double, CaseIterable {
     case goldenHour = 84
     case official = 90.83
     case blueHour = 94
