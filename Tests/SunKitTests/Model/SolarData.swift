@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-public struct SunData: Codable, Sendable {
+public struct SolarData: Codable, Sendable {
     public init(sunrise: Date?,
                 sunset: Date?,
                 daylight: DateInterval?,

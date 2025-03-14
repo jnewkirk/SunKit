@@ -13,23 +13,23 @@ import Testing
 /// TODO: The test data here isn't very good, because it's shallow, and all the observations happen
 /// on the same day. The test data should spread out locations,. dates, etc., as well as include
 /// scenarios with no moon rise and/or no moon set.
-struct MoonTests {
-    var testDatum: [TestMoonData] = []
+struct LunarTests {
+    var testDatum: [TestLunarData] = []
     
     internal init() async throws {
-        testDatum = TestMoonData.load()
+        testDatum = TestLunarData.load()
     }
     
     @Test func testLocationCount() async throws {
-        #expect(testDatum.count == 35)
+        #expect(testDatum.count == 275)
     }
 
     @Test
     func moonRise() async throws {
         for testData in testDatum {
-            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone!)
+            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone)
             
-            #expect(testData.moonData.rise == solar.lunar.rise,
+            #expect(testData.lunarData.rise == solar.lunar.rise,
                     "Location: \(testData.name)")
         }
     }
@@ -37,9 +37,9 @@ struct MoonTests {
     @Test
     func moonSet() async throws {
         for testData in testDatum {
-            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone!)
+            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone)
             
-            #expect(testData.moonData.set == solar.lunar.set,
+            #expect(testData.lunarData.set == solar.lunar.set,
                     "Location: \(testData.name)")
         }
     }
@@ -47,9 +47,10 @@ struct MoonTests {
     @Test
     func angle() async throws {
         for testData in testDatum {
-            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone!)
+            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone)
             
-            #expect(testData.moonData.angle == round(solar.lunar.angle * 100) / 100)
+            #expect(testData.lunarData.angle == solar.lunar.angle,
+                    "Location: \(testData.name)")
         }
     }
     
@@ -71,9 +72,9 @@ struct MoonTests {
     @Test
     func illumination() async throws {
         for testData in testDatum {
-            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone!)
+            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone)
             
-            #expect(testData.moonData.illumination == round (solar.lunar.illumination * 10000.0) / 100.0,
+            #expect(testData.lunarData.illumination == solar.lunar.illumination,
                     "Location: \(testData.name)")
         }
     }
@@ -81,9 +82,9 @@ struct MoonTests {
     @Test
     func phase() async throws {
         for testData in testDatum {
-            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone!)
+            let solar = try Solar.make(date: testData.date, coordinate: testData.coordinate, timeZone: testData.timeZone)
             
-            #expect(testData.moonData.phase == solar.lunar.phase,
+            #expect(testData.lunarData.phase == solar.lunar.phase,
                     "Location: \(testData.name)")
         }
     }

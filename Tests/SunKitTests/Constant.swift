@@ -10,8 +10,9 @@ import Foundation
 import CoreLocation
 
 struct Constant {
-    static let testLocationFile = "testLocations"
-    static let testMoonFile = "moonData"
+    static let testSolarDataFile = "testSolarData"
+    static let testLunarDataFile = "testLunarData"
+    static let waypointsDataFile = "waypoints"
     
     static var cupertino: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: 37.322998, longitude: -122.032181)

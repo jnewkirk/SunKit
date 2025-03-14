@@ -7,7 +7,7 @@
 import Foundation
 import SunKit
 
-struct MoonData: Codable {
+struct LunarData: Codable {
     let rise: Date?
     let set: Date?
     let angle: Double

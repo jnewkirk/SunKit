@@ -10,10 +10,10 @@ import CoreLocation
 @testable import SunKit
 
 struct SolarTests {
-    var testData: [TestLocation] = []
+    var testData: [TestSolarData] = []
     
     internal init() async throws {
-        testData = TestLocation.load()
+        testData = TestSolarData.load()
     }
     
     @Test
@@ -38,9 +38,9 @@ struct SolarTests {
     @Test
     func solarNoon() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone!)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
             
-            #expect(testLocation.sunData.solarNoon == solar.solarNoon,
+            #expect(testLocation.solarData.solarNoon == solar.solarNoon,
                     "Test Location: \(testLocation.name)")
         }
     }
@@ -48,7 +48,7 @@ struct SolarTests {
     @Test
     func solarNoonIsDaylight() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone!)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
 
             let daylight = try #require (solar.daylight)
             let solarNoon = try #require (solar.solarNoon)
@@ -59,8 +59,8 @@ struct SolarTests {
     @Test
     func beforeSunriseIsNotDaylight() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone!)
-            let sunrise = try #require(testLocation.sunData.sunrise)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let sunrise = try #require(testLocation.solarData.sunrise)
             let beforeSunrise = sunrise.addingTimeInterval(-1)
             
             let daylight = try #require (solar.daylight)
@@ -71,8 +71,8 @@ struct SolarTests {
     @Test
     func afterSunsetIsNotDaylight() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone!)
-            let sunset = try #require(testLocation.sunData.sunset)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let sunset = try #require(testLocation.solarData.sunset)
             let afterSunset = sunset.addingTimeInterval(1)
             
             let daylight = try #require (solar.daylight)
@@ -83,8 +83,8 @@ struct SolarTests {
     @Test
     func sunriseDaylight() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone!)
-            let sunrise = try #require(testLocation.sunData.sunrise)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let sunrise = try #require(testLocation.solarData.sunrise)
             
             let daylight = try #require (solar.daylight)
             #expect(daylight.contains(sunrise))
@@ -94,8 +94,8 @@ struct SolarTests {
     @Test
     func sunsetDaylight() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone!)
-            let sunset = try #require(testLocation.sunData.sunset)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
+            let sunset = try #require(testLocation.solarData.sunset)
             
             let daylight = try #require (solar.daylight)
             #expect(daylight.contains(sunset))
@@ -105,10 +105,10 @@ struct SolarTests {
     @Test
     func solarAngle() async throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone!)
+            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.coordinate, timeZone: testLocation.timeZone)
             
-            let roundedActual = round(solar.solarAngle * 100) / 100
-            #expect(testLocation.sunData.solarAngle == roundedActual)
+            #expect(testLocation.solarData.solarAngle == solar.solarAngle,
+                    "location: \(testLocation.name)")
         }
     }
     

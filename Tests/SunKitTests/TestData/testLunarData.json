@@ -1,0 +1,3850 @@
+[
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -53.023113659760426,
+      "illumination" : 0.9942049645293658,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T01:57:05Z",
+      "set" : "2025-03-14T13:33:45Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-15T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -55.12656810962902,
+      "illumination" : 0.9694986162992162,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-16T02:54:26Z",
+      "set" : "2025-03-15T13:55:32Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-16T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -54.17772664391447,
+      "illumination" : 0.9267088315516561,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-17T03:52:17Z",
+      "set" : "2025-03-16T14:17:55Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-17T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -50.42168050353481,
+      "illumination" : 0.8676126133779873,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-18T04:51:14Z",
+      "set" : "2025-03-17T14:42:06Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-18T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -44.545971367478224,
+      "illumination" : 0.7942418381019659,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-19T05:51:25Z",
+      "set" : "2025-03-18T15:09:21Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-19T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -37.21886698609079,
+      "illumination" : 0,
+      "phase" : "Waning Gibbous",
+      "set" : "2025-03-19T15:41:11Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-20T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -28.894270300989138,
+      "illumination" : 0.708858262266731,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-20T06:52:11Z",
+      "set" : "2025-03-20T16:19:15Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-21T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -19.833919216898682,
+      "illumination" : 0.6140066870391908,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-21T07:51:56Z",
+      "set" : "2025-03-21T17:05:00Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-22T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -10.17843930102949,
+      "illumination" : 0.5126249655014363,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-22T08:48:27Z",
+      "set" : "2025-03-22T17:59:10Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-23T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -0.007702629275341477,
+      "illumination" : 0.4081895601242702,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-23T09:39:37Z",
+      "set" : "2025-03-23T19:01:06Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-24T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 10.61160051605817,
+      "illumination" : 0.30485793780864584,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-24T10:24:23Z",
+      "set" : "2025-03-24T20:08:41Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-25T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 21.579154617327042,
+      "illumination" : 0.20761782401180323,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-25T11:02:57Z",
+      "set" : "2025-03-25T21:19:25Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-26T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 32.69687001672151,
+      "illumination" : 0.12231323208347711,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-26T11:36:32Z",
+      "set" : "2025-03-26T22:31:23Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-27T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 43.55299941182524,
+      "illumination" : 0.05537541524257644,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T12:06:43Z",
+      "set" : "2025-03-27T23:43:50Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-28T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 53.276053817412674,
+      "illumination" : 0.013054065485070487,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T12:35:12Z",
+      "set" : "2025-03-29T00:57:01Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-29T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 60.08259957070636,
+      "illumination" : 0.00021946391031668622,
+      "phase" : "Waxing Crescent",
+      "rise" : "2025-03-29T13:03:40Z",
+      "set" : "2025-03-30T02:11:36Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-30T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 61.392678767258325,
+      "illumination" : 0.019113728094766747,
+      "phase" : "Waxing Crescent",
+      "rise" : "2025-03-30T13:33:57Z",
+      "set" : "2025-03-31T03:28:04Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-31T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 56.51502866780388,
+      "illumination" : 0.0686339094485291,
+      "phase" : "Waxing Crescent",
+      "rise" : "2025-03-31T14:07:59Z",
+      "set" : "2025-04-01T04:45:48Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-01T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 47.71292714691275,
+      "illumination" : 0.14452016726812883,
+      "phase" : "Waxing Crescent",
+      "rise" : "2025-04-01T14:47:53Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-02T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 37.169956787958995,
+      "illumination" : 0.24032267179399602,
+      "phase" : "Waxing Crescent",
+      "rise" : "2025-04-02T15:35:33Z",
+      "set" : "2025-04-02T06:02:26Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-03T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 26.003078126398446,
+      "illumination" : 0.34861588418436573,
+      "phase" : "Waxing Crescent",
+      "rise" : "2025-04-03T16:31:39Z",
+      "set" : "2025-04-03T07:13:57Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-04T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 14.713959171447298,
+      "illumination" : 0.4620254195722595,
+      "phase" : "Waxing Crescent",
+      "rise" : "2025-04-04T17:34:42Z",
+      "set" : "2025-04-04T08:16:28Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-05T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : 3.5258709454652664,
+      "illumination" : 0.5739504147668927,
+      "phase" : "Waxing Gibbous",
+      "rise" : "2025-04-05T18:41:17Z",
+      "set" : "2025-04-05T09:08:11Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-06T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -7.462088138166491,
+      "illumination" : 0.679009595361345,
+      "phase" : "Waxing Gibbous",
+      "rise" : "2025-04-06T19:47:52Z",
+      "set" : "2025-04-06T09:49:54Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-07T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -18.200824278213716,
+      "illumination" : 0.7731177434757768,
+      "phase" : "Waxing Gibbous",
+      "rise" : "2025-04-07T20:52:14Z",
+      "set" : "2025-04-07T10:23:44Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-08T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -28.64715802194143,
+      "illumination" : 0.8532816176144236,
+      "phase" : "Waxing Gibbous",
+      "rise" : "2025-04-08T21:53:47Z",
+      "set" : "2025-04-08T10:51:58Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-09T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -38.72546684415025,
+      "illumination" : 0.9173149499936876,
+      "phase" : "Waxing Gibbous",
+      "rise" : "2025-04-09T22:52:53Z",
+      "set" : "2025-04-09T11:16:33Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-10T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -48.272326238508064,
+      "illumination" : 0.9636506204581059,
+      "phase" : "Waxing Gibbous",
+      "rise" : "2025-04-10T23:50:26Z",
+      "set" : "2025-04-10T11:39:03Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-11T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -56.921701945829625,
+      "illumination" : 0.9912460637505103,
+      "phase" : "Waxing Gibbous",
+      "rise" : "2025-04-12T00:47:30Z",
+      "set" : "2025-04-11T12:00:44Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-04-12T19:03:08Z",
+    "latitude" : 36.148817,
+    "longitude" : -107.980578,
+    "lunarData" : {
+      "angle" : -63.851227773232665,
+      "illumination" : 0.9995529098413274,
+      "phase" : "Waxing Gibbous",
+      "rise" : "2025-04-13T01:44:55Z",
+      "set" : "2025-04-12T12:22:45Z"
+    },
+    "name" : "Alien Throne",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 44.058174,
+    "longitude" : -121.315308,
+    "lunarData" : {
+      "angle" : -41.7032400325044,
+      "illumination" : 0.9936070721956584,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T02:54:44Z",
+      "set" : "2025-03-14T14:28:40Z"
+    },
+    "name" : "Bend, Oregon",
+    "tzIdentifier" : "America\/Los_Angeles"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 37.331705,
+    "longitude" : -122.030237,
+    "lunarData" : {
+      "angle" : -47.01438358287595,
+      "illumination" : 0.9935955598442867,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T02:55:49Z",
+      "set" : "2025-03-14T14:30:55Z"
+    },
+    "name" : "Cupertino",
+    "tzIdentifier" : "America\/Los_Angeles"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 41.878113,
+    "longitude" : -87.629799,
+    "lunarData" : {
+      "angle" : -47.216283784006535,
+      "illumination" : 0.9950195336873465,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T00:33:35Z",
+      "set" : "2025-03-14T12:12:02Z"
+    },
+    "name" : "Chicago",
+    "tzIdentifier" : "America\/Chicago"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 47.61477,
+    "longitude" : -124.37644,
+    "lunarData" : {
+      "angle" : -37.55821600060698,
+      "illumination" : 0.9934575106970387,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T03:08:44Z",
+      "set" : "2025-03-14T14:41:26Z"
+    },
+    "name" : "Forks, WA",
+    "tzIdentifier" : "America\/Los_Angeles"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 32.215401,
+    "longitude" : -80.747559,
+    "lunarData" : {
+      "angle" : -53.89308974522479,
+      "illumination" : 0.9953009547239009,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T00:03:11Z",
+      "set" : "2025-03-14T11:42:34Z"
+    },
+    "name" : "Hilton Head",
+    "tzIdentifier" : "America\/New_York"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 40.76078,
+    "longitude" : -111.891045,
+    "lunarData" : {
+      "angle" : -47.69144496912484,
+      "illumination" : 0.9940277299902016,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T02:14:28Z",
+      "set" : "2025-03-14T13:50:09Z"
+    },
+    "name" : "Salt Lake City, Utah",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 44.049019,
+    "longitude" : -102.297943,
+    "lunarData" : {
+      "angle" : -46.05545358767298,
+      "illumination" : 0.9944231736368652,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T01:35:19Z",
+      "set" : "2025-03-14T13:11:45Z"
+    },
+    "name" : "Wall, SD",
+    "tzIdentifier" : "America\/Denver"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -27.61729,
+    "longitude" : 32.03172,
+    "lunarData" : {
+      "angle" : 35.29408330690613,
+      "illumination" : 0.9985968625824864,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:16:57Z",
+      "set" : "2025-03-14T03:47:31Z"
+    },
+    "name" : "Zimanga, South Africa",
+    "tzIdentifier" : "Africa\/Johannesburg"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 24.46667,
+    "longitude" : 54.36667,
+    "lunarData" : {
+      "angle" : 53.936324200477834,
+      "illumination" : 0.999028995995128,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T14:42:38Z",
+      "set" : "2025-03-14T02:30:13Z"
+    },
+    "name" : "Abu Dhabi",
+    "tzIdentifier" : "Asia\/Dubai"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 9.05735,
+    "longitude" : 7.48976,
+    "lunarData" : {
+      "angle" : 15.751212860745785,
+      "illumination" : 0.9980532680693843,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:56:45Z",
+      "set" : "2025-03-14T05:37:54Z"
+    },
+    "name" : "Abuja",
+    "tzIdentifier" : "Africa\/Lagos"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 5.55602,
+    "longitude" : -0.1969,
+    "lunarData" : {
+      "angle" : 8.24541438411298,
+      "illumination" : 0.997862381537636,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:28:24Z",
+      "set" : "2025-03-14T06:08:41Z"
+    },
+    "name" : "Accra",
+    "tzIdentifier" : "Africa\/Accra"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -25.06597,
+    "longitude" : -130.10147,
+    "lunarData" : {
+      "angle" : -50.335634177383795,
+      "illumination" : 0.9933581189955197,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T03:17:57Z",
+      "set" : "2025-03-14T14:59:57Z"
+    },
+    "name" : "Adamstown",
+    "tzIdentifier" : "Pacific\/Pitcairn"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 9.02497,
+    "longitude" : 38.74689,
+    "lunarData" : {
+      "angle" : 46.43567622301675,
+      "illumination" : 0.9987381074667103,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:47:58Z",
+      "set" : "2025-03-14T03:29:44Z"
+    },
+    "name" : "Addis Ababa",
+    "tzIdentifier" : "Africa\/Addis_Ababa"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 36.7525,
+    "longitude" : 3.04197,
+    "lunarData" : {
+      "angle" : 9.086542180230495,
+      "illumination" : 0.9979426704542735,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:15:16Z",
+      "set" : "2025-03-14T06:03:03Z"
+    },
+    "name" : "Algiers",
+    "tzIdentifier" : "Africa\/Algiers"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -19.05952,
+    "longitude" : -169.91867,
+    "lunarData" : {
+      "angle" : -17.452486735299345,
+      "illumination" : 0.9914688225006543,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T06:01:45Z",
+      "set" : "2025-03-14T17:44:56Z"
+    },
+    "name" : "Alofi",
+    "tzIdentifier" : "Pacific\/Niue"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 31.95522,
+    "longitude" : 35.94503,
+    "lunarData" : {
+      "angle" : 36.29840595926985,
+      "illumination" : 0.998687238649184,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:58:35Z",
+      "set" : "2025-03-14T03:47:44Z"
+    },
+    "name" : "Amman",
+    "tzIdentifier" : "Asia\/Amman"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 52.37403,
+    "longitude" : 4.88969,
+    "lunarData" : {
+      "angle" : 7.942532310089306,
+      "illumination" : 0.9979878338433004,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:07:46Z",
+      "set" : "2025-03-14T06:01:53Z"
+    },
+    "name" : "Amsterdam",
+    "tzIdentifier" : "Europe\/Amsterdam"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 42.50779,
+    "longitude" : 1.52109,
+    "lunarData" : {
+      "angle" : 7.213608924612614,
+      "illumination" : 0.9979036342695535,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:21:41Z",
+      "set" : "2025-03-14T06:11:10Z"
+    },
+    "name" : "Andorra la Vella",
+    "tzIdentifier" : "Europe\/Andorra"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 39.91987,
+    "longitude" : 32.85427,
+    "lunarData" : {
+      "angle" : 30.274510946750773,
+      "illumination" : 0.9986261398705472,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:11:04Z",
+      "set" : "2025-03-14T04:03:12Z"
+    },
+    "name" : "Ankara",
+    "tzIdentifier" : "Europe\/Istanbul"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -18.91433,
+    "longitude" : 47.53098,
+    "lunarData" : {
+      "angle" : 51.80609901073674,
+      "illumination" : 0.9988974262036332,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:13:15Z",
+      "set" : "2025-03-14T02:46:04Z"
+    },
+    "name" : "Antananarivo",
+    "tzIdentifier" : "Indian\/Antananarivo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -13.83333,
+    "longitude" : -171.76666,
+    "lunarData" : {
+      "angle" : -16.180289763194324,
+      "illumination" : 0.9913617794836389,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T06:10:28Z",
+      "set" : "2025-03-14T17:52:37Z"
+    },
+    "name" : "Apia",
+    "tzIdentifier" : "Pacific\/Apia"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 37.95,
+    "longitude" : 58.38333,
+    "lunarData" : {
+      "angle" : 46.280647029684026,
+      "illumination" : 0.9832414840417322,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T15:23:31Z",
+      "set" : "2025-03-15T02:39:30Z"
+    },
+    "name" : "Ashgabat",
+    "tzIdentifier" : "Asia\/Ashgabat"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 15.33333,
+    "longitude" : 38.93333,
+    "lunarData" : {
+      "angle" : 45.17298594485392,
+      "illumination" : 0.9987430048901256,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:46:56Z",
+      "set" : "2025-03-14T03:30:38Z"
+    },
+    "name" : "Asmara",
+    "tzIdentifier" : "Africa\/Asmara"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 51.1801,
+    "longitude" : 71.44598,
+    "lunarData" : {
+      "angle" : 37.88372648259033,
+      "illumination" : 0.9839941705142488,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T14:38:49Z",
+      "set" : "2025-03-15T01:42:52Z"
+    },
+    "name" : "Astana",
+    "tzIdentifier" : "Asia\/Almaty"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -25.30066,
+    "longitude" : -57.63591,
+    "lunarData" : {
+      "angle" : -42.993650528243,
+      "illumination" : 0.9961758178090745,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:22:25Z",
+      "set" : "2025-03-14T09:59:46Z"
+    },
+    "name" : "Asunci??n",
+    "tzIdentifier" : "America\/Asuncion"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 37.97945,
+    "longitude" : 23.71622,
+    "lunarData" : {
+      "angle" : 24.692564596247834,
+      "illumination" : 0.9984308970262749,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:49:12Z",
+      "set" : "2025-03-14T04:39:32Z"
+    },
+    "name" : "Athens",
+    "tzIdentifier" : "Europe\/Athens"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -21.20778,
+    "longitude" : -159.775,
+    "lunarData" : {
+      "angle" : -26.52818923679338,
+      "illumination" : 0.9919744080762745,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T05:19:50Z",
+      "set" : "2025-03-14T17:02:58Z"
+    },
+    "name" : "Avarua",
+    "tzIdentifier" : "Pacific\/Rarotonga"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 33.34058,
+    "longitude" : 44.40088,
+    "lunarData" : {
+      "angle" : 41.61396698199828,
+      "illumination" : 0.9988519598451596,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:23:24Z",
+      "set" : "2025-03-14T03:13:49Z"
+    },
+    "name" : "Baghdad",
+    "tzIdentifier" : "Asia\/Baghdad"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 40.37767,
+    "longitude" : 49.89201,
+    "lunarData" : {
+      "angle" : 40.25241399459193,
+      "illumination" : 0.9989552501397969,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:00:02Z",
+      "set" : "2025-03-14T02:54:19Z"
+    },
+    "name" : "Baku",
+    "tzIdentifier" : "Asia\/Baku"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 12.65,
+    "longitude" : -8,
+    "lunarData" : {
+      "angle" : 0.4410037488293055,
+      "illumination" : 0.9976588406434523,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T19:00:38Z",
+      "set" : "2025-03-14T06:42:09Z"
+    },
+    "name" : "Bamako",
+    "tzIdentifier" : "Africa\/Bamako"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 4.94029,
+    "longitude" : 114.94806,
+    "lunarData" : {
+      "angle" : 56.189441957591725,
+      "illumination" : 0.9871970086423464,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T11:16:02Z",
+      "set" : "2025-03-14T22:53:24Z"
+    },
+    "name" : "Bandar Seri Begawan",
+    "tzIdentifier" : "Asia\/Brunei"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 13.75,
+    "longitude" : 100.51667,
+    "lunarData" : {
+      "angle" : 66.5378420868645,
+      "illumination" : 0.9862508368316721,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T12:18:17Z",
+      "set" : "2025-03-14T23:51:41Z"
+    },
+    "name" : "Bangkok",
+    "tzIdentifier" : "Asia\/Bangkok"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 4.36122,
+    "longitude" : 18.55496,
+    "lunarData" : {
+      "angle" : 26.95462206246926,
+      "illumination" : 0.9983121831248989,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:11:14Z",
+      "set" : "2025-03-14T04:51:27Z"
+    },
+    "name" : "Bangui",
+    "tzIdentifier" : "Africa\/Bangui"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 13.45274,
+    "longitude" : -16.57803,
+    "lunarData" : {
+      "angle" : -7.905493319558289,
+      "illumination" : 0.9974246932554179,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T19:36:02Z",
+      "set" : "2025-03-14T07:17:26Z"
+    },
+    "name" : "Banjul",
+    "tzIdentifier" : "Africa\/Banjul"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 17.29484,
+    "longitude" : -62.7261,
+    "lunarData" : {
+      "angle" : -50.87886317062824,
+      "illumination" : 0.9959727217275385,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:46:45Z",
+      "set" : "2025-03-14T10:26:55Z"
+    },
+    "name" : "Basseterre",
+    "tzIdentifier" : "America\/St_Kitts"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 15.99854,
+    "longitude" : -61.72548,
+    "lunarData" : {
+      "angle" : -50.44823442926954,
+      "illumination" : 0.9960085692111411,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:42:30Z",
+      "set" : "2025-03-14T10:22:38Z"
+    },
+    "name" : "Basse-Terre",
+    "tzIdentifier" : "America\/Guadeloupe"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 39.9075,
+    "longitude" : 116.39723,
+    "lunarData" : {
+      "angle" : 38.79062322622489,
+      "illumination" : 0.9870922541777849,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T11:23:02Z",
+      "set" : "2025-03-14T22:43:51Z"
+    },
+    "name" : "Beijing",
+    "tzIdentifier" : "Asia\/Shanghai"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 33.88894,
+    "longitude" : 35.49442,
+    "lunarData" : {
+      "angle" : 35.05425129981762,
+      "illumination" : 0.9986785953386217,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:00:22Z",
+      "set" : "2025-03-14T03:50:14Z"
+    },
+    "name" : "Beirut",
+    "tzIdentifier" : "Asia\/Beirut"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 44.80401,
+    "longitude" : 20.46513,
+    "lunarData" : {
+      "angle" : 19.923596171057568,
+      "illumination" : 0.9983593038543033,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:02:35Z",
+      "set" : "2025-03-14T04:55:25Z"
+    },
+    "name" : "Belgrade",
+    "tzIdentifier" : "Europe\/Belgrade"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 17.25,
+    "longitude" : -88.76667,
+    "lunarData" : {
+      "angle" : -70.46991564983043,
+      "illumination" : 0.9950124884632102,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T00:34:20Z",
+      "set" : "2025-03-14T12:13:24Z"
+    },
+    "name" : "Belmopan",
+    "tzIdentifier" : "America\/Belize"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 52.52437,
+    "longitude" : 13.41053,
+    "lunarData" : {
+      "angle" : 12.934227032881621,
+      "illumination" : 0.9981965287542105,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:31:58Z",
+      "set" : "2025-03-14T05:27:41Z"
+    },
+    "name" : "Berlin",
+    "tzIdentifier" : "Europe\/Berlin"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 46.94809,
+    "longitude" : 7.44744,
+    "lunarData" : {
+      "angle" : 10.63920745029989,
+      "illumination" : 0.9980518933446063,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:56:59Z",
+      "set" : "2025-03-14T05:48:58Z"
+    },
+    "name" : "Bern",
+    "tzIdentifier" : "Europe\/Zurich"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 42.87306,
+    "longitude" : 74.60028,
+    "lunarData" : {
+      "angle" : 46.4497416104162,
+      "illumination" : 0.98432137930086,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T14:19:04Z",
+      "set" : "2025-03-15T01:32:34Z"
+    },
+    "name" : "Bishkek",
+    "tzIdentifier" : "Asia\/Bishkek"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 11.85,
+    "longitude" : -15.58333,
+    "lunarData" : {
+      "angle" : -6.975562855882448,
+      "illumination" : 0.9974527170253841,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T19:31:53Z",
+      "set" : "2025-03-14T07:13:03Z"
+    },
+    "name" : "Bissau",
+    "tzIdentifier" : "Africa\/Bissau"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 4.60971,
+    "longitude" : -74.08175,
+    "lunarData" : {
+      "angle" : -65.21602462369707,
+      "illumination" : 0.9955778202442541,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:32:23Z",
+      "set" : "2025-03-14T11:11:47Z"
+    },
+    "name" : "Bogot?�",
+    "tzIdentifier" : "America\/Bogota"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -15.77972,
+    "longitude" : -47.92972,
+    "lunarData" : {
+      "angle" : -37.590727139573936,
+      "illumination" : 0.9964898033385494,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T21:43:30Z",
+      "set" : "2025-03-14T09:21:15Z"
+    },
+    "name" : "Bras??lia",
+    "tzIdentifier" : "America\/Sao_Paulo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 48.14816,
+    "longitude" : 17.10674,
+    "lunarData" : {
+      "angle" : 16.58020780390787,
+      "illumination" : 0.9982828903107929,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:16:33Z",
+      "set" : "2025-03-14T05:10:31Z"
+    },
+    "name" : "Bratislava",
+    "tzIdentifier" : "Europe\/Bratislava"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -4.2669,
+    "longitude" : 15.28327,
+    "lunarData" : {
+      "angle" : 23.73678654674931,
+      "illumination" : 0.9982369381240148,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:24:48Z",
+      "set" : "2025-03-14T05:02:55Z"
+    },
+    "name" : "Brazzaville",
+    "tzIdentifier" : "Africa\/Brazzaville"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 13.1,
+    "longitude" : -59.61667,
+    "lunarData" : {
+      "angle" : -49.379665339111895,
+      "illumination" : 0.9960835405180197,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:33:33Z",
+      "set" : "2025-03-14T10:13:36Z"
+    },
+    "name" : "Bridgetown",
+    "tzIdentifier" : "America\/Barbados"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 50.85045,
+    "longitude" : 4.34878,
+    "lunarData" : {
+      "angle" : 7.88996043788291,
+      "illumination" : 0.9979744374084004,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:10:00Z",
+      "set" : "2025-03-14T06:03:17Z"
+    },
+    "name" : "Brussels",
+    "tzIdentifier" : "Europe\/Brussels"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 44.43225,
+    "longitude" : 26.10626,
+    "lunarData" : {
+      "angle" : 23.748753172309556,
+      "illumination" : 0.9984843036120468,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:39:01Z",
+      "set" : "2025-03-14T04:32:26Z"
+    },
+    "name" : "Bucure�?ti",
+    "tzIdentifier" : "Europe\/Bucharest"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 47.49801,
+    "longitude" : 19.03991,
+    "lunarData" : {
+      "angle" : 18.02360785697143,
+      "illumination" : 0.9983273269205253,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:08:28Z",
+      "set" : "2025-03-14T05:02:24Z"
+    },
+    "name" : "Budapest",
+    "tzIdentifier" : "Europe\/Budapest"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -34.61315,
+    "longitude" : -58.37723,
+    "lunarData" : {
+      "angle" : -38.825441868519086,
+      "illumination" : 0.9961580827362857,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:24:34Z",
+      "set" : "2025-03-14T10:01:00Z"
+    },
+    "name" : "Buenos Aires",
+    "tzIdentifier" : "America\/Argentina\/Buenos_Aires"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -3.37611,
+    "longitude" : 29.36,
+    "lunarData" : {
+      "angle" : 37.804483983786504,
+      "illumination" : 0.9985461370044952,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:27:00Z",
+      "set" : "2025-03-14T04:05:12Z"
+    },
+    "name" : "Bujumbura",
+    "tzIdentifier" : "Africa\/Bujumbura"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 30.06263,
+    "longitude" : 31.24967,
+    "lunarData" : {
+      "angle" : 33.46411701996171,
+      "illumination" : 0.9985907695687848,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:18:10Z",
+      "set" : "2025-03-14T04:06:14Z"
+    },
+    "name" : "Cairo",
+    "tzIdentifier" : "Africa\/Cairo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -35.28346,
+    "longitude" : 149.12807,
+    "lunarData" : {
+      "angle" : 18.240194170198752,
+      "illumination" : 0.9893693675049455,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T08:43:59Z",
+      "set" : "2025-03-14T20:34:59Z"
+    },
+    "name" : "Canberra",
+    "tzIdentifier" : "Australia\/Sydney"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 10.5,
+    "longitude" : -66.91667,
+    "lunarData" : {
+      "angle" : -56.96230504087565,
+      "illumination" : 0.9958304683121182,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:03:26Z",
+      "set" : "2025-03-14T10:43:09Z"
+    },
+    "name" : "Caracas",
+    "tzIdentifier" : "America\/Caracas"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 13.9957,
+    "longitude" : -61.00614,
+    "lunarData" : {
+      "angle" : -50.425884314586845,
+      "illumination" : 0.9960348962651289,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:39:22Z",
+      "set" : "2025-03-14T10:19:25Z"
+    },
+    "name" : "Castries",
+    "tzIdentifier" : "America\/St_Lucia"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 4.93333,
+    "longitude" : -52.33333,
+    "lunarData" : {
+      "angle" : -43.6527065537421,
+      "illumination" : 0.9963346789553654,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:02:56Z",
+      "set" : "2025-03-14T09:42:34Z"
+    },
+    "name" : "Cayenne",
+    "tzIdentifier" : "America\/Cayenne"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 18.3419,
+    "longitude" : -64.9307,
+    "lunarData" : {
+      "angle" : -52.38463776369549,
+      "illumination" : 0.9958944364886713,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:55:58Z",
+      "set" : "2025-03-14T10:36:05Z"
+    },
+    "name" : "Charlotte Amalie",
+    "tzIdentifier" : "America\/St_Thomas"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 47.00556,
+    "longitude" : 28.8575,
+    "lunarData" : {
+      "angle" : 24.256953294996137,
+      "illumination" : 0.9985440994510615,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:27:24Z",
+      "set" : "2025-03-14T04:22:30Z"
+    },
+    "name" : "Chi�?in��u",
+    "tzIdentifier" : "Europe\/Chisinau"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 21.46122,
+    "longitude" : -71.14188,
+    "lunarData" : {
+      "angle" : -55.89675638383892,
+      "illumination" : 0.9956697203425766,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:21:57Z",
+      "set" : "2025-03-14T11:01:53Z"
+    },
+    "name" : "Cockburn Town",
+    "tzIdentifier" : "America\/Grand_Turk"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 6.93194,
+    "longitude" : 79.84778,
+    "lunarData" : {
+      "angle" : 82.64735270659995,
+      "illumination" : 0.9849403516607362,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T13:41:09Z",
+      "set" : "2025-03-15T01:17:11Z"
+    },
+    "name" : "Colombo",
+    "tzIdentifier" : "Asia\/Colombo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 9.53795,
+    "longitude" : -13.67729,
+    "lunarData" : {
+      "angle" : -5.139941750053147,
+      "illumination" : 0.9975057531200106,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T19:23:58Z",
+      "set" : "2025-03-14T07:04:47Z"
+    },
+    "name" : "Conakry",
+    "tzIdentifier" : "Africa\/Conakry"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 55.67594,
+    "longitude" : 12.56553,
+    "lunarData" : {
+      "angle" : 11.498068005379057,
+      "illumination" : 0.9981764379127085,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:35:30Z",
+      "set" : "2025-03-14T05:32:59Z"
+    },
+    "name" : "Copenhagen",
+    "tzIdentifier" : "Europe\/Copenhagen"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 14.6937,
+    "longitude" : -17.44406,
+    "lunarData" : {
+      "angle" : -8.704912027619653,
+      "illumination" : 0.99740014660857,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T19:39:39Z",
+      "set" : "2025-03-14T07:21:13Z"
+    },
+    "name" : "Dakar",
+    "tzIdentifier" : "Africa\/Dakar"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 33.5102,
+    "longitude" : 36.29128,
+    "lunarData" : {
+      "angle" : 35.81764124244524,
+      "illumination" : 0.9986944867602903,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:57:05Z",
+      "set" : "2025-03-14T03:46:52Z"
+    },
+    "name" : "Damascus",
+    "tzIdentifier" : "Asia\/Damascus"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 23.7104,
+    "longitude" : 90.40744,
+    "lunarData" : {
+      "angle" : 64.53946950295399,
+      "illumination" : 0.9855403217936023,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T13:03:40Z",
+      "set" : "2025-03-15T00:31:48Z"
+    },
+    "name" : "Dhaka",
+    "tzIdentifier" : "Asia\/Dhaka"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -8.55861,
+    "longitude" : 125.57361,
+    "lunarData" : {
+      "angle" : 45.315845740327845,
+      "illumination" : 0.9878977979621333,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T10:28:28Z",
+      "set" : "2025-03-14T22:10:46Z"
+    },
+    "name" : "Dili",
+    "tzIdentifier" : "Asia\/Dili"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 11.58767,
+    "longitude" : 43.14468,
+    "lunarData" : {
+      "angle" : 50.12233353030395,
+      "illumination" : 0.9988231239026144,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:29:44Z",
+      "set" : "2025-03-14T03:12:23Z"
+    },
+    "name" : "Djibouti",
+    "tzIdentifier" : "Africa\/Djibouti"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -6.17486,
+    "longitude" : 35.73792,
+    "lunarData" : {
+      "angle" : 43.954290180893096,
+      "illumination" : 0.9986759239194619,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:00:55Z",
+      "set" : "2025-03-14T03:38:15Z"
+    },
+    "name" : "Dodoma",
+    "tzIdentifier" : "Africa\/Dar_es_Salaam"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 25.27932,
+    "longitude" : 51.52245,
+    "lunarData" : {
+      "angle" : 51.4027478935998,
+      "illumination" : 0.9989795641539736,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T14:54:22Z",
+      "set" : "2025-03-14T02:42:05Z"
+    },
+    "name" : "Doha",
+    "tzIdentifier" : "Asia\/Qatar"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 54.15,
+    "longitude" : -4.48333,
+    "lunarData" : {
+      "angle" : 2.163523999391211,
+      "illumination" : 0.9977446810849186,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:47:13Z",
+      "set" : "2025-03-14T06:40:32Z"
+    },
+    "name" : "Douglas",
+    "tzIdentifier" : "Europe\/Isle_of_Man"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 53.34399,
+    "longitude" : -6.26719,
+    "lunarData" : {
+      "angle" : 1.147277732513338,
+      "illumination" : 0.9976972126923194,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:54:40Z",
+      "set" : "2025-03-14T06:47:17Z"
+    },
+    "name" : "Dublin",
+    "tzIdentifier" : "Europe\/Dublin"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 38.53575,
+    "longitude" : 68.77905,
+    "lunarData" : {
+      "angle" : 49.50614463283516,
+      "illumination" : 0.9839647411996574,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T14:40:35Z",
+      "set" : "2025-03-15T01:57:11Z"
+    },
+    "name" : "Dushanbe",
+    "tzIdentifier" : "Asia\/Dushanbe"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -10.42172,
+    "longitude" : 105.67912,
+    "lunarData" : {
+      "angle" : 63.88603280445187,
+      "illumination" : 0.986693180299207,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T11:49:27Z",
+      "set" : "2025-03-14T23:32:53Z"
+    },
+    "name" : "Flying Fish Cove",
+    "tzIdentifier" : "Indian\/Christmas"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 14.60892,
+    "longitude" : -61.07334,
+    "lunarData" : {
+      "angle" : -50.30329876181129,
+      "illumination" : 0.9960320996208993,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:39:42Z",
+      "set" : "2025-03-14T10:19:46Z"
+    },
+    "name" : "Fort-de-France",
+    "tzIdentifier" : "America\/Martinique"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 8.484,
+    "longitude" : -13.22994,
+    "lunarData" : {
+      "angle" : -4.708166376822106,
+      "illumination" : 0.997518177612201,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T19:22:06Z",
+      "set" : "2025-03-14T07:02:45Z"
+    },
+    "name" : "Freetown",
+    "tzIdentifier" : "Africa\/Freetown"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -8.52425,
+    "longitude" : 179.19417,
+    "lunarData" : {
+      "angle" : -7.578107423352398,
+      "illumination" : 0.9908849464673908,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T06:48:40Z",
+      "set" : "2025-03-14T18:29:53Z"
+    },
+    "name" : "Funafuti",
+    "tzIdentifier" : "Pacific\/Funafuti"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -24.65451,
+    "longitude" : 25.90859,
+    "lunarData" : {
+      "angle" : 31.020285640582973,
+      "illumination" : 0.9984698851774432,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:41:47Z",
+      "set" : "2025-03-14T04:13:49Z"
+    },
+    "name" : "Gaborone",
+    "tzIdentifier" : "Africa\/Gaborone"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 19.28692,
+    "longitude" : -81.36706,
+    "lunarData" : {
+      "angle" : -64.59705487212958,
+      "illumination" : 0.995293500427354,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T00:04:00Z",
+      "set" : "2025-03-14T11:43:23Z"
+    },
+    "name" : "George Town",
+    "tzIdentifier" : "America\/Cayman"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 6.80448,
+    "longitude" : -58.15527,
+    "lunarData" : {
+      "angle" : -49.219853560113464,
+      "illumination" : 0.9961376854322521,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:27:02Z",
+      "set" : "2025-03-14T10:06:43Z"
+    },
+    "name" : "Georgetown",
+    "tzIdentifier" : "America\/Guyana"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 36.14474,
+    "longitude" : -5.35257,
+    "lunarData" : {
+      "angle" : 2.4064026934412954,
+      "illumination" : 0.9977258376480225,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:50:11Z",
+      "set" : "2025-03-14T06:36:57Z"
+    },
+    "name" : "Gibraltar",
+    "tzIdentifier" : "Europe\/Gibraltar"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -54.28111,
+    "longitude" : -36.5092,
+    "lunarData" : {
+      "angle" : -15.711617549305315,
+      "illumination" : 0.9968693970449802,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T20:54:04Z",
+      "set" : "2025-03-14T08:22:56Z"
+    },
+    "name" : "Grytviken",
+    "tzIdentifier" : "GMT"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 14.64072,
+    "longitude" : -90.51327,
+    "lunarData" : {
+      "angle" : -73.56901294220064,
+      "illumination" : 0.9949475990693408,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T00:41:13Z",
+      "set" : "2025-03-14T12:20:16Z"
+    },
+    "name" : "Guatemala City",
+    "tzIdentifier" : "America\/Guatemala"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 17.89618,
+    "longitude" : -62.84978,
+    "lunarData" : {
+      "angle" : -50.757903484765684,
+      "illumination" : 0.9959679300654591,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:47:19Z",
+      "set" : "2025-03-14T10:27:30Z"
+    },
+    "name" : "Gustavia",
+    "tzIdentifier" : "America\/St_Barthelemy"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 21.0245,
+    "longitude" : 105.84117,
+    "lunarData" : {
+      "angle" : 58.097085686193566,
+      "illumination" : 0.9865505110024012,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T11:58:48Z",
+      "set" : "2025-03-14T23:29:08Z"
+    },
+    "name" : "H?� N��?i",
+    "tzIdentifier" : "Asia\/Ho_Chi_Minh"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 13.47417,
+    "longitude" : 144.74778,
+    "lunarData" : {
+      "angle" : 25.894468861931657,
+      "illumination" : 0.9889325248555835,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T09:15:42Z",
+      "set" : "2025-03-14T20:50:43Z"
+    },
+    "name" : "Hag?�t?�a",
+    "tzIdentifier" : "Pacific\/Guam"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 32.29149,
+    "longitude" : -64.77797,
+    "lunarData" : {
+      "angle" : -44.849620830279584,
+      "illumination" : 0.9958868943684728,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:56:51Z",
+      "set" : "2025-03-14T10:37:37Z"
+    },
+    "name" : "Hamilton",
+    "tzIdentifier" : "Atlantic\/Bermuda"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -17.82935,
+    "longitude" : 31.05389,
+    "lunarData" : {
+      "angle" : 37.41097105290343,
+      "illumination" : 0.9985788796111459,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:20:32Z",
+      "set" : "2025-03-14T03:54:29Z"
+    },
+    "name" : "Harare",
+    "tzIdentifier" : "Africa\/Harare"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 23.13302,
+    "longitude" : -82.38304,
+    "lunarData" : {
+      "angle" : -62.25559887039326,
+      "illumination" : 0.9952506394539151,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T00:08:41Z",
+      "set" : "2025-03-14T11:48:00Z"
+    },
+    "name" : "Havana",
+    "tzIdentifier" : "America\/Havana"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 60.16952,
+    "longitude" : 24.93545,
+    "lunarData" : {
+      "angle" : 15.697856147472933,
+      "illumination" : 0.9984629994476797,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:43:06Z",
+      "set" : "2025-03-14T04:46:50Z"
+    },
+    "name" : "Helsinki",
+    "tzIdentifier" : "Europe\/Helsinki"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 22.28552,
+    "longitude" : 114.15769,
+    "lunarData" : {
+      "angle" : 51.0252864290675,
+      "illumination" : 0.9870649998206715,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T11:24:51Z",
+      "set" : "2025-03-14T22:55:04Z"
+    },
+    "name" : "Hong Kong",
+    "tzIdentifier" : "Asia\/Hong_Kong"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -9.43333,
+    "longitude" : 159.95,
+    "lunarData" : {
+      "angle" : 11.42625996444846,
+      "illumination" : 0.9898634265479546,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T08:07:20Z",
+      "set" : "2025-03-14T19:49:11Z"
+    },
+    "name" : "Honiara",
+    "tzIdentifier" : "Pacific\/Guadalcanal"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 33.72148,
+    "longitude" : 73.04329,
+    "lunarData" : {
+      "angle" : 55.12809225416058,
+      "illumination" : 0.9843029665045946,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T14:20:11Z",
+      "set" : "2025-03-15T01:40:53Z"
+    },
+    "name" : "Isl��m��b��d",
+    "tzIdentifier" : "Asia\/Karachi"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -6.21462,
+    "longitude" : 106.84513,
+    "lunarData" : {
+      "angle" : 64.00547944368027,
+      "illumination" : 0.9867461418978044,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T11:45:58Z",
+      "set" : "2025-03-14T23:27:41Z"
+    },
+    "name" : "Jakarta",
+    "tzIdentifier" : "Asia\/Jakarta"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -15.93872,
+    "longitude" : -5.71675,
+    "lunarData" : {
+      "angle" : 2.7451159995659427,
+      "illumination" : 0.9977214862500687,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:50:52Z",
+      "set" : "2025-03-14T06:26:53Z"
+    },
+    "name" : "Jamestown",
+    "tzIdentifier" : "Atlantic\/St_Helena"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 34.52813,
+    "longitude" : 69.17233,
+    "lunarData" : {
+      "angle" : 53.37320620896499,
+      "illumination" : 0.9992708307271467,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T13:40:20Z",
+      "set" : "2025-03-14T01:33:33Z"
+    },
+    "name" : "Kabul",
+    "tzIdentifier" : "Asia\/Kabul"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 0.31628,
+    "longitude" : 32.58219,
+    "lunarData" : {
+      "angle" : 41.083933946243214,
+      "illumination" : 0.9986133224024316,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:13:39Z",
+      "set" : "2025-03-14T03:52:51Z"
+    },
+    "name" : "Kampala",
+    "tzIdentifier" : "Africa\/Kampala"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 27.70169,
+    "longitude" : 85.3206,
+    "lunarData" : {
+      "angle" : 61.82339952273732,
+      "illumination" : 0.9851778613265578,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T13:26:24Z",
+      "set" : "2025-03-15T00:51:58Z"
+    },
+    "name" : "Kathmandu",
+    "tzIdentifier" : "Asia\/Kathmandu"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 15.54665,
+    "longitude" : 32.53361,
+    "lunarData" : {
+      "angle" : 39.15628923671427,
+      "illumination" : 0.9986148139379242,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:13:21Z",
+      "set" : "2025-03-14T03:56:52Z"
+    },
+    "name" : "Khartoum",
+    "tzIdentifier" : "Africa\/Khartoum"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 50.45466,
+    "longitude" : 30.5238,
+    "lunarData" : {
+      "angle" : 23.438566960813407,
+      "illumination" : 0.9985803895505561,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:20:14Z",
+      "set" : "2025-03-14T04:17:36Z"
+    },
+    "name" : "Kiev",
+    "tzIdentifier" : "Europe\/Kiev"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -1.94995,
+    "longitude" : 30.05885,
+    "lunarData" : {
+      "angle" : 38.546870615254754,
+      "illumination" : 0.9985609510705458,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:24:05Z",
+      "set" : "2025-03-14T04:02:40Z"
+    },
+    "name" : "Kigali",
+    "tzIdentifier" : "Africa\/Kigali"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -29.05459,
+    "longitude" : 167.96628,
+    "lunarData" : {
+      "angle" : 3.1986008008349724,
+      "illumination" : 0.990362647750531,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T07:29:24Z",
+      "set" : "2025-03-14T19:16:32Z"
+    },
+    "name" : "Kingston",
+    "tzIdentifier" : "Pacific\/Norfolk"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 17.99702,
+    "longitude" : -76.79358,
+    "lunarData" : {
+      "angle" : -62.23459795734049,
+      "illumination" : 0.9954660106510069,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:44:56Z",
+      "set" : "2025-03-14T11:24:32Z"
+    },
+    "name" : "Kingston",
+    "tzIdentifier" : "America\/Jamaica"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 13.15872,
+    "longitude" : -61.22475,
+    "lunarData" : {
+      "angle" : -50.870324093119535,
+      "illumination" : 0.9960279028117873,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:40:12Z",
+      "set" : "2025-03-14T10:20:11Z"
+    },
+    "name" : "Kingstown",
+    "tzIdentifier" : "America\/St_Vincent"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -4.32459,
+    "longitude" : 15.32146,
+    "lunarData" : {
+      "angle" : 23.77320534118573,
+      "illumination" : 0.9982377790208468,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:24:39Z",
+      "set" : "2025-03-14T05:02:45Z"
+    },
+    "name" : "Kinshasa",
+    "tzIdentifier" : "Africa\/Kinshasa"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 3.1412,
+    "longitude" : 101.68653,
+    "lunarData" : {
+      "angle" : 69.53792894519312,
+      "illumination" : 0.9863781234825311,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T12:10:02Z",
+      "set" : "2025-03-14T23:47:59Z"
+    },
+    "name" : "Kuala Lumpur",
+    "tzIdentifier" : "Asia\/Kuala_Lumpur"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 29.36972,
+    "longitude" : 47.97833,
+    "lunarData" : {
+      "angle" : 46.43156011663658,
+      "illumination" : 0.9989171428075361,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:08:47Z",
+      "set" : "2025-03-14T02:57:53Z"
+    },
+    "name" : "Kuwait",
+    "tzIdentifier" : "Asia\/Kuwait"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -16.5,
+    "longitude" : -68.15,
+    "lunarData" : {
+      "angle" : -55.71125430247088,
+      "illumination" : 0.9958073601300818,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:06:07Z",
+      "set" : "2025-03-14T10:44:39Z"
+    },
+    "name" : "La Paz",
+    "tzIdentifier" : "America\/La_Paz"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 0.38333,
+    "longitude" : 9.45,
+    "lunarData" : {
+      "angle" : 17.952421050437838,
+      "illumination" : 0.9981003028627604,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:48:43Z",
+      "set" : "2025-03-14T05:27:58Z"
+    },
+    "name" : "Libreville",
+    "tzIdentifier" : "Africa\/Libreville"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -13.98333,
+    "longitude" : 33.78333,
+    "lunarData" : {
+      "angle" : 40.83643752724313,
+      "illumination" : 0.9986352000426947,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:09:14Z",
+      "set" : "2025-03-14T03:44:16Z"
+    },
+    "name" : "Lilongwe",
+    "tzIdentifier" : "Africa\/Blantyre"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -12.04318,
+    "longitude" : -77.02824,
+    "lunarData" : {
+      "angle" : -65.39849190284298,
+      "illumination" : 0.995484517865859,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:42:52Z",
+      "set" : "2025-03-14T11:21:54Z"
+    },
+    "name" : "Lima",
+    "tzIdentifier" : "America\/Lima"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 38.71667,
+    "longitude" : -9.13333,
+    "lunarData" : {
+      "angle" : -0.6372857912520665,
+      "illumination" : 0.9976240576805879,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T19:06:00Z",
+      "set" : "2025-03-14T06:53:05Z"
+    },
+    "name" : "Lisbon",
+    "tzIdentifier" : "Europe\/Lisbon"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 46.05108,
+    "longitude" : 14.50513,
+    "lunarData" : {
+      "angle" : 15.565057037744058,
+      "illumination" : 0.9982219554323973,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:27:28Z",
+      "set" : "2025-03-14T05:20:03Z"
+    },
+    "name" : "Ljubljana",
+    "tzIdentifier" : "Europe\/Ljubljana"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 6.13748,
+    "longitude" : 1.21227,
+    "lunarData" : {
+      "angle" : 9.63515463956944,
+      "illumination" : 0.997898027834875,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:22:36Z",
+      "set" : "2025-03-14T06:03:02Z"
+    },
+    "name" : "Lom??",
+    "tzIdentifier" : "Africa\/Lome"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 51.50853,
+    "longitude" : -0.12574,
+    "lunarData" : {
+      "angle" : 5.019173151636993,
+      "illumination" : 0.9978599121692195,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:28:48Z",
+      "set" : "2025-03-14T06:21:38Z"
+    },
+    "name" : "London",
+    "tzIdentifier" : "Europe\/London"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -8.83833,
+    "longitude" : 13.23444,
+    "lunarData" : {
+      "angle" : 21.50661270243959,
+      "illumination" : 0.9981891497459685,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:33:16Z",
+      "set" : "2025-03-14T05:10:19Z"
+    },
+    "name" : "Luanda",
+    "tzIdentifier" : "Africa\/Luanda"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -15.40809,
+    "longitude" : 28.28636,
+    "lunarData" : {
+      "angle" : 35.34197582670693,
+      "illumination" : 0.9985217634190753,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:31:46Z",
+      "set" : "2025-03-14T04:06:35Z"
+    },
+    "name" : "Lusaka",
+    "tzIdentifier" : "Africa\/Lusaka"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 49.61167,
+    "longitude" : 6.13,
+    "lunarData" : {
+      "angle" : 9.241183920713144,
+      "illumination" : 0.9980191510195607,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:02:31Z",
+      "set" : "2025-03-14T05:55:30Z"
+    },
+    "name" : "Luxembourg",
+    "tzIdentifier" : "Europe\/Luxembourg"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 22.20056,
+    "longitude" : 113.54611,
+    "lunarData" : {
+      "angle" : 51.55366169930658,
+      "illumination" : 0.9870274479713081,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T11:27:21Z",
+      "set" : "2025-03-14T22:57:34Z"
+    },
+    "name" : "Macau",
+    "tzIdentifier" : "Asia\/Macau"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 40.4165,
+    "longitude" : -3.70256,
+    "lunarData" : {
+      "angle" : 3.50182361549146,
+      "illumination" : 0.9977687036117648,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:43:25Z",
+      "set" : "2025-03-14T06:31:36Z"
+    },
+    "name" : "Madrid",
+    "tzIdentifier" : "Europe\/Madrid"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 7.08971,
+    "longitude" : 171.38027,
+    "lunarData" : {
+      "angle" : 0.08524789397222715,
+      "illumination" : 0.9904288235077618,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T07:24:18Z",
+      "set" : "2025-03-14T19:01:50Z"
+    },
+    "name" : "Majuro",
+    "tzIdentifier" : "Pacific\/Majuro"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 3.75,
+    "longitude" : 8.78333,
+    "lunarData" : {
+      "angle" : 17.23357890690211,
+      "illumination" : 0.9980843636802699,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:51:27Z",
+      "set" : "2025-03-14T05:31:26Z"
+    },
+    "name" : "Malabo",
+    "tzIdentifier" : "Africa\/Malabo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 4.1748,
+    "longitude" : 73.50888,
+    "lunarData" : {
+      "angle" : 80.88299211685789,
+      "illumination" : 0.9845311430163544,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T14:06:18Z",
+      "set" : "2025-03-15T01:43:33Z"
+    },
+    "name" : "Male",
+    "tzIdentifier" : "Indian\/Maldives"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -12.77944,
+    "longitude" : 45.22722,
+    "lunarData" : {
+      "angle" : 51.923184526927805,
+      "illumination" : 0.9988567811819865,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:22:20Z",
+      "set" : "2025-03-14T02:57:21Z"
+    },
+    "name" : "Mamoudzou",
+    "tzIdentifier" : "Indian\/Mayotte"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 12.13282,
+    "longitude" : -86.2504,
+    "lunarData" : {
+      "angle" : -72.98731864343127,
+      "illumination" : 0.9951154799927733,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T00:23:19Z",
+      "set" : "2025-03-14T12:02:32Z"
+    },
+    "name" : "Managua",
+    "tzIdentifier" : "America\/Managua"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 26.21536,
+    "longitude" : 50.5832,
+    "lunarData" : {
+      "angle" : 50.164888872801214,
+      "illumination" : 0.9989631478433328,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T14:58:12Z",
+      "set" : "2025-03-14T02:46:13Z"
+    },
+    "name" : "Manama",
+    "tzIdentifier" : "Asia\/Bahrain"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 14.6042,
+    "longitude" : 120.9822,
+    "lunarData" : {
+      "angle" : 48.22755488667935,
+      "illumination" : 0.9875225406380834,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T10:54:06Z",
+      "set" : "2025-03-14T22:27:53Z"
+    },
+    "name" : "Manila",
+    "tzIdentifier" : "Asia\/Manila"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -25.96528,
+    "longitude" : 32.58917,
+    "lunarData" : {
+      "angle" : 36.351282052821134,
+      "illumination" : 0.9986085939218332,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:14:36Z",
+      "set" : "2025-03-14T03:45:44Z"
+    },
+    "name" : "Maputo",
+    "tzIdentifier" : "Africa\/Maputo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 60.09726,
+    "longitude" : 19.93481,
+    "lunarData" : {
+      "angle" : 13.524584327196806,
+      "illumination" : 0.9983501861077394,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:04:16Z",
+      "set" : "2025-03-14T05:06:45Z"
+    },
+    "name" : "Mariehamn",
+    "tzIdentifier" : "Europe\/Mariehamn"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 18.06667,
+    "longitude" : -63.08333,
+    "lunarData" : {
+      "angle" : -50.89556182895235,
+      "illumination" : 0.9959596084284812,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:48:18Z",
+      "set" : "2025-03-14T10:28:29Z"
+    },
+    "name" : "Marigot",
+    "tzIdentifier" : "America\/Marigot"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -29.31667,
+    "longitude" : 27.48333,
+    "lunarData" : {
+      "angle" : 30.954582566044024,
+      "illumination" : 0.9985022738463677,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:35:33Z",
+      "set" : "2025-03-14T04:05:50Z"
+    },
+    "name" : "Maseru",
+    "tzIdentifier" : "Africa\/Maseru"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -13.28163,
+    "longitude" : -176.17453,
+    "lunarData" : {
+      "angle" : -11.94013516469319,
+      "illumination" : 0.9911365817484183,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T06:28:38Z",
+      "set" : "2025-03-14T18:10:48Z"
+    },
+    "name" : "Mat?�'utu",
+    "tzIdentifier" : "Pacific\/Wallis"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -26.31667,
+    "longitude" : 31.13333,
+    "lunarData" : {
+      "angle" : 35.00360978402475,
+      "illumination" : 0.9985787956991029,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:20:33Z",
+      "set" : "2025-03-14T03:51:40Z"
+    },
+    "name" : "Mbabane",
+    "tzIdentifier" : "Africa\/Mbabane"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 19.42847,
+    "longitude" : -99.12766,
+    "lunarData" : {
+      "angle" : -70.79644702714245,
+      "illumination" : 0.9945993578358245,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T01:17:26Z",
+      "set" : "2025-03-14T12:55:58Z"
+    },
+    "name" : "Mexico City",
+    "tzIdentifier" : "America\/Mexico_City"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 53.9,
+    "longitude" : 27.56667,
+    "lunarData" : {
+      "angle" : 20.096495782198957,
+      "illumination" : 0.9985183383867948,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:32:26Z",
+      "set" : "2025-03-14T04:31:35Z"
+    },
+    "name" : "Minsk",
+    "tzIdentifier" : "Europe\/Minsk"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 2.03711,
+    "longitude" : 45.34375,
+    "lunarData" : {
+      "angle" : 53.78408386483534,
+      "illumination" : 0.9988622681178458,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:21:07Z",
+      "set" : "2025-03-14T03:00:51Z"
+    },
+    "name" : "Mogadishu",
+    "tzIdentifier" : "Africa\/Mogadishu"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 43.73333,
+    "longitude" : 7.41667,
+    "lunarData" : {
+      "angle" : 11.266879699353334,
+      "illumination" : 0.9980513040321662,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:57:05Z",
+      "set" : "2025-03-14T05:47:46Z"
+    },
+    "name" : "Monaco",
+    "tzIdentifier" : "Europe\/Monaco"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 6.30054,
+    "longitude" : -10.7969,
+    "lunarData" : {
+      "angle" : -2.304155577142057,
+      "illumination" : 0.9975846490984657,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T19:12:02Z",
+      "set" : "2025-03-14T06:52:20Z"
+    },
+    "name" : "Monrovia",
+    "tzIdentifier" : "Africa\/Monrovia"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -34.83346,
+    "longitude" : -56.16735,
+    "lunarData" : {
+      "angle" : -37.185464955390664,
+      "illumination" : 0.9962319150758671,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:15:35Z",
+      "set" : "2025-03-14T09:51:46Z"
+    },
+    "name" : "Montevideo",
+    "tzIdentifier" : "America\/Montevideo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -11.70216,
+    "longitude" : 43.25506,
+    "lunarData" : {
+      "angle" : 50.34679743304546,
+      "illumination" : 0.998820297062786,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:30:21Z",
+      "set" : "2025-03-14T03:05:48Z"
+    },
+    "name" : "Moroni",
+    "tzIdentifier" : "Indian\/Comoro"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 55.75222,
+    "longitude" : 37.61556,
+    "lunarData" : {
+      "angle" : 23.719273805012374,
+      "illumination" : 0.9987285221505846,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:49:59Z",
+      "set" : "2025-03-14T03:52:30Z"
+    },
+    "name" : "Moscow",
+    "tzIdentifier" : "Europe\/Moscow"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 23.61333,
+    "longitude" : 58.59333,
+    "lunarData" : {
+      "angle" : 57.39380341863091,
+      "illumination" : 0.9991001682037917,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T14:25:12Z",
+      "set" : "2025-03-14T02:12:42Z"
+    },
+    "name" : "Muscat",
+    "tzIdentifier" : "Asia\/Muscat"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -1.28333,
+    "longitude" : 36.81667,
+    "lunarData" : {
+      "angle" : 45.31376696288935,
+      "illumination" : 0.9986981835996908,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:56:19Z",
+      "set" : "2025-03-14T03:35:03Z"
+    },
+    "name" : "Nairobi",
+    "tzIdentifier" : "Africa\/Nairobi"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 25.05823,
+    "longitude" : -77.34306,
+    "lunarData" : {
+      "angle" : -57.834969860829666,
+      "illumination" : 0.9954380297531107,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:48:03Z",
+      "set" : "2025-03-14T11:27:41Z"
+    },
+    "name" : "Nassau",
+    "tzIdentifier" : "America\/Nassau"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 19.745,
+    "longitude" : 96.12972,
+    "lunarData" : {
+      "angle" : 65.40599382845144,
+      "illumination" : 0.9859367421751892,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T12:38:29Z",
+      "set" : "2025-03-15T00:08:57Z"
+    },
+    "name" : "Nay Pyi Taw",
+    "tzIdentifier" : "Asia\/Yangon"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 12.11058,
+    "longitude" : 15.03479,
+    "lunarData" : {
+      "angle" : 22.93143548579112,
+      "illumination" : 0.9982322628257349,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:25:38Z",
+      "set" : "2025-03-14T05:07:40Z"
+    },
+    "name" : "N'Djamena",
+    "tzIdentifier" : "Africa\/Ndjamena"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 28.63576,
+    "longitude" : 77.22445,
+    "lunarData" : {
+      "angle" : 60.84170083619045,
+      "illumination" : 0.9846281634885226,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T14:00:22Z",
+      "set" : "2025-03-15T01:24:48Z"
+    },
+    "name" : "New Delhi",
+    "tzIdentifier" : "Asia\/Kolkata"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 7.50043,
+    "longitude" : 134.62355,
+    "lunarData" : {
+      "angle" : 36.466539564093964,
+      "illumination" : 0.9883683778049851,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T09:55:46Z",
+      "set" : "2025-03-14T21:32:31Z"
+    },
+    "name" : "Ngerulmud",
+    "tzIdentifier" : "Pacific\/Palau"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 13.5125,
+    "longitude" : 2.11178,
+    "lunarData" : {
+      "angle" : 10.263474907352895,
+      "illumination" : 0.9979204088155738,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:18:56Z",
+      "set" : "2025-03-14T06:00:55Z"
+    },
+    "name" : "Niamey",
+    "tzIdentifier" : "Africa\/Niamey"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 35.16667,
+    "longitude" : 33.36667,
+    "lunarData" : {
+      "angle" : 32.906652531815546,
+      "illumination" : 0.998635611157707,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:09:09Z",
+      "set" : "2025-03-14T03:59:20Z"
+    },
+    "name" : "Nicosia",
+    "tzIdentifier" : "Asia\/Nicosia"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 18.10033,
+    "longitude" : -15.94975,
+    "lunarData" : {
+      "angle" : -7.148145575862628,
+      "illumination" : 0.9974412558446999,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T19:33:35Z",
+      "set" : "2025-03-14T07:15:47Z"
+    },
+    "name" : "Nouakchott",
+    "tzIdentifier" : "Africa\/Nouakchott"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -22.27631,
+    "longitude" : 166.4572,
+    "lunarData" : {
+      "angle" : 4.750480658229472,
+      "illumination" : 0.9902577389364777,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T07:37:27Z",
+      "set" : "2025-03-14T19:22:38Z"
+    },
+    "name" : "Noum??a",
+    "tzIdentifier" : "Pacific\/Noumea"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -21.13333,
+    "longitude" : -175.2,
+    "lunarData" : {
+      "angle" : -12.30835251019287,
+      "illumination" : 0.9912085818945509,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T06:22:51Z",
+      "set" : "2025-03-14T18:06:45Z"
+    },
+    "name" : "Nuku`alofa",
+    "tzIdentifier" : "Pacific\/Tongatapu"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 64.18347,
+    "longitude" : -51.72157,
+    "lunarData" : {
+      "angle" : -17.571253364441326,
+      "illumination" : 0.9962857067379648,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:08:59Z",
+      "set" : "2025-03-14T09:55:31Z"
+    },
+    "name" : "Nuuk",
+    "tzIdentifier" : "America\/Godthab"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 12.52398,
+    "longitude" : -70.02703,
+    "lunarData" : {
+      "angle" : -59.20098612050301,
+      "illumination" : 0.9957179267679526,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:16:26Z",
+      "set" : "2025-03-14T10:56:09Z"
+    },
+    "name" : "Oranjestad",
+    "tzIdentifier" : "America\/Aruba"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 59.91273,
+    "longitude" : 10.74609,
+    "lunarData" : {
+      "angle" : 9.307986309635938,
+      "illumination" : 0.9981325590796122,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:43:09Z",
+      "set" : "2025-03-14T05:43:19Z"
+    },
+    "name" : "Oslo",
+    "tzIdentifier" : "Europe\/Oslo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 45.41117,
+    "longitude" : -75.69812,
+    "lunarData" : {
+      "angle" : -40.54469360145161,
+      "illumination" : 0.9954700436393403,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:44:29Z",
+      "set" : "2025-03-14T11:24:26Z"
+    },
+    "name" : "Ottawa",
+    "tzIdentifier" : "America\/Toronto"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 12.36423,
+    "longitude" : -1.53834,
+    "lunarData" : {
+      "angle" : 6.753302632863611,
+      "illumination" : 0.9978277848622028,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:33:59Z",
+      "set" : "2025-03-14T06:15:37Z"
+    },
+    "name" : "Ouagadougou",
+    "tzIdentifier" : "Africa\/Ouagadougou"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -14.27806,
+    "longitude" : -170.7025,
+    "lunarData" : {
+      "angle" : -17.173998901098024,
+      "illumination" : 0.9914165085908442,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T06:06:01Z",
+      "set" : "2025-03-14T17:48:13Z"
+    },
+    "name" : "Pago Pago",
+    "tzIdentifier" : "Pacific\/Pago_Pago"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 6.92477,
+    "longitude" : 158.16109,
+    "lunarData" : {
+      "angle" : 13.20605202660314,
+      "illumination" : 0.989711654270051,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T08:18:41Z",
+      "set" : "2025-03-14T19:56:02Z"
+    },
+    "name" : "Palikir - National Government Center",
+    "tzIdentifier" : "Pacific\/Pohnpei"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 8.9936,
+    "longitude" : -79.51973,
+    "lunarData" : {
+      "angle" : -69.1654158563149,
+      "illumination" : 0.9953735164910786,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:55:12Z",
+      "set" : "2025-03-14T11:34:37Z"
+    },
+    "name" : "Panam?�",
+    "tzIdentifier" : "America\/Panama"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -17.53333,
+    "longitude" : -149.56667,
+    "lunarData" : {
+      "angle" : -36.72979727695944,
+      "illumination" : 0.9924536647045881,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T04:38:53Z",
+      "set" : "2025-03-14T16:20:53Z"
+    },
+    "name" : "Papeete",
+    "tzIdentifier" : "Pacific\/Tahiti"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 5.86638,
+    "longitude" : -55.16682,
+    "lunarData" : {
+      "angle" : -46.37935743971385,
+      "illumination" : 0.9962395452469952,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:14:39Z",
+      "set" : "2025-03-14T09:54:20Z"
+    },
+    "name" : "Paramaribo",
+    "tzIdentifier" : "America\/Paramaribo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 48.85341,
+    "longitude" : 2.3488,
+    "lunarData" : {
+      "angle" : 6.939007213718859,
+      "illumination" : 0.9979239584240771,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:18:21Z",
+      "set" : "2025-03-14T06:10:24Z"
+    },
+    "name" : "Paris",
+    "tzIdentifier" : "Europe\/Paris"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 18.026,
+    "longitude" : -63.04582,
+    "lunarData" : {
+      "angle" : -50.878800588931966,
+      "illumination" : 0.9959608783787595,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:48:09Z",
+      "set" : "2025-03-14T10:28:20Z"
+    },
+    "name" : "Philipsburg",
+    "tzIdentifier" : "America\/Lower_Princes"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 11.56245,
+    "longitude" : 104.91601,
+    "lunarData" : {
+      "angle" : 63.917489276965235,
+      "illumination" : 0.9865410753620771,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T11:59:25Z",
+      "set" : "2025-03-14T23:33:55Z"
+    },
+    "name" : "Phnom Penh",
+    "tzIdentifier" : "Asia\/Phnom_Penh"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 16.70555,
+    "longitude" : -62.21292,
+    "lunarData" : {
+      "angle" : -50.639084803495436,
+      "illumination" : 0.9959910167511121,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:44:35Z",
+      "set" : "2025-03-14T10:24:44Z"
+    },
+    "name" : "Plymouth",
+    "tzIdentifier" : "America\/Montserrat"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 42.44111,
+    "longitude" : 19.26361,
+    "lunarData" : {
+      "angle" : 19.940970687018126,
+      "illumination" : 0.9983317840543715,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:07:39Z",
+      "set" : "2025-03-14T04:59:17Z"
+    },
+    "name" : "Podgorica",
+    "tzIdentifier" : "Europe\/Podgorica"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -20.16194,
+    "longitude" : 57.49889,
+    "lunarData" : {
+      "angle" : 59.20372711990167,
+      "illumination" : 0.9990702894777297,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T14:32:36Z",
+      "set" : "2025-03-14T02:04:27Z"
+    },
+    "name" : "Port Louis",
+    "tzIdentifier" : "Indian\/Mauritius"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -9.44314,
+    "longitude" : 147.17972,
+    "lunarData" : {
+      "angle" : 24.007217520796807,
+      "illumination" : 0.9891544326197774,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T08:59:40Z",
+      "set" : "2025-03-14T20:41:48Z"
+    },
+    "name" : "Port Moresby",
+    "tzIdentifier" : "Pacific\/Port_Moresby"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 18.53917,
+    "longitude" : -72.335,
+    "lunarData" : {
+      "angle" : -58.45319765370103,
+      "illumination" : 0.9956291731015825,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:26:34Z",
+      "set" : "2025-03-14T11:06:22Z"
+    },
+    "name" : "Port-au-Prince",
+    "tzIdentifier" : "America\/Port-au-Prince"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -49.35,
+    "longitude" : 70.21667,
+    "lunarData" : {
+      "angle" : 39.9379227023167,
+      "illumination" : 0.9847018199592358,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T13:55:51Z",
+      "set" : "2025-03-15T02:06:38Z"
+    },
+    "name" : "Port-aux-Fran??ais",
+    "tzIdentifier" : "Indian\/Kerguelen"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 10.66617,
+    "longitude" : -61.51657,
+    "lunarData" : {
+      "angle" : -51.786517227862966,
+      "illumination" : 0.9960196426917464,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:41:11Z",
+      "set" : "2025-03-14T10:21:02Z"
+    },
+    "name" : "Port-of-Spain",
+    "tzIdentifier" : "America\/Port_of_Spain"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 6.49646,
+    "longitude" : 2.60359,
+    "lunarData" : {
+      "angle" : 11.008867195109728,
+      "illumination" : 0.9979329709621381,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:16:52Z",
+      "set" : "2025-03-14T05:57:24Z"
+    },
+    "name" : "Porto-Novo",
+    "tzIdentifier" : "Africa\/Porto-Novo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -17.73381,
+    "longitude" : 168.32188,
+    "lunarData" : {
+      "angle" : 3.094080274260974,
+      "illumination" : 0.9903418406539313,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T07:31:00Z",
+      "set" : "2025-03-14T19:14:51Z"
+    },
+    "name" : "Port-Vila",
+    "tzIdentifier" : "Pacific\/Efate"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 50.08804,
+    "longitude" : 14.42076,
+    "lunarData" : {
+      "angle" : 14.287322519288951,
+      "illumination" : 0.9982202659240622,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:27:46Z",
+      "set" : "2025-03-14T05:22:18Z"
+    },
+    "name" : "Praha",
+    "tzIdentifier" : "Europe\/Prague"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 14.92148,
+    "longitude" : -23.50868,
+    "lunarData" : {
+      "angle" : -14.549107680894721,
+      "illumination" : 0.9972270698860513,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T20:04:41Z",
+      "set" : "2025-03-14T07:46:05Z"
+    },
+    "name" : "Praia",
+    "tzIdentifier" : "Atlantic\/Cape_Verde"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -25.74486,
+    "longitude" : 28.18783,
+    "lunarData" : {
+      "angle" : 32.68245157111412,
+      "illumination" : 0.9985178242935382,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:32:32Z",
+      "set" : "2025-03-14T04:04:03Z"
+    },
+    "name" : "Pretoria",
+    "tzIdentifier" : "Africa\/Johannesburg"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 42.67272,
+    "longitude" : 21.16688,
+    "lunarData" : {
+      "angle" : 21.172899220956346,
+      "illumination" : 0.9983748627906088,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:59:42Z",
+      "set" : "2025-03-14T04:51:40Z"
+    },
+    "name" : "Pristina",
+    "tzIdentifier" : "Europe\/Belgrade"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 39.03385,
+    "longitude" : 125.75432,
+    "lunarData" : {
+      "angle" : 33.623718256094776,
+      "illumination" : 0.9876769313085032,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T10:43:36Z",
+      "set" : "2025-03-14T22:06:03Z"
+    },
+    "name" : "Pyongyang",
+    "tzIdentifier" : "Asia\/Pyongyang"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -0.22985,
+    "longitude" : -78.52495,
+    "lunarData" : {
+      "angle" : -70.01496416875383,
+      "illumination" : 0.9954189781217855,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:50:10Z",
+      "set" : "2025-03-14T11:29:28Z"
+    },
+    "name" : "Quito",
+    "tzIdentifier" : "America\/Guayaquil"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 34.01325,
+    "longitude" : -6.83255,
+    "lunarData" : {
+      "angle" : 1.2546545504262248,
+      "illumination" : 0.9976869539474791,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:56:16Z",
+      "set" : "2025-03-14T06:42:22Z"
+    },
+    "name" : "Rabat",
+    "tzIdentifier" : "Africa\/Casablanca"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 64.13548,
+    "longitude" : -21.89541,
+    "lunarData" : {
+      "angle" : -6.010712970781582,
+      "illumination" : 0.9972456539453615,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T20:02:02Z",
+      "set" : "2025-03-14T07:56:56Z"
+    },
+    "name" : "Reykjav??k",
+    "tzIdentifier" : "Atlantic\/Reykjavik"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 56.946,
+    "longitude" : 24.10589,
+    "lunarData" : {
+      "angle" : 16.88855236034868,
+      "illumination" : 0.9984434792160795,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:46:49Z",
+      "set" : "2025-03-14T04:47:34Z"
+    },
+    "name" : "Riga",
+    "tzIdentifier" : "Europe\/Riga"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 24.68773,
+    "longitude" : 46.72185,
+    "lunarData" : {
+      "angle" : 48.1262356347072,
+      "illumination" : 0.9988928395130581,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:14:17Z",
+      "set" : "2025-03-14T03:01:29Z"
+    },
+    "name" : "Riyadh",
+    "tzIdentifier" : "Asia\/Riyadh"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 18.41667,
+    "longitude" : -64.61667,
+    "lunarData" : {
+      "angle" : -52.082897399317496,
+      "illumination" : 0.9959055237424501,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:54:40Z",
+      "set" : "2025-03-14T10:34:48Z"
+    },
+    "name" : "Road Town",
+    "tzIdentifier" : "America\/Tortola"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 41.89474,
+    "longitude" : 12.4839,
+    "lunarData" : {
+      "angle" : 15.3006281069478,
+      "illumination" : 0.9981738712080463,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:35:57Z",
+      "set" : "2025-03-14T05:26:32Z"
+    },
+    "name" : "Roma",
+    "tzIdentifier" : "Europe\/Rome"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 15.30174,
+    "longitude" : -61.38808,
+    "lunarData" : {
+      "angle" : -50.373211637674196,
+      "illumination" : 0.996020763206461,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:41:03Z",
+      "set" : "2025-03-14T10:21:10Z"
+    },
+    "name" : "Roseau",
+    "tzIdentifier" : "America\/Dominica"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 0.33654,
+    "longitude" : 6.72732,
+    "lunarData" : {
+      "angle" : 15.230134089846484,
+      "illumination" : 0.9980346684855919,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:59:54Z",
+      "set" : "2025-03-14T05:39:08Z"
+    },
+    "name" : "S?�o Tom??",
+    "tzIdentifier" : "Africa\/Sao_Tome"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 12.05644,
+    "longitude" : -61.74849,
+    "lunarData" : {
+      "angle" : -51.66207583806231,
+      "illumination" : 0.9960106729423265,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:42:15Z",
+      "set" : "2025-03-14T10:22:11Z"
+    },
+    "name" : "Saint George's",
+    "tzIdentifier" : "America\/Grenada"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 49.18333,
+    "longitude" : -2.1,
+    "lunarData" : {
+      "angle" : 4.0032751055226266,
+      "illumination" : 0.9978089772437859,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:37:00Z",
+      "set" : "2025-03-14T06:28:29Z"
+    },
+    "name" : "Saint Helier",
+    "tzIdentifier" : "Europe\/Jersey"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 17.11667,
+    "longitude" : -61.85,
+    "lunarData" : {
+      "angle" : -50.16690613634259,
+      "illumination" : 0.9960033776582047,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:43:07Z",
+      "set" : "2025-03-14T10:23:18Z"
+    },
+    "name" : "Saint John�??s",
+    "tzIdentifier" : "America\/Antigua"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 49.45981,
+    "longitude" : -2.53527,
+    "lunarData" : {
+      "angle" : 3.697190358770019,
+      "illumination" : 0.9977975077581205,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:38:50Z",
+      "set" : "2025-03-14T06:30:22Z"
+    },
+    "name" : "Saint Peter Port",
+    "tzIdentifier" : "Europe\/Guernsey"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -20.88231,
+    "longitude" : 55.4504,
+    "lunarData" : {
+      "angle" : 57.23394425778042,
+      "illumination" : 0.9990356413351835,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T14:41:02Z",
+      "set" : "2025-03-14T02:12:41Z"
+    },
+    "name" : "Saint-Denis",
+    "tzIdentifier" : "Indian\/Reunion"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 46.76544,
+    "longitude" : -56.16949,
+    "lunarData" : {
+      "angle" : -30.619461886861977,
+      "illumination" : 0.9961703229127865,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:23:05Z",
+      "set" : "2025-03-14T10:05:52Z"
+    },
+    "name" : "Saint-Pierre",
+    "tzIdentifier" : "America\/Miquelon"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 9.93333,
+    "longitude" : -84.08333,
+    "lunarData" : {
+      "angle" : -72.68260954133129,
+      "illumination" : 0.9952005201914393,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T00:14:08Z",
+      "set" : "2025-03-14T11:53:25Z"
+    },
+    "name" : "San Jos??",
+    "tzIdentifier" : "America\/Costa_Rica"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 18.46633,
+    "longitude" : -66.10572,
+    "lunarData" : {
+      "angle" : -53.33623073568392,
+      "illumination" : 0.9958527985211859,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:00:50Z",
+      "set" : "2025-03-14T10:40:54Z"
+    },
+    "name" : "San Juan",
+    "tzIdentifier" : "America\/Puerto_Rico"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 43.93333,
+    "longitude" : 12.45,
+    "lunarData" : {
+      "angle" : 14.755934581131177,
+      "illumination" : 0.9981732054713717,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:36:04Z",
+      "set" : "2025-03-14T05:27:28Z"
+    },
+    "name" : "San Marino",
+    "tzIdentifier" : "Europe\/San_Marino"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 13.68935,
+    "longitude" : -89.18718,
+    "lunarData" : {
+      "angle" : -73.68574266863125,
+      "illumination" : 0.9950004218854924,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T00:35:37Z",
+      "set" : "2025-03-14T12:14:44Z"
+    },
+    "name" : "San Salvador",
+    "tzIdentifier" : "America\/El_Salvador"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 15.35472,
+    "longitude" : 44.20667,
+    "lunarData" : {
+      "angle" : 50.00527386598384,
+      "illumination" : 0.9988439521517616,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:25:10Z",
+      "set" : "2025-03-14T03:09:03Z"
+    },
+    "name" : "Sanaa",
+    "tzIdentifier" : "Asia\/Aden"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -33.42628,
+    "longitude" : -70.56656,
+    "lunarData" : {
+      "angle" : -47.31269924092378,
+      "illumination" : 0.9957370765720581,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:14:14Z",
+      "set" : "2025-03-14T10:51:55Z"
+    },
+    "name" : "Santiago",
+    "tzIdentifier" : "America\/Santiago"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 18.50012,
+    "longitude" : -69.98857,
+    "lunarData" : {
+      "angle" : -56.57087299348451,
+      "illumination" : 0.9957141498311795,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:16:52Z",
+      "set" : "2025-03-14T10:56:46Z"
+    },
+    "name" : "Santo Domingo",
+    "tzIdentifier" : "America\/Santo_Domingo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 43.84864,
+    "longitude" : 18.35644,
+    "lunarData" : {
+      "angle" : 18.84486629370248,
+      "illumination" : 0.9983112686744294,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:11:24Z",
+      "set" : "2025-03-14T05:03:32Z"
+    },
+    "name" : "Sarajevo",
+    "tzIdentifier" : "Europe\/Sarajevo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 37.56826,
+    "longitude" : 126.97783,
+    "lunarData" : {
+      "angle" : 33.588987390051486,
+      "illumination" : 0.9877615677384854,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T10:37:49Z",
+      "set" : "2025-03-14T22:01:16Z"
+    },
+    "name" : "Seoul",
+    "tzIdentifier" : "Asia\/Seoul"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 1.28967,
+    "longitude" : 103.85007,
+    "lunarData" : {
+      "angle" : 67.59499619315478,
+      "illumination" : 0.9865234705421666,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T12:00:34Z",
+      "set" : "2025-03-14T23:39:17Z"
+    },
+    "name" : "Singapore",
+    "tzIdentifier" : "Asia\/Singapore"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 42,
+    "longitude" : 21.43333,
+    "lunarData" : {
+      "angle" : 21.600472254636287,
+      "illumination" : 0.998380779068829,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:58:36Z",
+      "set" : "2025-03-14T04:50:19Z"
+    },
+    "name" : "Skopje",
+    "tzIdentifier" : "Europe\/Skopje"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 42.69751,
+    "longitude" : 23.32415,
+    "lunarData" : {
+      "angle" : 22.632357749075435,
+      "illumination" : 0.9984229522315275,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:50:42Z",
+      "set" : "2025-03-14T04:42:57Z"
+    },
+    "name" : "Sofia",
+    "tzIdentifier" : "Europe\/Sofia"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -51.7,
+    "longitude" : -57.85,
+    "lunarData" : {
+      "angle" : -27.838304229634648,
+      "illumination" : 0.9961937862325916,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:20:14Z",
+      "set" : "2025-03-14T09:53:49Z"
+    },
+    "name" : "Stanley",
+    "tzIdentifier" : "Atlantic\/Stanley"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 59.33258,
+    "longitude" : 18.0649,
+    "lunarData" : {
+      "angle" : 12.980212924534348,
+      "illumination" : 0.9983067842906095,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:12:13Z",
+      "set" : "2025-03-14T05:13:36Z"
+    },
+    "name" : "Stockholm",
+    "tzIdentifier" : "Europe\/Stockholm"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -19.03332,
+    "longitude" : -65.26274,
+    "lunarData" : {
+      "angle" : -52.11984176728125,
+      "illumination" : 0.9959103520047464,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:54:06Z",
+      "set" : "2025-03-14T10:32:21Z"
+    },
+    "name" : "Sucre",
+    "tzIdentifier" : "America\/La_Paz"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -18.14161,
+    "longitude" : 178.44149,
+    "lunarData" : {
+      "angle" : -6.525669869078758,
+      "illumination" : 0.9908739824017043,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T06:49:32Z",
+      "set" : "2025-03-14T18:33:02Z"
+    },
+    "name" : "Suva",
+    "tzIdentifier" : "Pacific\/Fiji"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 62.00973,
+    "longitude" : -6.77164,
+    "lunarData" : {
+      "angle" : 0.6060311253215537,
+      "illumination" : 0.9976793521502084,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:57:27Z",
+      "set" : "2025-03-14T06:54:57Z"
+    },
+    "name" : "T??rshavn",
+    "tzIdentifier" : "Atlantic\/Faroe"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 25.04776,
+    "longitude" : 121.53185,
+    "lunarData" : {
+      "angle" : 43.78001208096643,
+      "illumination" : 0.987504590243998,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T10:55:19Z",
+      "set" : "2025-03-14T22:24:43Z"
+    },
+    "name" : "Taipei",
+    "tzIdentifier" : "Asia\/Taipei"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 59.43696,
+    "longitude" : 24.75353,
+    "lunarData" : {
+      "angle" : 15.98177870187397,
+      "illumination" : 0.9984586334123042,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:43:56Z",
+      "set" : "2025-03-14T04:46:56Z"
+    },
+    "name" : "Tallinn",
+    "tzIdentifier" : "Europe\/Tallinn"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 1.3278,
+    "longitude" : 172.97696,
+    "lunarData" : {
+      "angle" : -1.4866307661809186,
+      "illumination" : 0.99053088956348,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T07:16:24Z",
+      "set" : "2025-03-14T18:55:22Z"
+    },
+    "name" : "Tarawa",
+    "tzIdentifier" : "Pacific\/Tarawa"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 41.26465,
+    "longitude" : 69.21627,
+    "lunarData" : {
+      "angle" : 47.034850725316865,
+      "illumination" : 0.9839669631958019,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T14:40:27Z",
+      "set" : "2025-03-15T01:54:46Z"
+    },
+    "name" : "Tashkent",
+    "tzIdentifier" : "Asia\/Tashkent"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 41.69411,
+    "longitude" : 44.83368,
+    "lunarData" : {
+      "angle" : 36.602550102105084,
+      "illumination" : 0.9988627185114958,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:21:01Z",
+      "set" : "2025-03-14T03:15:24Z"
+    },
+    "name" : "Tbilisi",
+    "tzIdentifier" : "Asia\/Tbilisi"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 14.0818,
+    "longitude" : -87.20681,
+    "lunarData" : {
+      "angle" : -72.2023863777939,
+      "illumination" : 0.9950764963771939,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T00:27:30Z",
+      "set" : "2025-03-14T12:06:40Z"
+    },
+    "name" : "Tegucigalpa",
+    "tzIdentifier" : "America\/Tegucigalpa"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 35.69439,
+    "longitude" : 51.42151,
+    "lunarData" : {
+      "angle" : 44.46033084240199,
+      "illumination" : 0.9989809144094919,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T14:54:03Z",
+      "set" : "2025-03-14T02:46:10Z"
+    },
+    "name" : "Tehr��n",
+    "tzIdentifier" : "Asia\/Tehran"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 18.21704,
+    "longitude" : -63.05783,
+    "lunarData" : {
+      "angle" : -50.813804901002015,
+      "illumination" : 0.9959603139833495,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T22:48:13Z",
+      "set" : "2025-03-14T10:28:24Z"
+    },
+    "name" : "The Valley",
+    "tzIdentifier" : "America\/Anguilla"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 27.46609,
+    "longitude" : 89.64191,
+    "lunarData" : {
+      "angle" : 61.215162373751,
+      "illumination" : 0.985465478397322,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T13:08:23Z",
+      "set" : "2025-03-15T00:34:23Z"
+    },
+    "name" : "Thimphu",
+    "tzIdentifier" : "Asia\/Thimphu"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 41.3275,
+    "longitude" : 19.81889,
+    "lunarData" : {
+      "angle" : 20.706414170341947,
+      "illumination" : 0.9983442143504624,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:05:22Z",
+      "set" : "2025-03-14T04:56:36Z"
+    },
+    "name" : "Tirana",
+    "tzIdentifier" : "Europe\/Tirane"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 35.61488,
+    "longitude" : 139.5813,
+    "lunarData" : {
+      "angle" : 25.301068857877084,
+      "illumination" : 0.9885281649599726,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T09:44:31Z",
+      "set" : "2025-03-14T21:10:18Z"
+    },
+    "name" : "Tokyo",
+    "tzIdentifier" : "Asia\/Tokyo"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 32.87519,
+    "longitude" : 13.18746,
+    "lunarData" : {
+      "angle" : 17.950826352713477,
+      "illumination" : 0.9981901912871338,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:33:05Z",
+      "set" : "2025-03-14T05:20:37Z"
+    },
+    "name" : "Tripoli",
+    "tzIdentifier" : "Africa\/Tripoli"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 36.81897,
+    "longitude" : 10.16579,
+    "lunarData" : {
+      "angle" : 14.70330020441266,
+      "illumination" : 0.9981182998832698,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:45:37Z",
+      "set" : "2025-03-14T05:34:09Z"
+    },
+    "name" : "Tunis",
+    "tzIdentifier" : "Africa\/Tunis"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 47.90771,
+    "longitude" : 106.88324,
+    "lunarData" : {
+      "angle" : 37.05251272966348,
+      "illumination" : 0.9864147877334528,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T12:07:39Z",
+      "set" : "2025-03-14T23:20:55Z"
+    },
+    "name" : "Ulaanbaatar",
+    "tzIdentifier" : "Asia\/Ulaanbaatar"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 47.14151,
+    "longitude" : 9.52154,
+    "lunarData" : {
+      "angle" : 11.974846604998683,
+      "illumination" : 0.9981027267873881,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:48:18Z",
+      "set" : "2025-03-14T05:40:40Z"
+    },
+    "name" : "Vaduz",
+    "tzIdentifier" : "Europe\/Vaduz"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 35.89972,
+    "longitude" : 14.51472,
+    "lunarData" : {
+      "angle" : 18.322042715934856,
+      "illumination" : 0.9982215800569396,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:27:32Z",
+      "set" : "2025-03-14T05:16:11Z"
+    },
+    "name" : "Valletta",
+    "tzIdentifier" : "Europe\/Malta"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 41.90236,
+    "longitude" : 12.45332,
+    "lunarData" : {
+      "angle" : 15.276682656637137,
+      "illumination" : 0.9981732054713717,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:36:04Z",
+      "set" : "2025-03-14T05:26:40Z"
+    },
+    "name" : "Vatican City",
+    "tzIdentifier" : "Europe\/Vatican"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -4.61667,
+    "longitude" : 55.45,
+    "lunarData" : {
+      "angle" : 63.61831214768843,
+      "illumination" : 0.999040058845394,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T14:39:58Z",
+      "set" : "2025-03-14T02:17:29Z"
+    },
+    "name" : "Victoria",
+    "tzIdentifier" : "Indian\/Mahe"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 48.20849,
+    "longitude" : 16.37208,
+    "lunarData" : {
+      "angle" : 16.098314810328198,
+      "illumination" : 0.9982658797897273,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:19:37Z",
+      "set" : "2025-03-14T05:13:30Z"
+    },
+    "name" : "Vienna",
+    "tzIdentifier" : "Europe\/Vienna"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 17.96667,
+    "longitude" : 102.6,
+    "lunarData" : {
+      "angle" : 62.394700969257855,
+      "illumination" : 0.9863614419860134,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T12:11:07Z",
+      "set" : "2025-03-14T23:42:43Z"
+    },
+    "name" : "Vientiane",
+    "tzIdentifier" : "Asia\/Vientiane"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 54.68916,
+    "longitude" : 25.2798,
+    "lunarData" : {
+      "angle" : 18.546291066297737,
+      "illumination" : 0.9984687531433447,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T16:42:00Z",
+      "set" : "2025-03-14T04:41:17Z"
+    },
+    "name" : "Vilnius",
+    "tzIdentifier" : "Europe\/Vilnius"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 52.22977,
+    "longitude" : 21.01178,
+    "lunarData" : {
+      "angle" : 17.36878529873451,
+      "illumination" : 0.9983729780792914,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:00:03Z",
+      "set" : "2025-03-14T04:56:55Z"
+    },
+    "name" : "Warsaw",
+    "tzIdentifier" : "Europe\/Warsaw"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 38.89511,
+    "longitude" : -77.03637,
+    "lunarData" : {
+      "angle" : -46.6241332926719,
+      "illumination" : 0.9954312836685253,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:48:48Z",
+      "set" : "2025-03-14T11:28:34Z"
+    },
+    "name" : "Washington, D. C.",
+    "tzIdentifier" : "America\/New_York"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -41.28664,
+    "longitude" : 174.77557,
+    "lunarData" : {
+      "angle" : -2.3092537259894255,
+      "illumination" : 0.9907703495726234,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T06:57:42Z",
+      "set" : "2025-03-14T18:48:24Z"
+    },
+    "name" : "Wellington",
+    "tzIdentifier" : "Pacific\/Auckland"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -12.15681,
+    "longitude" : 96.82251,
+    "lunarData" : {
+      "angle" : 70.67545099867168,
+      "illumination" : 0.9861441945432388,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-15T12:25:10Z",
+      "set" : "2025-03-15T00:09:36Z"
+    },
+    "name" : "West Island",
+    "tzIdentifier" : "Indian\/Cocos"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 12.1084,
+    "longitude" : -68.93354,
+    "lunarData" : {
+      "angle" : -58.34746936044662,
+      "illumination" : 0.9957574851060368,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T23:11:53Z",
+      "set" : "2025-03-14T10:51:37Z"
+    },
+    "name" : "Willemstad",
+    "tzIdentifier" : "America\/Curacao"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : -22.55941,
+    "longitude" : 17.08323,
+    "lunarData" : {
+      "angle" : 23.604119241664506,
+      "illumination" : 0.9982763363817218,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:17:44Z",
+      "set" : "2025-03-14T04:50:58Z"
+    },
+    "name" : "Windhoek",
+    "tzIdentifier" : "Africa\/Windhoek"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 6.81667,
+    "longitude" : -5.28333,
+    "lunarData" : {
+      "angle" : 3.170598332121014,
+      "illumination" : 0.9977311386313753,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T18:49:21Z",
+      "set" : "2025-03-14T06:29:49Z"
+    },
+    "name" : "Yamoussoukro",
+    "tzIdentifier" : "Africa\/Abidjan"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 3.86667,
+    "longitude" : 11.51667,
+    "lunarData" : {
+      "angle" : 19.956785610809717,
+      "illumination" : 0.998149541297846,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:40:12Z",
+      "set" : "2025-03-14T05:20:14Z"
+    },
+    "name" : "Yaound??",
+    "tzIdentifier" : "Africa\/Douala"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 40.18111,
+    "longitude" : 44.51361,
+    "lunarData" : {
+      "angle" : 37.42076518807187,
+      "illumination" : 0.9988561790705275,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T15:22:28Z",
+      "set" : "2025-03-14T03:16:02Z"
+    },
+    "name" : "Yerevan",
+    "tzIdentifier" : "Asia\/Yerevan"
+  },
+  {
+    "date" : "2025-03-14T19:03:08Z",
+    "latitude" : 45.81444,
+    "longitude" : 15.97798,
+    "lunarData" : {
+      "angle" : 16.61285724535668,
+      "illumination" : 0.9982565069277043,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-03-14T17:21:18Z",
+      "set" : "2025-03-14T05:14:00Z"
+    },
+    "name" : "Zagreb",
+    "tzIdentifier" : "Europe\/Zagreb"
+  }
+]

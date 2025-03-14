@@ -10,14 +10,14 @@ import Foundation
 import SunKit
 import Testing
 
-struct TestMoonData: Codable {
-    internal init(name: String, date: Date, latitude: Double, longitude: Double, tzIdentifier: String, moonData: MoonData) {
+struct TestLunarData: Codable {
+    internal init(name: String, date: Date, latitude: Double, longitude: Double, tzIdentifier: String, lunarData: LunarData) {
         self.name = name
         self.date = date
         self.latitude = latitude
         self.longitude = longitude
-        self.moonData = moonData
         self.tzIdentifier = tzIdentifier
+        self.lunarData = lunarData
     }
     
     let name: String
@@ -25,18 +25,18 @@ struct TestMoonData: Codable {
     let latitude: Double
     let longitude: Double
     let tzIdentifier: String
-    let moonData: MoonData
+    let lunarData: LunarData
     
-    var timeZone: TimeZone? {
+    var timeZone: TimeZone {
         guard let timeZone = TimeZone(identifier: tzIdentifier) else {
-            print ("unknown time zone ID \(tzIdentifier)")
-            return nil
+            debugPrint("Invalid timezone \(tzIdentifier), defaulting to UTC")
+            return Constant.utcTimezone
         }
         return timeZone
     }
 }
 
-extension TestMoonData {
+extension TestLunarData {
     var coordinate: CLLocationCoordinate2D {
         let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
         guard CLLocationCoordinate2DIsValid(coordinate) else {
@@ -47,9 +47,9 @@ extension TestMoonData {
         return coordinate
     }
     
-    static func load() -> [TestMoonData] {
+    static func load() -> [TestLunarData] {
         do {
-            let url = Bundle.module.url(forResource: Constant.testMoonFile, withExtension: "json")
+            let url = Bundle.module.url(forResource: Constant.testLunarDataFile, withExtension: "json")
             guard let url else {
                 Issue.record("url is nil for moonData.json")
                 return []
@@ -59,11 +59,25 @@ extension TestMoonData {
             decoder.dateDecodingStrategy = .iso8601
             
             let data = try Data(contentsOf: url)
-            let moonInfo = try decoder.decode([TestMoonData].self, from: data)
+            let moonInfo = try decoder.decode([TestLunarData].self, from: data)
             return moonInfo
         } catch {
             Issue.record(error)
             return []
         }
     }
-}
+    
+    static func save(_ lunarData: [TestLunarData]) {
+        let currentPath = FileManager.default.currentDirectoryPath
+        let url = URL(fileURLWithPath: currentPath).appendingPathComponent(Constant.testLunarDataFile + ".json")
+
+        do {
+            let encoder = JSONEncoder()
+            encoder.dateEncodingStrategy = .iso8601
+            encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
+            
+            try encoder.encode(lunarData).write(to: url)
+        } catch {
+            Issue.record(error)
+        }
+    }}

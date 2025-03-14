@@ -1,0 +1,1478 @@
+[
+  {
+    "tzIdentifier": "America/Denver",
+    "name": "Alien Throne",
+    "longitude": -107.980578,
+    "latitude": 36.148817
+  },
+  {
+    "name": "Bend, Oregon",
+    "latitude": 44.058174,
+    "tzIdentifier": "America/Los_Angeles",
+    "longitude": -121.315308
+  },
+  {
+    "tzIdentifier": "America/Los_Angeles",
+    "name": "Cupertino",
+    "latitude": 37.331705,
+    "longitude": -122.030237
+  },
+  {
+    "name": "Chicago",
+    "longitude": -87.629799,
+    "latitude": 41.878113,
+    "tzIdentifier": "America/Chicago"
+  },
+  {
+    "name": "Forks, WA",
+    "longitude": -124.37644,
+    "latitude": 47.61477,
+    "tzIdentifier": "America/Los_Angeles"
+  },
+  {
+    "name": "Hilton Head",
+    "longitude": -80.747559,
+    "latitude": 32.215401,
+    "tzIdentifier": "America/New_York"
+  },
+  {
+    "latitude": 40.76078,
+    "tzIdentifier": "America/Denver",
+    "longitude": -111.891045,
+    "name": "Salt Lake City, Utah"
+  },
+  {
+    "longitude": -102.297943,
+    "name": "Wall, SD",
+    "tzIdentifier": "America/Denver",
+    "latitude": 44.049019
+  },
+  {
+    "latitude": -27.61729,
+    "tzIdentifier": "Africa/Johannesburg",
+    "name": "Zimanga, South Africa",
+    "longitude": 32.03172
+  },
+  {
+    "longitude": 54.36667,
+    "latitude": 24.46667,
+    "name": "Abu Dhabi",
+    "tzIdentifier": "Asia/Dubai"
+  },
+  {
+    "tzIdentifier": "Africa/Lagos",
+    "latitude": 9.05735,
+    "longitude": 7.48976,
+    "name": "Abuja"
+  },
+  {
+    "latitude": 5.55602,
+    "name": "Accra",
+    "longitude": -0.1969,
+    "tzIdentifier": "Africa/Accra"
+  },
+  {
+    "name": "Adamstown",
+    "longitude": -130.10147,
+    "latitude": -25.06597,
+    "tzIdentifier": "Pacific/Pitcairn"
+  },
+  {
+    "longitude": 38.74689,
+    "tzIdentifier": "Africa/Addis_Ababa",
+    "latitude": 9.02497,
+    "name": "Addis Ababa"
+  },
+  {
+    "longitude": 3.04197,
+    "latitude": 36.7525,
+    "tzIdentifier": "Africa/Algiers",
+    "name": "Algiers"
+  },
+  {
+    "tzIdentifier": "Pacific/Niue",
+    "latitude": -19.05952,
+    "longitude": -169.91867,
+    "name": "Alofi"
+  },
+  {
+    "tzIdentifier": "Asia/Amman",
+    "longitude": 35.94503,
+    "name": "Amman",
+    "latitude": 31.95522
+  },
+  {
+    "longitude": 4.88969,
+    "name": "Amsterdam",
+    "latitude": 52.37403,
+    "tzIdentifier": "Europe/Amsterdam"
+  },
+  {
+    "tzIdentifier": "Europe/Andorra",
+    "latitude": 42.50779,
+    "name": "Andorra la Vella",
+    "longitude": 1.52109
+  },
+  {
+    "tzIdentifier": "Europe/Istanbul",
+    "name": "Ankara",
+    "latitude": 39.91987,
+    "longitude": 32.85427
+  },
+  {
+    "name": "Antananarivo",
+    "longitude": 47.53098,
+    "tzIdentifier": "Indian/Antananarivo",
+    "latitude": -18.91433
+  },
+  {
+    "name": "Apia",
+    "tzIdentifier": "Pacific/Apia",
+    "latitude": -13.83333,
+    "longitude": -171.76666
+  },
+  {
+    "name": "Ashgabat",
+    "tzIdentifier": "Asia/Ashgabat",
+    "longitude": 58.38333,
+    "latitude": 37.95
+  },
+  {
+    "latitude": 15.33333,
+    "longitude": 38.93333,
+    "name": "Asmara",
+    "tzIdentifier": "Africa/Asmara"
+  },
+  {
+    "name": "Astana",
+    "longitude": 71.44598,
+    "latitude": 51.1801,
+    "tzIdentifier": "Asia/Almaty"
+  },
+  {
+    "name": "Asunci??n",
+    "latitude": -25.30066,
+    "tzIdentifier": "America/Asuncion",
+    "longitude": -57.63591
+  },
+  {
+    "latitude": 37.97945,
+    "tzIdentifier": "Europe/Athens",
+    "longitude": 23.71622,
+    "name": "Athens"
+  },
+  {
+    "tzIdentifier": "Pacific/Rarotonga",
+    "latitude": -21.20778,
+    "longitude": -159.775,
+    "name": "Avarua"
+  },
+  {
+    "tzIdentifier": "Asia/Baghdad",
+    "latitude": 33.34058,
+    "name": "Baghdad",
+    "longitude": 44.40088
+  },
+  {
+    "name": "Baku",
+    "tzIdentifier": "Asia/Baku",
+    "latitude": 40.37767,
+    "longitude": 49.89201
+  },
+  {
+    "latitude": 12.65,
+    "tzIdentifier": "Africa/Bamako",
+    "longitude": -8,
+    "name": "Bamako"
+  },
+  {
+    "longitude": 114.94806,
+    "name": "Bandar Seri Begawan",
+    "tzIdentifier": "Asia/Brunei",
+    "latitude": 4.94029
+  },
+  {
+    "latitude": 13.75,
+    "tzIdentifier": "Asia/Bangkok",
+    "name": "Bangkok",
+    "longitude": 100.51667
+  },
+  {
+    "name": "Bangui",
+    "longitude": 18.55496,
+    "tzIdentifier": "Africa/Bangui",
+    "latitude": 4.36122
+  },
+  {
+    "longitude": -16.57803,
+    "tzIdentifier": "Africa/Banjul",
+    "name": "Banjul",
+    "latitude": 13.45274
+  },
+  {
+    "latitude": 17.29484,
+    "longitude": -62.7261,
+    "name": "Basseterre",
+    "tzIdentifier": "America/St_Kitts"
+  },
+  {
+    "name": "Basse-Terre",
+    "latitude": 15.99854,
+    "tzIdentifier": "America/Guadeloupe",
+    "longitude": -61.72548
+  },
+  {
+    "longitude": 116.39723,
+    "latitude": 39.9075,
+    "name": "Beijing",
+    "tzIdentifier": "Asia/Shanghai"
+  },
+  {
+    "name": "Beirut",
+    "tzIdentifier": "Asia/Beirut",
+    "longitude": 35.49442,
+    "latitude": 33.88894
+  },
+  {
+    "tzIdentifier": "Europe/Belgrade",
+    "name": "Belgrade",
+    "longitude": 20.46513,
+    "latitude": 44.80401
+  },
+  {
+    "tzIdentifier": "America/Belize",
+    "longitude": -88.76667,
+    "name": "Belmopan",
+    "latitude": 17.25
+  },
+  {
+    "name": "Berlin",
+    "tzIdentifier": "Europe/Berlin",
+    "latitude": 52.52437,
+    "longitude": 13.41053
+  },
+  {
+    "tzIdentifier": "Europe/Zurich",
+    "longitude": 7.44744,
+    "name": "Bern",
+    "latitude": 46.94809
+  },
+  {
+    "tzIdentifier": "Asia/Bishkek",
+    "longitude": 74.60028,
+    "latitude": 42.87306,
+    "name": "Bishkek"
+  },
+  {
+    "latitude": 11.85,
+    "tzIdentifier": "Africa/Bissau",
+    "longitude": -15.58333,
+    "name": "Bissau"
+  },
+  {
+    "tzIdentifier": "America/Bogota",
+    "latitude": 4.60971,
+    "longitude": -74.08175,
+    "name": "Bogot?�"
+  },
+  {
+    "name": "Bras??lia",
+    "tzIdentifier": "America/Sao_Paulo",
+    "latitude": -15.77972,
+    "longitude": -47.92972
+  },
+  {
+    "latitude": 48.14816,
+    "longitude": 17.10674,
+    "tzIdentifier": "Europe/Bratislava",
+    "name": "Bratislava"
+  },
+  {
+    "name": "Brazzaville",
+    "latitude": -4.2669,
+    "tzIdentifier": "Africa/Brazzaville",
+    "longitude": 15.28327
+  },
+  {
+    "latitude": 13.1,
+    "name": "Bridgetown",
+    "tzIdentifier": "America/Barbados",
+    "longitude": -59.61667
+  },
+  {
+    "longitude": 4.34878,
+    "latitude": 50.85045,
+    "tzIdentifier": "Europe/Brussels",
+    "name": "Brussels"
+  },
+  {
+    "tzIdentifier": "Europe/Bucharest",
+    "latitude": 44.43225,
+    "name": "Bucure�?ti",
+    "longitude": 26.10626
+  },
+  {
+    "latitude": 47.49801,
+    "name": "Budapest",
+    "tzIdentifier": "Europe/Budapest",
+    "longitude": 19.03991
+  },
+  {
+    "latitude": -34.61315,
+    "tzIdentifier": "America/Argentina/Buenos_Aires",
+    "longitude": -58.37723,
+    "name": "Buenos Aires"
+  },
+  {
+    "longitude": 29.36,
+    "name": "Bujumbura",
+    "latitude": -3.37611,
+    "tzIdentifier": "Africa/Bujumbura"
+  },
+  {
+    "name": "Cairo",
+    "latitude": 30.06263,
+    "longitude": 31.24967,
+    "tzIdentifier": "Africa/Cairo"
+  },
+  {
+    "tzIdentifier": "Australia/Sydney",
+    "name": "Canberra",
+    "latitude": -35.28346,
+    "longitude": 149.12807
+  },
+  {
+    "latitude": 10.5,
+    "longitude": -66.91667,
+    "name": "Caracas",
+    "tzIdentifier": "America/Caracas"
+  },
+  {
+    "longitude": -61.00614,
+    "tzIdentifier": "America/St_Lucia",
+    "latitude": 13.9957,
+    "name": "Castries"
+  },
+  {
+    "name": "Cayenne",
+    "longitude": -52.33333,
+    "tzIdentifier": "America/Cayenne",
+    "latitude": 4.93333
+  },
+  {
+    "name": "Charlotte Amalie",
+    "longitude": -64.9307,
+    "tzIdentifier": "America/St_Thomas",
+    "latitude": 18.3419
+  },
+  {
+    "name": "Chi�?in��u",
+    "latitude": 47.00556,
+    "tzIdentifier": "Europe/Chisinau",
+    "longitude": 28.8575
+  },
+  {
+    "name": "Cockburn Town",
+    "latitude": 21.46122,
+    "tzIdentifier": "America/Grand_Turk",
+    "longitude": -71.14188
+  },
+  {
+    "longitude": 79.84778,
+    "tzIdentifier": "Asia/Colombo",
+    "name": "Colombo",
+    "latitude": 6.93194
+  },
+  {
+    "latitude": 9.53795,
+    "longitude": -13.67729,
+    "tzIdentifier": "Africa/Conakry",
+    "name": "Conakry"
+  },
+  {
+    "latitude": 55.67594,
+    "tzIdentifier": "Europe/Copenhagen",
+    "longitude": 12.56553,
+    "name": "Copenhagen"
+  },
+  {
+    "tzIdentifier": "Africa/Dakar",
+    "name": "Dakar",
+    "longitude": -17.44406,
+    "latitude": 14.6937
+  },
+  {
+    "tzIdentifier": "Asia/Damascus",
+    "longitude": 36.29128,
+    "name": "Damascus",
+    "latitude": 33.5102
+  },
+  {
+    "name": "Dhaka",
+    "longitude": 90.40744,
+    "tzIdentifier": "Asia/Dhaka",
+    "latitude": 23.7104
+  },
+  {
+    "tzIdentifier": "Asia/Dili",
+    "latitude": -8.55861,
+    "name": "Dili",
+    "longitude": 125.57361
+  },
+  {
+    "name": "Djibouti",
+    "longitude": 43.14468,
+    "latitude": 11.58767,
+    "tzIdentifier": "Africa/Djibouti"
+  },
+  {
+    "longitude": 35.73792,
+    "tzIdentifier": "Africa/Dar_es_Salaam",
+    "latitude": -6.17486,
+    "name": "Dodoma"
+  },
+  {
+    "longitude": 51.52245,
+    "name": "Doha",
+    "latitude": 25.27932,
+    "tzIdentifier": "Asia/Qatar"
+  },
+  {
+    "name": "Douglas",
+    "tzIdentifier": "Europe/Isle_of_Man",
+    "longitude": -4.48333,
+    "latitude": 54.15
+  },
+  {
+    "name": "Dublin",
+    "latitude": 53.34399,
+    "tzIdentifier": "Europe/Dublin",
+    "longitude": -6.26719
+  },
+  {
+    "longitude": 68.77905,
+    "name": "Dushanbe",
+    "latitude": 38.53575,
+    "tzIdentifier": "Asia/Dushanbe"
+  },
+  {
+    "name": "Flying Fish Cove",
+    "tzIdentifier": "Indian/Christmas",
+    "longitude": 105.67912,
+    "latitude": -10.42172
+  },
+  {
+    "longitude": -61.07334,
+    "latitude": 14.60892,
+    "name": "Fort-de-France",
+    "tzIdentifier": "America/Martinique"
+  },
+  {
+    "name": "Freetown",
+    "longitude": -13.22994,
+    "latitude": 8.484,
+    "tzIdentifier": "Africa/Freetown"
+  },
+  {
+    "tzIdentifier": "Pacific/Funafuti",
+    "name": "Funafuti",
+    "longitude": 179.19417,
+    "latitude": -8.52425
+  },
+  {
+    "longitude": 25.90859,
+    "latitude": -24.65451,
+    "name": "Gaborone",
+    "tzIdentifier": "Africa/Gaborone"
+  },
+  {
+    "longitude": -81.36706,
+    "tzIdentifier": "America/Cayman",
+    "name": "George Town",
+    "latitude": 19.28692
+  },
+  {
+    "latitude": 6.80448,
+    "name": "Georgetown",
+    "tzIdentifier": "America/Guyana",
+    "longitude": -58.15527
+  },
+  {
+    "latitude": 36.14474,
+    "name": "Gibraltar",
+    "tzIdentifier": "Europe/Gibraltar",
+    "longitude": -5.35257
+  },
+  {
+    "latitude": -54.28111,
+    "name": "Grytviken",
+    "tzIdentifier": "UTC",
+    "longitude": -36.5092
+  },
+  {
+    "longitude": -90.51327,
+    "latitude": 14.64072,
+    "name": "Guatemala City",
+    "tzIdentifier": "America/Guatemala"
+  },
+  {
+    "longitude": -62.84978,
+    "name": "Gustavia",
+    "tzIdentifier": "America/St_Barthelemy",
+    "latitude": 17.89618
+  },
+  {
+    "longitude": 105.84117,
+    "latitude": 21.0245,
+    "name": "H?� N��?i",
+    "tzIdentifier": "Asia/Ho_Chi_Minh"
+  },
+  {
+    "latitude": 13.47417,
+    "tzIdentifier": "Pacific/Guam",
+    "longitude": 144.74778,
+    "name": "Hag?�t?�a"
+  },
+  {
+    "name": "Hamilton",
+    "latitude": 32.29149,
+    "longitude": -64.77797,
+    "tzIdentifier": "Atlantic/Bermuda"
+  },
+  {
+    "name": "Harare",
+    "latitude": -17.82935,
+    "tzIdentifier": "Africa/Harare",
+    "longitude": 31.05389
+  },
+  {
+    "latitude": 23.13302,
+    "longitude": -82.38304,
+    "name": "Havana",
+    "tzIdentifier": "America/Havana"
+  },
+  {
+    "name": "Helsinki",
+    "longitude": 24.93545,
+    "latitude": 60.16952,
+    "tzIdentifier": "Europe/Helsinki"
+  },
+  {
+    "longitude": 114.15769,
+    "name": "Hong Kong",
+    "latitude": 22.28552,
+    "tzIdentifier": "Asia/Hong_Kong"
+  },
+  {
+    "tzIdentifier": "Pacific/Guadalcanal",
+    "latitude": -9.43333,
+    "longitude": 159.95,
+    "name": "Honiara"
+  },
+  {
+    "latitude": 33.72148,
+    "name": "Isl��m��b��d",
+    "tzIdentifier": "Asia/Karachi",
+    "longitude": 73.04329
+  },
+  {
+    "tzIdentifier": "Asia/Jakarta",
+    "longitude": 106.84513,
+    "name": "Jakarta",
+    "latitude": -6.21462
+  },
+  {
+    "tzIdentifier": "Atlantic/St_Helena",
+    "name": "Jamestown",
+    "latitude": -15.93872,
+    "longitude": -5.71675
+  },
+  {
+    "name": "Kabul",
+    "tzIdentifier": "Asia/Kabul",
+    "longitude": 69.17233,
+    "latitude": 34.52813
+  },
+  {
+    "longitude": 32.58219,
+    "latitude": 0.31628,
+    "tzIdentifier": "Africa/Kampala",
+    "name": "Kampala"
+  },
+  {
+    "name": "Kathmandu",
+    "tzIdentifier": "Asia/Kathmandu",
+    "latitude": 27.70169,
+    "longitude": 85.3206
+  },
+  {
+    "longitude": 32.53361,
+    "name": "Khartoum",
+    "tzIdentifier": "Africa/Khartoum",
+    "latitude": 15.54665
+  },
+  {
+    "latitude": 50.45466,
+    "name": "Kiev",
+    "longitude": 30.5238,
+    "tzIdentifier": "Europe/Kiev"
+  },
+  {
+    "name": "Kigali",
+    "latitude": -1.94995,
+    "tzIdentifier": "Africa/Kigali",
+    "longitude": 30.05885
+  },
+  {
+    "tzIdentifier": "Pacific/Norfolk",
+    "name": "Kingston",
+    "longitude": 167.96628,
+    "latitude": -29.05459
+  },
+  {
+    "longitude": -76.79358,
+    "latitude": 17.99702,
+    "name": "Kingston",
+    "tzIdentifier": "America/Jamaica"
+  },
+  {
+    "tzIdentifier": "America/St_Vincent",
+    "latitude": 13.15872,
+    "name": "Kingstown",
+    "longitude": -61.22475
+  },
+  {
+    "tzIdentifier": "Africa/Kinshasa",
+    "name": "Kinshasa",
+    "latitude": -4.32459,
+    "longitude": 15.32146
+  },
+  {
+    "tzIdentifier": "Asia/Kuala_Lumpur",
+    "name": "Kuala Lumpur",
+    "longitude": 101.68653,
+    "latitude": 3.1412
+  },
+  {
+    "longitude": 47.97833,
+    "tzIdentifier": "Asia/Kuwait",
+    "name": "Kuwait",
+    "latitude": 29.36972
+  },
+  {
+    "tzIdentifier": "America/La_Paz",
+    "latitude": -16.5,
+    "name": "La Paz",
+    "longitude": -68.15
+  },
+  {
+    "longitude": 9.45,
+    "name": "Libreville",
+    "latitude": 0.38333,
+    "tzIdentifier": "Africa/Libreville"
+  },
+  {
+    "longitude": 33.78333,
+    "name": "Lilongwe",
+    "latitude": -13.98333,
+    "tzIdentifier": "Africa/Blantyre"
+  },
+  {
+    "latitude": -12.04318,
+    "name": "Lima",
+    "longitude": -77.02824,
+    "tzIdentifier": "America/Lima"
+  },
+  {
+    "latitude": 38.71667,
+    "longitude": -9.13333,
+    "name": "Lisbon",
+    "tzIdentifier": "Europe/Lisbon"
+  },
+  {
+    "latitude": 46.05108,
+    "longitude": 14.50513,
+    "tzIdentifier": "Europe/Ljubljana",
+    "name": "Ljubljana"
+  },
+  {
+    "latitude": 6.13748,
+    "longitude": 1.21227,
+    "name": "Lom??",
+    "tzIdentifier": "Africa/Lome"
+  },
+  {
+    "name": "London",
+    "latitude": 51.50853,
+    "tzIdentifier": "Europe/London",
+    "longitude": -0.12574
+  },
+  {
+    "tzIdentifier": "Africa/Luanda",
+    "longitude": 13.23444,
+    "name": "Luanda",
+    "latitude": -8.83833
+  },
+  {
+    "tzIdentifier": "Africa/Lusaka",
+    "longitude": 28.28636,
+    "name": "Lusaka",
+    "latitude": -15.40809
+  },
+  {
+    "tzIdentifier": "Europe/Luxembourg",
+    "longitude": 6.13,
+    "name": "Luxembourg",
+    "latitude": 49.61167
+  },
+  {
+    "tzIdentifier": "Asia/Macau",
+    "longitude": 113.54611,
+    "name": "Macau",
+    "latitude": 22.20056
+  },
+  {
+    "tzIdentifier": "Europe/Madrid",
+    "name": "Madrid",
+    "latitude": 40.4165,
+    "longitude": -3.70256
+  },
+  {
+    "longitude": 171.38027,
+    "latitude": 7.08971,
+    "name": "Majuro",
+    "tzIdentifier": "Pacific/Majuro"
+  },
+  {
+    "tzIdentifier": "Africa/Malabo",
+    "latitude": 3.75,
+    "longitude": 8.78333,
+    "name": "Malabo"
+  },
+  {
+    "latitude": 4.1748,
+    "tzIdentifier": "Indian/Maldives",
+    "longitude": 73.50888,
+    "name": "Male"
+  },
+  {
+    "tzIdentifier": "Indian/Mayotte",
+    "longitude": 45.22722,
+    "latitude": -12.77944,
+    "name": "Mamoudzou"
+  },
+  {
+    "longitude": -86.2504,
+    "name": "Managua",
+    "latitude": 12.13282,
+    "tzIdentifier": "America/Managua"
+  },
+  {
+    "longitude": 50.5832,
+    "name": "Manama",
+    "tzIdentifier": "Asia/Bahrain",
+    "latitude": 26.21536
+  },
+  {
+    "tzIdentifier": "Asia/Manila",
+    "name": "Manila",
+    "longitude": 120.9822,
+    "latitude": 14.6042
+  },
+  {
+    "name": "Maputo",
+    "tzIdentifier": "Africa/Maputo",
+    "latitude": -25.96528,
+    "longitude": 32.58917
+  },
+  {
+    "name": "Mariehamn",
+    "tzIdentifier": "Europe/Mariehamn",
+    "latitude": 60.09726,
+    "longitude": 19.93481
+  },
+  {
+    "longitude": -63.08333,
+    "latitude": 18.06667,
+    "tzIdentifier": "America/Marigot",
+    "name": "Marigot"
+  },
+  {
+    "name": "Maseru",
+    "tzIdentifier": "Africa/Maseru",
+    "longitude": 27.48333,
+    "latitude": -29.31667
+  },
+  {
+    "longitude": -176.17453,
+    "tzIdentifier": "Pacific/Wallis",
+    "name": "Mat?�'utu",
+    "latitude": -13.28163
+  },
+  {
+    "longitude": 31.13333,
+    "tzIdentifier": "Africa/Mbabane",
+    "name": "Mbabane",
+    "latitude": -26.31667
+  },
+  {
+    "latitude": 19.42847,
+    "name": "Mexico City",
+    "longitude": -99.12766,
+    "tzIdentifier": "America/Mexico_City"
+  },
+  {
+    "latitude": 53.9,
+    "name": "Minsk",
+    "tzIdentifier": "Europe/Minsk",
+    "longitude": 27.56667
+  },
+  {
+    "latitude": 2.03711,
+    "name": "Mogadishu",
+    "longitude": 45.34375,
+    "tzIdentifier": "Africa/Mogadishu"
+  },
+  {
+    "name": "Monaco",
+    "latitude": 43.73333,
+    "tzIdentifier": "Europe/Monaco",
+    "longitude": 7.41667
+  },
+  {
+    "name": "Monrovia",
+    "longitude": -10.7969,
+    "tzIdentifier": "Africa/Monrovia",
+    "latitude": 6.30054
+  },
+  {
+    "latitude": -34.83346,
+    "tzIdentifier": "America/Montevideo",
+    "name": "Montevideo",
+    "longitude": -56.16735
+  },
+  {
+    "longitude": 43.25506,
+    "tzIdentifier": "Indian/Comoro",
+    "name": "Moroni",
+    "latitude": -11.70216
+  },
+  {
+    "latitude": 55.75222,
+    "tzIdentifier": "Europe/Moscow",
+    "longitude": 37.61556,
+    "name": "Moscow"
+  },
+  {
+    "name": "Muscat",
+    "longitude": 58.59333,
+    "latitude": 23.61333,
+    "tzIdentifier": "Asia/Muscat"
+  },
+  {
+    "longitude": 36.81667,
+    "tzIdentifier": "Africa/Nairobi",
+    "latitude": -1.28333,
+    "name": "Nairobi"
+  },
+  {
+    "tzIdentifier": "America/Nassau",
+    "name": "Nassau",
+    "longitude": -77.34306,
+    "latitude": 25.05823
+  },
+  {
+    "tzIdentifier": "Asia/Yangon",
+    "longitude": 96.12972,
+    "name": "Nay Pyi Taw",
+    "latitude": 19.745
+  },
+  {
+    "name": "N'Djamena",
+    "longitude": 15.03479,
+    "latitude": 12.11058,
+    "tzIdentifier": "Africa/Ndjamena"
+  },
+  {
+    "tzIdentifier": "Asia/Kolkata",
+    "longitude": 77.22445,
+    "name": "New Delhi",
+    "latitude": 28.63576
+  },
+  {
+    "name": "Ngerulmud",
+    "latitude": 7.50043,
+    "longitude": 134.62355,
+    "tzIdentifier": "Pacific/Palau"
+  },
+  {
+    "longitude": 2.11178,
+    "tzIdentifier": "Africa/Niamey",
+    "latitude": 13.5125,
+    "name": "Niamey"
+  },
+  {
+    "longitude": 33.36667,
+    "tzIdentifier": "Asia/Nicosia",
+    "name": "Nicosia",
+    "latitude": 35.16667
+  },
+  {
+    "name": "Nouakchott",
+    "longitude": -15.94975,
+    "latitude": 18.10033,
+    "tzIdentifier": "Africa/Nouakchott"
+  },
+  {
+    "longitude": 166.4572,
+    "name": "Noum??a",
+    "tzIdentifier": "Pacific/Noumea",
+    "latitude": -22.27631
+  },
+  {
+    "longitude": -175.2,
+    "name": "Nuku`alofa",
+    "tzIdentifier": "Pacific/Tongatapu",
+    "latitude": -21.13333
+  },
+  {
+    "name": "Nuuk",
+    "latitude": 64.18347,
+    "tzIdentifier": "America/Godthab",
+    "longitude": -51.72157
+  },
+  {
+    "latitude": 12.52398,
+    "longitude": -70.02703,
+    "tzIdentifier": "America/Aruba",
+    "name": "Oranjestad"
+  },
+  {
+    "tzIdentifier": "Europe/Oslo",
+    "longitude": 10.74609,
+    "name": "Oslo",
+    "latitude": 59.91273
+  },
+  {
+    "longitude": -75.69812,
+    "name": "Ottawa",
+    "tzIdentifier": "America/Toronto",
+    "latitude": 45.41117
+  },
+  {
+    "latitude": 12.36423,
+    "tzIdentifier": "Africa/Ouagadougou",
+    "longitude": -1.53834,
+    "name": "Ouagadougou"
+  },
+  {
+    "latitude": -14.27806,
+    "longitude": -170.7025,
+    "tzIdentifier": "Pacific/Pago_Pago",
+    "name": "Pago Pago"
+  },
+  {
+    "longitude": 158.16109,
+    "name": "Palikir - National Government Center",
+    "latitude": 6.92477,
+    "tzIdentifier": "Pacific/Pohnpei"
+  },
+  {
+    "latitude": 8.9936,
+    "name": "Panam?�",
+    "longitude": -79.51973,
+    "tzIdentifier": "America/Panama"
+  },
+  {
+    "longitude": -149.56667,
+    "latitude": -17.53333,
+    "name": "Papeete",
+    "tzIdentifier": "Pacific/Tahiti"
+  },
+  {
+    "name": "Paramaribo",
+    "longitude": -55.16682,
+    "latitude": 5.86638,
+    "tzIdentifier": "America/Paramaribo"
+  },
+  {
+    "tzIdentifier": "Europe/Paris",
+    "longitude": 2.3488,
+    "latitude": 48.85341,
+    "name": "Paris"
+  },
+  {
+    "longitude": -63.04582,
+    "latitude": 18.026,
+    "name": "Philipsburg",
+    "tzIdentifier": "America/Lower_Princes"
+  },
+  {
+    "latitude": 11.56245,
+    "name": "Phnom Penh",
+    "tzIdentifier": "Asia/Phnom_Penh",
+    "longitude": 104.91601
+  },
+  {
+    "longitude": -62.21292,
+    "name": "Plymouth",
+    "latitude": 16.70555,
+    "tzIdentifier": "America/Montserrat"
+  },
+  {
+    "name": "Podgorica",
+    "latitude": 42.44111,
+    "tzIdentifier": "Europe/Podgorica",
+    "longitude": 19.26361
+  },
+  {
+    "longitude": 57.49889,
+    "tzIdentifier": "Indian/Mauritius",
+    "name": "Port Louis",
+    "latitude": -20.16194
+  },
+  {
+    "longitude": 147.17972,
+    "latitude": -9.44314,
+    "tzIdentifier": "Pacific/Port_Moresby",
+    "name": "Port Moresby"
+  },
+  {
+    "longitude": -72.335,
+    "tzIdentifier": "America/Port-au-Prince",
+    "latitude": 18.53917,
+    "name": "Port-au-Prince"
+  },
+  {
+    "name": "Port-aux-Fran??ais",
+    "latitude": -49.35,
+    "longitude": 70.21667,
+    "tzIdentifier": "Indian/Kerguelen"
+  },
+  {
+    "tzIdentifier": "America/Port_of_Spain",
+    "latitude": 10.66617,
+    "longitude": -61.51657,
+    "name": "Port-of-Spain"
+  },
+  {
+    "longitude": 2.60359,
+    "latitude": 6.49646,
+    "tzIdentifier": "Africa/Porto-Novo",
+    "name": "Porto-Novo"
+  },
+  {
+    "latitude": -17.73381,
+    "name": "Port-Vila",
+    "longitude": 168.32188,
+    "tzIdentifier": "Pacific/Efate"
+  },
+  {
+    "longitude": 14.42076,
+    "latitude": 50.08804,
+    "name": "Praha",
+    "tzIdentifier": "Europe/Prague"
+  },
+  {
+    "longitude": -23.50868,
+    "tzIdentifier": "Atlantic/Cape_Verde",
+    "latitude": 14.92148,
+    "name": "Praia"
+  },
+  {
+    "latitude": -25.74486,
+    "name": "Pretoria",
+    "tzIdentifier": "Africa/Johannesburg",
+    "longitude": 28.18783
+  },
+  {
+    "latitude": 42.67272,
+    "longitude": 21.16688,
+    "name": "Pristina",
+    "tzIdentifier": "Europe/Belgrade"
+  },
+  {
+    "longitude": 125.75432,
+    "name": "Pyongyang",
+    "tzIdentifier": "Asia/Pyongyang",
+    "latitude": 39.03385
+  },
+  {
+    "name": "Quito",
+    "tzIdentifier": "America/Guayaquil",
+    "latitude": -0.22985,
+    "longitude": -78.52495
+  },
+  {
+    "tzIdentifier": "Africa/Casablanca",
+    "latitude": 34.01325,
+    "longitude": -6.83255,
+    "name": "Rabat"
+  },
+  {
+    "tzIdentifier": "Atlantic/Reykjavik",
+    "longitude": -21.89541,
+    "latitude": 64.13548,
+    "name": "Reykjav??k"
+  },
+  {
+    "name": "Riga",
+    "latitude": 56.946,
+    "longitude": 24.10589,
+    "tzIdentifier": "Europe/Riga"
+  },
+  {
+    "longitude": 46.72185,
+    "latitude": 24.68773,
+    "name": "Riyadh",
+    "tzIdentifier": "Asia/Riyadh"
+  },
+  {
+    "name": "Road Town",
+    "tzIdentifier": "America/Tortola",
+    "latitude": 18.41667,
+    "longitude": -64.61667
+  },
+  {
+    "latitude": 41.89474,
+    "longitude": 12.4839,
+    "tzIdentifier": "Europe/Rome",
+    "name": "Roma"
+  },
+  {
+    "longitude": -61.38808,
+    "latitude": 15.30174,
+    "tzIdentifier": "America/Dominica",
+    "name": "Roseau"
+  },
+  {
+    "tzIdentifier": "Africa/Sao_Tome",
+    "latitude": 0.33654,
+    "name": "S?�o Tom??",
+    "longitude": 6.72732
+  },
+  {
+    "latitude": 12.05644,
+    "tzIdentifier": "America/Grenada",
+    "longitude": -61.74849,
+    "name": "Saint George's"
+  },
+  {
+    "longitude": -2.1,
+    "latitude": 49.18333,
+    "name": "Saint Helier",
+    "tzIdentifier": "Europe/Jersey"
+  },
+  {
+    "tzIdentifier": "America/Antigua",
+    "latitude": 17.11667,
+    "name": "Saint John�??s",
+    "longitude": -61.85
+  },
+  {
+    "latitude": 49.45981,
+    "name": "Saint Peter Port",
+    "longitude": -2.53527,
+    "tzIdentifier": "Europe/Guernsey"
+  },
+  {
+    "longitude": 55.4504,
+    "tzIdentifier": "Indian/Reunion",
+    "latitude": -20.88231,
+    "name": "Saint-Denis"
+  },
+  {
+    "name": "Saint-Pierre",
+    "latitude": 46.76544,
+    "tzIdentifier": "America/Miquelon",
+    "longitude": -56.16949
+  },
+  {
+    "latitude": 9.93333,
+    "tzIdentifier": "America/Costa_Rica",
+    "longitude": -84.08333,
+    "name": "San Jos??"
+  },
+  {
+    "latitude": 18.46633,
+    "tzIdentifier": "America/Puerto_Rico",
+    "longitude": -66.10572,
+    "name": "San Juan"
+  },
+  {
+    "name": "San Marino",
+    "longitude": 12.45,
+    "latitude": 43.93333,
+    "tzIdentifier": "Europe/San_Marino"
+  },
+  {
+    "longitude": -89.18718,
+    "tzIdentifier": "America/El_Salvador",
+    "name": "San Salvador",
+    "latitude": 13.68935
+  },
+  {
+    "longitude": 44.20667,
+    "tzIdentifier": "Asia/Aden",
+    "name": "Sanaa",
+    "latitude": 15.35472
+  },
+  {
+    "longitude": -70.56656,
+    "name": "Santiago",
+    "latitude": -33.42628,
+    "tzIdentifier": "America/Santiago"
+  },
+  {
+    "tzIdentifier": "America/Santo_Domingo",
+    "name": "Santo Domingo",
+    "latitude": 18.50012,
+    "longitude": -69.98857
+  },
+  {
+    "latitude": 43.84864,
+    "longitude": 18.35644,
+    "name": "Sarajevo",
+    "tzIdentifier": "Europe/Sarajevo"
+  },
+  {
+    "name": "Seoul",
+    "tzIdentifier": "Asia/Seoul",
+    "longitude": 126.97783,
+    "latitude": 37.56826
+  },
+  {
+    "name": "Singapore",
+    "latitude": 1.28967,
+    "tzIdentifier": "Asia/Singapore",
+    "longitude": 103.85007
+  },
+  {
+    "name": "Skopje",
+    "longitude": 21.43333,
+    "tzIdentifier": "Europe/Skopje",
+    "latitude": 42
+  },
+  {
+    "longitude": 23.32415,
+    "latitude": 42.69751,
+    "tzIdentifier": "Europe/Sofia",
+    "name": "Sofia"
+  },
+  {
+    "longitude": -57.85,
+    "tzIdentifier": "Atlantic/Stanley",
+    "latitude": -51.7,
+    "name": "Stanley"
+  },
+  {
+    "longitude": 18.0649,
+    "latitude": 59.33258,
+    "tzIdentifier": "Europe/Stockholm",
+    "name": "Stockholm"
+  },
+  {
+    "name": "Sucre",
+    "latitude": -19.03332,
+    "tzIdentifier": "America/La_Paz",
+    "longitude": -65.26274
+  },
+  {
+    "name": "Suva",
+    "tzIdentifier": "Pacific/Fiji",
+    "longitude": 178.44149,
+    "latitude": -18.14161
+  },
+  {
+    "latitude": 62.00973,
+    "longitude": -6.77164,
+    "name": "T??rshavn",
+    "tzIdentifier": "Atlantic/Faroe"
+  },
+  {
+    "name": "Taipei",
+    "tzIdentifier": "Asia/Taipei",
+    "longitude": 121.53185,
+    "latitude": 25.04776
+  },
+  {
+    "tzIdentifier": "Europe/Tallinn",
+    "latitude": 59.43696,
+    "name": "Tallinn",
+    "longitude": 24.75353
+  },
+  {
+    "name": "Tarawa",
+    "latitude": 1.3278,
+    "tzIdentifier": "Pacific/Tarawa",
+    "longitude": 172.97696
+  },
+  {
+    "tzIdentifier": "Asia/Tashkent",
+    "name": "Tashkent",
+    "latitude": 41.26465,
+    "longitude": 69.21627
+  },
+  {
+    "longitude": 44.83368,
+    "tzIdentifier": "Asia/Tbilisi",
+    "name": "Tbilisi",
+    "latitude": 41.69411
+  },
+  {
+    "name": "Tegucigalpa",
+    "tzIdentifier": "America/Tegucigalpa",
+    "latitude": 14.0818,
+    "longitude": -87.20681
+  },
+  {
+    "latitude": 35.69439,
+    "name": "Tehr��n",
+    "longitude": 51.42151,
+    "tzIdentifier": "Asia/Tehran"
+  },
+  {
+    "name": "The Valley",
+    "latitude": 18.21704,
+    "tzIdentifier": "America/Anguilla",
+    "longitude": -63.05783
+  },
+  {
+    "name": "Thimphu",
+    "latitude": 27.46609,
+    "tzIdentifier": "Asia/Thimphu",
+    "longitude": 89.64191
+  },
+  {
+    "name": "Tirana",
+    "latitude": 41.3275,
+    "tzIdentifier": "Europe/Tirane",
+    "longitude": 19.81889
+  },
+  {
+    "longitude": 139.5813,
+    "name": "Tokyo",
+    "tzIdentifier": "Asia/Tokyo",
+    "latitude": 35.61488
+  },
+  {
+    "tzIdentifier": "Africa/Tripoli",
+    "name": "Tripoli",
+    "longitude": 13.18746,
+    "latitude": 32.87519
+  },
+  {
+    "latitude": 36.81897,
+    "tzIdentifier": "Africa/Tunis",
+    "longitude": 10.16579,
+    "name": "Tunis"
+  },
+  {
+    "tzIdentifier": "Asia/Ulaanbaatar",
+    "latitude": 47.90771,
+    "name": "Ulaanbaatar",
+    "longitude": 106.88324
+  },
+  {
+    "tzIdentifier": "Europe/Vaduz",
+    "name": "Vaduz",
+    "longitude": 9.52154,
+    "latitude": 47.14151
+  },
+  {
+    "latitude": 35.89972,
+    "longitude": 14.51472,
+    "tzIdentifier": "Europe/Malta",
+    "name": "Valletta"
+  },
+  {
+    "name": "Vatican City",
+    "tzIdentifier": "Europe/Vatican",
+    "longitude": 12.45332,
+    "latitude": 41.90236
+  },
+  {
+    "longitude": 55.45,
+    "latitude": -4.61667,
+    "tzIdentifier": "Indian/Mahe",
+    "name": "Victoria"
+  },
+  {
+    "latitude": 48.20849,
+    "name": "Vienna",
+    "longitude": 16.37208,
+    "tzIdentifier": "Europe/Vienna"
+  },
+  {
+    "longitude": 102.6,
+    "tzIdentifier": "Asia/Vientiane",
+    "name": "Vientiane",
+    "latitude": 17.96667
+  },
+  {
+    "latitude": 54.68916,
+    "tzIdentifier": "Europe/Vilnius",
+    "longitude": 25.2798,
+    "name": "Vilnius"
+  },
+  {
+    "name": "Warsaw",
+    "tzIdentifier": "Europe/Warsaw",
+    "latitude": 52.22977,
+    "longitude": 21.01178
+  },
+  {
+    "latitude": 38.89511,
+    "name": "Washington, D. C.",
+    "longitude": -77.03637,
+    "tzIdentifier": "America/New_York"
+  },
+  {
+    "longitude": 174.77557,
+    "latitude": -41.28664,
+    "tzIdentifier": "Pacific/Auckland",
+    "name": "Wellington"
+  },
+  {
+    "tzIdentifier": "Indian/Cocos",
+    "name": "West Island",
+    "longitude": 96.82251,
+    "latitude": -12.15681
+  },
+  {
+    "longitude": -68.93354,
+    "name": "Willemstad",
+    "tzIdentifier": "America/Curacao",
+    "latitude": 12.1084
+  },
+  {
+    "longitude": 17.08323,
+    "tzIdentifier": "Africa/Windhoek",
+    "name": "Windhoek",
+    "latitude": -22.55941
+  },
+  {
+    "tzIdentifier": "Africa/Abidjan",
+    "longitude": -5.28333,
+    "name": "Yamoussoukro",
+    "latitude": 6.81667
+  },
+  {
+    "name": "Yaound??",
+    "latitude": 3.86667,
+    "longitude": 11.51667,
+    "tzIdentifier": "Africa/Douala"
+  },
+  {
+    "longitude": 44.51361,
+    "tzIdentifier": "Asia/Yerevan",
+    "name": "Yerevan",
+    "latitude": 40.18111
+  },
+  {
+    "latitude": 45.81444,
+    "tzIdentifier": "Europe/Zagreb",
+    "name": "Zagreb",
+    "longitude": 15.97798
+  }
+]

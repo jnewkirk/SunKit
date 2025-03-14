@@ -25,7 +25,7 @@ let package = Package(
         .testTarget(
             name: "SunKitTests",
             dependencies: ["SunKit", "SwiftAA"],
-            resources: [.copy("testLocations.json"), .copy("moonData.json")]
+            resources: [.copy("TestData/testSolarData.json"), .copy("TestData/testLunarData.json"), .copy("TestData/waypoints.json")]
         ),
     ]
 )
