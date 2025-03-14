@@ -14,14 +14,14 @@ import Testing
 /// on the same day. The test data should spread out locations,. dates, etc., as well as include
 /// scenarios with no moon rise and/or no moon set.
 struct MoonTests {
-    var testDatum: [LocationMoonInfo] = []
+    var testDatum: [TestMoonData] = []
     
     internal init() async throws {
-        testDatum = LocationMoonInfo.load()
+        testDatum = TestMoonData.load()
     }
     
     @Test func testLocationCount() async throws {
-        #expect(testDatum.count == 5)
+        #expect(testDatum.count == 35)
     }
 
     @Test

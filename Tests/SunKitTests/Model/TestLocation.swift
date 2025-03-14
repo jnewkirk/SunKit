@@ -13,7 +13,7 @@ import WeatherKit
 @testable import SunKit
 
 final class TestLocation: Identifiable, Codable, Sendable {
-    internal init(id: UUID = UUID(), name: String, latitude: Double, longitude: Double, date: Date, sunData: TestSunData, timeZone: String) async {
+    internal init(id: UUID = UUID(), name: String, latitude: Double, longitude: Double, date: Date, sunData: SunData, timeZone: String) async {
         self.id = id
         self.name = name
         self.latitude = latitude
@@ -28,7 +28,7 @@ final class TestLocation: Identifiable, Codable, Sendable {
     let latitude: Double
     let longitude: Double
     let date: Date
-    let sunData: TestSunData
+    let sunData: SunData
     let tzIdentifier: String
     
     var timeZone: TimeZone? {

@@ -10,15 +10,7 @@ import Foundation
 import SunKit
 import Testing
 
-struct MoonData: Codable {
-    let rise: Date
-    let set: Date
-    let angle: Double
-    let phase: LunarPhase
-    let illumination: Double
-}
-
-struct LocationMoonInfo: Codable {
+struct TestMoonData: Codable {
     internal init(name: String, date: Date, latitude: Double, longitude: Double, tzIdentifier: String, moonData: MoonData) {
         self.name = name
         self.date = date
@@ -44,7 +36,7 @@ struct LocationMoonInfo: Codable {
     }
 }
 
-extension LocationMoonInfo {
+extension TestMoonData {
     var coordinate: CLLocationCoordinate2D {
         let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
         guard CLLocationCoordinate2DIsValid(coordinate) else {
@@ -55,7 +47,7 @@ extension LocationMoonInfo {
         return coordinate
     }
     
-    static func load() -> [LocationMoonInfo] {
+    static func load() -> [TestMoonData] {
         do {
             let url = Bundle.module.url(forResource: Constant.testMoonFile, withExtension: "json")
             guard let url else {
@@ -67,7 +59,7 @@ extension LocationMoonInfo {
             decoder.dateDecodingStrategy = .iso8601
             
             let data = try Data(contentsOf: url)
-            let moonInfo = try decoder.decode([LocationMoonInfo].self, from: data)
+            let moonInfo = try decoder.decode([TestMoonData].self, from: data)
             return moonInfo
         } catch {
             Issue.record(error)
