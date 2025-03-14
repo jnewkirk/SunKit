@@ -119,4 +119,24 @@ struct SolarTests {
         let daylight = try #require(solar.daylight)
         #expect(36453.0 == daylight.duration)
     }
+    
+    @Test
+    func sunsetPrecedesSunrise() throws {
+        // Svalbard
+        let solar = try Solar.make(
+            date: "2025-04-18T04:00:00Z".toDate()!,
+            coordinate: CLLocationCoordinate2D(latitude: 78.22745806736931, longitude: 15.77845128961993),
+            timeZone: TimeZone(identifier: "Arctic/Longyearbyen")!
+        )
+        
+        #expect("2025-04-17T23:27:37Z".toDate() == solar.dawn.actual)
+        #expect(nil == solar.dawn.astronomical)
+        #expect(nil == solar.dawn.civil)
+        #expect(nil == solar.dawn.nautical)
+
+        #expect("2025-04-17T22:20:01Z".toDate() == solar.dusk.actual)
+        #expect(nil == solar.dusk.astronomical)
+        #expect(nil == solar.dusk.civil)
+        #expect(nil == solar.dusk.nautical)
+    }
 }

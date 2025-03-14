@@ -115,24 +115,4 @@ struct DawnTests {
         #expect(nil == solar.dusk.civil)
         #expect("2025-12-14T12:02:20Z".toDate() == solar.dusk.nautical)
     }
-    
-    @Test
-    func wtf() throws {
-        // Svalbard
-        let solar = try Solar.make(
-            date: "2025-04-18T04:00:00Z".toDate()!,
-            coordinate: CLLocationCoordinate2D(latitude: 78.22745806736931, longitude: 15.77845128961993),
-            timeZone: TimeZone(identifier: "Arctic/Longyearbyen")!
-        )
-        
-        #expect("2025-04-17T23:27:37Z".toDate() == solar.dawn.actual)
-        #expect(nil == solar.dawn.astronomical)
-        #expect(nil == solar.dawn.civil)
-        #expect(nil == solar.dawn.nautical)
-
-        #expect("2025-04-17T22:20:01Z".toDate() == solar.dusk.actual)
-        #expect(nil == solar.dusk.astronomical)
-        #expect(nil == solar.dusk.civil)
-        #expect(nil == solar.dusk.nautical)
-    }
 }
