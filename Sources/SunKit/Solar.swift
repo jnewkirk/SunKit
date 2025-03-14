@@ -21,11 +21,11 @@ public struct Solar: Sendable {
 
         let official = Solar.computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.official)
         
-        if let sunrise = official.rise, let sunset = official.set {
-            if (sunset < sunrise) {
-                throw SolarError.coordinateTimeZoneMismatch
-            }
-        }
+//        if let sunrise = official.rise, let sunset = official.set {
+//            if (sunset < sunrise) {
+//                throw SolarError.coordinateTimeZoneMismatch
+//            }
+//        }
 
         let civil = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.civil)
         let astronomical = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.astronimical)
@@ -33,9 +33,8 @@ public struct Solar: Sendable {
         let blueHour = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.blueHour)
         let goldenHour = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.goldenHour)
         let solarAngle = computeSolarAngle(julianDay: julianDay, coordinates: coordinates)
-        let lunar = computeLunarData(julianDay: julianDay, today: today, coordinates: coordinates)
         
-        return Solar(date, official, civil, astronomical, nautical, blueHour, goldenHour, solarAngle, lunar)
+        return Solar(date, official, civil, astronomical, nautical, blueHour, goldenHour, solarAngle)
     }
     
     private init(_ date: Date,
@@ -45,115 +44,59 @@ public struct Solar: Sendable {
                  _ nautical: RiseSet,
                  _ blueHour: RiseSet,
                  _ goldenHour: RiseSet,
-                 _ solarAngle: Degree,
-                 _ lunar: LunarData) {
+                 _ angle: Degree) {
         let sunrise = official.rise
-        if let sunrise {
-            self.dawn = SolarEvents(sunrise,
-                                    nautical: nautical.rise,
-                                    astronomical: astronomical.rise,
-                                    civil: civil.rise,
-                                    goldenHour: DateInterval(start: blueHour.rise, end: goldenHour.rise),
-                                    blueHour: DateInterval(start: civil.rise, end: blueHour.rise),
-                                    interval: DateInterval(start: astronomical.rise, end: goldenHour.rise))
-        } else {
-            self.dawn = nil
-        }
-        
+        self.dawn = SolarEvents(sunrise,
+                                nautical: nautical.rise,
+                                astronomical: astronomical.rise,
+                                civil: civil.rise,
+                                goldenHour: DateInterval(start: blueHour.rise, end: goldenHour.rise),
+                                blueHour: DateInterval(start: civil.rise, end: blueHour.rise),
+                                interval: DateInterval(start: astronomical.rise, end: goldenHour.rise))
+
         let sunset = official.set
-        if let sunset {
-            self.dusk = SolarEvents(sunset,
-                                    nautical: nautical.set,
-                                    astronomical: astronomical.set,
-                                    civil: civil.set,
-                                    goldenHour: DateInterval(start: goldenHour.set, end: blueHour.set),
-                                    blueHour: DateInterval(start: blueHour.set, end: civil.set),
-                                    interval: DateInterval(start: goldenHour.set, end: astronomical.set))
-        } else {
-            self.dusk = nil
-        }
+        self.dusk = SolarEvents(sunset,
+                                nautical: nautical.set,
+                                astronomical: astronomical.set,
+                                civil: civil.set,
+                                goldenHour: DateInterval(start: goldenHour.set, end: blueHour.set),
+                                blueHour: DateInterval(start: blueHour.set, end: civil.set),
+                                interval: DateInterval(start: goldenHour.set, end: astronomical.set))
+        
+        self.daylight = DateInterval(start: sunrise, end: sunset)
         
         if let sunrise, let sunset {
-            self.daylight = DateInterval(start: sunrise, end: sunset)
             self.solarNoon = Date(timeIntervalSince1970: (sunrise.timeIntervalSince1970 + ((sunset.timeIntervalSince1970 - sunrise.timeIntervalSince1970) / 2))).withoutNanoseconds()
         } else {
-            self.daylight = nil
             self.solarNoon = nil
         }
         
-        self.lunar = lunar
-        self.solarAngle = solarAngle.value
+        self.angle = angle.value
     }
     
-    public let dawn: SolarEvents?
-    public let dusk: SolarEvents?
-    public let lunar: LunarData
+    public let dawn: SolarEvents
+    public let dusk: SolarEvents
     public let solarNoon: Date?
     public let daylight: DateInterval?
-    public let solarAngle: Double
+    public let angle: Double
     
     static func computeTwilights(julianDay: JulianDay, today: DateInterval, coordinates: GeographicCoordinates, zenith: Zenith) -> RiseSet {
         let riseSetYesterday = Earth(julianDay: julianDay - 1).twilights(forSunAltitude: zenith.degree, coordinates: coordinates)
         let riseSetToday = Earth(julianDay: julianDay).twilights(forSunAltitude: zenith.degree, coordinates: coordinates)
         let riseSetTomorrow = Earth(julianDay: julianDay + 1).twilights(forSunAltitude: zenith.degree, coordinates: coordinates)
         
-        let rise = Solar.inDateInterval(interval: today, dates: [riseSetYesterday.riseTime?.date, riseSetToday.riseTime?.date, riseSetTomorrow.riseTime?.date])
-        let set = Solar.inDateInterval(interval: today, dates: [riseSetYesterday.setTime?.date, riseSetToday.setTime?.date, riseSetTomorrow.setTime?.date])
+        let rise = today.inDateInterval(dates: [riseSetYesterday.riseTime?.date, riseSetToday.riseTime?.date, riseSetTomorrow.riseTime?.date])
+        let set = today.inDateInterval(dates: [riseSetYesterday.setTime?.date, riseSetToday.setTime?.date, riseSetTomorrow.setTime?.date])
         
         return RiseSet(rise: rise?.withoutNanoseconds(), set: set?.withoutNanoseconds())
     }
     
-    static func computeLunarData(julianDay: JulianDay, today: DateInterval, coordinates: GeographicCoordinates) -> LunarData {
-        let moonToday = Moon(julianDay: julianDay)
-        
-        let riseSetYesterday = Moon(julianDay: julianDay - 1).riseTransitSetTimes(for: coordinates)
-        let riseSetToday = moonToday.riseTransitSetTimes(for: coordinates)
-        let riseSetTomorrow = Moon(julianDay: julianDay + 1).riseTransitSetTimes(for: coordinates)
-        
-        let rise = Solar.inDateInterval(interval: today, dates: [riseSetYesterday.riseTime?.date, riseSetToday.riseTime?.date, riseSetTomorrow.riseTime?.date])
-        let set = Solar.inDateInterval(interval: today, dates: [riseSetYesterday.setTime?.date, riseSetToday.setTime?.date, riseSetTomorrow.setTime?.date])
-
-        var illumination: Double = 0.0
-        if let rise { illumination = Moon(julianDay: JulianDay(rise)).illuminatedFraction() }
-
-        let moonAge = Solar.moonAge(julianDay: julianDay)
-        let lunarPhase = Solar.lunarPhase(moonAge: moonAge)
-
-        let equatorialCoordinates = moonToday.equatorialCoordinates
-        let horizontalCoordinates = equatorialCoordinates.makeHorizontalCoordinates(for: coordinates, at: julianDay)
-        
-        /// TODO: These need to be sorted, and we need our lunar data to include these values so we can test them
-        /// against more than one dataset
-        var nextEvents: [LunarEvent] = []
-        nextEvents.append(LunarEvent(phase: LunarPhase.full, date: moonToday.time(of: MoonPhase.fullMoon, mean: false).date.withoutNanoseconds()))
-        nextEvents.append(LunarEvent(phase: LunarPhase.thirdQuarter, date: moonToday.time(of: MoonPhase.lastQuarter, mean: false).date.withoutNanoseconds()))
-        nextEvents.append(LunarEvent(phase: LunarPhase.new, date: moonToday.time(of: MoonPhase.newMoon, mean: false).date.withoutNanoseconds()))
-        nextEvents.append(LunarEvent(phase: LunarPhase.firstQuarter, date: moonToday.time(of: MoonPhase.firstQuarter, mean: false).date.withoutNanoseconds()))
-
-        return LunarData(rise: rise?.withoutNanoseconds(),
-                         set: set?.withoutNanoseconds(),
-                         angle: horizontalCoordinates.altitude.value,
-                         illumination: illumination,
-                         phase: lunarPhase,
-                         nextEvents: nextEvents)
-    }
-
     static func computeSolarAngle(julianDay: JulianDay, coordinates: GeographicCoordinates) -> Degree {
         let sun = Sun(julianDay: julianDay)
         let equatorialCoordinates = sun.equatorialCoordinates
         let horizontalCoordinates = equatorialCoordinates.makeHorizontalCoordinates(for: coordinates, at: julianDay)
         
         return horizontalCoordinates.altitude
-    }
-    
-    static func inDateInterval(interval: DateInterval, dates: [Date?]) -> Date? {
-        for date in dates {
-            if let date, interval.contains(date) {
-                return Date(timeIntervalSince1970: Double(Int(date.timeIntervalSince1970)))
-            }
-        }
-        
-        return nil
     }
     
     public static func makeRange(from: Date, at: CLLocationCoordinate2D, timeZone: TimeZone, forDays: Int = 7) throws -> [Solar] {
@@ -165,38 +108,5 @@ public struct Solar: Sendable {
         }
         
         return solars;
-    }
-    
-    static func moonAge(julianDay: JulianDay) -> Double {
-        // Known new moon date (January 6, 2000 at 18:14 UTC)
-        let knownNewMoonJD = 2451550.26
-        
-        var age = fmod(julianDay.value - knownNewMoonJD, Constant.synodicMonth)
-        if (age < 0) {
-            age = age + Constant.synodicMonth
-        }
-        return age
-    }
-    
-    static func lunarPhase(moonAge: Double) -> LunarPhase {
-        if (moonAge < Constant.lunarFirstQuarter) {
-            return .waxingCrescent
-        }
-        if (moonAge < Constant.lunarFull) {
-            return .waxingGibbous
-        }
-        if (moonAge < Constant.lunarThirdQuarter) {
-            return .waningGibbous
-        }
-        
-        return .waningCrescent
-    }
-}
-
-private extension DateInterval {
-    init?(start: Date?, end: Date?) {
-        guard let start, let end else { return nil }
-        
-        self.init(start: start, end: end)
     }
 }

@@ -8,7 +8,7 @@
 import Foundation
 
 public struct SolarEvents: Codable, Sendable {
-    public init(_ actual: Date, nautical: Date? = nil, astronomical: Date? = nil, civil: Date? = nil, goldenHour: DateInterval? = nil, blueHour: DateInterval? = nil, interval: DateInterval?) {
+    public init(_ actual: Date?, nautical: Date?, astronomical: Date?, civil: Date?, goldenHour: DateInterval?, blueHour: DateInterval?, interval: DateInterval?) {
         self.actual = actual
         self.nautical = nautical
         self.astronomical = astronomical
@@ -19,7 +19,7 @@ public struct SolarEvents: Codable, Sendable {
     }
     
     /// The actual solar event (e.g., the sunrise or sunset)
-    public let actual: Date
+    public let actual: Date?
     
     /// The nauticaul dawn or dusk event
     public let nautical: Date?

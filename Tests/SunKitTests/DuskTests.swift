@@ -98,4 +98,24 @@ struct DuskTests {
             }
         }
     }
+    
+    @Test
+    func noSunset() throws {
+        // Svalbard
+        let solar = try Solar.make(
+            date: "2025-04-10T04:00:00Z".toDate()!,
+            coordinate: CLLocationCoordinate2D(latitude: 78.22745806736931, longitude: 15.77845128961993),
+            timeZone: TimeZone(identifier: "Arctic/Longyearbyen")!
+        )
+        
+        #expect("2025-04-10T01:44:24Z".toDate() == solar.dawn.actual)
+        #expect(nil == solar.dawn.astronomical)
+        #expect(nil == solar.dawn.civil)
+        #expect(nil == solar.dawn.nautical)
+
+        #expect("2025-04-10T20:18:05Z".toDate() == solar.dusk.actual)
+        #expect(nil == solar.dusk.astronomical)
+        #expect(nil == solar.dusk.civil)
+        #expect(nil == solar.dusk.nautical)
+    }
 }

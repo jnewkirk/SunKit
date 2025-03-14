@@ -10,7 +10,7 @@ import SwiftAA
 import Testing
 @testable import SunKit
 
-@Suite(.disabled())
+//@Suite(.disabled())
 struct TestDataGenerator {
     @Test
     func generateLunarData() async throws {
@@ -22,15 +22,15 @@ struct TestDataGenerator {
         
         for index in 0...29 {
             let currentDate = date.add(days: index)
-            let solar = try! Solar.make(date: currentDate, coordinate: firstWaypoint.coordinate, timeZone: firstWaypoint.timeZone)
+            let lunar = try! Lunar.make(date: currentDate, coordinate: firstWaypoint.coordinate, timeZone: firstWaypoint.timeZone)
             
-            newLunarData.append(solar.testLunarData(currentDate, waypoint: firstWaypoint))
+            newLunarData.append(lunar.testLunarData(currentDate, waypoint: firstWaypoint))
         }
 
         for waypoint in waypoints.dropFirst() {
-            let solar = try! Solar.make(date: date, coordinate: waypoint.coordinate, timeZone: waypoint.timeZone)
+            let lunar = try! Lunar.make(date: date, coordinate: waypoint.coordinate, timeZone: waypoint.timeZone)
             
-            newLunarData.append(solar.testLunarData(date, waypoint: waypoint))
+            newLunarData.append(lunar.testLunarData(date, waypoint: waypoint))
         }
         
         TestLunarData.save(newLunarData)
