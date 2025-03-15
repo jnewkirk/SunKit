@@ -8,6 +8,6 @@
 import Foundation
 
 public struct LunarEvent: Codable, Sendable {
-    let phase: LunarPhase
-    let date: Date
+    public let phase: LunarPhase
+    public let date: Date
 }
