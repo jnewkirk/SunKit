@@ -1,6 +1,6 @@
 # SunKit
 
-A Swift toolkit to calculate the various times associated with Sunrise and Sunset. 
+This package provides a wrapper around the SwiftAA package to make it simpler to consume for the more basic astronomical algorithms, i.e. Sunrise, Sunset, etc. 
 
 [![](https://img.shields.io/endpoint.svg?url=https://actions-badge.atrox.dev/jnewkirk/SunKit/badge%3Fref%3Dmain&amp;label=build)](https://actions-badge.atrox.dev/jnewkirk/SunKit/goto?ref=main)
 
@@ -14,4 +14,12 @@ A Swift toolkit to calculate the various times associated with Sunrise and Sunse
 ![Platforms: iOS | macOS](https://img.shields.io/badge/platforms-iOS%20|%20macOS-blue?logo=apple)
 
 ![SPM Compatible](https://img.shields.io/badge/SPM-Compatible-orange?logo=swift)
+
+## Dependencies
+
+### SwiftAA
+
+- Provides the underlying astronomical algorithms, in Swift. 
+- License: [MIT](https://github.com/wtw-software/UTMConversion/blob/master/LICENSE)
+- Repo: https://github.com/onekiloparsec/SwiftAA
 
