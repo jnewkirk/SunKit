@@ -11,7 +11,7 @@ import Foundation
 
 struct DateIntervalTests {
     @Test("Valid Start / End -> DateInterval")
-    func validDateInterval() async throws {
+    func validDateInterval() throws {
         let initialTime = Date.now
         let start = initialTime.addingTimeInterval(60)
         let end = initialTime.addingTimeInterval(120)
@@ -21,19 +21,19 @@ struct DateIntervalTests {
     }
     
     @Test("Start = nil / End = valid date -> nil")
-    func nilStartDate() async throws {
+    func nilStartDate() throws {
         let dateInterval = DateInterval(start: nil, end: Date.now)
         try #require(dateInterval == nil)
     }
     
     @Test("Start = valid date / End = nil -> nil")
-    func nilEndDate() async throws {
+    func nilEndDate() throws {
        let dateInterval = DateInterval(start: Date.now, end: nil)
         try #require(dateInterval == nil)
     }
     
     @Test("Start = nil / End = nil -> nil")
-    func nilStartEnd() async throws {
+    func nilStartEnd() throws {
        let dateInterval = DateInterval(start: nil, end: nil)
         try #require(dateInterval == nil)
     }

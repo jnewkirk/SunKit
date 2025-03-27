@@ -12,22 +12,22 @@ import CoreLocation
 struct SolarTests {
     var testData: [TestSolarData] = []
     
-    internal init() async throws {
+    internal init() {
         testData = TestSolarData.load()
     }
     
     @Test
-    func testLocationCount() async throws {
+    func testLocationCount() {
         #expect(testData.count == 246)
     }
     
     @Test
-    func makeRange() async throws {
+    func makeRange() throws {
         let formatter = ISO8601DateFormatter()
         let date = try #require(formatter.date(from: "2025-01-22T07:00:00Z"))
         let coordinates = CLLocationCoordinate2D(latitude: 36.148817, longitude: -107.980578)
         
-        let solars = try Solar.makeRange(from: date, at: coordinates, timeZone: TimeZone(identifier: "America/Denver")!, forDays: 3)
+        let solars = Solar.makeRange(from: date, at: coordinates, timeZone: TimeZone(identifier: "America/Denver")!, forDays: 3)
         
         try #require(solars.count == 3)
         #expect(formatter.date(from: "2025-01-22T14:18:00Z") == solars[0].dawn.actual)
@@ -36,9 +36,9 @@ struct SolarTests {
     }
     
     @Test
-    func solarNoon() async throws {
+    func solarNoon() {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
             #expect(testLocation.solarData.solarNoon == solar.solarNoon,
                     "Test Location: \(testLocation.waypoint.name)")
@@ -46,9 +46,9 @@ struct SolarTests {
     }
     
     @Test
-    func solarNoonIsDaylight() async throws {
+    func solarNoonIsDaylight() throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
 
             let daylight = try #require (solar.daylight)
             let solarNoon = try #require (solar.solarNoon)
@@ -58,9 +58,9 @@ struct SolarTests {
     }
     
     @Test
-    func beforeSunriseIsNotDaylight() async throws {
+    func beforeSunriseIsNotDaylight() throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             let sunrise = try #require(testLocation.solarData.sunrise)
             let beforeSunrise = sunrise.addingTimeInterval(-1)
             
@@ -71,9 +71,9 @@ struct SolarTests {
     }
     
     @Test
-    func afterSunsetIsNotDaylight() async throws {
+    func afterSunsetIsNotDaylight() throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             let sunset = try #require(testLocation.solarData.sunset)
             let afterSunset = sunset.addingTimeInterval(1)
             
@@ -84,9 +84,9 @@ struct SolarTests {
     }
     
     @Test
-    func sunriseDaylight() async throws {
+    func sunriseDaylight() throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             let sunrise = try #require(testLocation.solarData.sunrise)
             
             let daylight = try #require (solar.daylight)
@@ -96,9 +96,9 @@ struct SolarTests {
     }
     
     @Test
-    func sunsetDaylight() async throws {
+    func sunsetDaylight() throws {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             let sunset = try #require(testLocation.solarData.sunset)
             
             let daylight = try #require (solar.daylight)
@@ -108,9 +108,9 @@ struct SolarTests {
     }
     
     @Test
-    func solarAngle() async throws {
+    func solarAngle() {
         for testLocation in testData {
-            let solar = try Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
             #expect(testLocation.solarData.solarAngle == solar.angle,
                     "location: \(testLocation.waypoint.name)")
@@ -119,16 +119,16 @@ struct SolarTests {
     
     @Test
     func daylightIntervalSeconds() throws {
-        let solar = try Solar.make(date: Date(timeIntervalSince1970: 1737779072), coordinate: Constant.cupertino, timeZone: TimeZone(identifier: "America/Los_Angeles")!)
+        let solar = Solar.make(date: Date(timeIntervalSince1970: 1737779072), coordinate: Constant.cupertino, timeZone: TimeZone(identifier: "America/Los_Angeles")!)
         
         let daylight = try #require(solar.daylight)
         #expect(36420.0 == daylight.duration)
     }
     
     @Test
-    func sunsetPrecedesSunrise() throws {
+    func sunsetPrecedesSunrise() {
         // Svalbard
-        let solar = try Solar.make(
+        let solar = Solar.make(
             date: "2025-04-18T04:00:00Z".toDate()!,
             coordinate: CLLocationCoordinate2D(latitude: 78.22745806736931, longitude: 15.77845128961993),
             timeZone: TimeZone(identifier: "Arctic/Longyearbyen")!

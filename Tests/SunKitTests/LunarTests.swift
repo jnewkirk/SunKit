@@ -13,18 +13,18 @@ import Testing
 struct LunarTests {
     let testDatum: [TestLunarData]
     
-    internal init() async throws {
+    internal init() {
         testDatum = TestLunarData.load()
     }
     
-    @Test func testLocationCount() async throws {
+    @Test func testLocationCount() throws {
         #expect(testDatum.count == 275)
     }
 
     @Test
-    func moonRise() async throws {
+    func moonRise() {
         for testData in testDatum {
-            let lunar = try Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
             #expect(testData.lunarData.rise == lunar.rise,
                     "Location: \(testData.waypoint.name)")
@@ -32,9 +32,9 @@ struct LunarTests {
     }
     
     @Test
-    func moonSet() async throws {
+    func moonSet() {
         for testData in testDatum {
-            let lunar = try Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
             #expect(testData.lunarData.set == lunar.set,
                     "Location: \(testData.waypoint.name)")
@@ -42,9 +42,9 @@ struct LunarTests {
     }
     
     @Test
-    func angle() async throws {
+    func angle() {
         for testData in testDatum {
-            let lunar = try Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
             #expect(testData.lunarData.angle == lunar.angle,
                     "Location: \(testData.waypoint.name)")
@@ -52,8 +52,8 @@ struct LunarTests {
     }
     
     @Test
-    func nextLunarEvents() async throws {
-        let lunar = try Lunar.make(date: "2025-03-08T00:58:00Z".toDate()!, coordinate: Constant.puyallup, timeZone: TimeZone(identifier: "America/Los_Angeles")!)
+    func nextLunarEvents() {
+        let lunar = Lunar.make(date: "2025-03-08T00:58:00Z".toDate()!, coordinate: Constant.puyallup, timeZone: TimeZone(identifier: "America/Los_Angeles")!)
         
         #expect(4 == lunar.nextEvents.count)
         #expect(LunarPhase.full == lunar.nextEvents[0].phase)
@@ -67,9 +67,9 @@ struct LunarTests {
     }
     
     @Test
-    func illumination() async throws {
+    func illumination() {
         for testData in testDatum {
-            let lunar = try Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
             #expect(testData.lunarData.illumination == lunar.illumination,
                     "Location: \(testData.waypoint.name)")
@@ -77,9 +77,9 @@ struct LunarTests {
     }
     
     @Test
-    func phase() async throws {
+    func phase() {
         for testData in testDatum {
-            let lunar = try Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
             #expect(testData.lunarData.phase == lunar.phase,
                     "Location: \(testData.waypoint.name)")

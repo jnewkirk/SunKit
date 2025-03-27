@@ -8,7 +8,7 @@
 import Foundation
 import SwiftAA
 
-public enum LunarPhase: String, CaseIterable, Sendable {
+public enum LunarPhase: String, CaseIterable, Sendable, Codable {
     case new = "New Moon"
     case waningCrescent = "Waning Crescent"
     case thirdQuarter = "Third Quarter"
@@ -30,23 +30,5 @@ public enum LunarPhase: String, CaseIterable, Sendable {
         default:
             return .waningCrescent
         }
-    }
-}
-
-extension LunarPhase : Codable {
-    public func encode(to encoder: Encoder) throws {
-        var container = encoder.singleValueContainer()
-        try container.encode(self.rawValue)
-    }
-    
-    public init(from decoder: Decoder) throws {
-        let container = try decoder.singleValueContainer()
-        let rawValue = try container.decode(String.self)
-        
-        guard let phase = LunarPhase(rawValue: rawValue) else {
-            throw DecodingError.dataCorruptedError(in: container, debugDescription: "Invalid lunar phase: \(rawValue)")
-        }
-        
-        self = phase
     }
 }

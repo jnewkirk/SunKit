@@ -14,7 +14,7 @@ public enum SolarError : Error {
 }
 
 public struct Solar {
-    public static func make(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) throws -> Solar {
+    public static func make(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) -> Solar {
         let julianDay = JulianDay(date)
         let coordinates = GeographicCoordinates(CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))
         let today = DateInterval(start: date.midnightLocal(timeZone: timeZone), duration: 60 * 60 * 24)
@@ -92,12 +92,12 @@ public struct Solar {
         return horizontalCoordinates.altitude
     }
     
-    public static func makeRange(from: Date, at: CLLocationCoordinate2D, timeZone: TimeZone, forDays: Int = 7) throws -> [Solar] {
+    public static func makeRange(from: Date, at: CLLocationCoordinate2D, timeZone: TimeZone, forDays: Int = 7) -> [Solar] {
         var solars: [Solar] = []
         
         for day in 0...(forDays - 1) {
             let date = from.addingTimeInterval(60 * 60 * 24 * Double(day))
-            solars.append(try Solar.make(date: date, coordinate: at, timeZone: timeZone))
+            solars.append(Solar.make(date: date, coordinate: at, timeZone: timeZone))
         }
         
         return solars;

@@ -13,7 +13,7 @@ import Testing
 @Suite(.disabled())
 struct TestDataGenerator {
     @Test
-    func generateLunarData() async throws {
+    func generateLunarData() {
         let waypoints = Waypoint.load()
         var newLunarData: [TestLunarData] = []
         
@@ -22,13 +22,13 @@ struct TestDataGenerator {
         
         for index in 0...29 {
             let currentDate = date.add(days: index)
-            let lunar = try! Lunar.make(date: currentDate, coordinate: firstWaypoint.coordinate, timeZone: firstWaypoint.timeZone)
+            let lunar = Lunar.make(date: currentDate, coordinate: firstWaypoint.coordinate, timeZone: firstWaypoint.timeZone)
             
             newLunarData.append(lunar.testLunarData(currentDate, waypoint: firstWaypoint))
         }
 
         for waypoint in waypoints.dropFirst() {
-            let lunar = try! Lunar.make(date: date, coordinate: waypoint.coordinate, timeZone: waypoint.timeZone)
+            let lunar = Lunar.make(date: date, coordinate: waypoint.coordinate, timeZone: waypoint.timeZone)
             
             newLunarData.append(lunar.testLunarData(date, waypoint: waypoint))
         }
@@ -37,13 +37,13 @@ struct TestDataGenerator {
     }
     
     @Test
-    func generateSolarData() async throws {
+    func generateSolarData() {
         let waypoints = Waypoint.load()
         var newSolarData: [TestSolarData] = []
         let date = Date.now.toNearestMinute()
         
         for waypoint in waypoints {
-            let solar = try! Solar.make(date: date, coordinate: waypoint.coordinate, timeZone: waypoint.timeZone)
+            let solar = Solar.make(date: date, coordinate: waypoint.coordinate, timeZone: waypoint.timeZone)
             
             newSolarData.append(solar.testSolarData(date, waypoint: waypoint))
         }
