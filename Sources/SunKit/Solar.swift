@@ -9,10 +9,6 @@ import Foundation
 import CoreLocation
 import SwiftAA
 
-public enum SolarError : Error {
-    case coordinateTimeZoneMismatch
-}
-
 public struct Solar {
     public static func make(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) -> Solar {
         let julianDay = JulianDay(date)
