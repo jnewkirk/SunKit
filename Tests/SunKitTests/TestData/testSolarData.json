@@ -1,6 +1,6 @@
 [
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T11:37:00Z",
       "astronomicalDusk" : "2025-03-28T02:56:00Z",
@@ -28,7 +28,7 @@
       },
       "nauticalDawn" : "2025-03-27T12:08:00Z",
       "nauticalDusk" : "2025-03-28T02:25:00Z",
-      "solarAngle" : 43.406159377285334,
+      "solarAngle" : 35.68513109276494,
       "solarNoon" : "2025-03-27T19:17:00Z",
       "sunrise" : "2025-03-27T13:04:00Z",
       "sunset" : "2025-03-28T01:29:00Z"
@@ -41,7 +41,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T12:15:00Z",
       "astronomicalDusk" : "2025-03-28T04:05:00Z",
@@ -69,7 +69,7 @@
       },
       "nauticalDawn" : "2025-03-27T12:51:00Z",
       "nauticalDusk" : "2025-03-28T03:29:00Z",
-      "solarAngle" : 44.48142134775996,
+      "solarAngle" : 39.438719198448595,
       "solarNoon" : "2025-03-27T20:10:00Z",
       "sunrise" : "2025-03-27T13:54:00Z",
       "sunset" : "2025-03-28T02:26:00Z"
@@ -82,7 +82,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T12:31:00Z",
       "astronomicalDusk" : "2025-03-28T03:54:00Z",
@@ -110,7 +110,7 @@
       },
       "nauticalDawn" : "2025-03-27T13:03:00Z",
       "nauticalDusk" : "2025-03-28T03:22:00Z",
-      "solarAngle" : 50.400842139136586,
+      "solarAngle" : 44.41272909311389,
       "solarNoon" : "2025-03-27T20:13:00Z",
       "sunrise" : "2025-03-27T13:59:00Z",
       "sunset" : "2025-03-28T02:26:00Z"
@@ -123,7 +123,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:05:00Z",
       "astronomicalDusk" : "2025-03-28T01:45:00Z",
@@ -151,7 +151,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:39:00Z",
       "nauticalDusk" : "2025-03-28T01:11:00Z",
-      "solarAngle" : 26.88017951271965,
+      "solarAngle" : 18.916486925050844,
       "solarNoon" : "2025-03-27T17:55:00Z",
       "sunrise" : "2025-03-27T11:40:00Z",
       "sunset" : "2025-03-28T00:10:00Z"
@@ -164,7 +164,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T12:18:00Z",
       "astronomicalDusk" : "2025-03-28T04:26:00Z",
@@ -192,7 +192,7 @@
       },
       "nauticalDawn" : "2025-03-27T12:57:00Z",
       "nauticalDusk" : "2025-03-28T03:48:00Z",
-      "solarAngle" : 42.406993627897975,
+      "solarAngle" : 38.26966470545816,
       "solarNoon" : "2025-03-27T20:22:00Z",
       "sunrise" : "2025-03-27T14:04:00Z",
       "sunset" : "2025-03-28T02:40:00Z"
@@ -205,7 +205,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:54:00Z",
       "astronomicalDusk" : "2025-03-28T01:01:00Z",
@@ -233,7 +233,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:23:00Z",
       "nauticalDusk" : "2025-03-28T00:32:00Z",
-      "solarAngle" : 24.513580070592177,
+      "solarAngle" : 15.132430066097346,
       "solarNoon" : "2025-03-27T17:27:00Z",
       "sunrise" : "2025-03-27T11:16:00Z",
       "sunset" : "2025-03-27T23:38:00Z"
@@ -246,7 +246,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T11:45:00Z",
       "astronomicalDusk" : "2025-03-28T03:20:00Z",
@@ -274,7 +274,7 @@
       },
       "nauticalDawn" : "2025-03-27T12:18:00Z",
       "nauticalDusk" : "2025-03-28T02:46:00Z",
-      "solarAngle" : 42.705676533760546,
+      "solarAngle" : 36.06494955016625,
       "solarNoon" : "2025-03-27T19:32:00Z",
       "sunrise" : "2025-03-27T13:18:00Z",
       "sunset" : "2025-03-28T01:46:00Z"
@@ -287,7 +287,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:59:00Z",
       "astronomicalDusk" : "2025-03-28T02:48:00Z",
@@ -315,7 +315,7 @@
       },
       "nauticalDawn" : "2025-03-27T11:35:00Z",
       "nauticalDusk" : "2025-03-28T02:13:00Z",
-      "solarAngle" : 35.19216557891142,
+      "solarAngle" : 28.286964949785848,
       "solarNoon" : "2025-03-27T18:54:00Z",
       "sunrise" : "2025-03-27T12:38:00Z",
       "sunset" : "2025-03-28T01:09:00Z"
@@ -328,38 +328,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:40:00Z",
-      "astronomicalDusk" : "2025-03-27T17:11:00Z",
-      "civilDawn" : "2025-03-27T03:35:00Z",
-      "civilDusk" : "2025-03-27T16:17:00Z",
+      "astronomicalDawn" : "2025-03-28T02:41:00Z",
+      "astronomicalDusk" : "2025-03-28T17:10:00Z",
+      "civilDawn" : "2025-03-28T03:35:00Z",
+      "civilDusk" : "2025-03-28T16:16:00Z",
       "daylight" : {
-        "duration" : 42960,
-        "start" : "2025-03-27T03:58:00Z"
+        "duration" : 42900,
+        "start" : "2025-03-28T03:58:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T16:08:00Z"
+        "start" : "2025-03-28T16:07:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2700,
-        "start" : "2025-03-27T15:23:00Z"
+        "start" : "2025-03-28T15:22:00Z"
       },
       "morningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T03:35:00Z"
+        "start" : "2025-03-28T03:35:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 2700,
-        "start" : "2025-03-27T03:44:00Z"
+        "start" : "2025-03-28T03:44:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:07:00Z",
-      "nauticalDusk" : "2025-03-27T16:44:00Z",
-      "solarAngle" : -64.97248907624414,
-      "solarNoon" : "2025-03-27T09:56:00Z",
-      "sunrise" : "2025-03-27T03:58:00Z",
-      "sunset" : "2025-03-27T15:54:00Z"
+      "nauticalDawn" : "2025-03-28T03:08:00Z",
+      "nauticalDusk" : "2025-03-28T16:43:00Z",
+      "solarAngle" : -64.5295350779122,
+      "solarNoon" : "2025-03-28T09:56:00Z",
+      "sunrise" : "2025-03-28T03:58:00Z",
+      "sunset" : "2025-03-28T15:53:00Z"
     },
     "waypoint" : {
       "latitude" : -27.61729,
@@ -369,7 +369,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:01:00Z",
       "astronomicalDusk" : "2025-03-28T15:52:00Z",
@@ -397,7 +397,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:28:00Z",
       "nauticalDusk" : "2025-03-28T15:25:00Z",
-      "solarAngle" : -57.55752066117185,
+      "solarAngle" : -50.614813741408156,
       "solarNoon" : "2025-03-28T08:27:00Z",
       "sunrise" : "2025-03-28T02:17:00Z",
       "sunset" : "2025-03-28T14:36:00Z"
@@ -410,7 +410,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:19:00Z",
       "astronomicalDusk" : "2025-03-27T18:49:00Z",
@@ -438,7 +438,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:44:00Z",
       "nauticalDusk" : "2025-03-27T18:25:00Z",
-      "solarAngle" : -58.650201112342224,
+      "solarAngle" : -68.56502738477496,
       "solarNoon" : "2025-03-27T11:34:00Z",
       "sunrise" : "2025-03-27T05:29:00Z",
       "sunset" : "2025-03-27T17:39:00Z"
@@ -451,7 +451,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:51:00Z",
       "astronomicalDusk" : "2025-03-27T19:18:00Z",
@@ -479,7 +479,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:16:00Z",
       "nauticalDusk" : "2025-03-27T18:54:00Z",
-      "solarAngle" : -52.3315506425983,
+      "solarAngle" : -63.154562499421864,
       "solarNoon" : "2025-03-27T12:05:00Z",
       "sunrise" : "2025-03-27T06:01:00Z",
       "sunset" : "2025-03-27T18:09:00Z"
@@ -492,7 +492,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T13:30:00Z",
       "astronomicalDusk" : "2025-03-28T03:58:00Z",
@@ -520,7 +520,7 @@
       },
       "nauticalDawn" : "2025-03-27T13:57:00Z",
       "nauticalDusk" : "2025-03-28T03:32:00Z",
-      "solarAngle" : 59.118609398582514,
+      "solarAngle" : 53.171094769597275,
       "solarNoon" : "2025-03-27T20:44:00Z",
       "sunrise" : "2025-03-27T14:46:00Z",
       "sunset" : "2025-03-28T02:42:00Z"
@@ -533,7 +533,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T02:14:00Z",
       "astronomicalDusk" : "2025-03-28T16:44:00Z",
@@ -561,7 +561,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:38:00Z",
       "nauticalDusk" : "2025-03-28T16:20:00Z",
-      "solarAngle" : -77.81169067410535,
+      "solarAngle" : -72.00003864324958,
       "solarNoon" : "2025-03-28T09:29:00Z",
       "sunrise" : "2025-03-28T03:24:00Z",
       "sunset" : "2025-03-28T15:34:00Z"
@@ -574,7 +574,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:12:00Z",
       "astronomicalDusk" : "2025-03-27T19:32:00Z",
@@ -602,7 +602,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:43:00Z",
       "nauticalDusk" : "2025-03-27T19:01:00Z",
-      "solarAngle" : -39.51853430851274,
+      "solarAngle" : -45.197225467733375,
       "solarNoon" : "2025-03-27T11:53:00Z",
       "sunrise" : "2025-03-27T05:40:00Z",
       "sunset" : "2025-03-27T18:05:00Z"
@@ -615,7 +615,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T16:11:00Z",
       "astronomicalDusk" : "2025-03-28T06:35:00Z",
@@ -643,7 +643,7 @@
       },
       "nauticalDawn" : "2025-03-27T16:37:00Z",
       "nauticalDusk" : "2025-03-28T06:10:00Z",
-      "solarAngle" : 55.911252273425205,
+      "solarAngle" : 63.3687535469994,
       "solarNoon" : "2025-03-27T23:24:00Z",
       "sunrise" : "2025-03-27T17:24:00Z",
       "sunset" : "2025-03-28T05:23:00Z"
@@ -656,7 +656,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T02:06:00Z",
       "astronomicalDusk" : "2025-03-28T17:14:00Z",
@@ -684,7 +684,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:35:00Z",
       "nauticalDusk" : "2025-03-28T16:45:00Z",
-      "solarAngle" : -55.07712494546358,
+      "solarAngle" : -53.6324481911887,
       "solarNoon" : "2025-03-28T09:41:00Z",
       "sunrise" : "2025-03-28T03:29:00Z",
       "sunset" : "2025-03-28T15:52:00Z"
@@ -697,7 +697,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:26:00Z",
       "astronomicalDusk" : "2025-03-27T20:04:00Z",
@@ -725,7 +725,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:10:00Z",
       "nauticalDusk" : "2025-03-27T19:21:00Z",
-      "solarAngle" : -28.55934791212645,
+      "solarAngle" : -32.02863220174982,
       "solarNoon" : "2025-03-27T11:45:00Z",
       "sunrise" : "2025-03-27T05:25:00Z",
       "sunset" : "2025-03-27T18:05:00Z"
@@ -738,7 +738,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:08:00Z",
       "astronomicalDusk" : "2025-03-27T19:49:00Z",
@@ -766,7 +766,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:42:00Z",
       "nauticalDusk" : "2025-03-27T19:15:00Z",
-      "solarAngle" : -34.61060403264836,
+      "solarAngle" : -39.69418950056477,
       "solarNoon" : "2025-03-27T11:59:00Z",
       "sunrise" : "2025-03-27T05:44:00Z",
       "sunset" : "2025-03-27T18:13:00Z"
@@ -779,7 +779,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T02:06:00Z",
       "astronomicalDusk" : "2025-03-28T17:40:00Z",
@@ -807,7 +807,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:39:00Z",
       "nauticalDusk" : "2025-03-28T17:07:00Z",
-      "solarAngle" : -46.983863578597166,
+      "solarAngle" : -46.54627143354539,
       "solarNoon" : "2025-03-28T09:53:00Z",
       "sunrise" : "2025-03-28T03:38:00Z",
       "sunset" : "2025-03-28T16:08:00Z"
@@ -820,7 +820,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:42:00Z",
       "astronomicalDusk" : "2025-03-28T16:05:00Z",
@@ -848,7 +848,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:07:00Z",
       "nauticalDusk" : "2025-03-28T15:40:00Z",
-      "solarAngle" : -70.76321506307566,
+      "solarAngle" : -63.03057501632962,
       "solarNoon" : "2025-03-28T08:54:00Z",
       "sunrise" : "2025-03-28T02:54:00Z",
       "sunset" : "2025-03-28T14:53:00Z"
@@ -861,7 +861,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T16:20:00Z",
       "astronomicalDusk" : "2025-03-28T06:42:00Z",
@@ -889,7 +889,7 @@
       },
       "nauticalDawn" : "2025-03-27T16:44:00Z",
       "nauticalDusk" : "2025-03-28T06:17:00Z",
-      "solarAngle" : 57.28695405217719,
+      "solarAngle" : 66.15448402792927,
       "solarNoon" : "2025-03-27T23:31:00Z",
       "sunrise" : "2025-03-27T17:31:00Z",
       "sunset" : "2025-03-28T05:31:00Z"
@@ -902,7 +902,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T00:28:00Z",
       "astronomicalDusk" : "2025-03-28T15:54:00Z",
@@ -930,7 +930,7 @@
       },
       "nauticalDawn" : "2025-03-28T00:59:00Z",
       "nauticalDusk" : "2025-03-28T15:22:00Z",
-      "solarAngle" : -44.35986753054362,
+      "solarAngle" : -38.887885984814254,
       "solarNoon" : "2025-03-28T08:11:00Z",
       "sunrise" : "2025-03-28T01:57:00Z",
       "sunset" : "2025-03-28T14:25:00Z"
@@ -943,7 +943,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T02:10:00Z",
       "astronomicalDusk" : "2025-03-28T16:47:00Z",
@@ -971,7 +971,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:35:00Z",
       "nauticalDusk" : "2025-03-28T16:22:00Z",
-      "solarAngle" : -71.55079336103262,
+      "solarAngle" : -67.24847173658969,
       "solarNoon" : "2025-03-28T09:28:00Z",
       "sunrise" : "2025-03-28T03:21:00Z",
       "sunset" : "2025-03-28T15:35:00Z"
@@ -984,7 +984,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T23:02:00Z",
       "astronomicalDusk" : "2025-03-28T15:35:00Z",
@@ -1012,7 +1012,7 @@
       },
       "nauticalDawn" : "2025-03-27T23:45:00Z",
       "nauticalDusk" : "2025-03-28T14:53:00Z",
-      "solarAngle" : -28.237616722834407,
+      "solarAngle" : -23.1528577478134,
       "solarNoon" : "2025-03-28T07:19:00Z",
       "sunrise" : "2025-03-28T00:58:00Z",
       "sunset" : "2025-03-28T13:39:00Z"
@@ -1025,7 +1025,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:40:00Z",
       "astronomicalDusk" : "2025-03-27T23:09:00Z",
@@ -1053,7 +1053,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:07:00Z",
       "nauticalDusk" : "2025-03-27T22:42:00Z",
-      "solarAngle" : 2.50149464477669,
+      "solarAngle" : -7.667128176821098,
       "solarNoon" : "2025-03-27T15:55:00Z",
       "sunrise" : "2025-03-27T09:56:00Z",
       "sunset" : "2025-03-27T21:53:00Z"
@@ -1066,38 +1066,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:48:00Z",
-      "astronomicalDusk" : "2025-03-27T18:12:00Z",
-      "civilDawn" : "2025-03-27T03:50:00Z",
-      "civilDusk" : "2025-03-27T17:09:00Z",
+      "astronomicalDawn" : "2025-03-28T02:46:00Z",
+      "astronomicalDusk" : "2025-03-28T18:13:00Z",
+      "civilDawn" : "2025-03-28T03:49:00Z",
+      "civilDusk" : "2025-03-28T17:10:00Z",
       "daylight" : {
-        "duration" : 44700,
-        "start" : "2025-03-27T04:17:00Z"
+        "duration" : 44880,
+        "start" : "2025-03-28T04:15:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 600,
-        "start" : "2025-03-27T16:59:00Z"
+        "start" : "2025-03-28T17:00:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 3060,
-        "start" : "2025-03-27T16:08:00Z"
+        "start" : "2025-03-28T16:09:00Z"
       },
       "morningBlueHour" : {
-        "duration" : 660,
-        "start" : "2025-03-27T03:50:00Z"
+        "duration" : 600,
+        "start" : "2025-03-28T03:49:00Z"
       },
       "morningGoldenHour" : {
-        "duration" : 3000,
-        "start" : "2025-03-27T04:01:00Z"
+        "duration" : 3060,
+        "start" : "2025-03-28T03:59:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:19:00Z",
-      "nauticalDusk" : "2025-03-27T17:40:00Z",
-      "solarAngle" : -47.36931558266234,
-      "solarNoon" : "2025-03-27T10:30:00Z",
-      "sunrise" : "2025-03-27T04:17:00Z",
-      "sunset" : "2025-03-27T16:42:00Z"
+      "nauticalDawn" : "2025-03-28T03:18:00Z",
+      "nauticalDusk" : "2025-03-28T17:41:00Z",
+      "solarAngle" : -49.019391196303424,
+      "solarNoon" : "2025-03-28T10:29:00Z",
+      "sunrise" : "2025-03-28T04:15:00Z",
+      "sunset" : "2025-03-28T16:43:00Z"
     },
     "waypoint" : {
       "latitude" : 37.97945,
@@ -1107,7 +1107,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T15:30:00Z",
       "astronomicalDusk" : "2025-03-28T05:55:00Z",
@@ -1135,7 +1135,7 @@
       },
       "nauticalDawn" : "2025-03-27T15:56:00Z",
       "nauticalDusk" : "2025-03-28T05:30:00Z",
-      "solarAngle" : 61.026052788746924,
+      "solarAngle" : 65.3139362399862,
       "solarNoon" : "2025-03-27T22:43:00Z",
       "sunrise" : "2025-03-27T16:44:00Z",
       "sunset" : "2025-03-28T04:42:00Z"
@@ -1148,7 +1148,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:31:00Z",
       "astronomicalDusk" : "2025-03-28T16:42:00Z",
@@ -1176,7 +1176,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:00:00Z",
       "nauticalDusk" : "2025-03-28T16:13:00Z",
-      "solarAngle" : -52.94423416428196,
+      "solarAngle" : -49.44390428775234,
       "solarNoon" : "2025-03-28T09:07:00Z",
       "sunrise" : "2025-03-28T02:54:00Z",
       "sunset" : "2025-03-28T15:19:00Z"
@@ -1189,7 +1189,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T00:57:00Z",
       "astronomicalDusk" : "2025-03-28T16:32:00Z",
@@ -1217,7 +1217,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:30:00Z",
       "nauticalDusk" : "2025-03-28T15:59:00Z",
-      "solarAngle" : -44.968590433668126,
+      "solarAngle" : -41.152185063127206,
       "solarNoon" : "2025-03-28T08:45:00Z",
       "sunrise" : "2025-03-28T02:30:00Z",
       "sunset" : "2025-03-28T15:00:00Z"
@@ -1230,7 +1230,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T05:20:00Z",
       "astronomicalDusk" : "2025-03-27T19:53:00Z",
@@ -1258,7 +1258,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:44:00Z",
       "nauticalDusk" : "2025-03-27T19:28:00Z",
-      "solarAngle" : -43.09544703314911,
+      "solarAngle" : -53.434181506472505,
       "solarNoon" : "2025-03-27T12:36:00Z",
       "sunrise" : "2025-03-27T06:30:00Z",
       "sunset" : "2025-03-27T18:42:00Z"
@@ -1271,7 +1271,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T21:11:00Z",
       "astronomicalDusk" : "2025-03-28T11:38:00Z",
@@ -1299,7 +1299,7 @@
       },
       "nauticalDawn" : "2025-03-27T21:35:00Z",
       "nauticalDusk" : "2025-03-28T11:13:00Z",
-      "solarAngle" : -11.271887071976334,
+      "solarAngle" : -0.08121539617835521,
       "solarNoon" : "2025-03-28T04:24:00Z",
       "sunrise" : "2025-03-27T22:20:00Z",
       "sunset" : "2025-03-28T10:28:00Z"
@@ -1312,7 +1312,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T22:05:00Z",
       "astronomicalDusk" : "2025-03-28T12:39:00Z",
@@ -1340,7 +1340,7 @@
       },
       "nauticalDawn" : "2025-03-27T22:29:00Z",
       "nauticalDusk" : "2025-03-28T12:14:00Z",
-      "solarAngle" : -24.412244621222193,
+      "solarAngle" : -13.589826131652895,
       "solarNoon" : "2025-03-28T05:22:00Z",
       "sunrise" : "2025-03-27T23:16:00Z",
       "sunset" : "2025-03-28T11:28:00Z"
@@ -1353,7 +1353,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:37:00Z",
       "astronomicalDusk" : "2025-03-27T18:03:00Z",
@@ -1381,7 +1381,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:01:00Z",
       "nauticalDusk" : "2025-03-27T17:39:00Z",
-      "solarAngle" : -70.59388181952988,
+      "solarAngle" : -80.0462194680234,
       "solarNoon" : "2025-03-27T10:50:00Z",
       "sunrise" : "2025-03-27T04:46:00Z",
       "sunset" : "2025-03-27T16:54:00Z"
@@ -1394,7 +1394,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T05:54:00Z",
       "astronomicalDusk" : "2025-03-27T20:27:00Z",
@@ -1422,7 +1422,7 @@
       },
       "nauticalDawn" : "2025-03-27T06:18:00Z",
       "nauticalDusk" : "2025-03-27T20:03:00Z",
-      "solarAngle" : -34.81317296262908,
+      "solarAngle" : -45.33528724633715,
       "solarNoon" : "2025-03-27T13:11:00Z",
       "sunrise" : "2025-03-27T07:04:00Z",
       "sunset" : "2025-03-27T19:17:00Z"
@@ -1435,7 +1435,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:56:00Z",
       "astronomicalDusk" : "2025-03-27T23:34:00Z",
@@ -1463,7 +1463,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:21:00Z",
       "nauticalDusk" : "2025-03-27T23:09:00Z",
-      "solarAngle" : 9.723454429209967,
+      "solarAngle" : -1.0099568176054161,
       "solarNoon" : "2025-03-27T16:15:00Z",
       "sunrise" : "2025-03-27T10:08:00Z",
       "sunset" : "2025-03-27T22:22:00Z"
@@ -1476,7 +1476,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:53:00Z",
       "astronomicalDusk" : "2025-03-27T23:30:00Z",
@@ -1504,7 +1504,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:18:00Z",
       "nauticalDusk" : "2025-03-27T23:04:00Z",
-      "solarAngle" : 8.757065465523215,
+      "solarAngle" : -2.047311830983207,
       "solarNoon" : "2025-03-27T16:11:00Z",
       "sunrise" : "2025-03-27T10:04:00Z",
       "sunset" : "2025-03-27T22:18:00Z"
@@ -1517,7 +1517,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T20:32:00Z",
       "astronomicalDusk" : "2025-03-28T12:05:00Z",
@@ -1545,7 +1545,7 @@
       },
       "nauticalDawn" : "2025-03-27T21:05:00Z",
       "nauticalDusk" : "2025-03-28T11:32:00Z",
-      "solarAngle" : -5.838970167522008,
+      "solarAngle" : 2.759372616085134,
       "solarNoon" : "2025-03-28T04:19:00Z",
       "sunrise" : "2025-03-27T22:04:00Z",
       "sunset" : "2025-03-28T10:33:00Z"
@@ -1558,38 +1558,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:07:00Z",
-      "astronomicalDusk" : "2025-03-27T17:18:00Z",
-      "civilDawn" : "2025-03-27T03:06:00Z",
-      "civilDusk" : "2025-03-27T16:19:00Z",
+      "astronomicalDawn" : "2025-03-28T02:06:00Z",
+      "astronomicalDusk" : "2025-03-28T17:19:00Z",
+      "civilDawn" : "2025-03-28T03:05:00Z",
+      "civilDusk" : "2025-03-28T16:20:00Z",
       "daylight" : {
-        "duration" : 44580,
-        "start" : "2025-03-27T03:31:00Z"
+        "duration" : 44700,
+        "start" : "2025-03-28T03:30:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 600,
-        "start" : "2025-03-27T16:09:00Z"
+        "start" : "2025-03-28T16:10:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2880,
-        "start" : "2025-03-27T15:21:00Z"
+        "start" : "2025-03-28T15:22:00Z"
       },
       "morningBlueHour" : {
-        "duration" : 600,
-        "start" : "2025-03-27T03:06:00Z"
+        "duration" : 540,
+        "start" : "2025-03-28T03:05:00Z"
       },
       "morningGoldenHour" : {
-        "duration" : 2880,
-        "start" : "2025-03-27T03:16:00Z"
+        "duration" : 2940,
+        "start" : "2025-03-28T03:14:00Z"
       },
-      "nauticalDawn" : "2025-03-27T02:37:00Z",
-      "nauticalDusk" : "2025-03-27T16:48:00Z",
-      "solarAngle" : -53.134798107084706,
-      "solarNoon" : "2025-03-27T09:43:00Z",
-      "sunrise" : "2025-03-27T03:31:00Z",
-      "sunset" : "2025-03-27T15:54:00Z"
+      "nauticalDawn" : "2025-03-28T02:35:00Z",
+      "nauticalDusk" : "2025-03-28T16:49:00Z",
+      "solarAngle" : -51.90032988713495,
+      "solarNoon" : "2025-03-28T09:43:00Z",
+      "sunrise" : "2025-03-28T03:30:00Z",
+      "sunset" : "2025-03-28T15:55:00Z"
     },
     "waypoint" : {
       "latitude" : 33.88894,
@@ -1599,7 +1599,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:47:00Z",
       "astronomicalDusk" : "2025-03-27T18:39:00Z",
@@ -1627,7 +1627,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:23:00Z",
       "nauticalDusk" : "2025-03-27T18:03:00Z",
-      "solarAngle" : -40.123928096881855,
+      "solarAngle" : -42.026955752647595,
       "solarNoon" : "2025-03-27T10:43:00Z",
       "sunrise" : "2025-03-27T04:27:00Z",
       "sunset" : "2025-03-27T16:58:00Z"
@@ -1640,7 +1640,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:40:00Z",
       "astronomicalDusk" : "2025-03-28T01:19:00Z",
@@ -1668,7 +1668,7 @@
       },
       "nauticalDawn" : "2025-03-27T11:05:00Z",
       "nauticalDusk" : "2025-03-28T00:53:00Z",
-      "solarAngle" : 34.50929240789806,
+      "solarAngle" : 23.836474362851163,
       "solarNoon" : "2025-03-27T17:59:00Z",
       "sunrise" : "2025-03-27T11:52:00Z",
       "sunset" : "2025-03-28T00:06:00Z"
@@ -1681,7 +1681,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:52:00Z",
       "astronomicalDusk" : "2025-03-27T19:31:00Z",
@@ -1709,7 +1709,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:36:00Z",
       "nauticalDusk" : "2025-03-27T18:47:00Z",
-      "solarAngle" : -31.181371925302575,
+      "solarAngle" : -33.600860634907306,
       "solarNoon" : "2025-03-27T11:11:00Z",
       "sunrise" : "2025-03-27T04:51:00Z",
       "sunset" : "2025-03-27T17:31:00Z"
@@ -1722,7 +1722,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:34:00Z",
       "astronomicalDusk" : "2025-03-27T19:36:00Z",
@@ -1750,7 +1750,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:11:00Z",
       "nauticalDusk" : "2025-03-27T18:59:00Z",
-      "solarAngle" : -33.915183526546684,
+      "solarAngle" : -37.664123273970475,
       "solarNoon" : "2025-03-27T11:35:00Z",
       "sunrise" : "2025-03-27T05:18:00Z",
       "sunset" : "2025-03-27T17:52:00Z"
@@ -1763,7 +1763,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T23:13:00Z",
       "astronomicalDusk" : "2025-03-28T14:59:00Z",
@@ -1791,7 +1791,7 @@
       },
       "nauticalDawn" : "2025-03-27T23:48:00Z",
       "nauticalDusk" : "2025-03-28T14:24:00Z",
-      "solarAngle" : -32.75736454433299,
+      "solarAngle" : -26.21952472277679,
       "solarNoon" : "2025-03-28T07:06:00Z",
       "sunrise" : "2025-03-28T00:50:00Z",
       "sunset" : "2025-03-28T13:22:00Z"
@@ -1804,7 +1804,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T05:50:00Z",
       "astronomicalDusk" : "2025-03-27T20:23:00Z",
@@ -1832,7 +1832,7 @@
       },
       "nauticalDawn" : "2025-03-27T06:15:00Z",
       "nauticalDusk" : "2025-03-27T19:58:00Z",
-      "solarAngle" : -36.11929018555854,
+      "solarAngle" : -46.75403994481022,
       "solarNoon" : "2025-03-27T13:07:00Z",
       "sunrise" : "2025-03-27T07:01:00Z",
       "sunset" : "2025-03-27T19:12:00Z"
@@ -1845,7 +1845,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:47:00Z",
       "astronomicalDusk" : "2025-03-28T00:14:00Z",
@@ -1873,7 +1873,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:11:00Z",
       "nauticalDusk" : "2025-03-27T23:50:00Z",
-      "solarAngle" : 20.777132190158472,
+      "solarAngle" : 9.567872748019301,
       "solarNoon" : "2025-03-27T17:01:00Z",
       "sunrise" : "2025-03-27T10:56:00Z",
       "sunset" : "2025-03-27T23:05:00Z"
@@ -1886,7 +1886,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:04:00Z",
       "astronomicalDusk" : "2025-03-27T22:27:00Z",
@@ -1914,7 +1914,7 @@
       },
       "nauticalDawn" : "2025-03-27T08:29:00Z",
       "nauticalDusk" : "2025-03-27T22:02:00Z",
-      "solarAngle" : -6.124107300715216,
+      "solarAngle" : -16.954341217700286,
       "solarNoon" : "2025-03-27T15:16:00Z",
       "sunrise" : "2025-03-27T09:16:00Z",
       "sunset" : "2025-03-27T21:16:00Z"
@@ -1927,7 +1927,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:52:00Z",
       "astronomicalDusk" : "2025-03-27T19:01:00Z",
@@ -1955,7 +1955,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:30:00Z",
       "nauticalDusk" : "2025-03-27T18:22:00Z",
-      "solarAngle" : -36.14652017119605,
+      "solarAngle" : -38.37930222677026,
       "solarNoon" : "2025-03-27T10:57:00Z",
       "sunrise" : "2025-03-27T04:39:00Z",
       "sunset" : "2025-03-27T17:14:00Z"
@@ -1968,7 +1968,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:52:00Z",
       "astronomicalDusk" : "2025-03-27T18:14:00Z",
@@ -1996,7 +1996,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:16:00Z",
       "nauticalDusk" : "2025-03-27T17:50:00Z",
-      "solarAngle" : -68.7470390192337,
+      "solarAngle" : -79.93320290079785,
       "solarNoon" : "2025-03-27T11:03:00Z",
       "sunrise" : "2025-03-27T05:01:00Z",
       "sunset" : "2025-03-27T17:05:00Z"
@@ -2009,7 +2009,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:46:00Z",
       "astronomicalDusk" : "2025-03-27T23:19:00Z",
@@ -2037,7 +2037,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:11:00Z",
       "nauticalDusk" : "2025-03-27T22:55:00Z",
-      "solarAngle" : 6.66267679009503,
+      "solarAngle" : -4.280304586301018,
       "solarNoon" : "2025-03-27T16:03:00Z",
       "sunrise" : "2025-03-27T09:57:00Z",
       "sunset" : "2025-03-27T22:09:00Z"
@@ -2050,7 +2050,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:34:00Z",
       "astronomicalDusk" : "2025-03-27T20:01:00Z",
@@ -2078,7 +2078,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:16:00Z",
       "nauticalDusk" : "2025-03-27T19:19:00Z",
-      "solarAngle" : -29.57049402056574,
+      "solarAngle" : -33.271602353172746,
       "solarNoon" : "2025-03-27T11:47:00Z",
       "sunrise" : "2025-03-27T05:28:00Z",
       "sunset" : "2025-03-27T18:06:00Z"
@@ -2091,38 +2091,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:25:00Z",
-      "astronomicalDusk" : "2025-03-27T18:15:00Z",
-      "civilDawn" : "2025-03-27T03:35:00Z",
-      "civilDusk" : "2025-03-27T17:05:00Z",
+      "astronomicalDawn" : "2025-03-28T02:23:00Z",
+      "astronomicalDusk" : "2025-03-28T18:17:00Z",
+      "civilDawn" : "2025-03-28T03:34:00Z",
+      "civilDusk" : "2025-03-28T17:06:00Z",
       "daylight" : {
-        "duration" : 45060,
-        "start" : "2025-03-27T04:05:00Z"
+        "duration" : 45240,
+        "start" : "2025-03-28T04:03:00Z"
       },
       "eveningBlueHour" : {
-        "duration" : 720,
-        "start" : "2025-03-27T16:53:00Z"
+        "duration" : 660,
+        "start" : "2025-03-28T16:55:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 3360,
-        "start" : "2025-03-27T15:57:00Z"
+        "start" : "2025-03-28T15:59:00Z"
       },
       "morningBlueHour" : {
-        "duration" : 720,
-        "start" : "2025-03-27T03:35:00Z"
+        "duration" : 660,
+        "start" : "2025-03-28T03:34:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 3360,
-        "start" : "2025-03-27T03:47:00Z"
+        "start" : "2025-03-28T03:45:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:01:00Z",
-      "nauticalDusk" : "2025-03-27T17:39:00Z",
-      "solarAngle" : -41.69349296020683,
-      "solarNoon" : "2025-03-27T10:21:00Z",
-      "sunrise" : "2025-03-27T04:05:00Z",
-      "sunset" : "2025-03-27T16:36:00Z"
+      "nauticalDawn" : "2025-03-28T02:59:00Z",
+      "nauticalDusk" : "2025-03-28T17:41:00Z",
+      "solarAngle" : -42.586772551087094,
+      "solarNoon" : "2025-03-28T10:20:00Z",
+      "sunrise" : "2025-03-28T04:03:00Z",
+      "sunset" : "2025-03-28T16:37:00Z"
     },
     "waypoint" : {
       "latitude" : 44.43225,
@@ -2132,7 +2132,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:46:00Z",
       "astronomicalDusk" : "2025-03-27T18:51:00Z",
@@ -2160,7 +2160,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:24:00Z",
       "nauticalDusk" : "2025-03-27T18:13:00Z",
-      "solarAngle" : -37.2558902778356,
+      "solarAngle" : -39.22969849781412,
       "solarNoon" : "2025-03-27T10:48:00Z",
       "sunrise" : "2025-03-27T04:31:00Z",
       "sunset" : "2025-03-27T17:05:00Z"
@@ -2173,7 +2173,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:37:00Z",
       "astronomicalDusk" : "2025-03-27T23:17:00Z",
@@ -2201,7 +2201,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:07:00Z",
       "nauticalDusk" : "2025-03-27T22:48:00Z",
-      "solarAngle" : 2.3543695851895783,
+      "solarAngle" : -6.9026542944122715,
       "solarNoon" : "2025-03-27T15:57:00Z",
       "sunrise" : "2025-03-27T10:01:00Z",
       "sunset" : "2025-03-27T21:53:00Z"
@@ -2214,38 +2214,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:55:00Z",
-      "astronomicalDusk" : "2025-03-27T17:18:00Z",
-      "civilDawn" : "2025-03-27T03:43:00Z",
-      "civilDusk" : "2025-03-27T16:30:00Z",
+      "astronomicalDawn" : "2025-03-28T02:55:00Z",
+      "astronomicalDusk" : "2025-03-28T17:18:00Z",
+      "civilDawn" : "2025-03-28T03:43:00Z",
+      "civilDusk" : "2025-03-28T16:30:00Z",
       "daylight" : {
         "duration" : 43500,
-        "start" : "2025-03-27T04:04:00Z"
+        "start" : "2025-03-28T04:04:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 480,
-        "start" : "2025-03-27T16:22:00Z"
+        "start" : "2025-03-28T16:22:00Z"
       },
       "eveningGoldenHour" : {
-        "duration" : 2400,
-        "start" : "2025-03-27T15:42:00Z"
+        "duration" : 2460,
+        "start" : "2025-03-28T15:41:00Z"
       },
       "morningBlueHour" : {
         "duration" : 480,
-        "start" : "2025-03-27T03:43:00Z"
+        "start" : "2025-03-28T03:43:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 2400,
-        "start" : "2025-03-27T03:51:00Z"
+        "start" : "2025-03-28T03:51:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:19:00Z",
-      "nauticalDusk" : "2025-03-27T16:54:00Z",
-      "solarAngle" : -82.81967468245703,
-      "solarNoon" : "2025-03-27T10:07:00Z",
-      "sunrise" : "2025-03-27T04:04:00Z",
-      "sunset" : "2025-03-27T16:09:00Z"
+      "nauticalDawn" : "2025-03-28T03:19:00Z",
+      "nauticalDusk" : "2025-03-28T16:54:00Z",
+      "solarAngle" : -85.91366483574507,
+      "solarNoon" : "2025-03-28T10:07:00Z",
+      "sunrise" : "2025-03-28T04:04:00Z",
+      "sunset" : "2025-03-28T16:09:00Z"
     },
     "waypoint" : {
       "latitude" : -3.37611,
@@ -2255,38 +2255,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:29:00Z",
-      "astronomicalDusk" : "2025-03-27T17:30:00Z",
-      "civilDawn" : "2025-03-27T03:25:00Z",
-      "civilDusk" : "2025-03-27T16:34:00Z",
+      "astronomicalDawn" : "2025-03-28T02:28:00Z",
+      "astronomicalDusk" : "2025-03-28T17:31:00Z",
+      "civilDawn" : "2025-03-28T03:24:00Z",
+      "civilDusk" : "2025-03-28T16:34:00Z",
       "daylight" : {
-        "duration" : 44460,
-        "start" : "2025-03-27T03:49:00Z"
+        "duration" : 44520,
+        "start" : "2025-03-28T03:48:00Z"
       },
       "eveningBlueHour" : {
-        "duration" : 600,
-        "start" : "2025-03-27T16:24:00Z"
+        "duration" : 540,
+        "start" : "2025-03-28T16:25:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2760,
-        "start" : "2025-03-27T15:38:00Z"
+        "start" : "2025-03-28T15:39:00Z"
       },
       "morningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T03:25:00Z"
+        "start" : "2025-03-28T03:24:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 2820,
-        "start" : "2025-03-27T03:34:00Z"
+        "start" : "2025-03-28T03:33:00Z"
       },
-      "nauticalDawn" : "2025-03-27T02:57:00Z",
-      "nauticalDusk" : "2025-03-27T17:02:00Z",
-      "solarAngle" : -56.589293067615394,
-      "solarNoon" : "2025-03-27T10:00:00Z",
-      "sunrise" : "2025-03-27T03:49:00Z",
-      "sunset" : "2025-03-27T16:10:00Z"
+      "nauticalDawn" : "2025-03-28T02:56:00Z",
+      "nauticalDusk" : "2025-03-28T17:02:00Z",
+      "solarAngle" : -56.473850111735885,
+      "solarNoon" : "2025-03-28T09:59:00Z",
+      "sunrise" : "2025-03-28T03:48:00Z",
+      "sunset" : "2025-03-28T16:10:00Z"
     },
     "waypoint" : {
       "latitude" : 30.06263,
@@ -2296,7 +2296,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T18:47:00Z",
       "astronomicalDusk" : "2025-03-28T09:27:00Z",
@@ -2324,7 +2324,7 @@
       },
       "nauticalDawn" : "2025-03-27T19:17:00Z",
       "nauticalDusk" : "2025-03-28T08:57:00Z",
-      "solarAngle" : 16.455719841874423,
+      "solarAngle" : 25.08718499478689,
       "solarNoon" : "2025-03-28T02:08:00Z",
       "sunrise" : "2025-03-27T20:12:00Z",
       "sunset" : "2025-03-28T08:03:00Z"
@@ -2337,7 +2337,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:16:00Z",
       "astronomicalDusk" : "2025-03-27T23:47:00Z",
@@ -2365,7 +2365,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:41:00Z",
       "nauticalDusk" : "2025-03-27T23:23:00Z",
-      "solarAngle" : 13.763711746707255,
+      "solarAngle" : 2.706385193598833,
       "solarNoon" : "2025-03-27T16:32:00Z",
       "sunrise" : "2025-03-27T10:26:00Z",
       "sunset" : "2025-03-27T22:37:00Z"
@@ -2378,7 +2378,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:51:00Z",
       "astronomicalDusk" : "2025-03-27T23:26:00Z",
@@ -2406,7 +2406,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:16:00Z",
       "nauticalDusk" : "2025-03-27T23:01:00Z",
-      "solarAngle" : 8.033279844030268,
+      "solarAngle" : -2.871314421758167,
       "solarNoon" : "2025-03-27T16:08:00Z",
       "sunrise" : "2025-03-27T10:02:00Z",
       "sunset" : "2025-03-27T22:14:00Z"
@@ -2419,7 +2419,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:20:00Z",
       "astronomicalDusk" : "2025-03-27T22:47:00Z",
@@ -2447,7 +2447,7 @@
       },
       "nauticalDawn" : "2025-03-27T08:44:00Z",
       "nauticalDusk" : "2025-03-27T22:23:00Z",
-      "solarAngle" : -0.8668017945640621,
+      "solarAngle" : -12.05445113399718,
       "solarNoon" : "2025-03-27T15:34:00Z",
       "sunrise" : "2025-03-27T09:29:00Z",
       "sunset" : "2025-03-27T21:38:00Z"
@@ -2460,7 +2460,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:04:00Z",
       "astronomicalDusk" : "2025-03-27T23:44:00Z",
@@ -2488,7 +2488,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:29:00Z",
       "nauticalDusk" : "2025-03-27T23:18:00Z",
-      "solarAngle" : 11.81598746306448,
+      "solarAngle" : 1.1424024796811294,
       "solarNoon" : "2025-03-27T16:24:00Z",
       "sunrise" : "2025-03-27T10:17:00Z",
       "sunset" : "2025-03-27T22:31:00Z"
@@ -2501,38 +2501,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:08:00Z",
-      "astronomicalDusk" : "2025-03-27T18:11:00Z",
-      "civilDawn" : "2025-03-27T03:22:00Z",
-      "civilDusk" : "2025-03-27T16:57:00Z",
+      "astronomicalDawn" : "2025-03-28T02:06:00Z",
+      "astronomicalDusk" : "2025-03-28T18:12:00Z",
+      "civilDawn" : "2025-03-28T03:20:00Z",
+      "civilDusk" : "2025-03-28T16:58:00Z",
       "daylight" : {
-        "duration" : 45240,
-        "start" : "2025-03-27T03:52:00Z"
+        "duration" : 45420,
+        "start" : "2025-03-28T03:50:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 720,
-        "start" : "2025-03-27T16:45:00Z"
+        "start" : "2025-03-28T16:46:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 3540,
-        "start" : "2025-03-27T15:46:00Z"
+        "start" : "2025-03-28T15:47:00Z"
       },
       "morningBlueHour" : {
         "duration" : 720,
-        "start" : "2025-03-27T03:22:00Z"
+        "start" : "2025-03-28T03:20:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 3480,
-        "start" : "2025-03-27T03:34:00Z"
+        "start" : "2025-03-28T03:32:00Z"
       },
-      "nauticalDawn" : "2025-03-27T02:46:00Z",
-      "nauticalDusk" : "2025-03-27T17:33:00Z",
-      "solarAngle" : -39.575524090958616,
-      "solarNoon" : "2025-03-27T10:09:00Z",
-      "sunrise" : "2025-03-27T03:52:00Z",
-      "sunset" : "2025-03-27T16:26:00Z"
+      "nauticalDawn" : "2025-03-28T02:44:00Z",
+      "nauticalDusk" : "2025-03-28T17:34:00Z",
+      "solarAngle" : -39.92031421955812,
+      "solarNoon" : "2025-03-28T10:09:00Z",
+      "sunrise" : "2025-03-28T03:50:00Z",
+      "sunset" : "2025-03-28T16:27:00Z"
     },
     "waypoint" : {
       "latitude" : 47.00556,
@@ -2542,7 +2542,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:26:00Z",
       "astronomicalDusk" : "2025-03-28T00:11:00Z",
@@ -2570,7 +2570,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:53:00Z",
       "nauticalDusk" : "2025-03-27T23:45:00Z",
-      "solarAngle" : 17.52963699356797,
+      "solarAngle" : 7.0686440731099305,
       "solarNoon" : "2025-03-27T16:49:00Z",
       "sunrise" : "2025-03-27T10:41:00Z",
       "sunset" : "2025-03-27T22:57:00Z"
@@ -2583,7 +2583,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T23:30:00Z",
       "astronomicalDusk" : "2025-03-28T13:59:00Z",
@@ -2611,7 +2611,7 @@
       },
       "nauticalDawn" : "2025-03-27T23:55:00Z",
       "nauticalDusk" : "2025-03-28T13:34:00Z",
-      "solarAngle" : -45.65544034128886,
+      "solarAngle" : -34.64997964010587,
       "solarNoon" : "2025-03-28T06:45:00Z",
       "sunrise" : "2025-03-28T00:40:00Z",
       "sunset" : "2025-03-28T12:49:00Z"
@@ -2624,7 +2624,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T05:44:00Z",
       "astronomicalDusk" : "2025-03-27T20:14:00Z",
@@ -2652,7 +2652,7 @@
       },
       "nauticalDawn" : "2025-03-27T06:08:00Z",
       "nauticalDusk" : "2025-03-27T19:49:00Z",
-      "solarAngle" : -38.43528477630853,
+      "solarAngle" : -49.21392732583232,
       "solarNoon" : "2025-03-27T12:59:00Z",
       "sunrise" : "2025-03-27T06:54:00Z",
       "sunset" : "2025-03-27T19:04:00Z"
@@ -2665,7 +2665,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:42:00Z",
       "astronomicalDusk" : "2025-03-27T19:48:00Z",
@@ -2693,7 +2693,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:30:00Z",
       "nauticalDusk" : "2025-03-27T18:59:00Z",
-      "solarAngle" : -28.154325204544946,
+      "solarAngle" : -30.42582944342939,
       "solarNoon" : "2025-03-27T11:15:00Z",
       "sunrise" : "2025-03-27T04:52:00Z",
       "sunset" : "2025-03-27T17:37:00Z"
@@ -2706,7 +2706,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T05:56:00Z",
       "astronomicalDusk" : "2025-03-27T20:32:00Z",
@@ -2734,7 +2734,7 @@
       },
       "nauticalDawn" : "2025-03-27T06:21:00Z",
       "nauticalDusk" : "2025-03-27T20:07:00Z",
-      "solarAngle" : -33.7048573111911,
+      "solarAngle" : -44.13881170268007,
       "solarNoon" : "2025-03-27T13:14:00Z",
       "sunrise" : "2025-03-27T07:08:00Z",
       "sunset" : "2025-03-27T19:20:00Z"
@@ -2747,7 +2747,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T02:03:00Z",
       "astronomicalDusk" : "2025-03-28T17:15:00Z",
@@ -2775,7 +2775,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:33:00Z",
       "nauticalDusk" : "2025-03-28T16:45:00Z",
-      "solarAngle" : -53.525956163033996,
+      "solarAngle" : -52.06394293824243,
       "solarNoon" : "2025-03-28T09:39:00Z",
       "sunrise" : "2025-03-28T03:27:00Z",
       "sunset" : "2025-03-28T15:51:00Z"
@@ -2788,7 +2788,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T22:38:00Z",
       "astronomicalDusk" : "2025-03-28T13:27:00Z",
@@ -2816,7 +2816,7 @@
       },
       "nauticalDawn" : "2025-03-27T23:04:00Z",
       "nauticalDusk" : "2025-03-28T13:01:00Z",
-      "solarAngle" : -31.222787345959492,
+      "solarAngle" : -21.334367837861272,
       "solarNoon" : "2025-03-28T06:02:00Z",
       "sunrise" : "2025-03-27T23:53:00Z",
       "sunset" : "2025-03-28T12:11:00Z"
@@ -2829,7 +2829,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T20:31:00Z",
       "astronomicalDusk" : "2025-03-28T10:52:00Z",
@@ -2857,7 +2857,7 @@
       },
       "nauticalDawn" : "2025-03-27T20:55:00Z",
       "nauticalDusk" : "2025-03-28T10:28:00Z",
-      "solarAngle" : -1.3946736388971788,
+      "solarAngle" : 9.707552115619354,
       "solarNoon" : "2025-03-28T03:42:00Z",
       "sunrise" : "2025-03-27T21:40:00Z",
       "sunset" : "2025-03-28T09:43:00Z"
@@ -2870,7 +2870,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:55:00Z",
       "astronomicalDusk" : "2025-03-28T16:28:00Z",
@@ -2898,7 +2898,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:20:00Z",
       "nauticalDusk" : "2025-03-28T16:03:00Z",
-      "solarAngle" : -74.03537351395538,
+      "solarAngle" : -67.03437918968451,
       "solarNoon" : "2025-03-28T09:11:00Z",
       "sunrise" : "2025-03-28T03:05:00Z",
       "sunset" : "2025-03-28T15:17:00Z"
@@ -2911,7 +2911,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T02:30:00Z",
       "astronomicalDusk" : "2025-03-28T16:52:00Z",
@@ -2939,7 +2939,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:54:00Z",
       "nauticalDusk" : "2025-03-28T16:28:00Z",
-      "solarAngle" : -86.69036817318839,
+      "solarAngle" : -79.10361853527141,
       "solarNoon" : "2025-03-28T09:41:00Z",
       "sunrise" : "2025-03-28T03:39:00Z",
       "sunset" : "2025-03-28T15:43:00Z"
@@ -2952,7 +2952,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:12:00Z",
       "astronomicalDusk" : "2025-03-28T16:04:00Z",
@@ -2980,7 +2980,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:39:00Z",
       "nauticalDusk" : "2025-03-28T15:37:00Z",
-      "solarAngle" : -58.23917632172615,
+      "solarAngle" : -51.983077996733144,
       "solarNoon" : "2025-03-28T08:38:00Z",
       "sunrise" : "2025-03-28T02:28:00Z",
       "sunset" : "2025-03-28T14:47:00Z"
@@ -2993,7 +2993,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:57:00Z",
       "astronomicalDusk" : "2025-03-27T20:49:00Z",
@@ -3021,7 +3021,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:43:00Z",
       "nauticalDusk" : "2025-03-27T20:03:00Z",
-      "solarAngle" : -23.538424915332406,
+      "solarAngle" : -27.749883037840874,
       "solarNoon" : "2025-03-27T12:23:00Z",
       "sunrise" : "2025-03-27T06:01:00Z",
       "sunset" : "2025-03-27T18:44:00Z"
@@ -3034,7 +3034,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:07:00Z",
       "astronomicalDusk" : "2025-03-27T20:53:00Z",
@@ -3062,7 +3062,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:52:00Z",
       "nauticalDusk" : "2025-03-27T20:08:00Z",
-      "solarAngle" : -23.324700771052964,
+      "solarAngle" : -27.801654539295086,
       "solarNoon" : "2025-03-27T12:30:00Z",
       "sunrise" : "2025-03-27T06:09:00Z",
       "sunset" : "2025-03-27T18:50:00Z"
@@ -3075,7 +3075,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T23:45:00Z",
       "astronomicalDusk" : "2025-03-28T15:13:00Z",
@@ -3103,7 +3103,7 @@
       },
       "nauticalDawn" : "2025-03-28T00:17:00Z",
       "nauticalDusk" : "2025-03-28T14:41:00Z",
-      "solarAngle" : -38.94185428782356,
+      "solarAngle" : -32.30156596888569,
       "solarNoon" : "2025-03-28T07:29:00Z",
       "sunrise" : "2025-03-28T01:15:00Z",
       "sunset" : "2025-03-28T13:43:00Z"
@@ -3116,7 +3116,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T21:50:00Z",
       "astronomicalDusk" : "2025-03-28T12:12:00Z",
@@ -3144,7 +3144,7 @@
       },
       "nauticalDawn" : "2025-03-27T22:15:00Z",
       "nauticalDusk" : "2025-03-28T11:48:00Z",
-      "solarAngle" : -21.044885497318532,
+      "solarAngle" : -9.980947284259793,
       "solarNoon" : "2025-03-28T05:01:00Z",
       "sunrise" : "2025-03-27T23:00:00Z",
       "sunset" : "2025-03-28T11:02:00Z"
@@ -3157,7 +3157,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:51:00Z",
       "astronomicalDusk" : "2025-03-27T23:26:00Z",
@@ -3185,7 +3185,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:16:00Z",
       "nauticalDusk" : "2025-03-27T23:01:00Z",
-      "solarAngle" : 8.109255857289915,
+      "solarAngle" : -2.7657570247819643,
       "solarNoon" : "2025-03-27T16:09:00Z",
       "sunrise" : "2025-03-27T10:02:00Z",
       "sunset" : "2025-03-27T22:15:00Z"
@@ -3198,7 +3198,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T05:42:00Z",
       "astronomicalDusk" : "2025-03-27T20:12:00Z",
@@ -3226,7 +3226,7 @@
       },
       "nauticalDawn" : "2025-03-27T06:07:00Z",
       "nauticalDusk" : "2025-03-27T19:47:00Z",
-      "solarAngle" : -39.073557082553556,
+      "solarAngle" : -49.9212300333674,
       "solarNoon" : "2025-03-27T12:57:00Z",
       "sunrise" : "2025-03-27T06:52:00Z",
       "sunset" : "2025-03-27T19:02:00Z"
@@ -3239,7 +3239,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T16:56:00Z",
       "astronomicalDusk" : "2025-03-28T07:18:00Z",
@@ -3267,7 +3267,7 @@
       },
       "nauticalDawn" : "2025-03-27T17:20:00Z",
       "nauticalDusk" : "2025-03-28T06:54:00Z",
-      "solarAngle" : 51.03213228174099,
+      "solarAngle" : 61.554407200827825,
       "solarNoon" : "2025-03-28T00:08:00Z",
       "sunrise" : "2025-03-27T18:06:00Z",
       "sunset" : "2025-03-28T06:09:00Z"
@@ -3280,38 +3280,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T03:06:00Z",
-      "astronomicalDusk" : "2025-03-27T17:34:00Z",
-      "civilDawn" : "2025-03-27T03:59:00Z",
-      "civilDusk" : "2025-03-27T16:42:00Z",
+      "astronomicalDawn" : "2025-03-28T03:07:00Z",
+      "astronomicalDusk" : "2025-03-28T17:33:00Z",
+      "civilDawn" : "2025-03-28T03:59:00Z",
+      "civilDusk" : "2025-03-28T16:41:00Z",
       "daylight" : {
-        "duration" : 43020,
-        "start" : "2025-03-27T04:22:00Z"
+        "duration" : 42960,
+        "start" : "2025-03-28T04:22:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T16:33:00Z"
+        "start" : "2025-03-28T16:32:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2640,
-        "start" : "2025-03-27T15:49:00Z"
+        "start" : "2025-03-28T15:48:00Z"
       },
       "morningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T03:59:00Z"
+        "start" : "2025-03-28T03:59:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 2640,
-        "start" : "2025-03-27T04:08:00Z"
+        "start" : "2025-03-28T04:08:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:33:00Z",
-      "nauticalDusk" : "2025-03-27T17:08:00Z",
-      "solarAngle" : -66.0090352252177,
-      "solarNoon" : "2025-03-27T10:21:00Z",
-      "sunrise" : "2025-03-27T04:22:00Z",
-      "sunset" : "2025-03-27T16:19:00Z"
+      "nauticalDawn" : "2025-03-28T03:33:00Z",
+      "nauticalDusk" : "2025-03-28T17:07:00Z",
+      "solarAngle" : -68.31251573550225,
+      "solarNoon" : "2025-03-28T10:20:00Z",
+      "sunrise" : "2025-03-28T04:22:00Z",
+      "sunset" : "2025-03-28T16:18:00Z"
     },
     "waypoint" : {
       "latitude" : -24.65451,
@@ -3321,7 +3321,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:09:00Z",
       "astronomicalDusk" : "2025-03-28T00:50:00Z",
@@ -3349,7 +3349,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:35:00Z",
       "nauticalDusk" : "2025-03-28T00:25:00Z",
-      "solarAngle" : 27.27398786538316,
+      "solarAngle" : 16.695731394576164,
       "solarNoon" : "2025-03-27T17:30:00Z",
       "sunrise" : "2025-03-27T11:22:00Z",
       "sunset" : "2025-03-27T23:37:00Z"
@@ -3362,7 +3362,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:43:00Z",
       "astronomicalDusk" : "2025-03-27T23:11:00Z",
@@ -3390,7 +3390,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:07:00Z",
       "nauticalDusk" : "2025-03-27T22:46:00Z",
-      "solarAngle" : 5.007498931234527,
+      "solarAngle" : -6.147901796295641,
       "solarNoon" : "2025-03-27T15:57:00Z",
       "sunrise" : "2025-03-27T09:52:00Z",
       "sunset" : "2025-03-27T22:01:00Z"
@@ -3403,7 +3403,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:47:00Z",
       "astronomicalDusk" : "2025-03-27T20:05:00Z",
@@ -3431,7 +3431,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:18:00Z",
       "nauticalDusk" : "2025-03-27T19:34:00Z",
-      "solarAngle" : -34.738739771515675,
+      "solarAngle" : -41.54728773385798,
       "solarNoon" : "2025-03-27T12:26:00Z",
       "sunrise" : "2025-03-27T06:14:00Z",
       "sunset" : "2025-03-27T18:38:00Z"
@@ -3444,7 +3444,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T06:40:00Z",
       "astronomicalDusk" : "2025-03-27T22:19:00Z",
@@ -3472,7 +3472,7 @@
       },
       "nauticalDawn" : "2025-03-27T07:23:00Z",
       "nauticalDusk" : "2025-03-27T21:36:00Z",
-      "solarAngle" : -12.237022497483238,
+      "solarAngle" : -18.52281592900372,
       "solarNoon" : "2025-03-27T14:30:00Z",
       "sunrise" : "2025-03-27T08:40:00Z",
       "sunset" : "2025-03-27T20:19:00Z"
@@ -3485,7 +3485,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:48:00Z",
       "astronomicalDusk" : "2025-03-28T01:24:00Z",
@@ -3513,7 +3513,7 @@
       },
       "nauticalDawn" : "2025-03-27T11:13:00Z",
       "nauticalDusk" : "2025-03-28T00:59:00Z",
-      "solarAngle" : 36.531950233504844,
+      "solarAngle" : 25.69983968810326,
       "solarNoon" : "2025-03-27T18:07:00Z",
       "sunrise" : "2025-03-27T12:00:00Z",
       "sunset" : "2025-03-28T00:13:00Z"
@@ -3526,7 +3526,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:56:00Z",
       "astronomicalDusk" : "2025-03-27T23:35:00Z",
@@ -3554,7 +3554,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:21:00Z",
       "nauticalDusk" : "2025-03-27T23:10:00Z",
-      "solarAngle" : 9.841556813118013,
+      "solarAngle" : -0.8564195359081971,
       "solarNoon" : "2025-03-27T16:16:00Z",
       "sunrise" : "2025-03-27T10:08:00Z",
       "sunset" : "2025-03-27T22:23:00Z"
@@ -3567,7 +3567,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T21:38:00Z",
       "astronomicalDusk" : "2025-03-28T12:23:00Z",
@@ -3595,7 +3595,7 @@
       },
       "nauticalDawn" : "2025-03-27T22:04:00Z",
       "nauticalDusk" : "2025-03-28T11:57:00Z",
-      "solarAngle" : -18.115290095899642,
+      "solarAngle" : -7.7217632090427655,
       "solarNoon" : "2025-03-28T05:01:00Z",
       "sunrise" : "2025-03-27T22:52:00Z",
       "sunset" : "2025-03-28T11:09:00Z"
@@ -3608,7 +3608,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T19:08:00Z",
       "astronomicalDusk" : "2025-03-28T09:42:00Z",
@@ -3636,7 +3636,7 @@
       },
       "nauticalDawn" : "2025-03-27T19:33:00Z",
       "nauticalDusk" : "2025-03-28T09:17:00Z",
-      "solarAngle" : 18.391647900290515,
+      "solarAngle" : 29.323378457204143,
       "solarNoon" : "2025-03-28T02:25:00Z",
       "sunrise" : "2025-03-27T20:19:00Z",
       "sunset" : "2025-03-28T08:31:00Z"
@@ -3649,7 +3649,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:50:00Z",
       "astronomicalDusk" : "2025-03-27T23:57:00Z",
@@ -3677,7 +3677,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:19:00Z",
       "nauticalDusk" : "2025-03-27T23:28:00Z",
-      "solarAngle" : 11.144682208433752,
+      "solarAngle" : 1.6439339924716925,
       "solarNoon" : "2025-03-27T16:24:00Z",
       "sunrise" : "2025-03-27T10:12:00Z",
       "sunset" : "2025-03-27T22:35:00Z"
@@ -3690,38 +3690,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:48:00Z",
-      "astronomicalDusk" : "2025-03-27T17:12:00Z",
-      "civilDawn" : "2025-03-27T03:38:00Z",
-      "civilDusk" : "2025-03-27T16:21:00Z",
+      "astronomicalDawn" : "2025-03-28T02:48:00Z",
+      "astronomicalDusk" : "2025-03-28T17:11:00Z",
+      "civilDawn" : "2025-03-28T03:38:00Z",
+      "civilDusk" : "2025-03-28T16:21:00Z",
       "daylight" : {
-        "duration" : 43200,
-        "start" : "2025-03-27T04:00:00Z"
+        "duration" : 43140,
+        "start" : "2025-03-28T04:00:00Z"
       },
       "eveningBlueHour" : {
-        "duration" : 480,
-        "start" : "2025-03-27T16:13:00Z"
+        "duration" : 540,
+        "start" : "2025-03-28T16:12:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2520,
-        "start" : "2025-03-27T15:31:00Z"
+        "start" : "2025-03-28T15:30:00Z"
       },
       "morningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T03:38:00Z"
+        "start" : "2025-03-28T03:38:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 2520,
-        "start" : "2025-03-27T03:47:00Z"
+        "start" : "2025-03-28T03:47:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:13:00Z",
-      "nauticalDusk" : "2025-03-27T16:47:00Z",
-      "solarAngle" : -74.19062655868653,
-      "solarNoon" : "2025-03-27T10:00:00Z",
-      "sunrise" : "2025-03-27T04:00:00Z",
-      "sunset" : "2025-03-27T16:00:00Z"
+      "nauticalDawn" : "2025-03-28T03:13:00Z",
+      "nauticalDusk" : "2025-03-28T16:46:00Z",
+      "solarAngle" : -74.1061447389777,
+      "solarNoon" : "2025-03-28T10:00:00Z",
+      "sunrise" : "2025-03-28T04:00:00Z",
+      "sunset" : "2025-03-28T15:59:00Z"
     },
     "waypoint" : {
       "latitude" : -17.82935,
@@ -3731,7 +3731,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:10:00Z",
       "astronomicalDusk" : "2025-03-28T00:58:00Z",
@@ -3759,7 +3759,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:36:00Z",
       "nauticalDusk" : "2025-03-28T00:31:00Z",
-      "solarAngle" : 27.674884712856908,
+      "solarAngle" : 17.406347913328972,
       "solarNoon" : "2025-03-27T17:34:00Z",
       "sunrise" : "2025-03-27T11:25:00Z",
       "sunset" : "2025-03-27T23:42:00Z"
@@ -3772,38 +3772,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T01:26:00Z",
-      "astronomicalDusk" : "2025-03-27T19:26:00Z",
-      "civilDawn" : "2025-03-27T03:17:00Z",
-      "civilDusk" : "2025-03-27T17:34:00Z",
+      "astronomicalDawn" : "2025-03-28T01:22:00Z",
+      "astronomicalDusk" : "2025-03-28T19:29:00Z",
+      "civilDawn" : "2025-03-28T03:14:00Z",
+      "civilDusk" : "2025-03-28T17:36:00Z",
       "daylight" : {
-        "duration" : 46320,
-        "start" : "2025-03-27T03:59:00Z"
+        "duration" : 46680,
+        "start" : "2025-03-28T03:56:00Z"
       },
       "eveningBlueHour" : {
-        "duration" : 1020,
-        "start" : "2025-03-27T17:17:00Z"
+        "duration" : 960,
+        "start" : "2025-03-28T17:20:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 4860,
-        "start" : "2025-03-27T15:56:00Z"
+        "start" : "2025-03-28T15:59:00Z"
       },
       "morningBlueHour" : {
         "duration" : 960,
-        "start" : "2025-03-27T03:17:00Z"
+        "start" : "2025-03-28T03:14:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 4860,
-        "start" : "2025-03-27T03:33:00Z"
+        "start" : "2025-03-28T03:30:00Z"
       },
-      "nauticalDawn" : "2025-03-27T02:25:00Z",
-      "nauticalDusk" : "2025-03-27T18:26:00Z",
-      "solarAngle" : -26.21710281273913,
-      "solarNoon" : "2025-03-27T10:25:00Z",
-      "sunrise" : "2025-03-27T03:59:00Z",
-      "sunset" : "2025-03-27T16:51:00Z"
+      "nauticalDawn" : "2025-03-28T02:21:00Z",
+      "nauticalDusk" : "2025-03-28T18:29:00Z",
+      "solarAngle" : -26.85457355299818,
+      "solarNoon" : "2025-03-28T10:25:00Z",
+      "sunrise" : "2025-03-28T03:56:00Z",
+      "sunset" : "2025-03-28T16:54:00Z"
     },
     "waypoint" : {
       "latitude" : 60.16952,
@@ -3813,7 +3813,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T21:04:00Z",
       "astronomicalDusk" : "2025-03-28T11:51:00Z",
@@ -3841,7 +3841,7 @@
       },
       "nauticalDawn" : "2025-03-27T21:30:00Z",
       "nauticalDusk" : "2025-03-28T11:25:00Z",
-      "solarAngle" : -10.284719840162015,
+      "solarAngle" : 0.08421942625408603,
       "solarNoon" : "2025-03-28T04:28:00Z",
       "sunrise" : "2025-03-27T22:19:00Z",
       "sunset" : "2025-03-28T10:36:00Z"
@@ -3854,7 +3854,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T18:13:00Z",
       "astronomicalDusk" : "2025-03-28T08:35:00Z",
@@ -3882,7 +3882,7 @@
       },
       "nauticalDawn" : "2025-03-27T18:37:00Z",
       "nauticalDusk" : "2025-03-28T08:11:00Z",
-      "solarAngle" : 32.27541333621713,
+      "solarAngle" : 43.15594684271839,
       "solarNoon" : "2025-03-28T01:24:00Z",
       "sunrise" : "2025-03-27T19:23:00Z",
       "sunset" : "2025-03-28T07:25:00Z"
@@ -3895,7 +3895,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T23:36:00Z",
       "astronomicalDusk" : "2025-03-28T14:48:00Z",
@@ -3923,7 +3923,7 @@
       },
       "nauticalDawn" : "2025-03-28T00:05:00Z",
       "nauticalDusk" : "2025-03-28T14:19:00Z",
-      "solarAngle" : -39.71582209839863,
+      "solarAngle" : -31.978601336806598,
       "solarNoon" : "2025-03-28T07:12:00Z",
       "sunrise" : "2025-03-28T01:00:00Z",
       "sunset" : "2025-03-28T13:24:00Z"
@@ -3936,7 +3936,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T21:45:00Z",
       "astronomicalDusk" : "2025-03-28T12:08:00Z",
@@ -3964,7 +3964,7 @@
       },
       "nauticalDawn" : "2025-03-27T22:10:00Z",
       "nauticalDusk" : "2025-03-28T11:43:00Z",
-      "solarAngle" : -19.887198867111312,
+      "solarAngle" : -8.706163924217844,
       "solarNoon" : "2025-03-28T04:57:00Z",
       "sunrise" : "2025-03-27T22:55:00Z",
       "sunset" : "2025-03-28T10:58:00Z"
@@ -3977,7 +3977,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T05:15:00Z",
       "astronomicalDusk" : "2025-03-27T19:38:00Z",
@@ -4005,7 +4005,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:40:00Z",
       "nauticalDusk" : "2025-03-27T19:13:00Z",
-      "solarAngle" : -46.46343695929703,
+      "solarAngle" : -56.858583960850524,
       "solarNoon" : "2025-03-27T12:27:00Z",
       "sunrise" : "2025-03-27T06:27:00Z",
       "sunset" : "2025-03-27T18:27:00Z"
@@ -4018,7 +4018,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T23:50:00Z",
       "astronomicalDusk" : "2025-03-28T15:05:00Z",
@@ -4046,7 +4046,7 @@
       },
       "nauticalDawn" : "2025-03-28T00:20:00Z",
       "nauticalDusk" : "2025-03-28T14:35:00Z",
-      "solarAngle" : -41.57274095596628,
+      "solarAngle" : -34.30171959796972,
       "solarNoon" : "2025-03-28T07:28:00Z",
       "sunrise" : "2025-03-28T01:15:00Z",
       "sunset" : "2025-03-28T13:40:00Z"
@@ -4059,7 +4059,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T02:41:00Z",
       "astronomicalDusk" : "2025-03-28T17:06:00Z",
@@ -4087,7 +4087,7 @@
       },
       "nauticalDawn" : "2025-03-28T03:05:00Z",
       "nauticalDusk" : "2025-03-28T16:42:00Z",
-      "solarAngle" : -84.8617569281177,
+      "solarAngle" : -81.9994073015062,
       "solarNoon" : "2025-03-28T09:54:00Z",
       "sunrise" : "2025-03-28T03:50:00Z",
       "sunset" : "2025-03-28T15:57:00Z"
@@ -4100,7 +4100,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T22:54:00Z",
       "astronomicalDusk" : "2025-03-28T13:52:00Z",
@@ -4128,7 +4128,7 @@
       },
       "nauticalDawn" : "2025-03-27T23:22:00Z",
       "nauticalDusk" : "2025-03-28T13:24:00Z",
-      "solarAngle" : -33.958984641316626,
+      "solarAngle" : -24.677875813110706,
       "solarNoon" : "2025-03-28T06:23:00Z",
       "sunrise" : "2025-03-28T00:13:00Z",
       "sunset" : "2025-03-28T12:33:00Z"
@@ -4141,38 +4141,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:36:00Z",
-      "astronomicalDusk" : "2025-03-27T17:12:00Z",
-      "civilDawn" : "2025-03-27T03:26:00Z",
-      "civilDusk" : "2025-03-27T16:22:00Z",
+      "astronomicalDawn" : "2025-03-28T02:35:00Z",
+      "astronomicalDusk" : "2025-03-28T17:12:00Z",
+      "civilDawn" : "2025-03-28T03:25:00Z",
+      "civilDusk" : "2025-03-28T16:22:00Z",
       "daylight" : {
-        "duration" : 43980,
-        "start" : "2025-03-27T03:48:00Z"
+        "duration" : 44040,
+        "start" : "2025-03-28T03:47:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 480,
-        "start" : "2025-03-27T16:14:00Z"
+        "start" : "2025-03-28T16:14:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2520,
-        "start" : "2025-03-27T15:32:00Z"
+        "start" : "2025-03-28T15:32:00Z"
       },
       "morningBlueHour" : {
-        "duration" : 480,
-        "start" : "2025-03-27T03:26:00Z"
+        "duration" : 540,
+        "start" : "2025-03-28T03:25:00Z"
       },
       "morningGoldenHour" : {
-        "duration" : 2520,
-        "start" : "2025-03-27T03:34:00Z"
+        "duration" : 2460,
+        "start" : "2025-03-28T03:34:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:01:00Z",
-      "nauticalDusk" : "2025-03-27T16:47:00Z",
-      "solarAngle" : -71.07062468853562,
-      "solarNoon" : "2025-03-27T09:55:00Z",
-      "sunrise" : "2025-03-27T03:48:00Z",
-      "sunset" : "2025-03-27T16:01:00Z"
+      "nauticalDawn" : "2025-03-28T03:00:00Z",
+      "nauticalDusk" : "2025-03-28T16:47:00Z",
+      "solarAngle" : -70.13860349686735,
+      "solarNoon" : "2025-03-28T09:54:00Z",
+      "sunrise" : "2025-03-28T03:47:00Z",
+      "sunset" : "2025-03-28T16:01:00Z"
     },
     "waypoint" : {
       "latitude" : 15.54665,
@@ -4182,38 +4182,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T01:51:00Z",
-      "astronomicalDusk" : "2025-03-27T18:15:00Z",
-      "civilDawn" : "2025-03-27T03:11:00Z",
-      "civilDusk" : "2025-03-27T16:54:00Z",
+      "astronomicalDawn" : "2025-03-28T01:48:00Z",
+      "astronomicalDusk" : "2025-03-28T18:17:00Z",
+      "civilDawn" : "2025-03-28T03:09:00Z",
+      "civilDusk" : "2025-03-28T16:56:00Z",
       "daylight" : {
-        "duration" : 45420,
-        "start" : "2025-03-27T03:44:00Z"
+        "duration" : 45660,
+        "start" : "2025-03-28T03:42:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 780,
-        "start" : "2025-03-27T16:41:00Z"
+        "start" : "2025-03-28T16:43:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 3780,
-        "start" : "2025-03-27T15:38:00Z"
+        "start" : "2025-03-28T15:40:00Z"
       },
       "morningBlueHour" : {
         "duration" : 780,
-        "start" : "2025-03-27T03:11:00Z"
+        "start" : "2025-03-28T03:09:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 3780,
-        "start" : "2025-03-27T03:24:00Z"
+        "start" : "2025-03-28T03:22:00Z"
       },
-      "nauticalDawn" : "2025-03-27T02:32:00Z",
-      "nauticalDusk" : "2025-03-27T17:33:00Z",
-      "solarAngle" : -36.33282217158664,
-      "solarNoon" : "2025-03-27T10:03:00Z",
-      "sunrise" : "2025-03-27T03:44:00Z",
-      "sunset" : "2025-03-27T16:21:00Z"
+      "nauticalDawn" : "2025-03-28T02:30:00Z",
+      "nauticalDusk" : "2025-03-28T17:35:00Z",
+      "solarAngle" : -36.38093717517157,
+      "solarNoon" : "2025-03-28T10:03:00Z",
+      "sunrise" : "2025-03-28T03:42:00Z",
+      "sunset" : "2025-03-28T16:23:00Z"
     },
     "waypoint" : {
       "latitude" : 50.45466,
@@ -4223,38 +4223,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:52:00Z",
-      "astronomicalDusk" : "2025-03-27T17:16:00Z",
-      "civilDawn" : "2025-03-27T03:40:00Z",
-      "civilDusk" : "2025-03-27T16:27:00Z",
+      "astronomicalDawn" : "2025-03-28T02:52:00Z",
+      "astronomicalDusk" : "2025-03-28T17:15:00Z",
+      "civilDawn" : "2025-03-28T03:40:00Z",
+      "civilDusk" : "2025-03-28T16:27:00Z",
       "daylight" : {
-        "duration" : 43560,
-        "start" : "2025-03-27T04:01:00Z"
+        "duration" : 43500,
+        "start" : "2025-03-28T04:01:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 480,
-        "start" : "2025-03-27T16:19:00Z"
+        "start" : "2025-03-28T16:19:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2400,
-        "start" : "2025-03-27T15:39:00Z"
+        "start" : "2025-03-28T15:39:00Z"
       },
       "morningBlueHour" : {
         "duration" : 480,
-        "start" : "2025-03-27T03:40:00Z"
+        "start" : "2025-03-28T03:40:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 2400,
-        "start" : "2025-03-27T03:48:00Z"
+        "start" : "2025-03-28T03:48:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:16:00Z",
-      "nauticalDusk" : "2025-03-27T16:51:00Z",
-      "solarAngle" : -83.44665792944426,
-      "solarNoon" : "2025-03-27T10:04:00Z",
-      "sunrise" : "2025-03-27T04:01:00Z",
-      "sunset" : "2025-03-27T16:07:00Z"
+      "nauticalDawn" : "2025-03-28T03:16:00Z",
+      "nauticalDusk" : "2025-03-28T16:51:00Z",
+      "solarAngle" : -85.12370518313038,
+      "solarNoon" : "2025-03-28T10:04:00Z",
+      "sunrise" : "2025-03-28T04:01:00Z",
+      "sunset" : "2025-03-28T16:06:00Z"
     },
     "waypoint" : {
       "latitude" : -1.94995,
@@ -4264,7 +4264,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T17:36:00Z",
       "astronomicalDusk" : "2025-03-28T08:08:00Z",
@@ -4292,7 +4292,7 @@
       },
       "nauticalDawn" : "2025-03-27T18:04:00Z",
       "nauticalDusk" : "2025-03-28T07:40:00Z",
-      "solarAngle" : 33.5400816516334,
+      "solarAngle" : 41.99238358440208,
       "solarNoon" : "2025-03-28T00:52:00Z",
       "sunrise" : "2025-03-27T18:55:00Z",
       "sunset" : "2025-03-28T06:49:00Z"
@@ -4305,7 +4305,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:52:00Z",
       "astronomicalDusk" : "2025-03-28T00:31:00Z",
@@ -4333,7 +4333,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:17:00Z",
       "nauticalDusk" : "2025-03-28T00:06:00Z",
-      "solarAngle" : 23.089198414234403,
+      "solarAngle" : 12.404834819219479,
       "solarNoon" : "2025-03-27T17:12:00Z",
       "sunrise" : "2025-03-27T11:04:00Z",
       "sunset" : "2025-03-27T23:19:00Z"
@@ -4346,7 +4346,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:52:00Z",
       "astronomicalDusk" : "2025-03-27T23:26:00Z",
@@ -4374,7 +4374,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:17:00Z",
       "nauticalDusk" : "2025-03-27T23:01:00Z",
-      "solarAngle" : 8.229655606053338,
+      "solarAngle" : -2.713878403548218,
       "solarNoon" : "2025-03-27T16:09:00Z",
       "sunrise" : "2025-03-27T10:03:00Z",
       "sunset" : "2025-03-27T22:15:00Z"
@@ -4387,7 +4387,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:51:00Z",
       "astronomicalDusk" : "2025-03-27T18:14:00Z",
@@ -4415,7 +4415,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:16:00Z",
       "nauticalDusk" : "2025-03-27T17:50:00Z",
-      "solarAngle" : -68.78217852228607,
+      "solarAngle" : -79.96374172697573,
       "solarNoon" : "2025-03-27T11:03:00Z",
       "sunrise" : "2025-03-27T05:00:00Z",
       "sunset" : "2025-03-27T17:05:00Z"
@@ -4428,7 +4428,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T22:04:00Z",
       "astronomicalDusk" : "2025-03-28T12:30:00Z",
@@ -4456,7 +4456,7 @@
       },
       "nauticalDawn" : "2025-03-27T22:28:00Z",
       "nauticalDusk" : "2025-03-28T12:06:00Z",
-      "solarAngle" : -24.59901827561054,
+      "solarAngle" : -13.393512526803988,
       "solarNoon" : "2025-03-28T05:17:00Z",
       "sunrise" : "2025-03-27T23:13:00Z",
       "sunset" : "2025-03-28T11:21:00Z"
@@ -4469,7 +4469,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:21:00Z",
       "astronomicalDusk" : "2025-03-28T16:23:00Z",
@@ -4497,7 +4497,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:50:00Z",
       "nauticalDusk" : "2025-03-28T15:55:00Z",
-      "solarAngle" : -55.85998730575936,
+      "solarAngle" : -51.0302486124892,
       "solarNoon" : "2025-03-28T08:52:00Z",
       "sunrise" : "2025-03-28T02:41:00Z",
       "sunset" : "2025-03-28T15:03:00Z"
@@ -4510,7 +4510,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:25:00Z",
       "astronomicalDusk" : "2025-03-27T23:48:00Z",
@@ -4538,7 +4538,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:50:00Z",
       "nauticalDusk" : "2025-03-27T23:23:00Z",
-      "solarAngle" : 13.187047701394016,
+      "solarAngle" : 2.445235725287492,
       "solarNoon" : "2025-03-27T16:37:00Z",
       "sunrise" : "2025-03-27T10:37:00Z",
       "sunset" : "2025-03-27T22:37:00Z"
@@ -4551,7 +4551,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:14:00Z",
       "astronomicalDusk" : "2025-03-27T18:38:00Z",
@@ -4579,7 +4579,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:38:00Z",
       "nauticalDusk" : "2025-03-27T18:14:00Z",
-      "solarAngle" : -62.71542086533223,
+      "solarAngle" : -73.81688689078064,
       "solarNoon" : "2025-03-27T11:27:00Z",
       "sunrise" : "2025-03-27T05:23:00Z",
       "sunset" : "2025-03-27T17:30:00Z"
@@ -4592,38 +4592,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:38:00Z",
-      "astronomicalDusk" : "2025-03-27T17:00:00Z",
-      "civilDawn" : "2025-03-27T03:27:00Z",
-      "civilDusk" : "2025-03-27T16:11:00Z",
+      "astronomicalDawn" : "2025-03-28T02:38:00Z",
+      "astronomicalDusk" : "2025-03-28T17:00:00Z",
+      "civilDawn" : "2025-03-28T03:27:00Z",
+      "civilDusk" : "2025-03-28T16:10:00Z",
       "daylight" : {
         "duration" : 43260,
-        "start" : "2025-03-27T03:48:00Z"
+        "start" : "2025-03-28T03:48:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 480,
-        "start" : "2025-03-27T16:03:00Z"
+        "start" : "2025-03-28T16:02:00Z"
       },
       "eveningGoldenHour" : {
-        "duration" : 2520,
-        "start" : "2025-03-27T15:21:00Z"
+        "duration" : 2460,
+        "start" : "2025-03-28T15:21:00Z"
       },
       "morningBlueHour" : {
         "duration" : 480,
-        "start" : "2025-03-27T03:27:00Z"
+        "start" : "2025-03-28T03:27:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 2520,
-        "start" : "2025-03-27T03:35:00Z"
+        "start" : "2025-03-28T03:35:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:02:00Z",
-      "nauticalDusk" : "2025-03-27T16:36:00Z",
-      "solarAngle" : -78.6486804506422,
-      "solarNoon" : "2025-03-27T09:49:00Z",
-      "sunrise" : "2025-03-27T03:48:00Z",
-      "sunset" : "2025-03-27T15:49:00Z"
+      "nauticalDawn" : "2025-03-28T03:02:00Z",
+      "nauticalDusk" : "2025-03-28T16:35:00Z",
+      "solarAngle" : -76.15954482492764,
+      "solarNoon" : "2025-03-28T09:49:00Z",
+      "sunrise" : "2025-03-28T03:48:00Z",
+      "sunset" : "2025-03-28T15:49:00Z"
     },
     "waypoint" : {
       "latitude" : -13.98333,
@@ -4633,7 +4633,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:01:00Z",
       "astronomicalDusk" : "2025-03-28T00:23:00Z",
@@ -4661,7 +4661,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:26:00Z",
       "nauticalDusk" : "2025-03-27T23:59:00Z",
-      "solarAngle" : 22.31657260882655,
+      "solarAngle" : 11.390007562081287,
       "solarNoon" : "2025-03-27T17:12:00Z",
       "sunrise" : "2025-03-27T11:11:00Z",
       "sunset" : "2025-03-27T23:13:00Z"
@@ -4674,7 +4674,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:58:00Z",
       "astronomicalDusk" : "2025-03-27T20:24:00Z",
@@ -4702,7 +4702,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:30:00Z",
       "nauticalDusk" : "2025-03-27T19:52:00Z",
-      "solarAngle" : -30.806585573763083,
+      "solarAngle" : -37.611438625319565,
       "solarNoon" : "2025-03-27T12:41:00Z",
       "sunrise" : "2025-03-27T06:28:00Z",
       "sunset" : "2025-03-27T18:54:00Z"
@@ -4715,7 +4715,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:08:00Z",
       "astronomicalDusk" : "2025-03-27T19:06:00Z",
@@ -4743,7 +4743,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:45:00Z",
       "nauticalDusk" : "2025-03-27T18:29:00Z",
-      "solarAngle" : -37.246736483363556,
+      "solarAngle" : -40.05149643723699,
       "solarNoon" : "2025-03-27T11:07:00Z",
       "sunrise" : "2025-03-27T04:50:00Z",
       "sunset" : "2025-03-27T17:23:00Z"
@@ -4756,7 +4756,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:46:00Z",
       "astronomicalDusk" : "2025-03-27T19:13:00Z",
@@ -4784,7 +4784,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:10:00Z",
       "nauticalDusk" : "2025-03-27T18:49:00Z",
-      "solarAngle" : -53.56930884157284,
+      "solarAngle" : -64.29076471735027,
       "solarNoon" : "2025-03-27T12:00:00Z",
       "sunrise" : "2025-03-27T05:55:00Z",
       "sunset" : "2025-03-27T18:04:00Z"
@@ -4797,7 +4797,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:50:00Z",
       "astronomicalDusk" : "2025-03-27T20:21:00Z",
@@ -4825,7 +4825,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:32:00Z",
       "nauticalDusk" : "2025-03-27T19:39:00Z",
-      "solarAngle" : -27.266002365126603,
+      "solarAngle" : -31.385258533135534,
       "solarNoon" : "2025-03-27T12:06:00Z",
       "sunrise" : "2025-03-27T05:46:00Z",
       "sunset" : "2025-03-27T18:25:00Z"
@@ -4838,7 +4838,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:00:00Z",
       "astronomicalDusk" : "2025-03-27T18:22:00Z",
@@ -4866,7 +4866,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:24:00Z",
       "nauticalDusk" : "2025-03-27T17:58:00Z",
-      "solarAngle" : -66.0973927580827,
+      "solarAngle" : -76.65953287856385,
       "solarNoon" : "2025-03-27T11:12:00Z",
       "sunrise" : "2025-03-27T05:10:00Z",
       "sunset" : "2025-03-27T17:13:00Z"
@@ -4879,38 +4879,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:59:00Z",
-      "astronomicalDusk" : "2025-03-27T17:22:00Z",
-      "civilDawn" : "2025-03-27T03:49:00Z",
-      "civilDusk" : "2025-03-27T16:33:00Z",
+      "astronomicalDawn" : "2025-03-28T02:59:00Z",
+      "astronomicalDusk" : "2025-03-28T17:22:00Z",
+      "civilDawn" : "2025-03-28T03:49:00Z",
+      "civilDusk" : "2025-03-28T16:32:00Z",
       "daylight" : {
-        "duration" : 43200,
-        "start" : "2025-03-27T04:11:00Z"
+        "duration" : 43140,
+        "start" : "2025-03-28T04:11:00Z"
       },
       "eveningBlueHour" : {
-        "duration" : 540,
-        "start" : "2025-03-27T16:24:00Z"
+        "duration" : 480,
+        "start" : "2025-03-28T16:24:00Z"
       },
       "eveningGoldenHour" : {
-        "duration" : 2460,
-        "start" : "2025-03-27T15:43:00Z"
+        "duration" : 2520,
+        "start" : "2025-03-28T15:42:00Z"
       },
       "morningBlueHour" : {
-        "duration" : 480,
-        "start" : "2025-03-27T03:49:00Z"
+        "duration" : 540,
+        "start" : "2025-03-28T03:49:00Z"
       },
       "morningGoldenHour" : {
-        "duration" : 2520,
-        "start" : "2025-03-27T03:57:00Z"
+        "duration" : 2460,
+        "start" : "2025-03-28T03:58:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:24:00Z",
-      "nauticalDusk" : "2025-03-27T16:58:00Z",
-      "solarAngle" : -75.13490631765205,
-      "solarNoon" : "2025-03-27T10:11:00Z",
-      "sunrise" : "2025-03-27T04:11:00Z",
-      "sunset" : "2025-03-27T16:11:00Z"
+      "nauticalDawn" : "2025-03-28T03:24:00Z",
+      "nauticalDusk" : "2025-03-28T16:57:00Z",
+      "solarAngle" : -77.22099576023062,
+      "solarNoon" : "2025-03-28T10:11:00Z",
+      "sunrise" : "2025-03-28T04:11:00Z",
+      "sunset" : "2025-03-28T16:10:00Z"
     },
     "waypoint" : {
       "latitude" : -15.40809,
@@ -4920,7 +4920,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:31:00Z",
       "astronomicalDusk" : "2025-03-27T19:50:00Z",
@@ -4948,7 +4948,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:11:00Z",
       "nauticalDusk" : "2025-03-27T19:09:00Z",
-      "solarAngle" : -31.24539292479074,
+      "solarAngle" : -34.8703933714366,
       "solarNoon" : "2025-03-27T11:40:00Z",
       "sunrise" : "2025-03-27T05:22:00Z",
       "sunset" : "2025-03-27T17:58:00Z"
@@ -4961,7 +4961,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T21:07:00Z",
       "astronomicalDusk" : "2025-03-28T11:53:00Z",
@@ -4989,7 +4989,7 @@
       },
       "nauticalDawn" : "2025-03-27T21:33:00Z",
       "nauticalDusk" : "2025-03-28T11:27:00Z",
-      "solarAngle" : -10.85706150659014,
+      "solarAngle" : -0.48579951282004563,
       "solarNoon" : "2025-03-28T04:30:00Z",
       "sunrise" : "2025-03-27T22:21:00Z",
       "sunset" : "2025-03-28T10:38:00Z"
@@ -5002,7 +5002,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:33:00Z",
       "astronomicalDusk" : "2025-03-27T20:06:00Z",
@@ -5030,7 +5030,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:06:00Z",
       "nauticalDusk" : "2025-03-27T19:33:00Z",
-      "solarAngle" : -33.15224004534147,
+      "solarAngle" : -39.15419778328521,
       "solarNoon" : "2025-03-27T12:19:00Z",
       "sunrise" : "2025-03-27T06:05:00Z",
       "sunset" : "2025-03-27T18:33:00Z"
@@ -5043,7 +5043,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T17:24:00Z",
       "astronomicalDusk" : "2025-03-28T07:53:00Z",
@@ -5071,7 +5071,7 @@
       },
       "nauticalDawn" : "2025-03-27T17:49:00Z",
       "nauticalDusk" : "2025-03-28T07:28:00Z",
-      "solarAngle" : 44.84511340853525,
+      "solarAngle" : 55.9855210108214,
       "solarNoon" : "2025-03-28T00:39:00Z",
       "sunrise" : "2025-03-27T18:34:00Z",
       "sunset" : "2025-03-28T06:43:00Z"
@@ -5084,7 +5084,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:16:00Z",
       "astronomicalDusk" : "2025-03-27T18:42:00Z",
@@ -5112,7 +5112,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:40:00Z",
       "nauticalDusk" : "2025-03-27T18:18:00Z",
-      "solarAngle" : -61.459754026255645,
+      "solarAngle" : -72.18768784379286,
       "solarNoon" : "2025-03-27T11:29:00Z",
       "sunrise" : "2025-03-27T05:25:00Z",
       "sunset" : "2025-03-27T17:33:00Z"
@@ -5125,7 +5125,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T23:57:00Z",
       "astronomicalDusk" : "2025-03-28T14:23:00Z",
@@ -5153,7 +5153,7 @@
       },
       "nauticalDawn" : "2025-03-28T00:21:00Z",
       "nauticalDusk" : "2025-03-28T13:59:00Z",
-      "solarAngle" : -52.373559633311906,
+      "solarAngle" : -41.28514220354358,
       "solarNoon" : "2025-03-28T07:10:00Z",
       "sunrise" : "2025-03-28T01:06:00Z",
       "sunset" : "2025-03-28T13:14:00Z"
@@ -5166,7 +5166,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:52:00Z",
       "astronomicalDusk" : "2025-03-28T16:14:00Z",
@@ -5194,7 +5194,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:17:00Z",
       "nauticalDusk" : "2025-03-28T15:49:00Z",
-      "solarAngle" : -76.95285113810674,
+      "solarAngle" : -67.97327791012138,
       "solarNoon" : "2025-03-28T09:03:00Z",
       "sunrise" : "2025-03-28T03:02:00Z",
       "sunset" : "2025-03-28T15:03:00Z"
@@ -5207,7 +5207,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:33:00Z",
       "astronomicalDusk" : "2025-03-28T01:05:00Z",
@@ -5235,7 +5235,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:57:00Z",
       "nauticalDusk" : "2025-03-28T00:41:00Z",
-      "solarAngle" : 32.65772682094355,
+      "solarAngle" : 21.674650330697638,
       "solarNoon" : "2025-03-27T17:49:00Z",
       "sunrise" : "2025-03-27T11:43:00Z",
       "sunset" : "2025-03-27T23:55:00Z"
@@ -5248,7 +5248,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:15:00Z",
       "astronomicalDusk" : "2025-03-28T16:09:00Z",
@@ -5276,7 +5276,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:42:00Z",
       "nauticalDusk" : "2025-03-28T15:42:00Z",
-      "solarAngle" : -57.81433677561346,
+      "solarAngle" : -51.91460151639514,
       "solarNoon" : "2025-03-28T08:42:00Z",
       "sunrise" : "2025-03-28T02:32:00Z",
       "sunset" : "2025-03-28T14:52:00Z"
@@ -5289,7 +5289,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T20:42:00Z",
       "astronomicalDusk" : "2025-03-28T11:18:00Z",
@@ -5317,7 +5317,7 @@
       },
       "nauticalDawn" : "2025-03-27T21:07:00Z",
       "nauticalDusk" : "2025-03-28T10:53:00Z",
-      "solarAngle" : -4.62031668589238,
+      "solarAngle" : 6.25689098286176,
       "solarNoon" : "2025-03-28T04:01:00Z",
       "sunrise" : "2025-03-27T21:54:00Z",
       "sunset" : "2025-03-28T10:07:00Z"
@@ -5330,38 +5330,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:39:00Z",
-      "astronomicalDusk" : "2025-03-27T17:08:00Z",
-      "civilDawn" : "2025-03-27T03:32:00Z",
-      "civilDusk" : "2025-03-27T16:15:00Z",
+      "astronomicalDawn" : "2025-03-28T02:39:00Z",
+      "astronomicalDusk" : "2025-03-28T17:07:00Z",
+      "civilDawn" : "2025-03-28T03:33:00Z",
+      "civilDusk" : "2025-03-28T16:14:00Z",
       "daylight" : {
-        "duration" : 43020,
-        "start" : "2025-03-27T03:55:00Z"
+        "duration" : 42900,
+        "start" : "2025-03-28T03:56:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T16:06:00Z"
+        "start" : "2025-03-28T16:05:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2700,
-        "start" : "2025-03-27T15:21:00Z"
+        "start" : "2025-03-28T15:20:00Z"
       },
       "morningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T03:32:00Z"
+        "start" : "2025-03-28T03:33:00Z"
       },
       "morningGoldenHour" : {
-        "duration" : 2700,
-        "start" : "2025-03-27T03:41:00Z"
+        "duration" : 2640,
+        "start" : "2025-03-28T03:42:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:06:00Z",
-      "nauticalDusk" : "2025-03-27T16:41:00Z",
-      "solarAngle" : -66.68702763896977,
-      "solarNoon" : "2025-03-27T09:54:00Z",
-      "sunrise" : "2025-03-27T03:55:00Z",
-      "sunset" : "2025-03-27T15:52:00Z"
+      "nauticalDawn" : "2025-03-28T03:06:00Z",
+      "nauticalDusk" : "2025-03-28T16:40:00Z",
+      "solarAngle" : -65.96425610068479,
+      "solarNoon" : "2025-03-28T09:54:00Z",
+      "sunrise" : "2025-03-28T03:56:00Z",
+      "sunset" : "2025-03-28T15:51:00Z"
     },
     "waypoint" : {
       "latitude" : -25.96528,
@@ -5371,38 +5371,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T01:47:00Z",
-      "astronomicalDusk" : "2025-03-27T19:45:00Z",
-      "civilDawn" : "2025-03-27T03:37:00Z",
-      "civilDusk" : "2025-03-27T17:54:00Z",
+      "astronomicalDawn" : "2025-03-28T01:42:00Z",
+      "astronomicalDusk" : "2025-03-28T19:49:00Z",
+      "civilDawn" : "2025-03-28T03:34:00Z",
+      "civilDusk" : "2025-03-28T17:56:00Z",
       "daylight" : {
-        "duration" : 46320,
-        "start" : "2025-03-27T04:19:00Z"
+        "duration" : 46680,
+        "start" : "2025-03-28T04:16:00Z"
       },
       "eveningBlueHour" : {
-        "duration" : 1020,
-        "start" : "2025-03-27T17:37:00Z"
+        "duration" : 960,
+        "start" : "2025-03-28T17:40:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 4860,
-        "start" : "2025-03-27T16:16:00Z"
+        "start" : "2025-03-28T16:19:00Z"
       },
       "morningBlueHour" : {
         "duration" : 960,
-        "start" : "2025-03-27T03:37:00Z"
+        "start" : "2025-03-28T03:34:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 4860,
-        "start" : "2025-03-27T03:53:00Z"
+        "start" : "2025-03-28T03:50:00Z"
       },
-      "nauticalDawn" : "2025-03-27T02:45:00Z",
-      "nauticalDusk" : "2025-03-27T18:46:00Z",
-      "solarAngle" : -25.613013885360736,
-      "solarNoon" : "2025-03-27T10:45:00Z",
-      "sunrise" : "2025-03-27T04:19:00Z",
-      "sunset" : "2025-03-27T17:11:00Z"
+      "nauticalDawn" : "2025-03-28T02:41:00Z",
+      "nauticalDusk" : "2025-03-28T18:49:00Z",
+      "solarAngle" : -26.788026489917684,
+      "solarNoon" : "2025-03-28T10:45:00Z",
+      "sunrise" : "2025-03-28T04:16:00Z",
+      "sunset" : "2025-03-28T17:14:00Z"
     },
     "waypoint" : {
       "latitude" : 60.09726,
@@ -5412,7 +5412,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:57:00Z",
       "astronomicalDusk" : "2025-03-27T23:36:00Z",
@@ -5440,7 +5440,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:22:00Z",
       "nauticalDusk" : "2025-03-27T23:11:00Z",
-      "solarAngle" : 10.063396316920029,
+      "solarAngle" : -0.6246413590620312,
       "solarNoon" : "2025-03-27T16:17:00Z",
       "sunrise" : "2025-03-27T10:09:00Z",
       "sunset" : "2025-03-27T22:24:00Z"
@@ -5453,38 +5453,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:58:00Z",
-      "astronomicalDusk" : "2025-03-27T17:30:00Z",
-      "civilDawn" : "2025-03-27T03:53:00Z",
-      "civilDusk" : "2025-03-27T16:35:00Z",
+      "astronomicalDawn" : "2025-03-28T02:58:00Z",
+      "astronomicalDusk" : "2025-03-28T17:29:00Z",
+      "civilDawn" : "2025-03-28T03:53:00Z",
+      "civilDusk" : "2025-03-28T16:34:00Z",
       "daylight" : {
-        "duration" : 42900,
-        "start" : "2025-03-27T04:16:00Z"
+        "duration" : 42780,
+        "start" : "2025-03-28T04:17:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T16:26:00Z"
+        "start" : "2025-03-28T16:25:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2760,
-        "start" : "2025-03-27T15:40:00Z"
+        "start" : "2025-03-28T15:39:00Z"
       },
       "morningBlueHour" : {
-        "duration" : 540,
-        "start" : "2025-03-27T03:53:00Z"
+        "duration" : 600,
+        "start" : "2025-03-28T03:53:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 2760,
-        "start" : "2025-03-27T04:02:00Z"
+        "start" : "2025-03-28T04:03:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:25:00Z",
-      "nauticalDusk" : "2025-03-27T17:03:00Z",
-      "solarAngle" : -62.27828174483249,
-      "solarNoon" : "2025-03-27T10:14:00Z",
-      "sunrise" : "2025-03-27T04:16:00Z",
-      "sunset" : "2025-03-27T16:11:00Z"
+      "nauticalDawn" : "2025-03-28T03:26:00Z",
+      "nauticalDusk" : "2025-03-28T17:02:00Z",
+      "solarAngle" : -63.57616388427883,
+      "solarNoon" : "2025-03-28T10:14:00Z",
+      "sunrise" : "2025-03-28T04:17:00Z",
+      "sunset" : "2025-03-28T16:10:00Z"
     },
     "waypoint" : {
       "latitude" : -29.31667,
@@ -5494,7 +5494,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T16:37:00Z",
       "astronomicalDusk" : "2025-03-28T07:00:00Z",
@@ -5522,7 +5522,7 @@
       },
       "nauticalDawn" : "2025-03-27T17:02:00Z",
       "nauticalDusk" : "2025-03-28T06:35:00Z",
-      "solarAngle" : 53.69761870056436,
+      "solarAngle" : 63.20489207610083,
       "solarNoon" : "2025-03-27T23:49:00Z",
       "sunrise" : "2025-03-27T17:48:00Z",
       "sunset" : "2025-03-28T05:49:00Z"
@@ -5535,38 +5535,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:45:00Z",
-      "astronomicalDusk" : "2025-03-27T17:14:00Z",
-      "civilDawn" : "2025-03-27T03:38:00Z",
-      "civilDusk" : "2025-03-27T16:21:00Z",
+      "astronomicalDawn" : "2025-03-28T02:45:00Z",
+      "astronomicalDusk" : "2025-03-28T17:13:00Z",
+      "civilDawn" : "2025-03-28T03:39:00Z",
+      "civilDusk" : "2025-03-28T16:20:00Z",
       "daylight" : {
-        "duration" : 43020,
-        "start" : "2025-03-27T04:01:00Z"
+        "duration" : 42840,
+        "start" : "2025-03-28T04:02:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T16:12:00Z"
+        "start" : "2025-03-28T16:11:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2700,
-        "start" : "2025-03-27T15:27:00Z"
+        "start" : "2025-03-28T15:26:00Z"
       },
       "morningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T03:38:00Z"
+        "start" : "2025-03-28T03:39:00Z"
       },
       "morningGoldenHour" : {
-        "duration" : 2700,
-        "start" : "2025-03-27T03:47:00Z"
+        "duration" : 2640,
+        "start" : "2025-03-28T03:48:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:11:00Z",
-      "nauticalDusk" : "2025-03-27T16:47:00Z",
-      "solarAngle" : -66.07743736922599,
-      "solarNoon" : "2025-03-27T10:00:00Z",
-      "sunrise" : "2025-03-27T04:01:00Z",
-      "sunset" : "2025-03-27T15:58:00Z"
+      "nauticalDawn" : "2025-03-28T03:12:00Z",
+      "nauticalDusk" : "2025-03-28T16:46:00Z",
+      "solarAngle" : -65.99426992172215,
+      "solarNoon" : "2025-03-28T09:59:00Z",
+      "sunrise" : "2025-03-28T04:02:00Z",
+      "sunset" : "2025-03-28T15:56:00Z"
     },
     "waypoint" : {
       "latitude" : -26.31667,
@@ -5576,7 +5576,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T11:20:00Z",
       "astronomicalDusk" : "2025-03-28T02:02:00Z",
@@ -5604,7 +5604,7 @@
       },
       "nauticalDawn" : "2025-03-27T11:46:00Z",
       "nauticalDusk" : "2025-03-28T01:36:00Z",
-      "solarAngle" : 43.697736103777366,
+      "solarAngle" : 33.335713958548666,
       "solarNoon" : "2025-03-27T18:41:00Z",
       "sunrise" : "2025-03-27T12:33:00Z",
       "sunset" : "2025-03-28T00:48:00Z"
@@ -5617,7 +5617,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:47:00Z",
       "astronomicalDusk" : "2025-03-28T18:42:00Z",
@@ -5645,7 +5645,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:33:00Z",
       "nauticalDusk" : "2025-03-28T17:56:00Z",
-      "solarAngle" : -32.645584575220816,
+      "solarAngle" : -33.092844085159776,
       "solarNoon" : "2025-03-28T10:14:00Z",
       "sunrise" : "2025-03-28T03:51:00Z",
       "sunset" : "2025-03-28T16:37:00Z"
@@ -5658,7 +5658,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:50:00Z",
       "astronomicalDusk" : "2025-03-28T16:15:00Z",
@@ -5686,7 +5686,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:14:00Z",
       "nauticalDusk" : "2025-03-28T15:51:00Z",
-      "solarAngle" : -79.87757869312574,
+      "solarAngle" : -69.33338430018635,
       "solarNoon" : "2025-03-28T09:03:00Z",
       "sunrise" : "2025-03-28T02:59:00Z",
       "sunset" : "2025-03-28T15:06:00Z"
@@ -5699,7 +5699,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:42:00Z",
       "astronomicalDusk" : "2025-03-27T19:28:00Z",
@@ -5727,7 +5727,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:17:00Z",
       "nauticalDusk" : "2025-03-27T18:53:00Z",
-      "solarAngle" : -36.486857835665205,
+      "solarAngle" : -40.60903713648698,
       "solarNoon" : "2025-03-27T11:35:00Z",
       "sunrise" : "2025-03-27T05:20:00Z",
       "sunset" : "2025-03-27T17:50:00Z"
@@ -5740,7 +5740,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T05:34:00Z",
       "astronomicalDusk" : "2025-03-27T20:01:00Z",
@@ -5768,7 +5768,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:58:00Z",
       "nauticalDusk" : "2025-03-27T19:37:00Z",
-      "solarAngle" : -41.83797756147538,
+      "solarAngle" : -52.7965888760662,
       "solarNoon" : "2025-03-27T12:48:00Z",
       "sunrise" : "2025-03-27T06:43:00Z",
       "sunset" : "2025-03-27T18:52:00Z"
@@ -5781,7 +5781,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:28:00Z",
       "astronomicalDusk" : "2025-03-27T23:08:00Z",
@@ -5809,7 +5809,7 @@
       },
       "nauticalDawn" : "2025-03-27T08:58:00Z",
       "nauticalDusk" : "2025-03-27T22:39:00Z",
-      "solarAngle" : 0.5262530916221605,
+      "solarAngle" : -8.711154651657456,
       "solarNoon" : "2025-03-27T15:48:00Z",
       "sunrise" : "2025-03-27T09:52:00Z",
       "sunset" : "2025-03-27T21:44:00Z"
@@ -5822,7 +5822,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T02:00:00Z",
       "astronomicalDusk" : "2025-03-28T16:22:00Z",
@@ -5850,7 +5850,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:24:00Z",
       "nauticalDusk" : "2025-03-28T15:57:00Z",
-      "solarAngle" : -79.01615102665694,
+      "solarAngle" : -70.17453756522124,
       "solarNoon" : "2025-03-28T09:11:00Z",
       "sunrise" : "2025-03-28T03:10:00Z",
       "sunset" : "2025-03-28T15:11:00Z"
@@ -5863,7 +5863,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T00:58:00Z",
       "astronomicalDusk" : "2025-03-28T18:11:00Z",
@@ -5891,7 +5891,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:47:00Z",
       "nauticalDusk" : "2025-03-28T17:21:00Z",
-      "solarAngle" : -31.27804356610323,
+      "solarAngle" : -30.407609645618102,
       "solarNoon" : "2025-03-28T09:34:00Z",
       "sunrise" : "2025-03-28T03:10:00Z",
       "sunset" : "2025-03-28T15:58:00Z"
@@ -5904,7 +5904,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T00:45:00Z",
       "astronomicalDusk" : "2025-03-28T15:34:00Z",
@@ -5932,7 +5932,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:12:00Z",
       "nauticalDusk" : "2025-03-28T15:08:00Z",
-      "solarAngle" : -55.831114096505225,
+      "solarAngle" : -48.06869175869005,
       "solarNoon" : "2025-03-28T08:10:00Z",
       "sunrise" : "2025-03-28T02:01:00Z",
       "sunset" : "2025-03-28T14:19:00Z"
@@ -5945,7 +5945,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T02:25:00Z",
       "astronomicalDusk" : "2025-03-28T16:48:00Z",
@@ -5973,7 +5973,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:49:00Z",
       "nauticalDusk" : "2025-03-28T16:24:00Z",
-      "solarAngle" : -88.29754967775631,
+      "solarAngle" : -78.35526426108675,
       "solarNoon" : "2025-03-28T09:37:00Z",
       "sunrise" : "2025-03-28T03:34:00Z",
       "sunset" : "2025-03-28T15:40:00Z"
@@ -5986,7 +5986,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:48:00Z",
       "astronomicalDusk" : "2025-03-28T00:39:00Z",
@@ -6014,7 +6014,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:15:00Z",
       "nauticalDusk" : "2025-03-28T00:12:00Z",
-      "solarAngle" : 22.84002381067533,
+      "solarAngle" : 12.696905981770064,
       "solarNoon" : "2025-03-27T17:14:00Z",
       "sunrise" : "2025-03-27T11:05:00Z",
       "sunset" : "2025-03-27T23:23:00Z"
@@ -6027,7 +6027,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T22:18:00Z",
       "astronomicalDusk" : "2025-03-28T13:01:00Z",
@@ -6055,7 +6055,7 @@
       },
       "nauticalDawn" : "2025-03-27T22:44:00Z",
       "nauticalDusk" : "2025-03-28T12:35:00Z",
-      "solarAngle" : -27.27869490147815,
+      "solarAngle" : -16.912925296236434,
       "solarNoon" : "2025-03-28T05:40:00Z",
       "sunrise" : "2025-03-27T23:32:00Z",
       "sunset" : "2025-03-28T11:47:00Z"
@@ -6068,7 +6068,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:48:00Z",
       "astronomicalDusk" : "2025-03-27T18:20:00Z",
@@ -6096,7 +6096,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:13:00Z",
       "nauticalDusk" : "2025-03-27T17:56:00Z",
-      "solarAngle" : -63.847001425634,
+      "solarAngle" : -71.79534526634846,
       "solarNoon" : "2025-03-27T11:04:00Z",
       "sunrise" : "2025-03-27T04:58:00Z",
       "sunset" : "2025-03-27T17:10:00Z"
@@ -6109,7 +6109,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T23:25:00Z",
       "astronomicalDusk" : "2025-03-28T14:25:00Z",
@@ -6137,7 +6137,7 @@
       },
       "nauticalDawn" : "2025-03-27T23:53:00Z",
       "nauticalDusk" : "2025-03-28T13:57:00Z",
-      "solarAngle" : -39.783560331893845,
+      "solarAngle" : -31.031389748761445,
       "solarNoon" : "2025-03-28T06:56:00Z",
       "sunrise" : "2025-03-28T00:45:00Z",
       "sunset" : "2025-03-28T13:06:00Z"
@@ -6150,7 +6150,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T19:51:00Z",
       "astronomicalDusk" : "2025-03-28T10:20:00Z",
@@ -6178,7 +6178,7 @@
       },
       "nauticalDawn" : "2025-03-27T20:15:00Z",
       "nauticalDusk" : "2025-03-28T09:56:00Z",
-      "solarAngle" : 8.394293629851456,
+      "solarAngle" : 19.549099705970438,
       "solarNoon" : "2025-03-28T03:06:00Z",
       "sunrise" : "2025-03-27T21:01:00Z",
       "sunset" : "2025-03-28T09:10:00Z"
@@ -6191,7 +6191,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:39:00Z",
       "astronomicalDusk" : "2025-03-27T19:13:00Z",
@@ -6219,7 +6219,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:04:00Z",
       "nauticalDusk" : "2025-03-27T18:48:00Z",
-      "solarAngle" : -52.07887090630627,
+      "solarAngle" : -61.70570717779375,
       "solarNoon" : "2025-03-27T11:56:00Z",
       "sunrise" : "2025-03-27T05:50:00Z",
       "sunset" : "2025-03-27T18:02:00Z"
@@ -6232,38 +6232,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:14:00Z",
-      "astronomicalDusk" : "2025-03-27T17:28:00Z",
-      "civilDawn" : "2025-03-27T03:14:00Z",
-      "civilDusk" : "2025-03-27T16:28:00Z",
+      "astronomicalDawn" : "2025-03-28T02:12:00Z",
+      "astronomicalDusk" : "2025-03-28T17:29:00Z",
+      "civilDawn" : "2025-03-28T03:12:00Z",
+      "civilDusk" : "2025-03-28T16:29:00Z",
       "daylight" : {
-        "duration" : 44640,
-        "start" : "2025-03-27T03:39:00Z"
+        "duration" : 44760,
+        "start" : "2025-03-28T03:38:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 600,
-        "start" : "2025-03-27T16:18:00Z"
+        "start" : "2025-03-28T16:19:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2940,
-        "start" : "2025-03-27T15:29:00Z"
+        "start" : "2025-03-28T15:30:00Z"
       },
       "morningBlueHour" : {
         "duration" : 600,
-        "start" : "2025-03-27T03:14:00Z"
+        "start" : "2025-03-28T03:12:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 2940,
-        "start" : "2025-03-27T03:24:00Z"
+        "start" : "2025-03-28T03:22:00Z"
       },
-      "nauticalDawn" : "2025-03-27T02:44:00Z",
-      "nauticalDusk" : "2025-03-27T16:58:00Z",
-      "solarAngle" : -51.75426646951762,
-      "solarNoon" : "2025-03-27T09:51:00Z",
-      "sunrise" : "2025-03-27T03:39:00Z",
-      "sunset" : "2025-03-27T16:03:00Z"
+      "nauticalDawn" : "2025-03-28T02:43:00Z",
+      "nauticalDusk" : "2025-03-28T16:59:00Z",
+      "solarAngle" : -51.11242112265102,
+      "solarNoon" : "2025-03-28T09:51:00Z",
+      "sunrise" : "2025-03-28T03:38:00Z",
+      "sunset" : "2025-03-28T16:04:00Z"
     },
     "waypoint" : {
       "latitude" : 35.16667,
@@ -6273,7 +6273,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T05:48:00Z",
       "astronomicalDusk" : "2025-03-27T20:28:00Z",
@@ -6301,7 +6301,7 @@
       },
       "nauticalDawn" : "2025-03-27T06:14:00Z",
       "nauticalDusk" : "2025-03-27T20:02:00Z",
-      "solarAngle" : -34.19038609960549,
+      "solarAngle" : -44.24183467074591,
       "solarNoon" : "2025-03-27T13:08:00Z",
       "sunrise" : "2025-03-27T07:01:00Z",
       "sunset" : "2025-03-27T19:15:00Z"
@@ -6314,7 +6314,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T17:45:00Z",
       "astronomicalDusk" : "2025-03-28T08:11:00Z",
@@ -6342,7 +6342,7 @@
       },
       "nauticalDawn" : "2025-03-27T18:11:00Z",
       "nauticalDusk" : "2025-03-28T07:45:00Z",
-      "solarAngle" : 34.98813048803706,
+      "solarAngle" : 44.44488171276497,
       "solarNoon" : "2025-03-28T00:58:00Z",
       "sunrise" : "2025-03-27T18:59:00Z",
       "sunset" : "2025-03-28T06:57:00Z"
@@ -6355,7 +6355,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T16:32:00Z",
       "astronomicalDusk" : "2025-03-28T06:57:00Z",
@@ -6383,7 +6383,7 @@
       },
       "nauticalDawn" : "2025-03-27T16:58:00Z",
       "nauticalDusk" : "2025-03-28T06:31:00Z",
-      "solarAngle" : 50.67406997491735,
+      "solarAngle" : 58.633691973470036,
       "solarNoon" : "2025-03-27T23:45:00Z",
       "sunrise" : "2025-03-27T17:46:00Z",
       "sunset" : "2025-03-28T05:43:00Z"
@@ -6396,7 +6396,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T05:55:00Z",
       "astronomicalDusk" : "2025-03-28T01:11:00Z",
@@ -6424,7 +6424,7 @@
       },
       "nauticalDawn" : "2025-03-27T07:10:00Z",
       "nauticalDusk" : "2025-03-27T23:54:00Z",
-      "solarAngle" : 1.9103380193206665,
+      "solarAngle" : -2.9258143312022,
       "solarNoon" : "2025-03-27T15:32:00Z",
       "sunrise" : "2025-03-27T09:00:00Z",
       "sunset" : "2025-03-27T22:03:00Z"
@@ -6437,7 +6437,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:28:00Z",
       "astronomicalDusk" : "2025-03-28T00:01:00Z",
@@ -6465,7 +6465,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:52:00Z",
       "nauticalDusk" : "2025-03-27T23:36:00Z",
-      "solarAngle" : 16.808898256199296,
+      "solarAngle" : 5.828213024620422,
       "solarNoon" : "2025-03-27T16:44:00Z",
       "sunrise" : "2025-03-27T10:38:00Z",
       "sunset" : "2025-03-27T22:50:00Z"
@@ -6478,7 +6478,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:25:00Z",
       "astronomicalDusk" : "2025-03-27T20:21:00Z",
@@ -6506,7 +6506,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:22:00Z",
       "nauticalDusk" : "2025-03-27T19:22:00Z",
-      "solarAngle" : -23.956350152033576,
+      "solarAngle" : -26.084377029452092,
       "solarNoon" : "2025-03-27T11:22:00Z",
       "sunrise" : "2025-03-27T04:56:00Z",
       "sunset" : "2025-03-27T17:48:00Z"
@@ -6519,7 +6519,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:10:00Z",
       "astronomicalDusk" : "2025-03-28T01:05:00Z",
@@ -6547,7 +6547,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:46:00Z",
       "nauticalDusk" : "2025-03-28T00:29:00Z",
-      "solarAngle" : 17.585829493989635,
+      "solarAngle" : 9.820250808230913,
       "solarNoon" : "2025-03-27T17:08:00Z",
       "sunrise" : "2025-03-27T10:51:00Z",
       "sunset" : "2025-03-27T23:24:00Z"
@@ -6560,7 +6560,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:54:00Z",
       "astronomicalDusk" : "2025-03-27T19:27:00Z",
@@ -6588,7 +6588,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:19:00Z",
       "nauticalDusk" : "2025-03-27T19:02:00Z",
-      "solarAngle" : -49.18463724885582,
+      "solarAngle" : -59.249092785754,
       "solarNoon" : "2025-03-27T12:11:00Z",
       "sunrise" : "2025-03-27T06:05:00Z",
       "sunset" : "2025-03-27T18:16:00Z"
@@ -6601,7 +6601,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T16:15:00Z",
       "astronomicalDusk" : "2025-03-28T06:38:00Z",
@@ -6629,7 +6629,7 @@
       },
       "nauticalDawn" : "2025-03-27T16:40:00Z",
       "nauticalDusk" : "2025-03-28T06:13:00Z",
-      "solarAngle" : 57.96423619133132,
+      "solarAngle" : 66.57191377952573,
       "solarNoon" : "2025-03-27T23:27:00Z",
       "sunrise" : "2025-03-27T17:26:00Z",
       "sunset" : "2025-03-28T05:27:00Z"
@@ -6642,7 +6642,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T18:17:00Z",
       "astronomicalDusk" : "2025-03-28T08:45:00Z",
@@ -6670,7 +6670,7 @@
       },
       "nauticalDawn" : "2025-03-27T18:42:00Z",
       "nauticalDusk" : "2025-03-28T08:21:00Z",
-      "solarAngle" : 31.73689501251975,
+      "solarAngle" : 42.90404358364519,
       "solarNoon" : "2025-03-28T01:32:00Z",
       "sunrise" : "2025-03-27T19:27:00Z",
       "sunset" : "2025-03-28T07:36:00Z"
@@ -6683,7 +6683,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:07:00Z",
       "astronomicalDusk" : "2025-03-28T00:37:00Z",
@@ -6711,7 +6711,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:32:00Z",
       "nauticalDusk" : "2025-03-28T00:13:00Z",
-      "solarAngle" : 26.19318554768665,
+      "solarAngle" : 15.081512589406396,
       "solarNoon" : "2025-03-27T17:22:00Z",
       "sunrise" : "2025-03-27T11:17:00Z",
       "sunset" : "2025-03-27T23:27:00Z"
@@ -6724,7 +6724,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T14:50:00Z",
       "astronomicalDusk" : "2025-03-28T05:14:00Z",
@@ -6752,7 +6752,7 @@
       },
       "nauticalDawn" : "2025-03-27T15:16:00Z",
       "nauticalDusk" : "2025-03-28T04:49:00Z",
-      "solarAngle" : 68.63703330154453,
+      "solarAngle" : 68.87253618945269,
       "solarNoon" : "2025-03-27T22:02:00Z",
       "sunrise" : "2025-03-27T16:02:00Z",
       "sunset" : "2025-03-28T04:02:00Z"
@@ -6765,7 +6765,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:31:00Z",
       "astronomicalDusk" : "2025-03-27T22:58:00Z",
@@ -6793,7 +6793,7 @@
       },
       "nauticalDawn" : "2025-03-27T08:55:00Z",
       "nauticalDusk" : "2025-03-27T22:34:00Z",
-      "solarAngle" : 1.9979381297156804,
+      "solarAngle" : -9.174661207232985,
       "solarNoon" : "2025-03-27T15:45:00Z",
       "sunrise" : "2025-03-27T09:40:00Z",
       "sunset" : "2025-03-27T21:49:00Z"
@@ -6806,7 +6806,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:49:00Z",
       "astronomicalDusk" : "2025-03-27T20:02:00Z",
@@ -6834,7 +6834,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:28:00Z",
       "nauticalDusk" : "2025-03-27T19:23:00Z",
-      "solarAngle" : -30.30583576157501,
+      "solarAngle" : -34.47553282192946,
       "solarNoon" : "2025-03-27T11:55:00Z",
       "sunrise" : "2025-03-27T05:37:00Z",
       "sunset" : "2025-03-27T18:13:00Z"
@@ -6847,7 +6847,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:57:00Z",
       "astronomicalDusk" : "2025-03-27T23:36:00Z",
@@ -6875,7 +6875,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:22:00Z",
       "nauticalDusk" : "2025-03-27T23:11:00Z",
-      "solarAngle" : 10.027833511083688,
+      "solarAngle" : -0.6626147514442086,
       "solarNoon" : "2025-03-27T16:17:00Z",
       "sunrise" : "2025-03-27T10:09:00Z",
       "sunset" : "2025-03-27T22:24:00Z"
@@ -6888,7 +6888,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T21:48:00Z",
       "astronomicalDusk" : "2025-03-28T12:21:00Z",
@@ -6916,7 +6916,7 @@
       },
       "nauticalDawn" : "2025-03-27T22:13:00Z",
       "nauticalDusk" : "2025-03-28T11:56:00Z",
-      "solarAngle" : -20.498509732880674,
+      "solarAngle" : -9.539538051429835,
       "solarNoon" : "2025-03-28T05:04:00Z",
       "sunrise" : "2025-03-27T22:58:00Z",
       "sunset" : "2025-03-28T11:10:00Z"
@@ -6929,7 +6929,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:54:00Z",
       "astronomicalDusk" : "2025-03-27T23:32:00Z",
@@ -6957,7 +6957,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:19:00Z",
       "nauticalDusk" : "2025-03-27T23:07:00Z",
-      "solarAngle" : 9.230491063834439,
+      "solarAngle" : -1.535784991216638,
       "solarNoon" : "2025-03-27T16:13:00Z",
       "sunrise" : "2025-03-27T10:06:00Z",
       "sunset" : "2025-03-27T22:20:00Z"
@@ -6970,7 +6970,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:57:00Z",
       "astronomicalDusk" : "2025-03-27T18:38:00Z",
@@ -6998,7 +6998,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:31:00Z",
       "nauticalDusk" : "2025-03-27T18:04:00Z",
-      "solarAngle" : -41.978569443515596,
+      "solarAngle" : -44.25717393333881,
       "solarNoon" : "2025-03-27T10:48:00Z",
       "sunrise" : "2025-03-27T04:33:00Z",
       "sunset" : "2025-03-27T17:02:00Z"
@@ -7011,7 +7011,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:02:00Z",
       "astronomicalDusk" : "2025-03-28T15:26:00Z",
@@ -7039,7 +7039,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:27:00Z",
       "nauticalDusk" : "2025-03-28T15:00:00Z",
-      "solarAngle" : -63.28525657254853,
+      "solarAngle" : -54.19935870412233,
       "solarNoon" : "2025-03-28T08:14:00Z",
       "sunrise" : "2025-03-28T02:15:00Z",
       "sunset" : "2025-03-28T14:13:00Z"
@@ -7052,7 +7052,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T19:04:00Z",
       "astronomicalDusk" : "2025-03-28T09:26:00Z",
@@ -7080,7 +7080,7 @@
       },
       "nauticalDawn" : "2025-03-27T19:29:00Z",
       "nauticalDusk" : "2025-03-28T09:02:00Z",
-      "solarAngle" : 19.802360290852494,
+      "solarAngle" : 30.79386481811777,
       "solarNoon" : "2025-03-28T02:15:00Z",
       "sunrise" : "2025-03-27T20:14:00Z",
       "sunset" : "2025-03-28T08:16:00Z"
@@ -7093,7 +7093,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:33:00Z",
       "astronomicalDusk" : "2025-03-28T00:14:00Z",
@@ -7121,7 +7121,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:59:00Z",
       "nauticalDusk" : "2025-03-27T23:48:00Z",
-      "solarAngle" : 18.828343538131417,
+      "solarAngle" : 8.168784712588927,
       "solarNoon" : "2025-03-27T16:54:00Z",
       "sunrise" : "2025-03-27T10:46:00Z",
       "sunset" : "2025-03-27T23:01:00Z"
@@ -7134,7 +7134,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T23:45:00Z",
       "astronomicalDusk" : "2025-03-28T14:59:00Z",
@@ -7162,7 +7162,7 @@
       },
       "nauticalDawn" : "2025-03-28T00:23:00Z",
       "nauticalDusk" : "2025-03-28T14:22:00Z",
-      "solarAngle" : -35.49300676496137,
+      "solarAngle" : -29.99737420464194,
       "solarNoon" : "2025-03-28T07:23:00Z",
       "sunrise" : "2025-03-28T01:32:00Z",
       "sunset" : "2025-03-28T13:13:00Z"
@@ -7175,7 +7175,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:55:00Z",
       "astronomicalDusk" : "2025-03-27T23:26:00Z",
@@ -7203,7 +7203,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:19:00Z",
       "nauticalDusk" : "2025-03-27T23:01:00Z",
-      "solarAngle" : 8.459101586858157,
+      "solarAngle" : -2.5856770506557947,
       "solarNoon" : "2025-03-27T16:11:00Z",
       "sunrise" : "2025-03-27T10:05:00Z",
       "sunset" : "2025-03-27T22:16:00Z"
@@ -7216,7 +7216,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:40:00Z",
       "astronomicalDusk" : "2025-03-27T19:08:00Z",
@@ -7244,7 +7244,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:04:00Z",
       "nauticalDusk" : "2025-03-27T18:43:00Z",
-      "solarAngle" : -54.82386764936565,
+      "solarAngle" : -65.45236595149741,
       "solarNoon" : "2025-03-27T11:54:00Z",
       "sunrise" : "2025-03-27T05:49:00Z",
       "sunset" : "2025-03-27T17:58:00Z"
@@ -7257,7 +7257,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T17:39:00Z",
       "astronomicalDusk" : "2025-03-28T08:02:00Z",
@@ -7285,7 +7285,7 @@
       },
       "nauticalDawn" : "2025-03-27T18:04:00Z",
       "nauticalDusk" : "2025-03-28T07:37:00Z",
-      "solarAngle" : 38.173767485573094,
+      "solarAngle" : 48.090225829724346,
       "solarNoon" : "2025-03-28T00:51:00Z",
       "sunrise" : "2025-03-27T18:51:00Z",
       "sunset" : "2025-03-28T06:50:00Z"
@@ -7298,7 +7298,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:56:00Z",
       "astronomicalDusk" : "2025-03-27T19:18:00Z",
@@ -7326,7 +7326,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:37:00Z",
       "nauticalDusk" : "2025-03-27T18:37:00Z",
-      "solarAngle" : -33.638182110527744,
+      "solarAngle" : -36.11748436202586,
       "solarNoon" : "2025-03-27T11:07:00Z",
       "sunrise" : "2025-03-27T04:48:00Z",
       "sunset" : "2025-03-27T17:25:00Z"
@@ -7339,7 +7339,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T06:20:00Z",
       "astronomicalDusk" : "2025-03-27T20:56:00Z",
@@ -7367,7 +7367,7 @@
       },
       "nauticalDawn" : "2025-03-27T06:45:00Z",
       "nauticalDusk" : "2025-03-27T20:31:00Z",
-      "solarAngle" : -27.93574576346828,
+      "solarAngle" : -38.48489091226732,
       "solarNoon" : "2025-03-27T13:39:00Z",
       "sunrise" : "2025-03-27T07:32:00Z",
       "sunset" : "2025-03-27T19:45:00Z"
@@ -7380,38 +7380,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:57:00Z",
-      "astronomicalDusk" : "2025-03-27T17:26:00Z",
-      "civilDawn" : "2025-03-27T03:50:00Z",
-      "civilDusk" : "2025-03-27T16:32:00Z",
+      "astronomicalDawn" : "2025-03-28T02:57:00Z",
+      "astronomicalDusk" : "2025-03-28T17:25:00Z",
+      "civilDawn" : "2025-03-28T03:50:00Z",
+      "civilDusk" : "2025-03-28T16:31:00Z",
       "daylight" : {
-        "duration" : 42960,
-        "start" : "2025-03-27T04:13:00Z"
+        "duration" : 42900,
+        "start" : "2025-03-28T04:13:00Z"
       },
       "eveningBlueHour" : {
-        "duration" : 480,
-        "start" : "2025-03-27T16:24:00Z"
+        "duration" : 540,
+        "start" : "2025-03-28T16:22:00Z"
       },
       "eveningGoldenHour" : {
-        "duration" : 2700,
-        "start" : "2025-03-27T15:39:00Z"
+        "duration" : 2640,
+        "start" : "2025-03-28T15:38:00Z"
       },
       "morningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T03:50:00Z"
+        "start" : "2025-03-28T03:50:00Z"
       },
       "morningGoldenHour" : {
-        "duration" : 2640,
-        "start" : "2025-03-27T03:59:00Z"
+        "duration" : 2700,
+        "start" : "2025-03-28T03:59:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:23:00Z",
-      "nauticalDusk" : "2025-03-27T16:59:00Z",
-      "solarAngle" : -65.8457523126432,
-      "solarNoon" : "2025-03-27T10:11:00Z",
-      "sunrise" : "2025-03-27T04:13:00Z",
-      "sunset" : "2025-03-27T16:09:00Z"
+      "nauticalDawn" : "2025-03-28T03:24:00Z",
+      "nauticalDusk" : "2025-03-28T16:58:00Z",
+      "solarAngle" : -67.06042206611316,
+      "solarNoon" : "2025-03-28T10:11:00Z",
+      "sunrise" : "2025-03-28T04:13:00Z",
+      "sunset" : "2025-03-28T16:08:00Z"
     },
     "waypoint" : {
       "latitude" : -25.74486,
@@ -7421,7 +7421,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:49:00Z",
       "astronomicalDusk" : "2025-03-27T18:31:00Z",
@@ -7449,7 +7449,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:23:00Z",
       "nauticalDusk" : "2025-03-27T17:56:00Z",
-      "solarAngle" : -42.29491001322334,
+      "solarAngle" : -44.20011567789974,
       "solarNoon" : "2025-03-27T10:40:00Z",
       "sunrise" : "2025-03-27T04:25:00Z",
       "sunset" : "2025-03-27T16:55:00Z"
@@ -7462,7 +7462,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T19:57:00Z",
       "astronomicalDusk" : "2025-03-28T11:26:00Z",
@@ -7490,7 +7490,7 @@
       },
       "nauticalDawn" : "2025-03-27T20:29:00Z",
       "nauticalDusk" : "2025-03-28T10:54:00Z",
-      "solarAngle" : 1.2563287416698683,
+      "solarAngle" : 9.998221478930505,
       "solarNoon" : "2025-03-28T03:41:00Z",
       "sunrise" : "2025-03-27T21:27:00Z",
       "sunset" : "2025-03-28T09:55:00Z"
@@ -7503,7 +7503,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:06:00Z",
       "astronomicalDusk" : "2025-03-28T00:30:00Z",
@@ -7531,7 +7531,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:30:00Z",
       "nauticalDusk" : "2025-03-28T00:06:00Z",
-      "solarAngle" : 25.0152525316743,
+      "solarAngle" : 13.780668330640502,
       "solarNoon" : "2025-03-27T17:18:00Z",
       "sunrise" : "2025-03-27T11:15:00Z",
       "sunset" : "2025-03-27T23:21:00Z"
@@ -7544,7 +7544,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:56:00Z",
       "astronomicalDusk" : "2025-03-27T20:08:00Z",
@@ -7572,7 +7572,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:26:00Z",
       "nauticalDusk" : "2025-03-27T19:38:00Z",
-      "solarAngle" : -34.94713178417253,
+      "solarAngle" : -42.2257688144957,
       "solarNoon" : "2025-03-27T12:32:00Z",
       "sunrise" : "2025-03-27T06:20:00Z",
       "sunset" : "2025-03-27T18:43:00Z"
@@ -7585,7 +7585,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:57:00Z",
       "astronomicalDusk" : "2025-03-27T23:11:00Z",
@@ -7613,7 +7613,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:12:00Z",
       "nauticalDusk" : "2025-03-27T21:55:00Z",
-      "solarAngle" : -10.459481775284358,
+      "solarAngle" : -14.441688874541734,
       "solarNoon" : "2025-03-27T13:33:00Z",
       "sunrise" : "2025-03-27T07:02:00Z",
       "sunset" : "2025-03-27T20:04:00Z"
@@ -7626,38 +7626,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T01:49:00Z",
-      "astronomicalDusk" : "2025-03-27T19:08:00Z",
-      "civilDawn" : "2025-03-27T03:27:00Z",
-      "civilDusk" : "2025-03-27T17:30:00Z",
+      "astronomicalDawn" : "2025-03-28T01:46:00Z",
+      "astronomicalDusk" : "2025-03-28T19:11:00Z",
+      "civilDawn" : "2025-03-28T03:24:00Z",
+      "civilDusk" : "2025-03-28T17:32:00Z",
       "daylight" : {
-        "duration" : 46020,
-        "start" : "2025-03-27T04:05:00Z"
+        "duration" : 46320,
+        "start" : "2025-03-28T04:02:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 900,
-        "start" : "2025-03-27T17:15:00Z"
+        "start" : "2025-03-28T17:17:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 4440,
-        "start" : "2025-03-27T16:01:00Z"
+        "start" : "2025-03-28T16:03:00Z"
       },
       "morningBlueHour" : {
         "duration" : 900,
-        "start" : "2025-03-27T03:27:00Z"
+        "start" : "2025-03-28T03:24:00Z"
       },
       "morningGoldenHour" : {
-        "duration" : 4380,
-        "start" : "2025-03-27T03:42:00Z"
+        "duration" : 4440,
+        "start" : "2025-03-28T03:39:00Z"
       },
-      "nauticalDawn" : "2025-03-27T02:40:00Z",
-      "nauticalDusk" : "2025-03-27T18:17:00Z",
-      "solarAngle" : -29.24849001214592,
-      "solarNoon" : "2025-03-27T10:29:00Z",
-      "sunrise" : "2025-03-27T04:05:00Z",
-      "sunset" : "2025-03-27T16:52:00Z"
+      "nauticalDawn" : "2025-03-28T02:37:00Z",
+      "nauticalDusk" : "2025-03-28T18:20:00Z",
+      "solarAngle" : -30.071030730519563,
+      "solarNoon" : "2025-03-28T10:28:00Z",
+      "sunrise" : "2025-03-28T04:02:00Z",
+      "sunset" : "2025-03-28T16:54:00Z"
     },
     "waypoint" : {
       "latitude" : 56.946,
@@ -7667,7 +7667,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:31:00Z",
       "astronomicalDusk" : "2025-03-28T16:23:00Z",
@@ -7695,7 +7695,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:58:00Z",
       "nauticalDusk" : "2025-03-28T15:56:00Z",
-      "solarAngle" : -60.63353321121553,
+      "solarAngle" : -55.37961799965997,
       "solarNoon" : "2025-03-28T08:58:00Z",
       "sunrise" : "2025-03-28T02:48:00Z",
       "sunset" : "2025-03-28T15:07:00Z"
@@ -7708,7 +7708,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:03:00Z",
       "astronomicalDusk" : "2025-03-27T23:43:00Z",
@@ -7736,7 +7736,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:28:00Z",
       "nauticalDusk" : "2025-03-27T23:17:00Z",
-      "solarAngle" : 11.51703053135529,
+      "solarAngle" : 0.8484067921024193,
       "solarNoon" : "2025-03-27T16:23:00Z",
       "sunrise" : "2025-03-27T10:15:00Z",
       "sunset" : "2025-03-27T22:30:00Z"
@@ -7749,7 +7749,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:25:00Z",
       "astronomicalDusk" : "2025-03-27T19:04:00Z",
@@ -7777,7 +7777,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:59:00Z",
       "nauticalDusk" : "2025-03-27T18:30:00Z",
-      "solarAngle" : -40.11301134718737,
+      "solarAngle" : -43.64802945687984,
       "solarNoon" : "2025-03-27T11:15:00Z",
       "sunrise" : "2025-03-27T05:00:00Z",
       "sunset" : "2025-03-27T17:29:00Z"
@@ -7790,7 +7790,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:52:00Z",
       "astronomicalDusk" : "2025-03-27T23:28:00Z",
@@ -7818,7 +7818,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:17:00Z",
       "nauticalDusk" : "2025-03-27T23:03:00Z",
-      "solarAngle" : 8.423863527383956,
+      "solarAngle" : -2.4167094265695006,
       "solarNoon" : "2025-03-27T16:10:00Z",
       "sunrise" : "2025-03-27T10:03:00Z",
       "sunset" : "2025-03-27T22:16:00Z"
@@ -7831,7 +7831,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:25:00Z",
       "astronomicalDusk" : "2025-03-27T18:49:00Z",
@@ -7859,7 +7859,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:49:00Z",
       "nauticalDusk" : "2025-03-27T18:25:00Z",
-      "solarAngle" : -60.017906226386856,
+      "solarAngle" : -71.154484827071,
       "solarNoon" : "2025-03-27T11:38:00Z",
       "sunrise" : "2025-03-27T05:34:00Z",
       "sunset" : "2025-03-27T17:41:00Z"
@@ -7872,7 +7872,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:55:00Z",
       "astronomicalDusk" : "2025-03-27T23:27:00Z",
@@ -7900,7 +7900,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:20:00Z",
       "nauticalDusk" : "2025-03-27T23:03:00Z",
-      "solarAngle" : 8.718337588783761,
+      "solarAngle" : -2.2732279583230657,
       "solarNoon" : "2025-03-27T16:11:00Z",
       "sunrise" : "2025-03-27T10:05:00Z",
       "sunset" : "2025-03-27T22:17:00Z"
@@ -7913,7 +7913,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:05:00Z",
       "astronomicalDusk" : "2025-03-27T20:21:00Z",
@@ -7941,7 +7941,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:45:00Z",
       "nauticalDusk" : "2025-03-27T19:41:00Z",
-      "solarAngle" : -28.082923505061512,
+      "solarAngle" : -32.70510863101501,
       "solarNoon" : "2025-03-27T12:13:00Z",
       "sunrise" : "2025-03-27T05:55:00Z",
       "sunset" : "2025-03-27T18:31:00Z"
@@ -7954,7 +7954,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:52:00Z",
       "astronomicalDusk" : "2025-03-27T23:31:00Z",
@@ -7982,7 +7982,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:18:00Z",
       "nauticalDusk" : "2025-03-27T23:05:00Z",
-      "solarAngle" : 8.885839617296172,
+      "solarAngle" : -1.8562978524876963,
       "solarNoon" : "2025-03-27T16:12:00Z",
       "sunrise" : "2025-03-27T10:05:00Z",
       "sunset" : "2025-03-27T22:19:00Z"
@@ -7995,7 +7995,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:06:00Z",
       "astronomicalDusk" : "2025-03-27T20:24:00Z",
@@ -8023,7 +8023,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:46:00Z",
       "nauticalDusk" : "2025-03-27T19:44:00Z",
-      "solarAngle" : -27.68679599443081,
+      "solarAngle" : -32.31828919582154,
       "solarNoon" : "2025-03-27T12:15:00Z",
       "sunrise" : "2025-03-27T05:57:00Z",
       "sunset" : "2025-03-27T18:33:00Z"
@@ -8036,7 +8036,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:10:00Z",
       "astronomicalDusk" : "2025-03-28T15:34:00Z",
@@ -8064,7 +8064,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:35:00Z",
       "nauticalDusk" : "2025-03-28T15:08:00Z",
-      "solarAngle" : -64.30668139453527,
+      "solarAngle" : -55.61062212134129,
       "solarNoon" : "2025-03-28T08:22:00Z",
       "sunrise" : "2025-03-28T02:23:00Z",
       "sunset" : "2025-03-28T14:21:00Z"
@@ -8077,7 +8077,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T07:48:00Z",
       "astronomicalDusk" : "2025-03-27T23:51:00Z",
@@ -8105,7 +8105,7 @@
       },
       "nauticalDawn" : "2025-03-27T08:26:00Z",
       "nauticalDusk" : "2025-03-27T23:13:00Z",
-      "solarAngle" : 4.013512299873543,
+      "solarAngle" : -3.6583826013159024,
       "solarNoon" : "2025-03-27T15:49:00Z",
       "sunrise" : "2025-03-27T09:32:00Z",
       "sunset" : "2025-03-27T22:06:00Z"
@@ -8118,7 +8118,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:25:00Z",
       "astronomicalDusk" : "2025-03-28T00:56:00Z",
@@ -8146,7 +8146,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:50:00Z",
       "nauticalDusk" : "2025-03-28T00:31:00Z",
-      "solarAngle" : 30.663414788260244,
+      "solarAngle" : 19.585654209959277,
       "solarNoon" : "2025-03-27T17:41:00Z",
       "sunrise" : "2025-03-27T11:35:00Z",
       "sunset" : "2025-03-27T23:46:00Z"
@@ -8159,7 +8159,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:09:00Z",
       "astronomicalDusk" : "2025-03-27T23:49:00Z",
@@ -8187,7 +8187,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:34:00Z",
       "nauticalDusk" : "2025-03-27T23:23:00Z",
-      "solarAngle" : 12.928598605095427,
+      "solarAngle" : 2.2617796604562517,
       "solarNoon" : "2025-03-27T16:29:00Z",
       "sunrise" : "2025-03-27T10:21:00Z",
       "sunset" : "2025-03-27T22:36:00Z"
@@ -8200,7 +8200,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:21:00Z",
       "astronomicalDusk" : "2025-03-27T19:09:00Z",
@@ -8228,7 +8228,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:56:00Z",
       "nauticalDusk" : "2025-03-27T18:33:00Z",
-      "solarAngle" : -38.36618206636824,
+      "solarAngle" : -41.696779092210285,
       "solarNoon" : "2025-03-27T11:15:00Z",
       "sunrise" : "2025-03-27T04:59:00Z",
       "sunset" : "2025-03-27T17:30:00Z"
@@ -8241,7 +8241,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:44:00Z",
       "astronomicalDusk" : "2025-03-28T01:18:00Z",
@@ -8269,7 +8269,7 @@
       },
       "nauticalDawn" : "2025-03-27T11:09:00Z",
       "nauticalDusk" : "2025-03-28T00:53:00Z",
-      "solarAngle" : 35.36662366482918,
+      "solarAngle" : 24.472565153030757,
       "solarNoon" : "2025-03-27T18:01:00Z",
       "sunrise" : "2025-03-27T11:55:00Z",
       "sunset" : "2025-03-28T00:07:00Z"
@@ -8282,7 +8282,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:49:00Z",
       "astronomicalDusk" : "2025-03-28T16:26:00Z",
@@ -8310,7 +8310,7 @@
       },
       "nauticalDawn" : "2025-03-28T02:14:00Z",
       "nauticalDusk" : "2025-03-28T16:00:00Z",
-      "solarAngle" : -70.17251510691644,
+      "solarAngle" : -63.7968566365323,
       "solarNoon" : "2025-03-28T09:07:00Z",
       "sunrise" : "2025-03-28T03:00:00Z",
       "sunset" : "2025-03-28T15:14:00Z"
@@ -8323,7 +8323,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:27:00Z",
       "astronomicalDusk" : "2025-03-28T00:05:00Z",
@@ -8351,7 +8351,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:56:00Z",
       "nauticalDusk" : "2025-03-27T23:36:00Z",
-      "solarAngle" : 12.514373976919172,
+      "solarAngle" : 3.2338366219006116,
       "solarNoon" : "2025-03-27T16:46:00Z",
       "sunrise" : "2025-03-27T10:50:00Z",
       "sunset" : "2025-03-27T22:42:00Z"
@@ -8364,7 +8364,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:24:00Z",
       "astronomicalDusk" : "2025-03-28T00:04:00Z",
@@ -8392,7 +8392,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:50:00Z",
       "nauticalDusk" : "2025-03-27T23:39:00Z",
-      "solarAngle" : 16.608147951068226,
+      "solarAngle" : 5.943554739018565,
       "solarNoon" : "2025-03-27T16:44:00Z",
       "sunrise" : "2025-03-27T10:37:00Z",
       "sunset" : "2025-03-27T22:51:00Z"
@@ -8405,7 +8405,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:58:00Z",
       "astronomicalDusk" : "2025-03-27T18:45:00Z",
@@ -8433,7 +8433,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:33:00Z",
       "nauticalDusk" : "2025-03-27T18:09:00Z",
-      "solarAngle" : -40.42363406835087,
+      "solarAngle" : -42.76397377916022,
       "solarNoon" : "2025-03-27T10:51:00Z",
       "sunrise" : "2025-03-27T04:36:00Z",
       "sunset" : "2025-03-27T17:06:00Z"
@@ -8446,7 +8446,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T19:54:00Z",
       "astronomicalDusk" : "2025-03-28T11:19:00Z",
@@ -8474,7 +8474,7 @@
       },
       "nauticalDawn" : "2025-03-27T20:26:00Z",
       "nauticalDusk" : "2025-03-28T10:47:00Z",
-      "solarAngle" : 2.153320875179789,
+      "solarAngle" : 11.071848602699385,
       "solarNoon" : "2025-03-28T03:37:00Z",
       "sunrise" : "2025-03-27T21:23:00Z",
       "sunset" : "2025-03-28T09:50:00Z"
@@ -8487,7 +8487,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T21:56:00Z",
       "astronomicalDusk" : "2025-03-28T12:21:00Z",
@@ -8515,7 +8515,7 @@
       },
       "nauticalDawn" : "2025-03-27T22:20:00Z",
       "nauticalDusk" : "2025-03-28T11:57:00Z",
-      "solarAngle" : -22.579084844793247,
+      "solarAngle" : -11.350197336806051,
       "solarNoon" : "2025-03-28T05:09:00Z",
       "sunrise" : "2025-03-27T23:05:00Z",
       "sunset" : "2025-03-28T11:12:00Z"
@@ -8528,7 +8528,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:49:00Z",
       "astronomicalDusk" : "2025-03-27T18:28:00Z",
@@ -8556,7 +8556,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:23:00Z",
       "nauticalDusk" : "2025-03-27T17:54:00Z",
-      "solarAngle" : -42.993622982995504,
+      "solarAngle" : -44.88882207183196,
       "solarNoon" : "2025-03-27T10:39:00Z",
       "sunrise" : "2025-03-27T04:24:00Z",
       "sunset" : "2025-03-27T16:53:00Z"
@@ -8569,38 +8569,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T02:40:00Z",
-      "astronomicalDusk" : "2025-03-27T18:22:00Z",
-      "civilDawn" : "2025-03-27T03:48:00Z",
-      "civilDusk" : "2025-03-27T17:14:00Z",
+      "astronomicalDawn" : "2025-03-28T02:38:00Z",
+      "astronomicalDusk" : "2025-03-28T18:24:00Z",
+      "civilDawn" : "2025-03-28T03:46:00Z",
+      "civilDusk" : "2025-03-28T17:16:00Z",
       "daylight" : {
-        "duration" : 45000,
-        "start" : "2025-03-27T04:16:00Z"
+        "duration" : 45120,
+        "start" : "2025-03-28T04:15:00Z"
       },
       "eveningBlueHour" : {
-        "duration" : 660,
-        "start" : "2025-03-27T17:03:00Z"
+        "duration" : 720,
+        "start" : "2025-03-28T17:04:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 3240,
-        "start" : "2025-03-27T16:09:00Z"
+        "start" : "2025-03-28T16:10:00Z"
       },
       "morningBlueHour" : {
         "duration" : 660,
-        "start" : "2025-03-27T03:48:00Z"
+        "start" : "2025-03-28T03:46:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 3300,
-        "start" : "2025-03-27T03:59:00Z"
+        "start" : "2025-03-28T03:57:00Z"
       },
-      "nauticalDawn" : "2025-03-27T03:15:00Z",
-      "nauticalDusk" : "2025-03-27T17:48:00Z",
-      "solarAngle" : -42.80227312891287,
-      "solarNoon" : "2025-03-27T10:31:00Z",
-      "sunrise" : "2025-03-27T04:16:00Z",
-      "sunset" : "2025-03-27T16:46:00Z"
+      "nauticalDawn" : "2025-03-28T03:13:00Z",
+      "nauticalDusk" : "2025-03-28T17:49:00Z",
+      "solarAngle" : -44.29269864543174,
+      "solarNoon" : "2025-03-28T10:31:00Z",
+      "sunrise" : "2025-03-28T04:15:00Z",
+      "sunset" : "2025-03-28T16:47:00Z"
     },
     "waypoint" : {
       "latitude" : 42.69751,
@@ -8610,7 +8610,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:12:00Z",
       "astronomicalDusk" : "2025-03-27T23:38:00Z",
@@ -8638,7 +8638,7 @@
       },
       "nauticalDawn" : "2025-03-27T08:52:00Z",
       "nauticalDusk" : "2025-03-27T22:58:00Z",
-      "solarAngle" : 0.3898704977740382,
+      "solarAngle" : -6.585989913485652,
       "solarNoon" : "2025-03-27T15:55:00Z",
       "sunrise" : "2025-03-27T10:04:00Z",
       "sunset" : "2025-03-27T21:46:00Z"
@@ -8651,7 +8651,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T01:59:00Z",
       "astronomicalDusk" : "2025-03-27T19:47:00Z",
@@ -8679,7 +8679,7 @@
       },
       "nauticalDawn" : "2025-03-27T02:56:00Z",
       "nauticalDusk" : "2025-03-27T18:50:00Z",
-      "solarAngle" : -26.018300566369778,
+      "solarAngle" : -27.430924514256954,
       "solarNoon" : "2025-03-27T10:53:00Z",
       "sunrise" : "2025-03-27T04:27:00Z",
       "sunset" : "2025-03-27T17:18:00Z"
@@ -8692,7 +8692,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:13:00Z",
       "astronomicalDusk" : "2025-03-27T23:37:00Z",
@@ -8720,7 +8720,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:38:00Z",
       "nauticalDusk" : "2025-03-27T23:12:00Z",
-      "solarAngle" : 10.150537074092712,
+      "solarAngle" : -0.45079523126657167,
       "solarNoon" : "2025-03-27T16:25:00Z",
       "sunrise" : "2025-03-27T10:26:00Z",
       "sunset" : "2025-03-27T22:24:00Z"
@@ -8733,7 +8733,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T16:58:00Z",
       "astronomicalDusk" : "2025-03-28T07:22:00Z",
@@ -8761,7 +8761,7 @@
       },
       "nauticalDawn" : "2025-03-27T17:24:00Z",
       "nauticalDusk" : "2025-03-28T06:57:00Z",
-      "solarAngle" : 46.94863946882706,
+      "solarAngle" : 56.15726262108854,
       "solarNoon" : "2025-03-28T00:11:00Z",
       "sunrise" : "2025-03-27T18:11:00Z",
       "sunset" : "2025-03-28T06:10:00Z"
@@ -8774,7 +8774,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:18:00Z",
       "astronomicalDusk" : "2025-03-27T21:48:00Z",
@@ -8802,7 +8802,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:23:00Z",
       "nauticalDusk" : "2025-03-27T20:42:00Z",
-      "solarAngle" : -17.181200553406033,
+      "solarAngle" : -20.571863126647024,
       "solarNoon" : "2025-03-27T12:32:00Z",
       "sunrise" : "2025-03-27T06:04:00Z",
       "sunset" : "2025-03-27T19:00:00Z"
@@ -8815,7 +8815,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T20:32:00Z",
       "astronomicalDusk" : "2025-03-28T11:24:00Z",
@@ -8843,7 +8843,7 @@
       },
       "nauticalDawn" : "2025-03-27T20:59:00Z",
       "nauticalDusk" : "2025-03-28T10:57:00Z",
-      "solarAngle" : -3.272673848690322,
+      "solarAngle" : 6.914526789538946,
       "solarNoon" : "2025-03-28T03:58:00Z",
       "sunrise" : "2025-03-27T21:49:00Z",
       "sunset" : "2025-03-28T10:07:00Z"
@@ -8856,38 +8856,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T01:32:00Z",
-      "astronomicalDusk" : "2025-03-27T19:21:00Z",
-      "civilDawn" : "2025-03-27T03:19:00Z",
-      "civilDusk" : "2025-03-27T17:33:00Z",
+      "astronomicalDawn" : "2025-03-28T01:28:00Z",
+      "astronomicalDusk" : "2025-03-28T19:25:00Z",
+      "civilDawn" : "2025-03-28T03:16:00Z",
+      "civilDusk" : "2025-03-28T17:35:00Z",
       "daylight" : {
-        "duration" : 46260,
-        "start" : "2025-03-27T04:00:00Z"
+        "duration" : 46560,
+        "start" : "2025-03-28T03:58:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 960,
-        "start" : "2025-03-27T17:17:00Z"
+        "start" : "2025-03-28T17:19:00Z"
       },
       "eveningGoldenHour" : {
-        "duration" : 4800,
-        "start" : "2025-03-27T15:57:00Z"
+        "duration" : 4740,
+        "start" : "2025-03-28T16:00:00Z"
       },
       "morningBlueHour" : {
         "duration" : 960,
-        "start" : "2025-03-27T03:19:00Z"
+        "start" : "2025-03-28T03:16:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 4740,
-        "start" : "2025-03-27T03:35:00Z"
+        "start" : "2025-03-28T03:32:00Z"
       },
-      "nauticalDawn" : "2025-03-27T02:28:00Z",
-      "nauticalDusk" : "2025-03-27T18:24:00Z",
-      "solarAngle" : -26.909943996522852,
-      "solarNoon" : "2025-03-27T10:26:00Z",
-      "sunrise" : "2025-03-27T04:00:00Z",
-      "sunset" : "2025-03-27T16:51:00Z"
+      "nauticalDawn" : "2025-03-28T02:25:00Z",
+      "nauticalDusk" : "2025-03-28T18:27:00Z",
+      "solarAngle" : -27.586310986982078,
+      "solarNoon" : "2025-03-28T10:26:00Z",
+      "sunrise" : "2025-03-28T03:58:00Z",
+      "sunset" : "2025-03-28T16:54:00Z"
     },
     "waypoint" : {
       "latitude" : 59.43696,
@@ -8897,7 +8897,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T17:20:00Z",
       "astronomicalDusk" : "2025-03-28T07:44:00Z",
@@ -8925,7 +8925,7 @@
       },
       "nauticalDawn" : "2025-03-27T17:44:00Z",
       "nauticalDusk" : "2025-03-28T07:20:00Z",
-      "solarAngle" : 46.44039856985137,
+      "solarAngle" : 57.67237287268094,
       "solarNoon" : "2025-03-28T00:33:00Z",
       "sunrise" : "2025-03-27T18:29:00Z",
       "sunset" : "2025-03-28T06:36:00Z"
@@ -8938,7 +8938,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T23:38:00Z",
       "astronomicalDusk" : "2025-03-28T15:17:00Z",
@@ -8966,7 +8966,7 @@
       },
       "nauticalDawn" : "2025-03-28T00:12:00Z",
       "nauticalDusk" : "2025-03-28T14:43:00Z",
-      "solarAngle" : -36.70995789199873,
+      "solarAngle" : -30.423580456601155,
       "solarNoon" : "2025-03-28T07:28:00Z",
       "sunrise" : "2025-03-28T01:12:00Z",
       "sunset" : "2025-03-28T13:43:00Z"
@@ -8979,7 +8979,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:15:00Z",
       "astronomicalDusk" : "2025-03-28T16:55:00Z",
@@ -9007,7 +9007,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:48:00Z",
       "nauticalDusk" : "2025-03-28T16:21:00Z",
-      "solarAngle" : -44.7104902337487,
+      "solarAngle" : -41.92829297955074,
       "solarNoon" : "2025-03-28T09:05:00Z",
       "sunrise" : "2025-03-28T02:49:00Z",
       "sunset" : "2025-03-28T15:20:00Z"
@@ -9020,7 +9020,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T10:36:00Z",
       "astronomicalDusk" : "2025-03-28T01:10:00Z",
@@ -9048,7 +9048,7 @@
       },
       "nauticalDawn" : "2025-03-27T11:01:00Z",
       "nauticalDusk" : "2025-03-28T00:45:00Z",
-      "solarAngle" : 33.413616824248074,
+      "solarAngle" : 22.53309976371621,
       "solarNoon" : "2025-03-27T17:53:00Z",
       "sunrise" : "2025-03-27T11:47:00Z",
       "sunset" : "2025-03-27T23:59:00Z"
@@ -9061,7 +9061,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T00:59:00Z",
       "astronomicalDusk" : "2025-03-28T16:18:00Z",
@@ -9089,7 +9089,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:30:00Z",
       "nauticalDusk" : "2025-03-28T15:47:00Z",
-      "solarAngle" : -48.9109139371997,
+      "solarAngle" : -44.25414508671712,
       "solarNoon" : "2025-03-28T08:39:00Z",
       "sunrise" : "2025-03-28T02:25:00Z",
       "sunset" : "2025-03-28T14:52:00Z"
@@ -9102,7 +9102,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T08:56:00Z",
       "astronomicalDusk" : "2025-03-27T23:36:00Z",
@@ -9130,7 +9130,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:22:00Z",
       "nauticalDusk" : "2025-03-27T23:11:00Z",
-      "solarAngle" : 10.038738278381283,
+      "solarAngle" : -0.6400749238101004,
       "solarNoon" : "2025-03-27T16:17:00Z",
       "sunrise" : "2025-03-27T10:09:00Z",
       "sunset" : "2025-03-27T22:24:00Z"
@@ -9143,7 +9143,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T22:37:00Z",
       "astronomicalDusk" : "2025-03-28T13:34:00Z",
@@ -9171,7 +9171,7 @@
       },
       "nauticalDawn" : "2025-03-27T23:05:00Z",
       "nauticalDusk" : "2025-03-28T13:06:00Z",
-      "solarAngle" : -30.54125838184081,
+      "solarAngle" : -21.07293595916045,
       "solarNoon" : "2025-03-28T06:06:00Z",
       "sunrise" : "2025-03-27T23:55:00Z",
       "sunset" : "2025-03-28T12:16:00Z"
@@ -9184,7 +9184,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:57:00Z",
       "astronomicalDusk" : "2025-03-27T18:33:00Z",
@@ -9212,7 +9212,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:31:00Z",
       "nauticalDusk" : "2025-03-27T18:00:00Z",
-      "solarAngle" : -43.16481355367697,
+      "solarAngle" : -45.41793024548637,
       "solarNoon" : "2025-03-27T10:45:00Z",
       "sunrise" : "2025-03-27T04:31:00Z",
       "sunset" : "2025-03-27T16:59:00Z"
@@ -9225,7 +9225,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T19:07:00Z",
       "astronomicalDusk" : "2025-03-28T10:25:00Z",
@@ -9253,7 +9253,7 @@
       },
       "nauticalDawn" : "2025-03-27T19:38:00Z",
       "nauticalDusk" : "2025-03-28T09:54:00Z",
-      "solarAngle" : 12.316368998916206,
+      "solarAngle" : 21.360872555659938,
       "solarNoon" : "2025-03-28T02:46:00Z",
       "sunrise" : "2025-03-27T20:33:00Z",
       "sunset" : "2025-03-28T08:59:00Z"
@@ -9266,38 +9266,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T03:38:00Z",
-      "astronomicalDusk" : "2025-03-27T18:46:00Z",
-      "civilDawn" : "2025-03-27T04:36:00Z",
-      "civilDusk" : "2025-03-27T17:48:00Z",
+      "astronomicalDawn" : "2025-03-28T03:36:00Z",
+      "astronomicalDusk" : "2025-03-28T18:47:00Z",
+      "civilDawn" : "2025-03-28T04:34:00Z",
+      "civilDusk" : "2025-03-28T17:48:00Z",
       "daylight" : {
-        "duration" : 44520,
-        "start" : "2025-03-27T05:01:00Z"
+        "duration" : 44640,
+        "start" : "2025-03-28T04:59:00Z"
       },
       "eveningBlueHour" : {
-        "duration" : 600,
-        "start" : "2025-03-27T17:38:00Z"
+        "duration" : 540,
+        "start" : "2025-03-28T17:39:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2880,
-        "start" : "2025-03-27T16:50:00Z"
+        "start" : "2025-03-28T16:51:00Z"
       },
       "morningBlueHour" : {
-        "duration" : 540,
-        "start" : "2025-03-27T04:36:00Z"
+        "duration" : 600,
+        "start" : "2025-03-28T04:34:00Z"
       },
       "morningGoldenHour" : {
         "duration" : 2880,
-        "start" : "2025-03-27T04:45:00Z"
+        "start" : "2025-03-28T04:44:00Z"
       },
-      "nauticalDawn" : "2025-03-27T04:07:00Z",
-      "nauticalDusk" : "2025-03-27T18:16:00Z",
-      "solarAngle" : -47.89948537260117,
-      "solarNoon" : "2025-03-27T11:12:00Z",
-      "sunrise" : "2025-03-27T05:01:00Z",
-      "sunset" : "2025-03-27T17:23:00Z"
+      "nauticalDawn" : "2025-03-28T04:06:00Z",
+      "nauticalDusk" : "2025-03-28T18:17:00Z",
+      "solarAngle" : -52.36486691938799,
+      "solarNoon" : "2025-03-28T11:11:00Z",
+      "sunrise" : "2025-03-28T04:59:00Z",
+      "sunset" : "2025-03-28T17:23:00Z"
     },
     "waypoint" : {
       "latitude" : 32.87519,
@@ -9307,7 +9307,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:44:00Z",
       "astronomicalDusk" : "2025-03-27T19:04:00Z",
@@ -9335,7 +9335,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:15:00Z",
       "nauticalDusk" : "2025-03-27T18:33:00Z",
-      "solarAngle" : -43.257055941927476,
+      "solarAngle" : -47.7882571890742,
       "solarNoon" : "2025-03-27T11:24:00Z",
       "sunrise" : "2025-03-27T05:11:00Z",
       "sunset" : "2025-03-27T17:36:00Z"
@@ -9348,7 +9348,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T20:51:00Z",
       "astronomicalDusk" : "2025-03-28T13:03:00Z",
@@ -9376,7 +9376,7 @@
       },
       "nauticalDawn" : "2025-03-27T21:30:00Z",
       "nauticalDusk" : "2025-03-28T12:24:00Z",
-      "solarAngle" : -10.76730514135034,
+      "solarAngle" : -3.400705910106437,
       "solarNoon" : "2025-03-28T04:57:00Z",
       "sunrise" : "2025-03-27T22:38:00Z",
       "sunset" : "2025-03-28T11:15:00Z"
@@ -9389,7 +9389,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:25:00Z",
       "astronomicalDusk" : "2025-03-27T19:29:00Z",
@@ -9417,7 +9417,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:03:00Z",
       "nauticalDusk" : "2025-03-27T18:51:00Z",
-      "solarAngle" : -34.55899095332427,
+      "solarAngle" : -38.00070684159572,
       "solarNoon" : "2025-03-27T11:27:00Z",
       "sunrise" : "2025-03-27T05:10:00Z",
       "sunset" : "2025-03-27T17:43:00Z"
@@ -9430,7 +9430,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:28:00Z",
       "astronomicalDusk" : "2025-03-27T18:45:00Z",
@@ -9458,7 +9458,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:59:00Z",
       "nauticalDusk" : "2025-03-27T18:14:00Z",
-      "solarAngle" : -46.02264141880473,
+      "solarAngle" : -49.84129137505087,
       "solarNoon" : "2025-03-27T11:06:00Z",
       "sunrise" : "2025-03-27T04:54:00Z",
       "sunset" : "2025-03-27T17:18:00Z"
@@ -9471,7 +9471,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:26:00Z",
       "astronomicalDusk" : "2025-03-27T19:04:00Z",
@@ -9499,7 +9499,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:59:00Z",
       "nauticalDusk" : "2025-03-27T18:30:00Z",
-      "solarAngle" : -40.094440497026596,
+      "solarAngle" : -43.63380661758648,
       "solarNoon" : "2025-03-27T11:15:00Z",
       "sunrise" : "2025-03-27T05:00:00Z",
       "sunset" : "2025-03-27T17:29:00Z"
@@ -9512,7 +9512,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:11:00Z",
       "astronomicalDusk" : "2025-03-28T15:33:00Z",
@@ -9540,7 +9540,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:35:00Z",
       "nauticalDusk" : "2025-03-28T15:09:00Z",
-      "solarAngle" : -71.0595270321088,
+      "solarAngle" : -59.86116384625856,
       "solarNoon" : "2025-03-28T08:22:00Z",
       "sunrise" : "2025-03-28T02:20:00Z",
       "sunset" : "2025-03-28T14:24:00Z"
@@ -9553,7 +9553,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:54:00Z",
       "astronomicalDusk" : "2025-03-27T19:04:00Z",
@@ -9581,7 +9581,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:33:00Z",
       "nauticalDusk" : "2025-03-27T18:25:00Z",
-      "solarAngle" : -35.886838367055184,
+      "solarAngle" : -38.22740349597235,
       "solarNoon" : "2025-03-27T11:00:00Z",
       "sunrise" : "2025-03-27T04:42:00Z",
       "sunset" : "2025-03-27T17:17:00Z"
@@ -9594,7 +9594,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T21:54:00Z",
       "astronomicalDusk" : "2025-03-28T12:34:00Z",
@@ -9622,7 +9622,7 @@
       },
       "nauticalDawn" : "2025-03-27T22:19:00Z",
       "nauticalDusk" : "2025-03-28T12:08:00Z",
-      "solarAngle" : -21.686181622879648,
+      "solarAngle" : -11.105967469329357,
       "solarNoon" : "2025-03-28T05:14:00Z",
       "sunrise" : "2025-03-27T23:06:00Z",
       "sunset" : "2025-03-28T11:21:00Z"
@@ -9635,38 +9635,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T01:56:00Z",
-      "astronomicalDusk" : "2025-03-27T18:52:00Z",
-      "civilDawn" : "2025-03-27T03:26:00Z",
-      "civilDusk" : "2025-03-27T17:21:00Z",
+      "astronomicalDawn" : "2025-03-28T01:52:00Z",
+      "astronomicalDusk" : "2025-03-28T18:55:00Z",
+      "civilDawn" : "2025-03-28T03:23:00Z",
+      "civilDusk" : "2025-03-28T17:23:00Z",
       "daylight" : {
-        "duration" : 45780,
-        "start" : "2025-03-27T04:02:00Z"
+        "duration" : 46020,
+        "start" : "2025-03-28T04:00:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 840,
-        "start" : "2025-03-27T17:07:00Z"
+        "start" : "2025-03-28T17:09:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 4140,
-        "start" : "2025-03-27T15:58:00Z"
+        "start" : "2025-03-28T16:00:00Z"
       },
       "morningBlueHour" : {
         "duration" : 840,
-        "start" : "2025-03-27T03:26:00Z"
+        "start" : "2025-03-28T03:23:00Z"
       },
       "morningGoldenHour" : {
-        "duration" : 4140,
-        "start" : "2025-03-27T03:40:00Z"
+        "duration" : 4200,
+        "start" : "2025-03-28T03:37:00Z"
       },
-      "nauticalDawn" : "2025-03-27T02:42:00Z",
-      "nauticalDusk" : "2025-03-27T18:05:00Z",
-      "solarAngle" : -31.597323709762072,
-      "solarNoon" : "2025-03-27T10:24:00Z",
-      "sunrise" : "2025-03-27T04:02:00Z",
-      "sunset" : "2025-03-27T16:45:00Z"
+      "nauticalDawn" : "2025-03-28T02:40:00Z",
+      "nauticalDusk" : "2025-03-28T18:07:00Z",
+      "solarAngle" : -32.335534112722975,
+      "solarNoon" : "2025-03-28T10:24:00Z",
+      "sunrise" : "2025-03-28T04:00:00Z",
+      "sunset" : "2025-03-28T16:47:00Z"
     },
     "waypoint" : {
       "latitude" : 54.68916,
@@ -9676,7 +9676,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T02:23:00Z",
       "astronomicalDusk" : "2025-03-27T18:59:00Z",
@@ -9704,7 +9704,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:06:00Z",
       "nauticalDusk" : "2025-03-27T18:16:00Z",
-      "solarAngle" : -33.263511884688185,
+      "solarAngle" : -34.67625454272802,
       "solarNoon" : "2025-03-27T10:41:00Z",
       "sunrise" : "2025-03-27T04:21:00Z",
       "sunset" : "2025-03-27T17:00:00Z"
@@ -9717,7 +9717,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:29:00Z",
       "astronomicalDusk" : "2025-03-28T00:57:00Z",
@@ -9745,7 +9745,7 @@
       },
       "nauticalDawn" : "2025-03-27T10:01:00Z",
       "nauticalDusk" : "2025-03-28T00:24:00Z",
-      "solarAngle" : 20.079934023527304,
+      "solarAngle" : 11.44807431060244,
       "solarNoon" : "2025-03-27T17:13:00Z",
       "sunrise" : "2025-03-27T10:59:00Z",
       "sunset" : "2025-03-27T23:26:00Z"
@@ -9758,7 +9758,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T16:59:00Z",
       "astronomicalDusk" : "2025-03-28T07:50:00Z",
@@ -9786,7 +9786,7 @@
       },
       "nauticalDawn" : "2025-03-27T17:31:00Z",
       "nauticalDusk" : "2025-03-28T07:18:00Z",
-      "solarAngle" : 31.71013946461454,
+      "solarAngle" : 37.752051202379455,
       "solarNoon" : "2025-03-28T00:25:00Z",
       "sunrise" : "2025-03-27T18:31:00Z",
       "sunset" : "2025-03-28T06:18:00Z"
@@ -9799,7 +9799,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T22:26:00Z",
       "astronomicalDusk" : "2025-03-28T12:47:00Z",
@@ -9827,7 +9827,7 @@
       },
       "nauticalDawn" : "2025-03-27T22:50:00Z",
       "nauticalDusk" : "2025-03-28T12:23:00Z",
-      "solarAngle" : -29.65899980488766,
+      "solarAngle" : -18.670753069283133,
       "solarNoon" : "2025-03-28T05:37:00Z",
       "sunrise" : "2025-03-27T23:36:00Z",
       "sunset" : "2025-03-28T11:37:00Z"
@@ -9840,7 +9840,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T09:24:00Z",
       "astronomicalDusk" : "2025-03-27T23:56:00Z",
@@ -9868,7 +9868,7 @@
       },
       "nauticalDawn" : "2025-03-27T09:48:00Z",
       "nauticalDusk" : "2025-03-27T23:32:00Z",
-      "solarAngle" : 15.744210539422143,
+      "solarAngle" : 4.746708437884352,
       "solarNoon" : "2025-03-27T16:40:00Z",
       "sunrise" : "2025-03-27T10:34:00Z",
       "sunset" : "2025-03-27T22:46:00Z"
@@ -9881,38 +9881,38 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
-      "astronomicalDawn" : "2025-03-27T03:42:00Z",
-      "astronomicalDusk" : "2025-03-27T18:09:00Z",
-      "civilDawn" : "2025-03-27T04:34:00Z",
-      "civilDusk" : "2025-03-27T17:17:00Z",
+      "astronomicalDawn" : "2025-03-28T03:43:00Z",
+      "astronomicalDusk" : "2025-03-28T18:08:00Z",
+      "civilDawn" : "2025-03-28T04:35:00Z",
+      "civilDusk" : "2025-03-28T17:16:00Z",
       "daylight" : {
-        "duration" : 43080,
-        "start" : "2025-03-27T04:57:00Z"
+        "duration" : 43020,
+        "start" : "2025-03-28T04:57:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 540,
-        "start" : "2025-03-27T17:08:00Z"
+        "start" : "2025-03-28T17:07:00Z"
       },
       "eveningGoldenHour" : {
         "duration" : 2580,
-        "start" : "2025-03-27T16:25:00Z"
+        "start" : "2025-03-28T16:24:00Z"
       },
       "morningBlueHour" : {
-        "duration" : 540,
-        "start" : "2025-03-27T04:34:00Z"
+        "duration" : 480,
+        "start" : "2025-03-28T04:35:00Z"
       },
       "morningGoldenHour" : {
-        "duration" : 2580,
-        "start" : "2025-03-27T04:43:00Z"
+        "duration" : 2640,
+        "start" : "2025-03-28T04:43:00Z"
       },
-      "nauticalDawn" : "2025-03-27T04:08:00Z",
-      "nauticalDusk" : "2025-03-27T17:43:00Z",
-      "solarAngle" : -62.79985743074652,
-      "solarNoon" : "2025-03-27T10:56:00Z",
-      "sunrise" : "2025-03-27T04:57:00Z",
-      "sunset" : "2025-03-27T16:55:00Z"
+      "nauticalDawn" : "2025-03-28T04:09:00Z",
+      "nauticalDusk" : "2025-03-28T17:42:00Z",
+      "solarAngle" : -68.86172584775454,
+      "solarNoon" : "2025-03-28T10:56:00Z",
+      "sunrise" : "2025-03-28T04:57:00Z",
+      "sunset" : "2025-03-28T16:54:00Z"
     },
     "waypoint" : {
       "latitude" : -22.55941,
@@ -9922,7 +9922,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T05:11:00Z",
       "astronomicalDusk" : "2025-03-27T19:39:00Z",
@@ -9950,7 +9950,7 @@
       },
       "nauticalDawn" : "2025-03-27T05:36:00Z",
       "nauticalDusk" : "2025-03-27T19:15:00Z",
-      "solarAngle" : -47.12317993071244,
+      "solarAngle" : -57.9521154145191,
       "solarNoon" : "2025-03-27T12:26:00Z",
       "sunrise" : "2025-03-27T06:21:00Z",
       "sunset" : "2025-03-27T18:30:00Z"
@@ -9963,7 +9963,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T04:05:00Z",
       "astronomicalDusk" : "2025-03-27T18:31:00Z",
@@ -9991,7 +9991,7 @@
       },
       "nauticalDawn" : "2025-03-27T04:29:00Z",
       "nauticalDusk" : "2025-03-27T18:07:00Z",
-      "solarAngle" : -64.07700753468204,
+      "solarAngle" : -74.6311909393487,
       "solarNoon" : "2025-03-27T11:18:00Z",
       "sunrise" : "2025-03-27T05:14:00Z",
       "sunset" : "2025-03-27T17:22:00Z"
@@ -10004,7 +10004,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-28T01:19:00Z",
       "astronomicalDusk" : "2025-03-28T16:54:00Z",
@@ -10032,7 +10032,7 @@
       },
       "nauticalDawn" : "2025-03-28T01:52:00Z",
       "nauticalDusk" : "2025-03-28T16:21:00Z",
-      "solarAngle" : -46.241172915521965,
+      "solarAngle" : -43.3878428688717,
       "solarNoon" : "2025-03-28T09:06:00Z",
       "sunrise" : "2025-03-28T02:51:00Z",
       "sunset" : "2025-03-28T15:21:00Z"
@@ -10045,7 +10045,7 @@
     }
   },
   {
-    "date" : "2025-03-27T21:39:00Z",
+    "date" : "2025-03-27T22:24:00Z",
     "solarData" : {
       "astronomicalDawn" : "2025-03-27T03:03:00Z",
       "astronomicalDusk" : "2025-03-27T18:59:00Z",
@@ -10073,7 +10073,7 @@
       },
       "nauticalDawn" : "2025-03-27T03:39:00Z",
       "nauticalDusk" : "2025-03-27T18:22:00Z",
-      "solarAngle" : -37.92599146668382,
+      "solarAngle" : -40.51575983148611,
       "solarNoon" : "2025-03-27T11:01:00Z",
       "sunrise" : "2025-03-27T04:44:00Z",
       "sunset" : "2025-03-27T17:17:00Z"

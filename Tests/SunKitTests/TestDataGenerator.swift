@@ -10,7 +10,7 @@ import SwiftAA
 import Testing
 @testable import SunKit
 
-@Suite(.disabled())
+//@Suite(.disabled())
 struct TestDataGenerator {
     @Test
     func generateLunarData() {

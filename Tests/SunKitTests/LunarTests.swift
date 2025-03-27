@@ -22,7 +22,7 @@ struct LunarTests {
     }
 
     @Test
-    func moonRise() {
+    func moonRiseFromMake() {
         for testData in testDatum {
             let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
@@ -32,11 +32,31 @@ struct LunarTests {
     }
     
     @Test
-    func moonSet() {
+    func moonRiseFromRiseAndSet() {
+        for testData in testDatum {
+            let riseSet = Lunar.riseAndSet(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            
+            #expect(testData.lunarData.rise == riseSet.rise,
+                    "Location: \(testData.waypoint.name)")
+        }
+    }
+    
+    @Test
+    func moonSetFromMake() {
         for testData in testDatum {
             let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
             #expect(testData.lunarData.set == lunar.set,
+                    "Location: \(testData.waypoint.name)")
+        }
+    }
+    
+    @Test
+    func moonSetFromRiseAndSet() {
+        for testData in testDatum {
+            let riseSet = Lunar.riseAndSet(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            
+            #expect(testData.lunarData.set == riseSet.set,
                     "Location: \(testData.waypoint.name)")
         }
     }

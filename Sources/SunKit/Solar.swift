@@ -15,7 +15,7 @@ public struct Solar {
         let coordinates = GeographicCoordinates(CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))
         let today = DateInterval(start: date.midnightLocal(timeZone: timeZone), duration: 60 * 60 * 24)
 
-        let official = Solar.computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.official)
+        let official = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.official)
         let civil = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.civil)
         let astronomical = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.astronimical)
         let nautical = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.nautical)
@@ -24,6 +24,16 @@ public struct Solar {
         let solarAngle = computeSolarAngle(julianDay: julianDay, coordinates: coordinates)
         
         return Solar(date, official, civil, astronomical, nautical, blueHour, goldenHour, solarAngle)
+    }
+    
+    public static func riseAndSet(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) -> RiseSet {
+        let julianDay = JulianDay(date)
+        let coordinates = GeographicCoordinates(CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))
+        let today = DateInterval(start: date.midnightLocal(timeZone: timeZone), duration: 60 * 60 * 24)
+
+        let official = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.official)
+        
+        return RiseSet(rise: official.rise, set: official.set)
     }
     
     private init(_ date: Date,

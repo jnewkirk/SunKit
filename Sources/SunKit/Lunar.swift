@@ -17,15 +17,10 @@ public struct Lunar {
 
         let moonToday = Moon(julianDay: julianDay)
         
-        let riseSetYesterday = Moon(julianDay: julianDay - 1).riseTransitSetTimes(for: coordinates)
-        let riseSetToday = moonToday.riseTransitSetTimes(for: coordinates)
-        let riseSetTomorrow = Moon(julianDay: julianDay + 1).riseTransitSetTimes(for: coordinates)
-        
-        let rise = today.inDateInterval(dates: [riseSetYesterday.riseTime?.date, riseSetToday.riseTime?.date, riseSetTomorrow.riseTime?.date])
-        let set = today.inDateInterval(dates: [riseSetYesterday.setTime?.date, riseSetToday.setTime?.date, riseSetTomorrow.setTime?.date])
+        let riseSet = riseAndSet(date: date, coordinate: coordinate, timeZone: timeZone)
 
         var illumination: Double = 0.0
-        if let rise { illumination = Moon(julianDay: JulianDay(rise)).illuminatedFraction() }
+        if let rise = riseSet.rise { illumination = Moon(julianDay: JulianDay(rise)).illuminatedFraction() }
 
         let moonAge = Self.moonAge(julianDay: julianDay)
         let phase = Self.lunarPhase(moonAge: moonAge)
@@ -40,7 +35,24 @@ public struct Lunar {
         nextEvents.append(LunarEvent(phase: LunarPhase.thirdQuarter, date: moonToday.time(of: MoonPhase.lastQuarter, mean: false).date.toNearestMinute()))
         nextEvents.sort { $0.date < $1.date }
 
-        return Lunar(rise?.toNearestMinute(), set?.toNearestMinute(), horizontalCoordinates.altitude.value, illumination, phase, nextEvents)
+        return Lunar(riseSet.rise, riseSet.set, horizontalCoordinates.altitude.value, illumination, phase, nextEvents)
+    }
+
+    public static func riseAndSet(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) -> RiseSet {
+        let julianDay = JulianDay(date)
+        let coordinates = GeographicCoordinates(CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))
+        let today = DateInterval(start: date.midnightLocal(timeZone: timeZone), duration: 60 * 60 * 24)
+
+        let moonToday = Moon(julianDay: julianDay)
+        
+        let riseSetYesterday = Moon(julianDay: julianDay - 1).riseTransitSetTimes(for: coordinates)
+        let riseSetToday = moonToday.riseTransitSetTimes(for: coordinates)
+        let riseSetTomorrow = Moon(julianDay: julianDay + 1).riseTransitSetTimes(for: coordinates)
+        
+        let rise = today.inDateInterval(dates: [riseSetYesterday.riseTime?.date, riseSetToday.riseTime?.date, riseSetTomorrow.riseTime?.date])
+        let set = today.inDateInterval(dates: [riseSetYesterday.setTime?.date, riseSetToday.setTime?.date, riseSetTomorrow.setTime?.date])
+        
+        return RiseSet(rise: rise?.toNearestMinute(), set: set?.toNearestMinute())
     }
     
     private init(_ rise: Date?,

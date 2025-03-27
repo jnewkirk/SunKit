@@ -18,12 +18,23 @@ struct DuskTests {
     }
     
     @Test
-    func sunset() throws {
+    func sunsetFromMake() throws {
         for testLocation in testData {
             let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
             let dusk = try #require(solar.dusk, "Test Location: \(testLocation.waypoint.name), expected sunset of \(testLocation.solarData.sunset?.formatted() ?? "no sunset")")
             #expect(testLocation.solarData.sunset == dusk.actual,
+                    "Test Location: \(testLocation.waypoint.name)")
+        }
+    }
+    
+    @Test
+    func sunsetFromRiseAndSet() throws {
+        for testLocation in testData {
+            let riseSet = Solar.riseAndSet(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            
+            let set = try #require(riseSet.set, "Test Location: \(testLocation.waypoint.name), expected sunset of \(testLocation.solarData.sunset?.formatted() ?? "no sunset")")
+            #expect(testLocation.solarData.sunset == set,
                     "Test Location: \(testLocation.waypoint.name)")
         }
     }

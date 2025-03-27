@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RiseSet {
-    let rise: Date?
-    let set: Date?
+public struct RiseSet {
+    public let rise: Date?
+    public let set: Date?
 }
