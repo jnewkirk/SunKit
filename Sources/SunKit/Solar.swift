@@ -36,6 +36,33 @@ public struct Solar {
         return RiseSet(rise: official.rise, set: official.set)
     }
     
+    public static func nextSolar(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) -> (isSunrise: Bool, solar: Solar)? {
+        let todayAndTomorrow = Solar.makeRange(from: date, at: coordinate, timeZone: timeZone, forDays: 2)
+        var events: [(date: Date, isSunrise: Bool, solar: Solar)] = []
+        
+        if let todaySunrise = todayAndTomorrow[0].dawn.actual {
+            events.append((todaySunrise, isSunrise: true, todayAndTomorrow[0]))
+        }
+        if let todaySunset = todayAndTomorrow[0].dusk.actual {
+            events.append((todaySunset, isSunrise: false, todayAndTomorrow[0]))
+        }
+        if let tomorrowSunrise = todayAndTomorrow[1].dawn.actual {
+            events.append((tomorrowSunrise, isSunrise: true, todayAndTomorrow[1]))
+        }
+        if let tomorrowSunset = todayAndTomorrow[1].dusk.actual {
+            events.append((tomorrowSunset, isSunrise: false, todayAndTomorrow[1]))
+        }
+        
+        events.sort { $0.date < $1.date }
+        let next = events.first(where: { $0.date > date })
+
+        if let next {
+            return (next.isSunrise, next.solar)
+        }
+
+        return nil
+    }
+    
     private init(_ date: Date,
                  _ official: RiseSet,
                  _ civil: RiseSet,

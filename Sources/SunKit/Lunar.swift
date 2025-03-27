@@ -13,8 +13,6 @@ public struct Lunar {
     public static func make(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) -> Lunar {
         let julianDay = JulianDay(date)
         let coordinates = GeographicCoordinates(CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))
-        let today = DateInterval(start: date.midnightLocal(timeZone: timeZone), duration: 60 * 60 * 24)
-
         let moonToday = Moon(julianDay: julianDay)
         
         let riseSet = riseAndSet(date: date, coordinate: coordinate, timeZone: timeZone)

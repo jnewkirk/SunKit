@@ -14,12 +14,10 @@ struct Constant {
     static let testLunarDataFile = "testLunarData"
     static let waypointsDataFile = "waypoints"
     
-    static var cupertino: CLLocationCoordinate2D {
-        CLLocationCoordinate2D(latitude: 37.322998, longitude: -122.032181)
-    }
-    static var puyallup: CLLocationCoordinate2D {
-        CLLocationCoordinate2D(latitude: 47.185379, longitude: -122.292900)
-    }
+    static let cupertino = CLLocationCoordinate2D(latitude: 37.322998, longitude: -122.032181)
+    static let longyearbyen = CLLocationCoordinate2D(latitude: 78.22745806736931, longitude: 15.77845128961993)
     
-    public static let utcTimezone = TimeZone(identifier: "UTC")!
+    static let utcTimezone = TimeZone(identifier: "UTC")!
+    static let pacificTimeZone = TimeZone(identifier: "America/Los_Angeles")!
+    static let longyearbyenTimeZone = TimeZone(identifier: "Arctic/Longyearbyen")!
 }

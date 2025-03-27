@@ -73,7 +73,7 @@ struct LunarTests {
     
     @Test
     func nextLunarEvents() {
-        let lunar = Lunar.make(date: "2025-03-08T00:58:00Z".toDate()!, coordinate: Constant.puyallup, timeZone: TimeZone(identifier: "America/Los_Angeles")!)
+        let lunar = Lunar.make(date: "2025-03-08T00:58:00Z".toDate()!, coordinate: Constant.cupertino, timeZone: TimeZone(identifier: "America/Los_Angeles")!)
         
         #expect(4 == lunar.nextEvents.count)
         #expect(LunarPhase.full == lunar.nextEvents[0].phase)

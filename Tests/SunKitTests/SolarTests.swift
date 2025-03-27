@@ -144,4 +144,105 @@ struct SolarTests {
         #expect(nil == solar.dusk.civil)
         #expect(nil == solar.dusk.nautical)
     }
+    
+    struct nextSolar {
+        struct sunriseBeforeSunset {
+            let today: Solar
+            let tomorrow: Solar
+            
+            init() {
+                let calendar = Calendar.current
+                let components = DateComponents(year: 2025, month: 1, day: 29, hour: 0, minute: 0, second: 0)
+                let date = calendar.date(from: components)!
+                
+                let days = Solar.makeRange(from: date, at: Constant.cupertino, timeZone: Constant.pacificTimeZone)
+                today = days[0]
+                tomorrow = days[1]
+            }
+            
+            @Test
+            func beforeSunrise() throws {
+                let sunriseToday: Date = today.dawn.actual!
+                let timeBeforeSunrise = sunriseToday.add(hours: -1)
+                
+                let result = try #require (Solar.nextSolar(date: timeBeforeSunrise, coordinate: Constant.cupertino, timeZone: Constant.pacificTimeZone))
+                
+                #expect(result.isSunrise == true)
+                #expect(result.solar.dawn.actual == sunriseToday)
+            }
+            
+            @Test
+            func betweenSunriseAndSunset() throws {
+                let sunsetToday: Date = today.dusk.actual!
+                let timeBeforeSunset = sunsetToday.add(hours: -1)
+                
+                let result = try #require (Solar.nextSolar(date: timeBeforeSunset, coordinate: Constant.cupertino, timeZone: Constant.pacificTimeZone))
+                
+                #expect(result.isSunrise == false)
+                #expect(result.solar.dusk.actual == sunsetToday)
+            }
+            
+            @Test
+            func afterSunset() throws {
+                let sunsetToday: Date = today.dusk.actual!
+                let sunriseTomorrow: Date = tomorrow.dawn.actual!
+                let timeAfterSunset = sunsetToday.add(hours: +1)
+                
+                let result = try #require (Solar.nextSolar(date: timeAfterSunset, coordinate: Constant.cupertino, timeZone: Constant.pacificTimeZone))
+                
+                #expect(result.isSunrise == true)
+                #expect(result.solar.dawn.actual == sunriseTomorrow)
+            }
+        }
+        
+        struct sunsetBeforeSunrise {
+            let today: Solar
+            let tomorrow: Solar
+            
+            init() {
+                today = Solar.make(date: "2025-04-18T04:00:00Z".toDate()!, coordinate: Constant.longyearbyen, timeZone: Constant.longyearbyenTimeZone)
+                tomorrow = Solar.make(date: "2025-04-19T04:00:00Z".toDate()!, coordinate: Constant.longyearbyen, timeZone: Constant.longyearbyenTimeZone)
+            }
+            
+            @Test
+            func beforeSunset() throws {
+                let sunsetToday = today.dusk.actual!
+                let timeBeforeSunset = sunsetToday.add(hours: -1)
+                
+                let result = try #require (Solar.nextSolar(date: timeBeforeSunset, coordinate: Constant.longyearbyen, timeZone: Constant.longyearbyenTimeZone))
+
+                #expect(result.isSunrise == false)
+                #expect(result.solar.dusk.actual == sunsetToday)
+            }
+            
+            @Test
+            func betweenSunsetAndSunrise() throws {
+                let sunsetToday = today.dusk.actual!
+                let timeAfterSunset = sunsetToday.add(hours: +1)
+                
+                let result = try #require (Solar.nextSolar(date: timeAfterSunset, coordinate: Constant.longyearbyen, timeZone: Constant.longyearbyenTimeZone))
+
+                #expect(result.isSunrise == true)
+                #expect(result.solar.dawn.actual == today.dawn.actual)
+            }
+            
+            @Test
+            func afterSunrise() throws {
+                let sunriseToday = today.dawn.actual!
+                let timeAfterSunrise = sunriseToday.add(hours: +1)
+                
+                let result = try #require (Solar.nextSolar(date: timeAfterSunrise, coordinate: Constant.longyearbyen, timeZone: Constant.longyearbyenTimeZone))
+
+                #expect(result.isSunrise == false)
+                #expect(result.solar.dusk.actual == tomorrow.dusk.actual)
+            }
+        }
+        
+        @Test
+        func noSunriseOrSunsetReturnsNil() {
+            let result = Solar.nextSolar(date: "2025-07-18T04:00:00Z".toDate()!, coordinate: Constant.longyearbyen, timeZone: Constant.longyearbyenTimeZone)
+            
+            #expect(result == nil)
+        }
+    }
 }
