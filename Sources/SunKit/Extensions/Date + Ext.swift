@@ -41,7 +41,9 @@ extension Date {
         return midnight
     }
     
-    func withoutNanoseconds() -> Date {
-        return Date(timeIntervalSince1970: Double(Int(self.timeIntervalSince1970)))
+    func toNearestMinute() -> Date {
+        let interval = self.timeIntervalSinceReferenceDate
+        let roundedInterval = round(interval / 60.0) * 60.0
+        return Date(timeIntervalSinceReferenceDate: roundedInterval)
     }
 }

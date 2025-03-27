@@ -18,7 +18,7 @@ struct TestDataGenerator {
         var newLunarData: [TestLunarData] = []
         
         let firstWaypoint = waypoints.first!
-        let date = Date.now.withoutNanoseconds()
+        let date = Date.now.toNearestMinute()
         
         for index in 0...29 {
             let currentDate = date.add(days: index)
@@ -40,7 +40,7 @@ struct TestDataGenerator {
     func generateSolarData() async throws {
         let waypoints = Waypoint.load()
         var newSolarData: [TestSolarData] = []
-        let date = Date.now.withoutNanoseconds()
+        let date = Date.now.toNearestMinute()
         
         for waypoint in waypoints {
             let solar = try! Solar.make(date: date, coordinate: waypoint.coordinate, timeZone: waypoint.timeZone)

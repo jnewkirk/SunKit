@@ -57,13 +57,13 @@ struct LunarTests {
         
         #expect(4 == lunar.nextEvents.count)
         #expect(LunarPhase.full == lunar.nextEvents[0].phase)
-        #expect("2025-03-14T06:55:46Z".toDate() == lunar.nextEvents[0].date)
+        #expect("2025-03-14T06:56:00Z".toDate() == lunar.nextEvents[0].date)
         #expect(LunarPhase.thirdQuarter == lunar.nextEvents[1].phase)
-        #expect("2025-03-22T11:30:45Z".toDate() == lunar.nextEvents[1].date)
+        #expect("2025-03-22T11:31:00Z".toDate() == lunar.nextEvents[1].date)
         #expect(LunarPhase.new == lunar.nextEvents[2].phase)
-        #expect("2025-03-29T10:58:53Z".toDate() == lunar.nextEvents[2].date)
+        #expect("2025-03-29T10:59:00Z".toDate() == lunar.nextEvents[2].date)
         #expect(LunarPhase.firstQuarter == lunar.nextEvents[3].phase)
-        #expect("2025-04-05T02:15:48Z".toDate() == lunar.nextEvents[3].date)
+        #expect("2025-04-05T02:16:00Z".toDate() == lunar.nextEvents[3].date)
     }
     
     @Test

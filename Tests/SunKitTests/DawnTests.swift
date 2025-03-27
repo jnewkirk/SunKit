@@ -106,13 +106,13 @@ struct DawnTests {
         )
         
         #expect(nil == solar.dawn.actual)
-        #expect("2025-12-14T06:27:23Z".toDate() == solar.dawn.astronomical)
+        #expect("2025-12-14T06:27:00Z".toDate() == solar.dawn.astronomical)
         #expect(nil == solar.dawn.civil)
-        #expect("2025-12-14T09:38:11Z".toDate() == solar.dawn.nautical)
+        #expect("2025-12-14T09:38:00Z".toDate() == solar.dawn.nautical)
         
         #expect(nil == solar.dusk.actual)
-        #expect("2025-12-14T15:13:04Z".toDate() == solar.dusk.astronomical)
+        #expect("2025-12-14T15:13:00Z".toDate() == solar.dusk.astronomical)
         #expect(nil == solar.dusk.civil)
-        #expect("2025-12-14T12:02:20Z".toDate() == solar.dusk.nautical)
+        #expect("2025-12-14T12:02:00Z".toDate() == solar.dusk.nautical)
     }
 }

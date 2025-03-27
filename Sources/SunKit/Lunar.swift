@@ -34,13 +34,13 @@ public struct Lunar {
         let horizontalCoordinates = equatorialCoordinates.makeHorizontalCoordinates(for: coordinates, at: julianDay)
         
         var nextEvents: [LunarEvent] = []
-        nextEvents.append(LunarEvent(phase: LunarPhase.new, date: moonToday.time(of: MoonPhase.newMoon, mean: false).date.withoutNanoseconds()))
-        nextEvents.append(LunarEvent(phase: LunarPhase.full, date: moonToday.time(of: MoonPhase.fullMoon, mean: false).date.withoutNanoseconds()))
-        nextEvents.append(LunarEvent(phase: LunarPhase.firstQuarter, date: moonToday.time(of: MoonPhase.firstQuarter, mean: false).date.withoutNanoseconds()))
-        nextEvents.append(LunarEvent(phase: LunarPhase.thirdQuarter, date: moonToday.time(of: MoonPhase.lastQuarter, mean: false).date.withoutNanoseconds()))
+        nextEvents.append(LunarEvent(phase: LunarPhase.new, date: moonToday.time(of: MoonPhase.newMoon, mean: false).date.toNearestMinute()))
+        nextEvents.append(LunarEvent(phase: LunarPhase.full, date: moonToday.time(of: MoonPhase.fullMoon, mean: false).date.toNearestMinute()))
+        nextEvents.append(LunarEvent(phase: LunarPhase.firstQuarter, date: moonToday.time(of: MoonPhase.firstQuarter, mean: false).date.toNearestMinute()))
+        nextEvents.append(LunarEvent(phase: LunarPhase.thirdQuarter, date: moonToday.time(of: MoonPhase.lastQuarter, mean: false).date.toNearestMinute()))
         nextEvents.sort { $0.date < $1.date }
 
-        return Lunar(rise?.withoutNanoseconds(), set?.withoutNanoseconds(), horizontalCoordinates.altitude.value, illumination, phase, nextEvents)
+        return Lunar(rise?.toNearestMinute(), set?.toNearestMinute(), horizontalCoordinates.altitude.value, illumination, phase, nextEvents)
     }
     
     private init(_ rise: Date?,

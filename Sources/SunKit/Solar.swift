@@ -59,7 +59,7 @@ public struct Solar {
         self.daylight = DateInterval(start: sunrise, end: sunset)
         
         if let sunrise, let sunset {
-            self.solarNoon = Date(timeIntervalSince1970: (sunrise.timeIntervalSince1970 + ((sunset.timeIntervalSince1970 - sunrise.timeIntervalSince1970) / 2))).withoutNanoseconds()
+            self.solarNoon = Date(timeIntervalSince1970: (sunrise.timeIntervalSince1970 + ((sunset.timeIntervalSince1970 - sunrise.timeIntervalSince1970) / 2))).toNearestMinute()
         } else {
             self.solarNoon = nil
         }
@@ -81,7 +81,7 @@ public struct Solar {
         let rise = today.inDateInterval(dates: [riseSetYesterday.riseTime?.date, riseSetToday.riseTime?.date, riseSetTomorrow.riseTime?.date])
         let set = today.inDateInterval(dates: [riseSetYesterday.setTime?.date, riseSetToday.setTime?.date, riseSetTomorrow.setTime?.date])
         
-        return RiseSet(rise: rise?.withoutNanoseconds(), set: set?.withoutNanoseconds())
+        return RiseSet(rise: rise?.toNearestMinute(), set: set?.toNearestMinute())
     }
     
     static func computeSolarAngle(julianDay: JulianDay, coordinates: GeographicCoordinates) -> Degree {

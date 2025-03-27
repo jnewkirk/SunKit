@@ -1,219 +1,12 @@
 [
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -29.695210600208952,
-      "illumination" : 0.9942049645293658,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T01:57:05Z",
-      "set" : "2025-03-14T13:33:45Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-15T23:21:10Z",
-    "lunarData" : {
-      "angle" : -40.604395782156026,
-      "illumination" : 0.9694986162992162,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-16T02:54:26Z",
-      "set" : "2025-03-15T13:55:32Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-16T23:21:10Z",
-    "lunarData" : {
-      "angle" : -51.32330993123781,
-      "illumination" : 0.9267088315516561,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-17T03:52:17Z",
-      "set" : "2025-03-16T14:17:55Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-17T23:21:10Z",
-    "lunarData" : {
-      "angle" : -61.76001357187606,
-      "illumination" : 0.8676126133779873,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-18T04:51:14Z",
-      "set" : "2025-03-17T14:42:06Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-18T23:21:10Z",
-    "lunarData" : {
-      "angle" : -71.55225544057888,
-      "illumination" : 0.7942418381019659,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-19T05:51:25Z",
-      "set" : "2025-03-18T15:09:21Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-19T23:21:10Z",
-    "lunarData" : {
-      "angle" : -78.87679821064987,
-      "illumination" : 0,
-      "phase" : "Waning Gibbous",
-      "set" : "2025-03-19T15:41:11Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-20T23:21:10Z",
-    "lunarData" : {
-      "angle" : -77.66326631936458,
-      "illumination" : 0.708858262266731,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-20T06:52:11Z",
-      "set" : "2025-03-20T16:19:15Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-21T23:21:10Z",
-    "lunarData" : {
-      "angle" : -69.10617590445425,
-      "illumination" : 0.6140066870391908,
-      "phase" : "Waning Crescent",
-      "rise" : "2025-03-21T07:51:56Z",
-      "set" : "2025-03-21T17:05:00Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-22T23:21:10Z",
-    "lunarData" : {
-      "angle" : -58.458365839729694,
-      "illumination" : 0.5126249655014363,
-      "phase" : "Waning Crescent",
-      "rise" : "2025-03-22T08:48:27Z",
-      "set" : "2025-03-22T17:59:10Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-23T23:21:10Z",
-    "lunarData" : {
-      "angle" : -46.95651618426909,
-      "illumination" : 0.4081895601242702,
-      "phase" : "Waning Crescent",
-      "rise" : "2025-03-23T09:39:37Z",
-      "set" : "2025-03-23T19:01:06Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-24T23:21:10Z",
-    "lunarData" : {
-      "angle" : -34.841974768083155,
-      "illumination" : 0.30485793780864584,
-      "phase" : "Waning Crescent",
-      "rise" : "2025-03-24T10:24:23Z",
-      "set" : "2025-03-24T20:08:41Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-25T23:21:10Z",
-    "lunarData" : {
-      "angle" : -22.173993644538363,
-      "illumination" : 0.20761782401180323,
-      "phase" : "Waning Crescent",
-      "rise" : "2025-03-25T11:02:57Z",
-      "set" : "2025-03-25T21:19:25Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-26T23:21:10Z",
-    "lunarData" : {
-      "angle" : -8.989576028320183,
-      "illumination" : 0.12231323208347711,
-      "phase" : "Waning Crescent",
-      "rise" : "2025-03-26T11:36:32Z",
-      "set" : "2025-03-26T22:31:23Z"
-    },
-    "waypoint" : {
-      "latitude" : 36.148817,
-      "longitude" : -107.980578,
-      "name" : "Alien Throne",
-      "tzIdentifier" : "America\/Denver"
-    }
-  },
-  {
-    "date" : "2025-03-27T23:21:10Z",
-    "lunarData" : {
-      "angle" : 4.646412056684922,
+      "angle" : 23.094149550125852,
       "illumination" : 0.05537541524257644,
       "phase" : "Waning Crescent",
-      "rise" : "2025-03-27T12:06:43Z",
-      "set" : "2025-03-27T23:43:50Z"
+      "rise" : "2025-03-27T12:07:00Z",
+      "set" : "2025-03-27T23:44:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -223,13 +16,13 @@
     }
   },
   {
-    "date" : "2025-03-28T23:21:10Z",
+    "date" : "2025-03-28T21:39:00Z",
     "lunarData" : {
-      "angle" : 18.62145444911649,
+      "angle" : 36.68178778786006,
       "illumination" : 0.013054065485070487,
       "phase" : "Waning Crescent",
-      "rise" : "2025-03-28T12:35:12Z",
-      "set" : "2025-03-29T00:57:01Z"
+      "rise" : "2025-03-28T12:35:00Z",
+      "set" : "2025-03-29T00:57:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -239,13 +32,13 @@
     }
   },
   {
-    "date" : "2025-03-29T23:21:10Z",
+    "date" : "2025-03-29T21:39:00Z",
     "lunarData" : {
-      "angle" : 32.772159615281126,
+      "angle" : 50.249922271530274,
       "illumination" : 0.00021946391031668622,
       "phase" : "Waxing Crescent",
-      "rise" : "2025-03-29T13:03:40Z",
-      "set" : "2025-03-30T02:11:36Z"
+      "rise" : "2025-03-29T13:04:00Z",
+      "set" : "2025-03-30T02:12:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -255,13 +48,13 @@
     }
   },
   {
-    "date" : "2025-03-30T23:21:10Z",
+    "date" : "2025-03-30T21:39:00Z",
     "lunarData" : {
-      "angle" : 46.88828257088278,
+      "angle" : 63.23210958045865,
       "illumination" : 0.019113728094766747,
       "phase" : "Waxing Crescent",
-      "rise" : "2025-03-30T13:33:57Z",
-      "set" : "2025-03-31T03:28:04Z"
+      "rise" : "2025-03-30T13:34:00Z",
+      "set" : "2025-03-31T03:28:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -271,13 +64,13 @@
     }
   },
   {
-    "date" : "2025-03-31T23:21:10Z",
+    "date" : "2025-03-31T21:39:00Z",
     "lunarData" : {
-      "angle" : 60.68992283953092,
+      "angle" : 73.84128050816517,
       "illumination" : 0.0686339094485291,
       "phase" : "Waxing Crescent",
-      "rise" : "2025-03-31T14:07:59Z",
-      "set" : "2025-04-01T04:45:48Z"
+      "rise" : "2025-03-31T14:08:00Z",
+      "set" : "2025-04-01T04:46:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -287,12 +80,12 @@
     }
   },
   {
-    "date" : "2025-04-01T23:21:10Z",
+    "date" : "2025-04-01T21:39:00Z",
     "lunarData" : {
-      "angle" : 73.57329682530872,
+      "angle" : 75.73245892146649,
       "illumination" : 0.14452016726812883,
       "phase" : "Waxing Crescent",
-      "rise" : "2025-04-01T14:47:53Z"
+      "rise" : "2025-04-01T14:48:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -302,13 +95,13 @@
     }
   },
   {
-    "date" : "2025-04-02T23:21:10Z",
+    "date" : "2025-04-02T21:39:00Z",
     "lunarData" : {
-      "angle" : 81.70476669186003,
+      "angle" : 67.21075146004083,
       "illumination" : 0.24032267179399602,
       "phase" : "Waxing Crescent",
-      "rise" : "2025-04-02T15:35:33Z",
-      "set" : "2025-04-02T06:02:26Z"
+      "rise" : "2025-04-02T15:36:00Z",
+      "set" : "2025-04-02T06:02:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -318,13 +111,13 @@
     }
   },
   {
-    "date" : "2025-04-03T23:21:10Z",
+    "date" : "2025-04-03T21:39:00Z",
     "lunarData" : {
-      "angle" : 74.98756832812255,
+      "angle" : 55.69703078290896,
       "illumination" : 0.34861588418436573,
       "phase" : "Waxing Crescent",
-      "rise" : "2025-04-03T16:31:39Z",
-      "set" : "2025-04-03T07:13:57Z"
+      "rise" : "2025-04-03T16:32:00Z",
+      "set" : "2025-04-03T07:14:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -334,13 +127,13 @@
     }
   },
   {
-    "date" : "2025-04-04T23:21:10Z",
+    "date" : "2025-04-04T21:39:00Z",
     "lunarData" : {
-      "angle" : 63.40889061214151,
+      "angle" : 43.70545229979041,
       "illumination" : 0.4620254195722595,
       "phase" : "Waxing Crescent",
-      "rise" : "2025-04-04T17:34:42Z",
-      "set" : "2025-04-04T08:16:28Z"
+      "rise" : "2025-04-04T17:35:00Z",
+      "set" : "2025-04-04T08:16:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -350,13 +143,13 @@
     }
   },
   {
-    "date" : "2025-04-05T23:21:10Z",
+    "date" : "2025-04-05T21:39:00Z",
     "lunarData" : {
-      "angle" : 51.46998658745309,
+      "angle" : 31.77367125504211,
       "illumination" : 0.5739504147668927,
       "phase" : "Waxing Gibbous",
-      "rise" : "2025-04-05T18:41:17Z",
-      "set" : "2025-04-05T09:08:11Z"
+      "rise" : "2025-04-05T18:41:00Z",
+      "set" : "2025-04-05T09:08:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -366,13 +159,13 @@
     }
   },
   {
-    "date" : "2025-04-06T23:21:10Z",
+    "date" : "2025-04-06T21:39:00Z",
     "lunarData" : {
-      "angle" : 39.66128284945982,
+      "angle" : 20.03165418342037,
       "illumination" : 0.679009595361345,
       "phase" : "Waxing Gibbous",
-      "rise" : "2025-04-06T19:47:52Z",
-      "set" : "2025-04-06T09:49:54Z"
+      "rise" : "2025-04-06T19:48:00Z",
+      "set" : "2025-04-06T09:50:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -382,13 +175,13 @@
     }
   },
   {
-    "date" : "2025-04-07T23:21:10Z",
+    "date" : "2025-04-07T21:39:00Z",
     "lunarData" : {
-      "angle" : 28.05046924601256,
+      "angle" : 8.496968731906065,
       "illumination" : 0.7731177434757768,
       "phase" : "Waxing Gibbous",
-      "rise" : "2025-04-07T20:52:14Z",
-      "set" : "2025-04-07T10:23:44Z"
+      "rise" : "2025-04-07T20:52:00Z",
+      "set" : "2025-04-07T10:24:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -398,13 +191,13 @@
     }
   },
   {
-    "date" : "2025-04-08T23:21:10Z",
+    "date" : "2025-04-08T21:39:00Z",
     "lunarData" : {
-      "angle" : 16.625691391824812,
+      "angle" : -2.848447515707634,
       "illumination" : 0.8532816176144236,
       "phase" : "Waxing Gibbous",
-      "rise" : "2025-04-08T21:53:47Z",
-      "set" : "2025-04-08T10:51:58Z"
+      "rise" : "2025-04-08T21:54:00Z",
+      "set" : "2025-04-08T10:52:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -414,13 +207,13 @@
     }
   },
   {
-    "date" : "2025-04-09T23:21:10Z",
+    "date" : "2025-04-09T21:39:00Z",
     "lunarData" : {
-      "angle" : 5.357006641055941,
+      "angle" : -14.031014973083236,
       "illumination" : 0.9173149499936876,
       "phase" : "Waxing Gibbous",
-      "rise" : "2025-04-09T22:52:53Z",
-      "set" : "2025-04-09T11:16:33Z"
+      "rise" : "2025-04-09T22:53:00Z",
+      "set" : "2025-04-09T11:17:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -430,13 +223,13 @@
     }
   },
   {
-    "date" : "2025-04-10T23:21:10Z",
+    "date" : "2025-04-10T21:39:00Z",
     "lunarData" : {
-      "angle" : -5.786665482201976,
+      "angle" : -25.07361337909063,
       "illumination" : 0.9636506204581059,
       "phase" : "Waxing Gibbous",
-      "rise" : "2025-04-10T23:50:26Z",
-      "set" : "2025-04-10T11:39:03Z"
+      "rise" : "2025-04-10T23:50:00Z",
+      "set" : "2025-04-10T11:39:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -446,13 +239,13 @@
     }
   },
   {
-    "date" : "2025-04-11T23:21:10Z",
+    "date" : "2025-04-11T21:39:00Z",
     "lunarData" : {
-      "angle" : -16.83241724098442,
+      "angle" : -35.98853885742619,
       "illumination" : 0.9912460637505103,
       "phase" : "Waxing Gibbous",
-      "rise" : "2025-04-12T00:47:30Z",
-      "set" : "2025-04-11T12:00:44Z"
+      "rise" : "2025-04-12T00:48:00Z",
+      "set" : "2025-04-11T12:01:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -462,13 +255,13 @@
     }
   },
   {
-    "date" : "2025-04-12T23:21:10Z",
+    "date" : "2025-04-12T21:39:00Z",
     "lunarData" : {
-      "angle" : -27.802037221345625,
+      "angle" : -46.76806227491606,
       "illumination" : 0.9995529098413274,
       "phase" : "Waxing Gibbous",
-      "rise" : "2025-04-13T01:44:55Z",
-      "set" : "2025-04-12T12:22:45Z"
+      "rise" : "2025-04-13T01:45:00Z",
+      "set" : "2025-04-12T12:23:00Z"
     },
     "waypoint" : {
       "latitude" : 36.148817,
@@ -478,13 +271,220 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-04-13T21:39:00Z",
     "lunarData" : {
-      "angle" : -34.469676634426456,
-      "illumination" : 0.9936070721956584,
+      "angle" : -57.35802207974233,
+      "illumination" : 0.9885189518857951,
       "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T02:54:44Z",
-      "set" : "2025-03-14T14:28:40Z"
+      "rise" : "2025-04-14T02:43:00Z",
+      "set" : "2025-04-13T12:46:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-14T21:39:00Z",
+    "lunarData" : {
+      "angle" : -67.5558870719772,
+      "illumination" : 0.9585864375948955,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-04-15T03:43:00Z",
+      "set" : "2025-04-14T13:12:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-15T21:39:00Z",
+    "lunarData" : {
+      "angle" : -76.47141041134194,
+      "illumination" : 0.9106968153631294,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-04-16T04:44:00Z",
+      "set" : "2025-04-15T13:43:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-16T21:39:00Z",
+    "lunarData" : {
+      "angle" : -79.73350646451014,
+      "illumination" : 0.8462888878548105,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-04-17T05:44:00Z",
+      "set" : "2025-04-16T14:18:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-17T21:39:00Z",
+    "lunarData" : {
+      "angle" : -73.37150673574709,
+      "illumination" : 0,
+      "phase" : "Waning Gibbous",
+      "set" : "2025-04-17T15:01:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-18T21:39:00Z",
+    "lunarData" : {
+      "angle" : -63.41676073577499,
+      "illumination" : 0.7672859795031748,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-04-18T06:41:00Z",
+      "set" : "2025-04-18T15:52:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-19T21:39:00Z",
+    "lunarData" : {
+      "angle" : -52.42344400232151,
+      "illumination" : 0.6760782350068242,
+      "phase" : "Waning Gibbous",
+      "rise" : "2025-04-19T07:34:00Z",
+      "set" : "2025-04-19T16:50:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-20T21:39:00Z",
+    "lunarData" : {
+      "angle" : -40.856263538402395,
+      "illumination" : 0.5755233482775812,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-04-20T08:20:00Z",
+      "set" : "2025-04-20T17:54:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-21T21:39:00Z",
+    "lunarData" : {
+      "angle" : -28.802697448073392,
+      "illumination" : 0.46903965301383177,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-04-21T08:59:00Z",
+      "set" : "2025-04-21T19:01:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-22T21:39:00Z",
+    "lunarData" : {
+      "angle" : -16.267839670441187,
+      "illumination" : 0.3608087876245875,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-04-22T09:34:00Z",
+      "set" : "2025-04-22T20:10:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-23T21:39:00Z",
+    "lunarData" : {
+      "angle" : -3.2492165291656376,
+      "illumination" : 0.2560055771491443,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-04-23T10:04:00Z",
+      "set" : "2025-04-23T21:20:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-24T21:39:00Z",
+    "lunarData" : {
+      "angle" : 10.229264558847294,
+      "illumination" : 0.16086993961409402,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-04-24T10:32:00Z",
+      "set" : "2025-04-24T22:31:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-04-25T21:39:00Z",
+    "lunarData" : {
+      "angle" : 24.094923346731516,
+      "illumination" : 0.082428635357788,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-04-25T11:00:00Z",
+      "set" : "2025-04-25T23:43:00Z"
+    },
+    "waypoint" : {
+      "latitude" : 36.148817,
+      "longitude" : -107.980578,
+      "name" : "Alien Throne",
+      "tzIdentifier" : "America\/Denver"
+    }
+  },
+  {
+    "date" : "2025-03-27T21:39:00Z",
+    "lunarData" : {
+      "angle" : 26.960054325140778,
+      "illumination" : 0.0529995052244846,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T13:10:00Z",
+      "set" : "2025-03-28T00:34:00Z"
     },
     "waypoint" : {
       "latitude" : 44.058174,
@@ -494,13 +494,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -38.971131762692266,
-      "illumination" : 0.9935955598442867,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T02:55:49Z",
-      "set" : "2025-03-14T14:30:55Z"
+      "angle" : 31.79320280546591,
+      "illumination" : 0.053179053477300064,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T13:05:00Z",
+      "set" : "2025-03-28T00:42:00Z"
     },
     "waypoint" : {
       "latitude" : 37.331705,
@@ -510,13 +510,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -12.954335495149305,
-      "illumination" : 0.9950195336873465,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T00:33:35Z",
-      "set" : "2025-03-14T12:12:02Z"
+      "angle" : 6.3313714500029095,
+      "illumination" : 0.05829636608676242,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:50:00Z",
+      "set" : "2025-03-27T22:14:00Z"
     },
     "waypoint" : {
       "latitude" : 41.878113,
@@ -526,13 +526,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -33.72515993507663,
-      "illumination" : 0.9934575106970387,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T03:08:44Z",
-      "set" : "2025-03-14T14:41:26Z"
+      "angle" : 26.003999280008987,
+      "illumination" : 0.052360905044600614,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T13:27:00Z",
+      "set" : "2025-03-28T00:44:00Z"
     },
     "waypoint" : {
       "latitude" : 47.61477,
@@ -542,13 +542,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -8.670089382657723,
-      "illumination" : 0.9953009547239009,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T00:03:11Z",
-      "set" : "2025-03-14T11:42:34Z"
+      "angle" : 2.9933714629673887,
+      "illumination" : 0.05981415104449833,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:11:00Z",
+      "set" : "2025-03-27T21:52:00Z"
     },
     "waypoint" : {
       "latitude" : 32.215401,
@@ -558,13 +558,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -30.481169535129975,
-      "illumination" : 0.9940277299902016,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T02:14:28Z",
-      "set" : "2025-03-14T13:50:09Z"
+      "angle" : 23.424171418433755,
+      "illumination" : 0.054581871143490945,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T12:28:00Z",
+      "set" : "2025-03-27T23:57:00Z"
     },
     "waypoint" : {
       "latitude" : 40.76078,
@@ -574,13 +574,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -22.67817296315699,
-      "illumination" : 0.9944231736368652,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T01:35:19Z",
-      "set" : "2025-03-14T13:11:45Z"
+      "angle" : 15.644037868117781,
+      "illumination" : 0.05590070915085377,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T11:53:00Z",
+      "set" : "2025-03-27T23:14:00Z"
     },
     "waypoint" : {
       "latitude" : 44.049019,
@@ -590,13 +590,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 60.72487114956699,
-      "illumination" : 0.9818492942507573,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:43:42Z",
-      "set" : "2025-03-15T04:39:59Z"
+      "angle" : -52.834681950196384,
+      "illumination" : 0.08163977026873065,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T01:32:00Z",
+      "set" : "2025-03-27T14:41:00Z"
     },
     "waypoint" : {
       "latitude" : -27.61729,
@@ -606,13 +606,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 46.89774749441114,
-      "illumination" : 0.9830765029806647,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T15:33:11Z",
-      "set" : "2025-03-15T02:58:43Z"
+      "angle" : -50.018663806150315,
+      "illumination" : 0.02891211286953399,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:27:00Z",
+      "set" : "2025-03-28T13:37:00Z"
     },
     "waypoint" : {
       "latitude" : 24.46667,
@@ -622,13 +622,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 74.78329469143901,
-      "illumination" : 0.9797342511456298,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:40:01Z",
-      "set" : "2025-03-15T06:13:30Z"
+      "angle" : -80.2537931261355,
+      "illumination" : 0.07564443384896313,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:48:00Z",
+      "set" : "2025-03-27T15:59:00Z"
     },
     "waypoint" : {
       "latitude" : 9.05735,
@@ -638,13 +638,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 69.92598035923739,
-      "illumination" : 0.997862381537636,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:28:24Z",
-      "set" : "2025-03-14T06:08:41Z"
+      "angle" : -72.8603769389861,
+      "illumination" : 0.07440364579798842,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:16:00Z",
+      "set" : "2025-03-27T16:33:00Z"
     },
     "waypoint" : {
       "latitude" : 5.55602,
@@ -654,13 +654,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -49.93014582203796,
-      "illumination" : 0.9933581189955197,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T03:17:57Z",
-      "set" : "2025-03-14T14:59:57Z"
+      "angle" : 53.53762318367277,
+      "illumination" : 0.05367824471496285,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T12:52:00Z",
+      "set" : "2025-03-28T01:44:00Z"
     },
     "waypoint" : {
       "latitude" : -25.06597,
@@ -670,13 +670,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 67.53288378083606,
-      "illumination" : 0.9820695759266154,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:31:13Z",
-      "set" : "2025-03-15T04:05:23Z"
+      "angle" : -68.33083237760451,
+      "illumination" : 0.02731119745944921,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:24:00Z",
+      "set" : "2025-03-28T14:44:00Z"
     },
     "waypoint" : {
       "latitude" : 9.02497,
@@ -686,13 +686,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 49.28832634181999,
-      "illumination" : 0.979113380299871,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:13:02Z",
-      "set" : "2025-03-15T06:24:28Z"
+      "angle" : -57.256399094872926,
+      "illumination" : 0.07363764306084303,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:34:00Z",
+      "set" : "2025-03-27T15:57:00Z"
     },
     "waypoint" : {
       "latitude" : 36.7525,
@@ -702,13 +702,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -67.97412768536971,
-      "illumination" : 0.9914688225006543,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T06:01:45Z",
-      "set" : "2025-03-14T17:44:56Z"
+      "angle" : 75.82865502673945,
+      "illumination" : 0.04747705944811781,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T15:43:00Z",
+      "set" : "2025-03-28T04:25:00Z"
     },
     "waypoint" : {
       "latitude" : -19.05952,
@@ -718,13 +718,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 52.97668536544695,
-      "illumination" : 0.9816787094545345,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:53:19Z",
-      "set" : "2025-03-15T04:12:09Z"
+      "angle" : -59.09323227699073,
+      "illumination" : 0.026725938015478012,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:46:00Z",
+      "set" : "2025-03-28T14:53:00Z"
     },
     "waypoint" : {
       "latitude" : 31.95522,
@@ -734,13 +734,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 35.107568457300715,
-      "illumination" : 0.9789919832395861,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:19:26Z",
-      "set" : "2025-03-15T06:10:16Z"
+      "angle" : -43.14814788649682,
+      "illumination" : 0.07282740007745031,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:53:00Z",
+      "set" : "2025-03-27T15:29:00Z"
     },
     "waypoint" : {
       "latitude" : 52.37403,
@@ -750,13 +750,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 43.55927588673904,
-      "illumination" : 0.9789108632248977,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:23:42Z",
-      "set" : "2025-03-15T06:28:32Z"
+      "angle" : -51.56362583896048,
+      "illumination" : 0.07302498221344839,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:49:00Z",
+      "set" : "2025-03-27T15:57:00Z"
     },
     "waypoint" : {
       "latitude" : 42.50779,
@@ -766,13 +766,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 46.82304600959311,
-      "illumination" : 0.9813612250343757,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:11:06Z",
-      "set" : "2025-03-15T04:22:30Z"
+      "angle" : -53.76516773118099,
+      "illumination" : 0.026264366947573836,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T03:03:00Z",
+      "set" : "2025-03-28T15:04:00Z"
     },
     "waypoint" : {
       "latitude" : 39.91987,
@@ -782,13 +782,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 56.6964436937985,
-      "illumination" : 0.982885231938425,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T15:44:20Z",
-      "set" : "2025-03-15T03:34:04Z"
+      "angle" : -50.56195615662048,
+      "illumination" : 0.02862684247417402,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:37:00Z",
+      "set" : "2025-03-28T14:11:00Z"
     },
     "waypoint" : {
       "latitude" : -18.91433,
@@ -798,13 +798,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -71.67357251593283,
-      "illumination" : 0.9913617794836389,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T06:10:28Z",
-      "set" : "2025-03-14T17:52:37Z"
+      "angle" : 78.73515265053982,
+      "illumination" : 0.04708436469890237,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T15:54:00Z",
+      "set" : "2025-03-28T04:31:00Z"
     },
     "waypoint" : {
       "latitude" : -13.83333,
@@ -814,13 +814,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 36.37681824785553,
-      "illumination" : 0.9832414840417322,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T15:23:31Z",
-      "set" : "2025-03-15T02:39:30Z"
+      "angle" : -41.18003715075467,
+      "illumination" : 0.029164813331308326,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:18:00Z",
+      "set" : "2025-03-28T13:17:00Z"
     },
     "waypoint" : {
       "latitude" : 37.95,
@@ -830,13 +830,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 64.00415336100012,
-      "illumination" : 0.9820378934435379,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:33:01Z",
-      "set" : "2025-03-15T04:03:29Z"
+      "angle" : -66.79489134263798,
+      "illumination" : 0.02726375563685679,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:26:00Z",
+      "set" : "2025-03-28T14:42:00Z"
     },
     "waypoint" : {
       "latitude" : 15.33333,
@@ -846,13 +846,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 21.23094727258339,
-      "illumination" : 0.9839941705142488,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T14:38:49Z",
-      "set" : "2025-03-15T01:42:52Z"
+      "angle" : -26.848526887958176,
+      "illumination" : 0.0303669690403377,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T00:36:00Z",
+      "set" : "2025-03-28T12:17:00Z"
     },
     "waypoint" : {
       "latitude" : 51.1801,
@@ -862,13 +862,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 12.881359188804515,
-      "illumination" : 0.9961758178090745,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:22:25Z",
-      "set" : "2025-03-14T09:59:46Z"
+      "angle" : -10.879793397316051,
+      "illumination" : 0.06551039838442174,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T07:49:00Z",
+      "set" : "2025-03-27T20:47:00Z"
     },
     "waypoint" : {
       "latitude" : -25.30066,
@@ -878,13 +878,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 50.47638180350909,
-      "illumination" : 0.9806970713867431,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:47:50Z",
-      "set" : "2025-03-15T05:00:10Z"
+      "angle" : -58.02893189691534,
+      "illumination" : 0.07721537896060343,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:12:00Z",
+      "set" : "2025-03-27T14:29:00Z"
     },
     "waypoint" : {
       "latitude" : 37.97945,
@@ -894,13 +894,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -67.47094649772592,
-      "illumination" : 0.9919744080762745,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T05:19:50Z",
-      "set" : "2025-03-14T17:02:58Z"
+      "angle" : 75.05768252337153,
+      "illumination" : 0.04903618457852088,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T14:59:00Z",
+      "set" : "2025-03-28T03:44:00Z"
     },
     "waypoint" : {
       "latitude" : -21.20778,
@@ -910,13 +910,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 47.7665719897487,
-      "illumination" : 0.9822844727576749,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:18:58Z",
-      "set" : "2025-03-15T03:37:25Z"
+      "angle" : -53.12540357540944,
+      "illumination" : 0.02764988533767143,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:12:00Z",
+      "set" : "2025-03-28T14:17:00Z"
     },
     "waypoint" : {
       "latitude" : 33.34058,
@@ -926,13 +926,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 39.57983495146037,
-      "illumination" : 0.9826074961108198,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:00:25Z",
-      "set" : "2025-03-15T03:13:18Z"
+      "angle" : -45.22573140924187,
+      "illumination" : 0.028151876236252704,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:54:00Z",
+      "set" : "2025-03-28T13:52:00Z"
     },
     "waypoint" : {
       "latitude" : 40.37767,
@@ -942,13 +942,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 60.0627882058907,
-      "illumination" : 0.9976588406434523,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T19:00:38Z",
-      "set" : "2025-03-14T06:42:09Z"
+      "angle" : -64.62743792818509,
+      "illumination" : 0.07276561344489091,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:55:00Z",
+      "set" : "2025-03-27T17:01:00Z"
     },
     "waypoint" : {
       "latitude" : 12.65,
@@ -958,13 +958,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -6.328734191130218,
-      "illumination" : 0.9871970086423464,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T11:16:02Z",
-      "set" : "2025-03-14T22:53:24Z"
+      "angle" : 7.285326659201462,
+      "illumination" : 0.03661550667073371,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T21:08:00Z",
+      "set" : "2025-03-28T09:28:00Z"
     },
     "waypoint" : {
       "latitude" : 4.94029,
@@ -974,13 +974,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 7.644699231557439,
-      "illumination" : 0.9862508368316721,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T12:18:17Z",
-      "set" : "2025-03-14T23:51:41Z"
+      "angle" : -7.839133732743723,
+      "illumination" : 0.03463545656995681,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T22:12:00Z",
+      "set" : "2025-03-28T10:26:00Z"
     },
     "waypoint" : {
       "latitude" : 13.75,
@@ -990,13 +990,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 84.36463202241714,
-      "illumination" : 0.9806124999085553,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:52:28Z",
-      "set" : "2025-03-15T05:29:05Z"
+      "angle" : -87.2890137493861,
+      "illumination" : 0.077814093175053,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T02:58:00Z",
+      "set" : "2025-03-27T15:16:00Z"
     },
     "waypoint" : {
       "latitude" : 4.36122,
@@ -1006,13 +1006,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 52.050499736611975,
-      "illumination" : 0.9974246932554179,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T19:36:02Z",
-      "set" : "2025-03-14T07:17:26Z"
+      "angle" : -56.257653142364866,
+      "illumination" : 0.0712359332620967,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:31:00Z",
+      "set" : "2025-03-27T17:36:00Z"
     },
     "waypoint" : {
       "latitude" : 13.45274,
@@ -1022,13 +1022,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 7.795138986664069,
-      "illumination" : 0.9959727217275385,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:46:45Z",
-      "set" : "2025-03-14T10:26:55Z"
+      "angle" : -11.721396676704185,
+      "illumination" : 0.06327605042080287,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:44:00Z",
+      "set" : "2025-03-27T20:46:00Z"
     },
     "waypoint" : {
       "latitude" : 17.29484,
@@ -1038,13 +1038,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 8.83861118923174,
-      "illumination" : 0.9960085692111411,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:42:30Z",
-      "set" : "2025-03-14T10:22:38Z"
+      "angle" : -12.603007349707468,
+      "illumination" : 0.06348417733464051,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:39:00Z",
+      "set" : "2025-03-27T20:42:00Z"
     },
     "waypoint" : {
       "latitude" : 15.99854,
@@ -1054,13 +1054,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -6.713064279213461,
-      "illumination" : 0.9870922541777849,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T11:23:02Z",
-      "set" : "2025-03-14T22:43:51Z"
+      "angle" : 2.9027918338638554,
+      "illumination" : 0.036145498245057694,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T21:23:00Z",
+      "set" : "2025-03-28T09:12:00Z"
     },
     "waypoint" : {
       "latitude" : 39.9075,
@@ -1070,13 +1070,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 51.45857842482315,
-      "illumination" : 0.981625929381752,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:56:17Z",
-      "set" : "2025-03-15T04:13:29Z"
+      "angle" : -57.79026772500602,
+      "illumination" : 0.07956947937599945,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T02:18:00Z",
+      "set" : "2025-03-27T13:43:00Z"
     },
     "waypoint" : {
       "latitude" : 33.88894,
@@ -1086,13 +1086,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 43.89720220052533,
-      "illumination" : 0.9803546479458464,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:06:32Z",
-      "set" : "2025-03-15T05:10:59Z"
+      "angle" : -51.67048368048304,
+      "illumination" : 0.07618008656958641,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:35:00Z",
+      "set" : "2025-03-27T14:34:00Z"
     },
     "waypoint" : {
       "latitude" : 44.80401,
@@ -1102,13 +1102,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -17.051910449399138,
-      "illumination" : 0.9950124884632102,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T00:34:20Z",
-      "set" : "2025-03-14T12:13:24Z"
+      "angle" : 12.936790965371312,
+      "illumination" : 0.05904176699642699,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:31:00Z",
+      "set" : "2025-03-27T22:34:00Z"
     },
     "waypoint" : {
       "latitude" : 17.25,
@@ -1118,13 +1118,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 36.0194374472779,
-      "illumination" : 0.9796629422413881,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:43:50Z",
-      "set" : "2025-03-15T05:35:54Z"
+      "angle" : -43.97377270240051,
+      "illumination" : 0.0742839832441442,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:19:00Z",
+      "set" : "2025-03-27T14:52:00Z"
     },
     "waypoint" : {
       "latitude" : 52.52437,
@@ -1134,13 +1134,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 40.778624779602175,
-      "illumination" : 0.9793052118656749,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:02:53Z",
-      "set" : "2025-03-15T06:02:41Z"
+      "angle" : -48.81838657903049,
+      "illumination" : 0.07373758361817051,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:32:00Z",
+      "set" : "2025-03-27T15:26:00Z"
     },
     "waypoint" : {
       "latitude" : 46.94809,
@@ -1150,13 +1150,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 23.310367662924644,
-      "illumination" : 0.98432137930086,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T14:19:04Z",
-      "set" : "2025-03-15T01:32:34Z"
+      "angle" : -27.924131060989964,
+      "illumination" : 0.03095477766766186,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T00:15:00Z",
+      "set" : "2025-03-28T12:07:00Z"
     },
     "waypoint" : {
       "latitude" : 42.87306,
@@ -1166,13 +1166,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 53.49930801434274,
-      "illumination" : 0.9974527170253841,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T19:31:53Z",
-      "set" : "2025-03-14T07:13:03Z"
+      "angle" : -57.42576680399302,
+      "illumination" : 0.07146760471678498,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:25:00Z",
+      "set" : "2025-03-27T17:33:00Z"
     },
     "waypoint" : {
       "latitude" : 11.85,
@@ -1182,13 +1182,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -2.8791085723108854,
-      "illumination" : 0.9955778202442541,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:32:23Z",
-      "set" : "2025-03-14T11:11:47Z"
+      "angle" : 0.5511698935161906,
+      "illumination" : 0.06179835310333831,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:21:00Z",
+      "set" : "2025-03-27T21:40:00Z"
     },
     "waypoint" : {
       "latitude" : 4.60971,
@@ -1198,13 +1198,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 22.804859966207818,
-      "illumination" : 0.9964898033385494,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T21:43:30Z",
-      "set" : "2025-03-14T09:21:15Z"
+      "angle" : -21.944394011814246,
+      "illumination" : 0.06682007441562421,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T07:17:00Z",
+      "set" : "2025-03-27T20:02:00Z"
     },
     "waypoint" : {
       "latitude" : -15.77972,
@@ -1214,13 +1214,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 40.560112298781,
-      "illumination" : 0.9800392838555143,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:23:37Z",
-      "set" : "2025-03-15T05:23:09Z"
+      "angle" : -48.44484197572535,
+      "illumination" : 0.07532640043955835,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:55:00Z",
+      "set" : "2025-03-27T14:44:00Z"
     },
     "waypoint" : {
       "latitude" : 48.14816,
@@ -1230,13 +1230,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 85.45635865073403,
-      "illumination" : 0.9804311976259726,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:02:22Z",
-      "set" : "2025-03-15T05:44:15Z"
+      "angle" : -79.0042317451502,
+      "illumination" : 0.07754840694480186,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:04:00Z",
+      "set" : "2025-03-27T15:34:00Z"
     },
     "waypoint" : {
       "latitude" : -4.2669,
@@ -1246,13 +1246,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 11.073815251496878,
-      "illumination" : 0.9960835405180197,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:33:33Z",
-      "set" : "2025-03-14T10:13:36Z"
+      "angle" : -14.467310880026963,
+      "illumination" : 0.06392751430186777,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:28:00Z",
+      "set" : "2025-03-27T20:35:00Z"
     },
     "waypoint" : {
       "latitude" : 13.1,
@@ -1262,13 +1262,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 36.460202394543266,
-      "illumination" : 0.978982801452587,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:19:55Z",
-      "set" : "2025-03-15T06:13:17Z"
+      "angle" : -44.50440039993061,
+      "illumination" : 0.07287570855007575,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:52:00Z",
+      "set" : "2025-03-27T15:34:00Z"
     },
     "waypoint" : {
       "latitude" : 50.85045,
@@ -1278,13 +1278,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 43.821321222059076,
-      "illumination" : 0.9807911667834902,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:42:40Z",
-      "set" : "2025-03-15T04:48:18Z"
+      "angle" : -51.33506813092115,
+      "illumination" : 0.07720591430571422,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:12:00Z",
+      "set" : "2025-03-27T14:11:00Z"
     },
     "waypoint" : {
       "latitude" : 44.43225,
@@ -1294,13 +1294,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 41.22894828905527,
-      "illumination" : 0.9802004998223468,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:14:54Z",
-      "set" : "2025-03-15T05:15:38Z"
+      "angle" : -49.05819710481849,
+      "illumination" : 0.07571951717208031,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:46:00Z",
+      "set" : "2025-03-27T14:37:00Z"
     },
     "waypoint" : {
       "latitude" : 47.49801,
@@ -1310,13 +1310,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 11.335574328428219,
-      "illumination" : 0.9961580827362857,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:24:34Z",
-      "set" : "2025-03-14T10:01:00Z"
+      "angle" : -8.108853909031852,
+      "illumination" : 0.06577946400320173,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T07:42:00Z",
+      "set" : "2025-03-27T20:56:00Z"
     },
     "waypoint" : {
       "latitude" : -34.61315,
@@ -1326,13 +1326,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 79.14818862523722,
-      "illumination" : 0.9814713192582234,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:04:57Z",
-      "set" : "2025-03-15T04:46:10Z"
+      "angle" : -74.14351989365788,
+      "illumination" : 0.08008553029163717,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T02:06:00Z",
+      "set" : "2025-03-27T14:36:00Z"
     },
     "waypoint" : {
       "latitude" : -3.37611,
@@ -1342,13 +1342,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 56.45849168857145,
-      "illumination" : 0.9813492717213999,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:11:46Z",
-      "set" : "2025-03-15T04:31:43Z"
+      "angle" : -62.98051801588253,
+      "illumination" : 0.07900923917551766,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T02:31:00Z",
+      "set" : "2025-03-27T14:04:00Z"
     },
     "waypoint" : {
       "latitude" : 30.06263,
@@ -1358,13 +1358,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -31.088533766083604,
-      "illumination" : 0.9893693675049455,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T08:43:59Z",
-      "set" : "2025-03-14T20:34:59Z"
+      "angle" : 37.602168344305696,
+      "illumination" : 0.041999108378597716,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T18:22:00Z",
+      "set" : "2025-03-28T07:19:00Z"
     },
     "waypoint" : {
       "latitude" : -35.28346,
@@ -1374,13 +1374,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 4.071665141117053,
-      "illumination" : 0.9958304683121182,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:03:26Z",
-      "set" : "2025-03-14T10:43:09Z"
+      "angle" : -7.139412580062512,
+      "illumination" : 0.06280068391983334,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:56:00Z",
+      "set" : "2025-03-27T21:07:00Z"
     },
     "waypoint" : {
       "latitude" : 10.5,
@@ -1390,13 +1390,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 9.665823270768335,
-      "illumination" : 0.9960348962651289,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:39:22Z",
-      "set" : "2025-03-14T10:19:25Z"
+      "angle" : -13.175021630728002,
+      "illumination" : 0.06366845919212005,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:34:00Z",
+      "set" : "2025-03-27T20:41:00Z"
     },
     "waypoint" : {
       "latitude" : 13.9957,
@@ -1406,13 +1406,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 18.768643074609535,
-      "illumination" : 0.9963346789553654,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:02:56Z",
-      "set" : "2025-03-14T09:42:34Z"
+      "angle" : -21.04050358596377,
+      "illumination" : 0.06540385509394331,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T07:51:00Z",
+      "set" : "2025-03-27T20:09:00Z"
     },
     "waypoint" : {
       "latitude" : 4.93333,
@@ -1422,13 +1422,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 5.636126935457675,
-      "illumination" : 0.9958944364886713,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:55:58Z",
-      "set" : "2025-03-14T10:36:05Z"
+      "angle" : -9.691585391654032,
+      "illumination" : 0.06287802513773749,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:54:00Z",
+      "set" : "2025-03-27T20:55:00Z"
     },
     "waypoint" : {
       "latitude" : 18.3419,
@@ -1438,13 +1438,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 40.90790411060377,
-      "illumination" : 0.9809596759250669,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:33:23Z",
-      "set" : "2025-03-15T04:36:12Z"
+      "angle" : -48.328055395277666,
+      "illumination" : 0.07749298207770139,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:05:00Z",
+      "set" : "2025-03-27T13:56:00Z"
     },
     "waypoint" : {
       "latitude" : 47.00556,
@@ -1454,13 +1454,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -0.32267010286934006,
-      "illumination" : 0.9956697203425766,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:21:57Z",
-      "set" : "2025-03-14T11:01:53Z"
+      "angle" : -4.119779373236678,
+      "illumination" : 0.061755997188180756,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:22:00Z",
+      "set" : "2025-03-27T21:19:00Z"
     },
     "waypoint" : {
       "latitude" : 21.46122,
@@ -1470,13 +1470,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 28.44393694521636,
-      "illumination" : 0.9849403516607362,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T13:41:09Z",
-      "set" : "2025-03-15T01:17:11Z"
+      "angle" : -27.64667376840198,
+      "illumination" : 0.032167838792101555,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T23:34:00Z",
+      "set" : "2025-03-28T11:54:00Z"
     },
     "waypoint" : {
       "latitude" : 6.93194,
@@ -1486,13 +1486,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 55.98978741796327,
-      "illumination" : 0.9975057531200106,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T19:23:58Z",
-      "set" : "2025-03-14T07:04:47Z"
+      "angle" : -59.485838095760656,
+      "illumination" : 0.07188315886266983,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:16:00Z",
+      "set" : "2025-03-27T17:26:00Z"
     },
     "waypoint" : {
       "latitude" : 9.53795,
@@ -1502,13 +1502,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 32.831175849951194,
-      "illumination" : 0.9795199614781667,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:51:28Z",
-      "set" : "2025-03-15T05:37:26Z"
+      "angle" : -40.789616038658686,
+      "illumination" : 0.07380043275378367,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:31:00Z",
+      "set" : "2025-03-27T14:50:00Z"
     },
     "waypoint" : {
       "latitude" : 55.67594,
@@ -1518,13 +1518,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 50.82822416739842,
-      "illumination" : 0.99740014660857,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T19:39:39Z",
-      "set" : "2025-03-14T07:21:13Z"
+      "angle" : -55.23240391320263,
+      "illumination" : 0.07104042407599948,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:35:00Z",
+      "set" : "2025-03-27T17:39:00Z"
     },
     "waypoint" : {
       "latitude" : 14.6937,
@@ -1534,13 +1534,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 51.47757910630228,
-      "illumination" : 0.9816887826810103,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:52:45Z",
-      "set" : "2025-03-15T04:10:21Z"
+      "angle" : -57.693189053228316,
+      "illumination" : 0.02674220237127012,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:45:00Z",
+      "set" : "2025-03-28T14:51:00Z"
     },
     "waypoint" : {
       "latitude" : 33.5102,
@@ -1550,13 +1550,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 16.16761946759884,
-      "illumination" : 0.9855403217936023,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T13:03:40Z",
-      "set" : "2025-03-15T00:31:48Z"
+      "angle" : -17.820456298044633,
+      "illumination" : 0.033221301593988506,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T22:58:00Z",
+      "set" : "2025-03-28T11:06:00Z"
     },
     "waypoint" : {
       "latitude" : 23.7104,
@@ -1566,13 +1566,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -16.473785022631507,
-      "illumination" : 0.9878977979621333,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T10:28:28Z",
-      "set" : "2025-03-14T22:10:46Z"
+      "angle" : 19.25877831200928,
+      "illumination" : 0.03822568203944393,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T20:17:00Z",
+      "set" : "2025-03-28T08:48:00Z"
     },
     "waypoint" : {
       "latitude" : -8.55861,
@@ -1582,13 +1582,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 62.518591979209525,
-      "illumination" : 0.9823692072444574,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:14:07Z",
-      "set" : "2025-03-15T03:46:55Z"
+      "angle" : -63.727884044722046,
+      "illumination" : 0.02778223001604624,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:07:00Z",
+      "set" : "2025-03-28T14:25:00Z"
     },
     "waypoint" : {
       "latitude" : 11.58767,
@@ -1598,13 +1598,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 72.3151102057503,
-      "illumination" : 0.9819559215615141,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:37:40Z",
-      "set" : "2025-03-15T04:20:26Z"
+      "angle" : -67.36514692372214,
+      "illumination" : 0.027128486676648356,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:31:00Z",
+      "set" : "2025-03-28T14:58:00Z"
     },
     "waypoint" : {
       "latitude" : -6.17486,
@@ -1614,13 +1614,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 48.61215953818834,
-      "illumination" : 0.982868026625176,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T15:45:20Z",
-      "set" : "2025-03-15T03:10:10Z"
+      "angle" : -52.10960830729964,
+      "illumination" : 0.028573676937471204,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:39:00Z",
+      "set" : "2025-03-28T13:48:00Z"
     },
     "waypoint" : {
       "latitude" : 25.27932,
@@ -1630,13 +1630,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 31.347380671098563,
-      "illumination" : 0.9977446810849186,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:47:13Z",
-      "set" : "2025-03-14T06:40:32Z"
+      "angle" : -39.37578829421921,
+      "illumination" : 0.07104815569006256,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:35:00Z",
+      "set" : "2025-03-27T16:06:00Z"
     },
     "waypoint" : {
       "latitude" : 54.15,
@@ -1646,13 +1646,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 31.550756582048894,
-      "illumination" : 0.9976972126923194,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:54:40Z",
-      "set" : "2025-03-14T06:47:17Z"
+      "angle" : -39.56127452573275,
+      "illumination" : 0.07082548790970439,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:41:00Z",
+      "set" : "2025-03-27T16:15:00Z"
     },
     "waypoint" : {
       "latitude" : 53.34399,
@@ -1662,13 +1662,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 29.213659271044698,
-      "illumination" : 0.9839647411996574,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T14:40:35Z",
-      "set" : "2025-03-15T01:57:11Z"
+      "angle" : -33.53055396261525,
+      "illumination" : 0.03036169310614556,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T00:36:00Z",
+      "set" : "2025-03-28T12:33:00Z"
     },
     "waypoint" : {
       "latitude" : 38.53575,
@@ -1678,13 +1678,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 3.2053345434863236,
-      "illumination" : 0.986693180299207,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T11:49:27Z",
-      "set" : "2025-03-14T23:32:53Z"
+      "angle" : -0.10906832717022073,
+      "illumination" : 0.03565141592503979,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T21:39:00Z",
+      "set" : "2025-03-28T10:10:00Z"
     },
     "waypoint" : {
       "latitude" : -10.42172,
@@ -1694,13 +1694,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 9.56012238748931,
-      "illumination" : 0.9960320996208993,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:39:42Z",
-      "set" : "2025-03-14T10:19:46Z"
+      "angle" : -13.14809362764384,
+      "illumination" : 0.06363761771682813,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:35:00Z",
+      "set" : "2025-03-27T20:40:00Z"
     },
     "waypoint" : {
       "latitude" : 14.60892,
@@ -1710,13 +1710,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 56.7078848939973,
-      "illumination" : 0.997518177612201,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T19:22:06Z",
-      "set" : "2025-03-14T07:02:45Z"
+      "angle" : -59.97052441042258,
+      "illumination" : 0.07199904719772215,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:13:00Z",
+      "set" : "2025-03-27T17:25:00Z"
     },
     "waypoint" : {
       "latitude" : 8.484,
@@ -1726,13 +1726,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -68.2248714750172,
-      "illumination" : 0.9908849464673908,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T06:48:40Z",
-      "set" : "2025-03-14T18:29:53Z"
+      "angle" : 72.23690649050923,
+      "illumination" : 0.04565610958662231,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T16:35:00Z",
+      "set" : "2025-03-28T05:06:00Z"
     },
     "waypoint" : {
       "latitude" : -8.52425,
@@ -1742,13 +1742,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 65.60289129040702,
-      "illumination" : 0.9813794466789284,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:10:05Z",
-      "set" : "2025-03-15T05:04:40Z"
+      "angle" : -57.571811589774995,
+      "illumination" : 0.08035184978554061,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T02:00:00Z",
+      "set" : "2025-03-27T15:04:00Z"
     },
     "waypoint" : {
       "latitude" : -24.65451,
@@ -1758,13 +1758,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -9.925008570147979,
-      "illumination" : 0.995293500427354,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T00:04:00Z",
-      "set" : "2025-03-14T11:43:23Z"
+      "angle" : 5.661965287853388,
+      "illumination" : 0.060168291511398075,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:02:00Z",
+      "set" : "2025-03-27T22:03:00Z"
     },
     "waypoint" : {
       "latitude" : 19.28692,
@@ -1774,13 +1774,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 12.887897846124488,
-      "illumination" : 0.9961376854322521,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:27:02Z",
-      "set" : "2025-03-14T10:06:43Z"
+      "angle" : -15.436432719266456,
+      "illumination" : 0.06436949198628722,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:17:00Z",
+      "set" : "2025-03-27T20:32:00Z"
     },
     "waypoint" : {
       "latitude" : 6.80448,
@@ -1790,13 +1790,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 46.394810763403335,
-      "illumination" : 0.9784552780249705,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:47:31Z",
-      "set" : "2025-03-15T06:58:46Z"
+      "angle" : -54.05574324327597,
+      "illumination" : 0.07220982774870915,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:08:00Z",
+      "set" : "2025-03-27T16:33:00Z"
     },
     "waypoint" : {
       "latitude" : 36.14474,
@@ -1806,13 +1806,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 20.54937679232958,
-      "illumination" : 0.9968693970449802,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T20:54:04Z",
-      "set" : "2025-03-14T08:22:56Z"
+      "angle" : -14.572205147253923,
+      "illumination" : 0.07097717876832005,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:37:00Z",
+      "set" : "2025-03-27T19:47:00Z"
     },
     "waypoint" : {
       "latitude" : -54.28111,
@@ -1822,13 +1822,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -18.90548883930434,
-      "illumination" : 0.9949475990693408,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T00:41:13Z",
-      "set" : "2025-03-14T12:20:16Z"
+      "angle" : 15.09091776975222,
+      "illumination" : 0.05884012553138945,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:36:00Z",
+      "set" : "2025-03-27T22:43:00Z"
     },
     "waypoint" : {
       "latitude" : 14.64072,
@@ -1838,13 +1838,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 7.637534392795917,
-      "illumination" : 0.9959679300654591,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:47:19Z",
-      "set" : "2025-03-14T10:27:30Z"
+      "angle" : -11.638240675618727,
+      "illumination" : 0.06323593143524664,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:45:00Z",
+      "set" : "2025-03-27T20:46:00Z"
     },
     "waypoint" : {
       "latitude" : 17.89618,
@@ -1854,13 +1854,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 2.215311829627318,
-      "illumination" : 0.9865505110024012,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T11:58:48Z",
-      "set" : "2025-03-14T23:29:08Z"
+      "angle" : -3.444945971444523,
+      "illumination" : 0.035192321475394917,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T21:54:00Z",
+      "set" : "2025-03-28T10:03:00Z"
     },
     "waypoint" : {
       "latitude" : 21.0245,
@@ -1870,13 +1870,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -35.2559415042254,
-      "illumination" : 0.9889325248555835,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T09:15:42Z",
-      "set" : "2025-03-14T20:50:43Z"
+      "angle" : 34.369466474693255,
+      "illumination" : 0.040420521630172346,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T19:09:00Z",
+      "set" : "2025-03-28T07:22:00Z"
     },
     "waypoint" : {
       "latitude" : 13.47417,
@@ -1886,13 +1886,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 4.822257853934929,
-      "illumination" : 0.9958868943684728,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:56:51Z",
-      "set" : "2025-03-14T10:37:37Z"
+      "angle" : -10.445589462011927,
+      "illumination" : 0.0623919976251206,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:06:00Z",
+      "set" : "2025-03-27T20:45:00Z"
     },
     "waypoint" : {
       "latitude" : 32.29149,
@@ -1902,13 +1902,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 69.47426391913159,
-      "illumination" : 0.981699741667293,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:52:08Z",
-      "set" : "2025-03-15T04:41:56Z"
+      "angle" : -61.91513412197229,
+      "illumination" : 0.08099326023705361,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T01:46:00Z",
+      "set" : "2025-03-27T14:38:00Z"
     },
     "waypoint" : {
       "latitude" : -17.82935,
@@ -1918,13 +1918,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -10.691916257233958,
-      "illumination" : 0.9952506394539151,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T00:08:41Z",
-      "set" : "2025-03-14T11:48:00Z"
+      "angle" : 5.9675814575914705,
+      "illumination" : 0.05987942186832662,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:10:00Z",
+      "set" : "2025-03-27T22:05:00Z"
     },
     "waypoint" : {
       "latitude" : 23.13302,
@@ -1934,13 +1934,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 28.366859564563097,
-      "illumination" : 0.9803586320941313,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:06:19Z",
-      "set" : "2025-03-15T04:44:47Z"
+      "angle" : -36.08810842281597,
+      "illumination" : 0.07533576747457182,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:55:00Z",
+      "set" : "2025-03-27T13:46:00Z"
     },
     "waypoint" : {
       "latitude" : 60.16952,
@@ -1950,13 +1950,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -5.527783754659986,
-      "illumination" : 0.9870649998206715,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T11:24:51Z",
-      "set" : "2025-03-14T22:55:04Z"
+      "angle" : 4.062707889748048,
+      "illumination" : 0.03623031990241715,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T21:20:00Z",
+      "set" : "2025-03-28T09:27:00Z"
     },
     "waypoint" : {
       "latitude" : 22.28552,
@@ -1966,13 +1966,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -49.94783608072326,
-      "illumination" : 0.9898634265479546,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T08:07:20Z",
-      "set" : "2025-03-14T19:49:11Z"
+      "angle" : 53.210121883926334,
+      "illumination" : 0.0429376350611661,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T17:54:00Z",
+      "set" : "2025-03-28T06:26:00Z"
     },
     "waypoint" : {
       "latitude" : -9.43333,
@@ -1982,13 +1982,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 28.193987443590476,
-      "illumination" : 0.9843029665045946,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T14:20:11Z",
-      "set" : "2025-03-15T01:40:53Z"
+      "angle" : -31.69253814665616,
+      "illumination" : 0.030954293703994717,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T00:15:00Z",
+      "set" : "2025-03-28T12:17:00Z"
     },
     "waypoint" : {
       "latitude" : 33.72148,
@@ -1998,13 +1998,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 1.985970557798256,
-      "illumination" : 0.9867461418978044,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T11:45:58Z",
-      "set" : "2025-03-14T23:27:41Z"
+      "angle" : 0.5504275910425382,
+      "illumination" : 0.035737769961323884,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T21:36:00Z",
+      "set" : "2025-03-28T10:04:00Z"
     },
     "waypoint" : {
       "latitude" : -6.21462,
@@ -2014,13 +2014,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 61.81236630006152,
-      "illumination" : 0.9977214862500687,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:50:52Z",
-      "set" : "2025-03-14T06:26:53Z"
+      "angle" : -58.15846788709362,
+      "illumination" : 0.07421165195818585,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:21:00Z",
+      "set" : "2025-03-27T17:08:00Z"
     },
     "waypoint" : {
       "latitude" : -15.93872,
@@ -2030,13 +2030,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 30.775636534366825,
-      "illumination" : 0.9840293955781603,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T14:36:42Z",
-      "set" : "2025-03-15T01:56:28Z"
+      "angle" : -34.547910008509355,
+      "illumination" : 0.030482667759000215,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T00:32:00Z",
+      "set" : "2025-03-28T12:33:00Z"
     },
     "waypoint" : {
       "latitude" : 34.52813,
@@ -2046,13 +2046,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 76.03282914740997,
-      "illumination" : 0.98168137616602,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:53:10Z",
-      "set" : "2025-03-15T04:32:15Z"
+      "angle" : -73.24306260726934,
+      "illumination" : 0.026706517279462272,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:47:00Z",
+      "set" : "2025-03-28T15:11:00Z"
     },
     "waypoint" : {
       "latitude" : 0.31628,
@@ -2062,13 +2062,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 19.93744183301607,
-      "illumination" : 0.9851778613265578,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T13:26:24Z",
-      "set" : "2025-03-15T00:51:58Z"
+      "angle" : -22.23518789448129,
+      "illumination" : 0.03253341649601538,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T23:21:00Z",
+      "set" : "2025-03-28T11:27:00Z"
     },
     "waypoint" : {
       "latitude" : 27.70169,
@@ -2078,13 +2078,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 68.32685824838326,
-      "illumination" : 0.9815680241152029,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:59:32Z",
-      "set" : "2025-03-15T04:29:37Z"
+      "angle" : -72.3444850244667,
+      "illumination" : 0.07991188159043311,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T02:10:00Z",
+      "set" : "2025-03-27T14:10:00Z"
     },
     "waypoint" : {
       "latitude" : 15.54665,
@@ -2094,13 +2094,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 37.294829276067624,
-      "illumination" : 0.9810260345551602,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:29:43Z",
-      "set" : "2025-03-15T04:28:01Z"
+      "angle" : -44.70866084398584,
+      "illumination" : 0.07748350316406205,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:05:00Z",
+      "set" : "2025-03-27T13:43:00Z"
     },
     "waypoint" : {
       "latitude" : 50.45466,
@@ -2110,13 +2110,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 78.63020587275534,
-      "illumination" : 0.9815127091758921,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:02:38Z",
-      "set" : "2025-03-15T04:43:02Z"
+      "angle" : -74.42158187755493,
+      "illumination" : 0.08015799188833972,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T02:05:00Z",
+      "set" : "2025-03-27T14:32:00Z"
     },
     "waypoint" : {
       "latitude" : -1.94995,
@@ -2126,13 +2126,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -47.763753466895785,
-      "illumination" : 0.990362647750531,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T07:29:24Z",
-      "set" : "2025-03-14T19:16:32Z"
+      "angle" : 54.58200430809017,
+      "illumination" : 0.04450769359610496,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T17:08:00Z",
+      "set" : "2025-03-28T06:00:00Z"
     },
     "waypoint" : {
       "latitude" : -29.05459,
@@ -2142,13 +2142,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -5.622002150386042,
-      "illumination" : 0.9954660106510069,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:44:56Z",
-      "set" : "2025-03-14T11:24:32Z"
+      "angle" : 1.5575138783302636,
+      "illumination" : 0.06094969160198882,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:43:00Z",
+      "set" : "2025-03-27T21:44:00Z"
     },
     "waypoint" : {
       "latitude" : 17.99702,
@@ -2158,13 +2158,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 9.507291486601845,
-      "illumination" : 0.9960279028117873,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:40:12Z",
-      "set" : "2025-03-14T10:20:11Z"
+      "angle" : -12.908323855150098,
+      "illumination" : 0.06365907197423992,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:35:00Z",
+      "set" : "2025-03-27T20:42:00Z"
     },
     "waypoint" : {
       "latitude" : 13.15872,
@@ -2174,13 +2174,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 85.44657578746052,
-      "illumination" : 0.9804345624863824,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:02:11Z",
-      "set" : "2025-03-15T05:44:07Z"
+      "angle" : -78.95312989356118,
+      "illumination" : 0.07755788918656809,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:04:00Z",
+      "set" : "2025-03-27T15:34:00Z"
     },
     "waypoint" : {
       "latitude" : -4.32459,
@@ -2190,13 +2190,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 6.935619870503042,
-      "illumination" : 0.9863781234825311,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T12:10:02Z",
-      "set" : "2025-03-14T23:47:59Z"
+      "angle" : -5.641229018948589,
+      "illumination" : 0.03493999467261605,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T22:02:00Z",
+      "set" : "2025-03-28T10:24:00Z"
     },
     "waypoint" : {
       "latitude" : 3.1412,
@@ -2206,13 +2206,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 48.51292743181622,
-      "illumination" : 0.9825800370044284,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:02:00Z",
-      "set" : "2025-03-15T03:23:46Z"
+      "angle" : -52.997306255194864,
+      "illumination" : 0.028112541399017088,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:55:00Z",
+      "set" : "2025-03-28T14:03:00Z"
     },
     "waypoint" : {
       "latitude" : 29.36972,
@@ -2222,13 +2222,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 3.376749504714399,
-      "illumination" : 0.9958073601300818,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:06:07Z",
-      "set" : "2025-03-14T10:44:39Z"
+      "angle" : -2.738196973859669,
+      "illumination" : 0.06342391718489954,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:40:00Z",
+      "set" : "2025-03-27T21:25:00Z"
     },
     "waypoint" : {
       "latitude" : -16.5,
@@ -2238,13 +2238,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 80.59898260662239,
-      "illumination" : 0.9799533325000687,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:28:15Z",
-      "set" : "2025-03-15T06:07:17Z"
+      "angle" : -80.23118209351833,
+      "illumination" : 0.0763198630505425,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:32:00Z",
+      "set" : "2025-03-27T15:56:00Z"
     },
     "waypoint" : {
       "latitude" : 0.38333,
@@ -2254,13 +2254,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 70.40555413295415,
-      "illumination" : 0.9818693469059451,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:42:34Z",
-      "set" : "2025-03-15T04:29:55Z"
+      "angle" : -63.532421634696895,
+      "illumination" : 0.0813344764650622,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T01:38:00Z",
+      "set" : "2025-03-27T14:24:00Z"
     },
     "waypoint" : {
       "latitude" : -13.98333,
@@ -2270,13 +2270,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -5.338345206070439,
-      "illumination" : 0.995484517865859,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:42:52Z",
-      "set" : "2025-03-14T11:21:54Z"
+      "angle" : 5.299083357366806,
+      "illumination" : 0.06180695820316956,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:21:00Z",
+      "set" : "2025-03-27T22:00:00Z"
     },
     "waypoint" : {
       "latitude" : -12.04318,
@@ -2286,13 +2286,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 42.523670241841685,
-      "illumination" : 0.9976240576805879,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T19:06:00Z",
-      "set" : "2025-03-14T06:53:05Z"
+      "angle" : -50.14010587636681,
+      "illumination" : 0.0714140594593265,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:27:00Z",
+      "set" : "2025-03-27T16:46:00Z"
     },
     "waypoint" : {
       "latitude" : 38.71667,
@@ -2302,13 +2302,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 42.53174101739048,
-      "illumination" : 0.9798737151280678,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:32:32Z",
-      "set" : "2025-03-15T05:34:34Z"
+      "angle" : -50.482705037841356,
+      "illumination" : 0.07503842337446287,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:02:00Z",
+      "set" : "2025-03-27T14:58:00Z"
     },
     "waypoint" : {
       "latitude" : 46.05108,
@@ -2318,13 +2318,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 71.02886983089395,
-      "illumination" : 0.997898027834875,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:22:36Z",
-      "set" : "2025-03-14T06:03:02Z"
+      "angle" : -74.29480304447846,
+      "illumination" : 0.07463316664152919,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:11:00Z",
+      "set" : "2025-03-27T16:27:00Z"
     },
     "waypoint" : {
       "latitude" : 6.13748,
@@ -2334,13 +2334,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 34.85933628624659,
-      "illumination" : 0.9978599121692195,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:28:48Z",
-      "set" : "2025-03-14T06:21:38Z"
+      "angle" : -42.898926468468865,
+      "illumination" : 0.07204712171820671,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:12:00Z",
+      "set" : "2025-03-27T15:52:00Z"
     },
     "waypoint" : {
       "latitude" : 51.50853,
@@ -2350,13 +2350,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 80.67830301910342,
-      "illumination" : 0.9803117170046536,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:08:52Z",
-      "set" : "2025-03-15T05:53:38Z"
+      "angle" : -74.11657005045456,
+      "illumination" : 0.07735157812599386,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:08:00Z",
+      "set" : "2025-03-27T15:46:00Z"
     },
     "waypoint" : {
       "latitude" : -8.83833,
@@ -2366,13 +2366,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 72.99381261316168,
-      "illumination" : 0.9814799582654482,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:04:28Z",
-      "set" : "2025-03-15T04:52:53Z"
+      "angle" : -65.32424437777853,
+      "illumination" : 0.08037628084674192,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T02:00:00Z",
+      "set" : "2025-03-27T14:48:00Z"
     },
     "waypoint" : {
       "latitude" : -15.40809,
@@ -2382,13 +2382,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 37.97778229698967,
-      "illumination" : 0.9791503009597259,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:11:05Z",
-      "set" : "2025-03-15T06:06:44Z"
+      "angle" : -46.01853048378324,
+      "illumination" : 0.07329186426867279,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:42:00Z",
+      "set" : "2025-03-27T15:28:00Z"
     },
     "waypoint" : {
       "latitude" : 49.61167,
@@ -2398,13 +2398,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -4.96290889078748,
-      "illumination" : 0.9870274479713081,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T11:27:21Z",
-      "set" : "2025-03-14T22:57:34Z"
+      "angle" : 3.516028173772969,
+      "illumination" : 0.03615330008450457,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T21:23:00Z",
+      "set" : "2025-03-28T09:30:00Z"
     },
     "waypoint" : {
       "latitude" : 22.20056,
@@ -2414,13 +2414,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 43.57473772447757,
-      "illumination" : 0.9785266828680107,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:43:48Z",
-      "set" : "2025-03-15T06:50:31Z"
+      "angle" : -51.432923789493046,
+      "illumination" : 0.07225159050528535,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:07:00Z",
+      "set" : "2025-03-27T16:21:00Z"
     },
     "waypoint" : {
       "latitude" : 40.4165,
@@ -2430,13 +2430,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -62.1473034226755,
-      "illumination" : 0.9904288235077618,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T07:24:18Z",
-      "set" : "2025-03-14T19:01:50Z"
+      "angle" : 61.00176213188113,
+      "illumination" : 0.044226652792320575,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T17:16:00Z",
+      "set" : "2025-03-28T05:34:00Z"
     },
     "waypoint" : {
       "latitude" : 7.08971,
@@ -2446,13 +2446,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 78.8848494495392,
-      "illumination" : 0.979875885715884,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:32:25Z",
-      "set" : "2025-03-15T06:09:20Z"
+      "angle" : -81.32945692643824,
+      "illumination" : 0.0760751440519683,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:38:00Z",
+      "set" : "2025-03-27T15:57:00Z"
     },
     "waypoint" : {
       "latitude" : 3.75,
@@ -2462,13 +2462,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 34.965668145343344,
-      "illumination" : 0.9845311430163544,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T14:06:18Z",
-      "set" : "2025-03-15T01:43:33Z"
+      "angle" : -33.723863937990146,
+      "illumination" : 0.03143368700839999,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T23:59:00Z",
+      "set" : "2025-03-28T12:20:00Z"
     },
     "waypoint" : {
       "latitude" : 4.1748,
@@ -2478,13 +2478,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 61.31723569061284,
-      "illumination" : 0.9826805215600642,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T15:56:12Z",
-      "set" : "2025-03-15T03:42:29Z"
+      "angle" : -55.918839572363694,
+      "illumination" : 0.028286735895280135,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:49:00Z",
+      "set" : "2025-03-28T14:20:00Z"
     },
     "waypoint" : {
       "latitude" : -12.77944,
@@ -2494,13 +2494,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -14.886311564437266,
-      "illumination" : 0.9951154799927733,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T00:23:19Z",
-      "set" : "2025-03-14T12:02:32Z"
+      "angle" : 11.456276650472763,
+      "illumination" : 0.05959832679553784,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:17:00Z",
+      "set" : "2025-03-27T22:26:00Z"
     },
     "waypoint" : {
       "latitude" : 12.13282,
@@ -2510,13 +2510,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 48.74906950897531,
-      "illumination" : 0.9827933733556078,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T15:49:40Z",
-      "set" : "2025-03-15T03:13:48Z"
+      "angle" : -52.48993202977141,
+      "illumination" : 0.028453526362076098,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:43:00Z",
+      "set" : "2025-03-28T13:52:00Z"
     },
     "waypoint" : {
       "latitude" : 26.21536,
@@ -2526,13 +2526,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -12.199911755322569,
-      "illumination" : 0.9875225406380834,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T10:54:06Z",
-      "set" : "2025-03-14T22:27:53Z"
+      "angle" : 11.722547756980077,
+      "illumination" : 0.037244251961487285,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T20:48:00Z",
+      "set" : "2025-03-28T09:01:00Z"
     },
     "waypoint" : {
       "latitude" : 14.6042,
@@ -2542,13 +2542,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 61.920549458158646,
-      "illumination" : 0.9818755374699236,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:42:13Z",
-      "set" : "2025-03-15T04:37:18Z"
+      "angle" : -54.098501602158066,
+      "illumination" : 0.08165989165854937,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T01:31:00Z",
+      "set" : "2025-03-27T14:38:00Z"
     },
     "waypoint" : {
       "latitude" : -25.96528,
@@ -2558,13 +2558,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 28.623081321649323,
-      "illumination" : 0.9799700420627944,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:27:21Z",
-      "set" : "2025-03-15T05:04:49Z"
+      "angle" : -36.44982590807772,
+      "illumination" : 0.07448466125659287,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:15:00Z",
+      "set" : "2025-03-27T14:08:00Z"
     },
     "waypoint" : {
       "latitude" : 60.09726,
@@ -2574,13 +2574,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 7.404562551817351,
-      "illumination" : 0.9959596084284812,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:48:18Z",
-      "set" : "2025-03-14T10:28:29Z"
+      "angle" : -11.426173346457986,
+      "illumination" : 0.06319181329581453,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:46:00Z",
+      "set" : "2025-03-27T20:47:00Z"
     },
     "waypoint" : {
       "latitude" : 18.06667,
@@ -2590,13 +2590,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 60.73532911744826,
-      "illumination" : 0.9815350232440119,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:01:23Z",
-      "set" : "2025-03-15T04:59:14Z"
+      "angle" : -52.70328324526484,
+      "illumination" : 0.08087891171630329,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T01:49:00Z",
+      "set" : "2025-03-27T15:01:00Z"
     },
     "waypoint" : {
       "latitude" : -29.31667,
@@ -2606,13 +2606,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -69.2744401330199,
-      "illumination" : 0.9911365817484183,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T06:28:38Z",
-      "set" : "2025-03-14T18:10:48Z"
+      "angle" : 75.40096868423008,
+      "illumination" : 0.04642866956091557,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T16:12:00Z",
+      "set" : "2025-03-28T04:49:00Z"
     },
     "waypoint" : {
       "latitude" : -13.28163,
@@ -2622,13 +2622,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 62.24883218834192,
-      "illumination" : 0.9817734100245343,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:47:59Z",
-      "set" : "2025-03-15T04:43:24Z"
+      "angle" : -54.35152261806644,
+      "illumination" : 0.08140591730513624,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T01:37:00Z",
+      "set" : "2025-03-27T14:44:00Z"
     },
     "waypoint" : {
       "latitude" : -26.31667,
@@ -2638,13 +2638,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -26.588331364308928,
-      "illumination" : 0.9945993578358245,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T01:17:26Z",
-      "set" : "2025-03-14T12:55:58Z"
+      "angle" : 21.9927447230645,
+      "illumination" : 0.05732690375547311,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T11:16:00Z",
+      "set" : "2025-03-27T23:16:00Z"
     },
     "waypoint" : {
       "latitude" : 19.42847,
@@ -2654,13 +2654,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 34.338470743291694,
-      "illumination" : 0.9807301819015471,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:46:01Z",
-      "set" : "2025-03-15T04:38:13Z"
+      "angle" : -41.9253830316603,
+      "illumination" : 0.025400674484319707,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T03:35:00Z",
+      "set" : "2025-03-28T15:23:00Z"
     },
     "waypoint" : {
       "latitude" : 53.9,
@@ -2670,13 +2670,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 63.160483280081635,
-      "illumination" : 0.9825910231771926,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:01:22Z",
-      "set" : "2025-03-15T03:39:31Z"
+      "angle" : -61.389661893678344,
+      "illumination" : 0.028137527601564127,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:54:00Z",
+      "set" : "2025-03-28T14:18:00Z"
     },
     "waypoint" : {
       "latitude" : 2.03711,
@@ -2686,13 +2686,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 43.87320909448127,
-      "illumination" : 0.979357352696753,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:00:07Z",
-      "set" : "2025-03-15T06:04:11Z"
+      "angle" : -51.91758979173675,
+      "illumination" : 0.07396837951158369,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:27:00Z",
+      "set" : "2025-03-27T15:31:00Z"
     },
     "waypoint" : {
       "latitude" : 43.73333,
@@ -2702,13 +2702,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 59.5911206280015,
-      "illumination" : 0.9975846490984657,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T19:12:02Z",
-      "set" : "2025-03-14T06:52:20Z"
+      "angle" : -62.372013952085325,
+      "illumination" : 0.07250380024264086,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:01:00Z",
+      "set" : "2025-03-27T17:16:00Z"
     },
     "waypoint" : {
       "latitude" : 6.30054,
@@ -2718,13 +2718,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 13.111174351578027,
-      "illumination" : 0.9962319150758671,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:15:35Z",
-      "set" : "2025-03-14T09:51:46Z"
+      "angle" : -9.811870316015135,
+      "illumination" : 0.06616827179195656,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T07:33:00Z",
+      "set" : "2025-03-27T20:47:00Z"
     },
     "waypoint" : {
       "latitude" : -34.83346,
@@ -2734,13 +2734,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 63.50510826931805,
-      "illumination" : 0.9825331635627513,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:04:42Z",
-      "set" : "2025-03-15T03:50:26Z"
+      "angle" : -58.12090224302833,
+      "illumination" : 0.02804642468551949,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:58:00Z",
+      "set" : "2025-03-28T14:28:00Z"
     },
     "waypoint" : {
       "latitude" : -11.70216,
@@ -2750,13 +2750,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 30.924849769407363,
-      "illumination" : 0.9814510546297357,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:06:05Z",
-      "set" : "2025-03-15T03:56:52Z"
+      "angle" : -38.1841876820723,
+      "illumination" : 0.026426788226028952,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:57:00Z",
+      "set" : "2025-03-28T14:40:00Z"
     },
     "waypoint" : {
       "latitude" : 55.75222,
@@ -2766,13 +2766,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 43.946021289516544,
-      "illumination" : 0.9833811010640152,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T15:15:18Z",
-      "set" : "2025-03-15T02:41:38Z"
+      "angle" : -46.61953391679146,
+      "illumination" : 0.029413346725109757,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:09:00Z",
+      "set" : "2025-03-28T13:19:00Z"
     },
     "waypoint" : {
       "latitude" : 23.61333,
@@ -2782,13 +2782,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 71.89257516454694,
-      "illumination" : 0.9820006024958646,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:35:08Z",
-      "set" : "2025-03-15T04:15:08Z"
+      "angle" : -68.71823485945129,
+      "illumination" : 0.027199952998172905,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:28:00Z",
+      "set" : "2025-03-28T14:53:00Z"
     },
     "waypoint" : {
       "latitude" : -1.28333,
@@ -2798,13 +2798,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -6.0168410506122125,
-      "illumination" : 0.9954380297531107,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:48:03Z",
-      "set" : "2025-03-14T11:27:41Z"
+      "angle" : 1.1263064038703314,
+      "illumination" : 0.06062636307358421,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:51:00Z",
+      "set" : "2025-03-27T21:42:00Z"
     },
     "waypoint" : {
       "latitude" : 25.05823,
@@ -2814,13 +2814,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 11.382950684028305,
-      "illumination" : 0.9859367421751892,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T12:38:29Z",
-      "set" : "2025-03-15T00:08:57Z"
+      "angle" : -12.430559045440697,
+      "illumination" : 0.03399368055376878,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T22:33:00Z",
+      "set" : "2025-03-28T10:43:00Z"
     },
     "waypoint" : {
       "latitude" : 19.745,
@@ -2830,13 +2830,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 76.1297624136304,
-      "illumination" : 0.9802862436983338,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:10:15Z",
-      "set" : "2025-03-15T05:41:57Z"
+      "angle" : -84.14903749906692,
+      "illumination" : 0.07688004561234402,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:19:00Z",
+      "set" : "2025-03-27T15:25:00Z"
     },
     "waypoint" : {
       "latitude" : 12.11058,
@@ -2846,13 +2846,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 26.58839100011876,
-      "illumination" : 0.9846281634885226,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T14:00:22Z",
-      "set" : "2025-03-15T01:24:48Z"
+      "angle" : -29.21715930986906,
+      "illumination" : 0.031540034720841326,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T23:55:00Z",
+      "set" : "2025-03-28T12:00:00Z"
     },
     "waypoint" : {
       "latitude" : 28.63576,
@@ -2862,13 +2862,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -25.85842782039154,
-      "illumination" : 0.9883683778049851,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T09:55:46Z",
-      "set" : "2025-03-14T21:32:31Z"
+      "angle" : 26.20153959659451,
+      "illumination" : 0.03916484585996577,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T19:48:00Z",
+      "set" : "2025-03-28T08:06:00Z"
     },
     "waypoint" : {
       "latitude" : 7.50043,
@@ -2878,13 +2878,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 67.88228334746512,
-      "illumination" : 0.979281004503104,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:04:10Z",
-      "set" : "2025-03-15T06:34:33Z"
+      "angle" : -73.79146314876253,
+      "illumination" : 0.07451765165116203,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:14:00Z",
+      "set" : "2025-03-27T16:18:00Z"
     },
     "waypoint" : {
       "latitude" : 13.5125,
@@ -2894,13 +2894,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 51.066657014163994,
-      "illumination" : 0.9814546315249666,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:05:53Z",
-      "set" : "2025-03-15T04:21:48Z"
+      "angle" : -57.70755588682167,
+      "illumination" : 0.0791121816264953,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T02:28:00Z",
+      "set" : "2025-03-27T13:51:00Z"
     },
     "waypoint" : {
       "latitude" : 35.16667,
@@ -2910,13 +2910,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 50.78680255539854,
-      "illumination" : 0.9974412558446999,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T19:33:35Z",
-      "set" : "2025-03-14T07:15:47Z"
+      "angle" : -55.88757158424859,
+      "illumination" : 0.07117261387814072,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:32:00Z",
+      "set" : "2025-03-27T17:31:00Z"
     },
     "waypoint" : {
       "latitude" : 18.10033,
@@ -2926,13 +2926,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -50.71633619308164,
-      "illumination" : 0.9902577389364777,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T07:37:27Z",
-      "set" : "2025-03-14T19:22:38Z"
+      "angle" : 56.63174174231092,
+      "illumination" : 0.04412688366040385,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T17:19:00Z",
+      "set" : "2025-03-28T06:03:00Z"
     },
     "waypoint" : {
       "latitude" : -22.27631,
@@ -2942,13 +2942,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -63.79032567542865,
-      "illumination" : 0.9912085818945509,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T06:22:51Z",
-      "set" : "2025-03-14T18:06:45Z"
+      "angle" : 71.26517664897531,
+      "illumination" : 0.04675161232979602,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T16:03:00Z",
+      "set" : "2025-03-28T04:48:00Z"
     },
     "waypoint" : {
       "latitude" : -21.13333,
@@ -2958,13 +2958,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 7.231360612149193,
-      "illumination" : 0.9962857067379648,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:08:59Z",
-      "set" : "2025-03-14T09:55:31Z"
+      "angle" : -15.087256118289563,
+      "illumination" : 0.062022254978745806,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:15:00Z",
+      "set" : "2025-03-27T19:05:00Z"
     },
     "waypoint" : {
       "latitude" : 64.18347,
@@ -2974,13 +2974,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 0.9618807624918979,
-      "illumination" : 0.9957179267679526,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:16:26Z",
-      "set" : "2025-03-14T10:56:09Z"
+      "angle" : -4.30371679290647,
+      "illumination" : 0.062225926695551215,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:10:00Z",
+      "set" : "2025-03-27T21:19:00Z"
     },
     "waypoint" : {
       "latitude" : 12.52398,
@@ -2990,13 +2990,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 28.4999110433273,
-      "illumination" : 0.9792482871465098,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:05:54Z",
-      "set" : "2025-03-15T05:41:41Z"
+      "angle" : -36.46831236160487,
+      "illumination" : 0.07293824556861322,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:51:00Z",
+      "set" : "2025-03-27T14:48:00Z"
     },
     "waypoint" : {
       "latitude" : 59.91273,
@@ -3006,13 +3006,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -3.996195886604638,
-      "illumination" : 0.9954700436393403,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:44:29Z",
-      "set" : "2025-03-14T11:24:26Z"
+      "angle" : -2.7990141076118866,
+      "illumination" : 0.05999698774439699,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:07:00Z",
+      "set" : "2025-03-27T21:20:00Z"
     },
     "waypoint" : {
       "latitude" : 45.41117,
@@ -3022,13 +3022,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 65.71239288387943,
-      "illumination" : 0.9978277848622028,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:33:59Z",
-      "set" : "2025-03-14T06:15:37Z"
+      "angle" : -70.8273726856652,
+      "illumination" : 0.07391476191631424,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:28:00Z",
+      "set" : "2025-03-27T16:34:00Z"
     },
     "waypoint" : {
       "latitude" : 12.36423,
@@ -3038,13 +3038,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -71.87242148081424,
-      "illumination" : 0.9914165085908442,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T06:06:01Z",
-      "set" : "2025-03-14T17:48:13Z"
+      "angle" : 79.20761325317709,
+      "illumination" : 0.047250551647660455,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T15:49:00Z",
+      "set" : "2025-03-28T04:27:00Z"
     },
     "waypoint" : {
       "latitude" : -14.27806,
@@ -3054,13 +3054,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -49.18805756934384,
-      "illumination" : 0.989711654270051,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T08:18:41Z",
-      "set" : "2025-03-14T19:56:02Z"
+      "angle" : 48.953558957232204,
+      "illumination" : 0.04237931626668512,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T18:10:00Z",
+      "set" : "2025-03-28T06:29:00Z"
     },
     "waypoint" : {
       "latitude" : 6.92477,
@@ -3070,13 +3070,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -8.32153938845297,
-      "illumination" : 0.9953735164910786,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:55:12Z",
-      "set" : "2025-03-14T11:34:37Z"
+      "angle" : 5.3713442766594675,
+      "illumination" : 0.06078070483995279,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:47:00Z",
+      "set" : "2025-03-27T22:00:00Z"
     },
     "waypoint" : {
       "latitude" : 8.9936,
@@ -3086,13 +3086,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -67.9283452978879,
-      "illumination" : 0.9924536647045881,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T04:38:53Z",
-      "set" : "2025-03-14T16:20:53Z"
+      "angle" : 72.92950286805916,
+      "illumination" : 0.05047853410988595,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T14:19:00Z",
+      "set" : "2025-03-28T03:01:00Z"
     },
     "waypoint" : {
       "latitude" : -17.53333,
@@ -3102,13 +3102,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 15.902426953991569,
-      "illumination" : 0.9962395452469952,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:14:39Z",
-      "set" : "2025-03-14T09:54:20Z"
+      "angle" : -18.31357204900458,
+      "illumination" : 0.06489862844697625,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:04:00Z",
+      "set" : "2025-03-27T20:21:00Z"
     },
     "waypoint" : {
       "latitude" : 5.86638,
@@ -3118,13 +3118,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 37.914553932785694,
-      "illumination" : 0.9788648493987814,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T19:26:07Z",
-      "set" : "2025-03-15T06:22:22Z"
+      "angle" : -45.9569233717386,
+      "illumination" : 0.07270313925334254,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:56:00Z",
+      "set" : "2025-03-27T15:45:00Z"
     },
     "waypoint" : {
       "latitude" : 48.85341,
@@ -3134,13 +3134,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 7.4428337715947315,
-      "illumination" : 0.9959608783787595,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:48:09Z",
-      "set" : "2025-03-14T10:28:20Z"
+      "angle" : -11.459450905974807,
+      "illumination" : 0.06319916537795722,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:46:00Z",
+      "set" : "2025-03-27T20:47:00Z"
     },
     "waypoint" : {
       "latitude" : 18.026,
@@ -3150,13 +3150,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 3.4553219988813844,
-      "illumination" : 0.9865410753620771,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T11:59:25Z",
-      "set" : "2025-03-14T23:33:55Z"
+      "angle" : -3.3568998480732466,
+      "illumination" : 0.03522572015853226,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T21:53:00Z",
+      "set" : "2025-03-28T10:09:00Z"
     },
     "waypoint" : {
       "latitude" : 11.56245,
@@ -3166,13 +3166,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 8.324122993391853,
-      "illumination" : 0.9959910167511121,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:44:35Z",
-      "set" : "2025-03-14T10:24:44Z"
+      "angle" : -12.17712797055722,
+      "illumination" : 0.06338041143649975,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:42:00Z",
+      "set" : "2025-03-27T20:44:00Z"
     },
     "waypoint" : {
       "latitude" : 16.70555,
@@ -3182,13 +3182,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 46.28381868057116,
-      "illumination" : 0.9802979081519232,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:09:37Z",
-      "set" : "2025-03-15T05:16:43Z"
+      "angle" : -54.09648582100823,
+      "illumination" : 0.07613665470609704,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:36:00Z",
+      "set" : "2025-03-27T14:42:00Z"
     },
     "waypoint" : {
       "latitude" : 42.44111,
@@ -3198,13 +3198,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 47.65595721052795,
-      "illumination" : 0.9835873563875155,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T15:03:06Z",
-      "set" : "2025-03-15T02:53:05Z"
+      "angle" : -42.03777564828429,
+      "illumination" : 0.029817715681059898,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T00:55:00Z",
+      "set" : "2025-03-28T13:30:00Z"
     },
     "waypoint" : {
       "latitude" : -20.16194,
@@ -3214,13 +3214,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -37.585763818278,
-      "illumination" : 0.9891544326197774,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T08:59:40Z",
-      "set" : "2025-03-14T20:41:48Z"
+      "angle" : 40.61378820735882,
+      "illumination" : 0.041163844819496864,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T18:47:00Z",
+      "set" : "2025-03-28T07:19:00Z"
     },
     "waypoint" : {
       "latitude" : -9.44314,
@@ -3230,13 +3230,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -1.3900464398452455,
-      "illumination" : 0.9956291731015825,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:26:34Z",
-      "set" : "2025-03-14T11:06:22Z"
+      "angle" : -2.7106060076423137,
+      "illumination" : 0.06165809752045276,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:25:00Z",
+      "set" : "2025-03-27T21:25:00Z"
     },
     "waypoint" : {
       "latitude" : 18.53917,
@@ -3246,13 +3246,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 24.97146309503674,
-      "illumination" : 0.9847018199592358,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T13:55:51Z",
-      "set" : "2025-03-15T02:06:38Z"
+      "angle" : -17.48539298005302,
+      "illumination" : 0.03192977233520122,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T23:42:00Z",
+      "set" : "2025-03-28T12:45:00Z"
     },
     "waypoint" : {
       "latitude" : -49.35,
@@ -3262,13 +3262,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 9.367056667523622,
-      "illumination" : 0.9960196426917464,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:41:11Z",
-      "set" : "2025-03-14T10:21:02Z"
+      "angle" : -12.442133012099593,
+      "illumination" : 0.06368924729817527,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:34:00Z",
+      "set" : "2025-03-27T20:44:00Z"
     },
     "waypoint" : {
       "latitude" : 10.66617,
@@ -3278,13 +3278,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 72.14906343416656,
-      "illumination" : 0.9793780657384139,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:59:01Z",
-      "set" : "2025-03-15T06:34:06Z"
+      "angle" : -75.6887388192658,
+      "illumination" : 0.07486801650319747,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:06:00Z",
+      "set" : "2025-03-27T16:21:00Z"
     },
     "waypoint" : {
       "latitude" : 6.49646,
@@ -3294,13 +3294,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -54.5585064965836,
-      "illumination" : 0.9903418406539313,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T07:31:00Z",
-      "set" : "2025-03-14T19:14:51Z"
+      "angle" : 59.88456938499259,
+      "illumination" : 0.044291700208395235,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T17:14:00Z",
+      "set" : "2025-03-28T05:54:00Z"
     },
     "waypoint" : {
       "latitude" : -17.73381,
@@ -3310,13 +3310,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 38.50845789223525,
-      "illumination" : 0.979793323881468,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:36:51Z",
-      "set" : "2025-03-15T05:33:05Z"
+      "angle" : -46.4509513790231,
+      "illumination" : 0.07468987551637418,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:10:00Z",
+      "set" : "2025-03-27T14:52:00Z"
     },
     "waypoint" : {
       "latitude" : 50.08804,
@@ -3326,13 +3326,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 45.21697814245125,
-      "illumination" : 0.9972270698860513,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T20:04:41Z",
-      "set" : "2025-03-14T07:46:05Z"
+      "angle" : -49.400686592035846,
+      "illumination" : 0.06998179031338836,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T06:01:00Z",
+      "set" : "2025-03-27T18:04:00Z"
     },
     "waypoint" : {
       "latitude" : 14.92148,
@@ -3342,13 +3342,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 63.87720600855676,
-      "illumination" : 0.9815549461083127,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:00:16Z",
-      "set" : "2025-03-15T04:55:29Z"
+      "angle" : -55.88674931044214,
+      "illumination" : 0.08082844155326518,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T01:50:00Z",
+      "set" : "2025-03-27T14:56:00Z"
     },
     "waypoint" : {
       "latitude" : -25.74486,
@@ -3358,13 +3358,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 45.99911996785035,
-      "illumination" : 0.980440373874464,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:01:52Z",
-      "set" : "2025-03-15T05:08:56Z"
+      "angle" : -53.73374857832979,
+      "illumination" : 0.0764575720850234,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:29:00Z",
+      "set" : "2025-03-27T14:34:00Z"
     },
     "waypoint" : {
       "latitude" : 42.67272,
@@ -3374,13 +3374,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -13.98547118354095,
-      "illumination" : 0.9876769313085032,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T10:43:36Z",
-      "set" : "2025-03-14T22:06:03Z"
+      "angle" : 10.117454366123592,
+      "illumination" : 0.03736615625732481,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T20:44:00Z",
+      "set" : "2025-03-28T08:33:00Z"
     },
     "waypoint" : {
       "latitude" : 39.03385,
@@ -3390,13 +3390,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -7.222663247517385,
-      "illumination" : 0.9954189781217855,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:50:10Z",
-      "set" : "2025-03-14T11:29:28Z"
+      "angle" : 5.523605936054291,
+      "illumination" : 0.06121113545469348,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:36:00Z",
+      "set" : "2025-03-27T22:00:00Z"
     },
     "waypoint" : {
       "latitude" : -0.22985,
@@ -3406,13 +3406,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 47.33465108449068,
-      "illumination" : 0.9976869539474791,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:56:16Z",
-      "set" : "2025-03-14T06:42:22Z"
+      "angle" : -54.82420498899186,
+      "illumination" : 0.07206479962156231,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:11:00Z",
+      "set" : "2025-03-27T16:41:00Z"
     },
     "waypoint" : {
       "latitude" : 34.01325,
@@ -3422,13 +3422,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 18.12964751214213,
-      "illumination" : 0.9972456539453615,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T20:02:02Z",
-      "set" : "2025-03-14T07:56:56Z"
+      "angle" : -26.13926524293052,
+      "illumination" : 0.06681528178275165,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T07:17:00Z",
+      "set" : "2025-03-27T16:56:00Z"
     },
     "waypoint" : {
       "latitude" : 64.13548,
@@ -3438,13 +3438,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 31.618795479199395,
-      "illumination" : 0.9803892662951158,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:04:39Z",
-      "set" : "2025-03-15T04:50:20Z"
+      "angle" : -39.338874520800616,
+      "illumination" : 0.07564443384896313,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:48:00Z",
+      "set" : "2025-03-27T13:58:00Z"
     },
     "waypoint" : {
       "latitude" : 56.946,
@@ -3454,13 +3454,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 52.433452183157804,
-      "illumination" : 0.9825291099020215,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:04:56Z",
-      "set" : "2025-03-15T03:29:52Z"
+      "angle" : -56.29151393582785,
+      "illumination" : 0.028033487319814754,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:58:00Z",
+      "set" : "2025-03-28T14:09:00Z"
     },
     "waypoint" : {
       "latitude" : 24.68773,
@@ -3470,13 +3470,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 5.92937679998309,
-      "illumination" : 0.9959055237424501,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:54:40Z",
-      "set" : "2025-03-14T10:34:48Z"
+      "angle" : -9.993834826097464,
+      "illumination" : 0.06292738510419554,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:53:00Z",
+      "set" : "2025-03-27T20:53:00Z"
     },
     "waypoint" : {
       "latitude" : 18.41667,
@@ -3486,13 +3486,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 46.4673447984548,
-      "illumination" : 0.9797815160024199,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:37:29Z",
-      "set" : "2025-03-15T05:44:23Z"
+      "angle" : -54.47046254617168,
+      "illumination" : 0.07497944554453162,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:03:00Z",
+      "set" : "2025-03-27T15:12:00Z"
     },
     "waypoint" : {
       "latitude" : 41.89474,
@@ -3502,13 +3502,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 9.210017527609955,
-      "illumination" : 0.996020763206461,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:41:03Z",
-      "set" : "2025-03-14T10:21:10Z"
+      "angle" : -12.886297181444736,
+      "illumination" : 0.06356255256855275,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:37:00Z",
+      "set" : "2025-03-27T20:41:00Z"
     },
     "waypoint" : {
       "latitude" : 15.30174,
@@ -3518,13 +3518,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 77.91584963314871,
-      "illumination" : 0.9980346684855919,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T17:59:54Z",
-      "set" : "2025-03-14T05:39:08Z"
+      "angle" : -77.98491907054877,
+      "illumination" : 0.0758322009660719,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:43:00Z",
+      "set" : "2025-03-27T16:07:00Z"
     },
     "waypoint" : {
       "latitude" : 0.33654,
@@ -3534,13 +3534,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 9.062834622877364,
-      "illumination" : 0.9960106729423265,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:42:15Z",
-      "set" : "2025-03-14T10:22:11Z"
+      "angle" : -12.320793305392638,
+      "illumination" : 0.06360678274524412,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:36:00Z",
+      "set" : "2025-03-27T20:45:00Z"
     },
     "waypoint" : {
       "latitude" : 12.05644,
@@ -3550,13 +3550,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 36.44624055806849,
-      "illumination" : 0.9978089772437859,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:37:00Z",
-      "set" : "2025-03-14T06:28:29Z"
+      "angle" : -44.4618067514756,
+      "illumination" : 0.0719107104773733,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:15:00Z",
+      "set" : "2025-03-27T16:04:00Z"
     },
     "waypoint" : {
       "latitude" : 49.18333,
@@ -3566,13 +3566,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 8.642234601542015,
-      "illumination" : 0.9960033776582047,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:43:07Z",
-      "set" : "2025-03-14T10:23:18Z"
+      "angle" : -12.546915292666261,
+      "illumination" : 0.06342726432747142,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:40:00Z",
+      "set" : "2025-03-27T20:42:00Z"
     },
     "waypoint" : {
       "latitude" : 17.11667,
@@ -3582,13 +3582,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 36.07242632596051,
-      "illumination" : 0.9977975077581205,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:38:50Z",
-      "set" : "2025-03-14T06:30:22Z"
+      "angle" : -44.085926949609096,
+      "illumination" : 0.07181324029494685,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T05:17:00Z",
+      "set" : "2025-03-27T16:05:00Z"
     },
     "waypoint" : {
       "latitude" : 49.45981,
@@ -3598,13 +3598,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 49.14735381145348,
-      "illumination" : 0.9834511200001925,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T15:11:10Z",
-      "set" : "2025-03-15T03:01:40Z"
+      "angle" : -43.31662136817988,
+      "illumination" : 0.029583691052695094,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:03:00Z",
+      "set" : "2025-03-28T13:39:00Z"
     },
     "waypoint" : {
       "latitude" : -20.88231,
@@ -3614,13 +3614,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 9.353242454785681,
-      "illumination" : 0.9961703229127865,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:23:05Z",
-      "set" : "2025-03-14T10:05:52Z"
+      "angle" : -16.294230861907188,
+      "illumination" : 0.06305419716256427,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:50:00Z",
+      "set" : "2025-03-27T19:56:00Z"
     },
     "waypoint" : {
       "latitude" : 46.76544,
@@ -3630,13 +3630,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -12.814943318039049,
-      "illumination" : 0.9952005201914393,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T00:14:08Z",
-      "set" : "2025-03-14T11:53:25Z"
+      "angle" : 9.697437027669421,
+      "illumination" : 0.06001267080523559,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:06:00Z",
+      "set" : "2025-03-27T22:19:00Z"
     },
     "waypoint" : {
       "latitude" : 9.93333,
@@ -3646,13 +3646,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 4.516176797599272,
-      "illumination" : 0.9958527985211859,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:00:50Z",
-      "set" : "2025-03-14T10:40:54Z"
+      "angle" : -8.587915562869513,
+      "illumination" : 0.06268075348991203,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:59:00Z",
+      "set" : "2025-03-27T20:59:00Z"
     },
     "waypoint" : {
       "latitude" : 18.46633,
@@ -3662,13 +3662,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 44.44951309931126,
-      "illumination" : 0.979748249584481,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:39:16Z",
-      "set" : "2025-03-15T05:43:44Z"
+      "angle" : -52.44647254304595,
+      "illumination" : 0.07483424214170281,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:06:00Z",
+      "set" : "2025-03-27T15:09:00Z"
     },
     "waypoint" : {
       "latitude" : 43.93333,
@@ -3678,13 +3678,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -17.678481815016774,
-      "illumination" : 0.9950004218854924,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T00:35:37Z",
-      "set" : "2025-03-14T12:14:44Z"
+      "angle" : 14.006818060472542,
+      "illumination" : 0.05908070366123497,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:30:00Z",
+      "set" : "2025-03-27T22:38:00Z"
     },
     "waypoint" : {
       "latitude" : 13.68935,
@@ -3694,13 +3694,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 59.79829980550626,
-      "illumination" : 0.9824189078070833,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:11:16Z",
-      "set" : "2025-03-15T03:41:54Z"
+      "angle" : -61.935253501241704,
+      "illumination" : 0.027860489673946998,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:04:00Z",
+      "set" : "2025-03-28T14:21:00Z"
     },
     "waypoint" : {
       "latitude" : 15.35472,
@@ -3710,13 +3710,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 1.3088742346766902,
-      "illumination" : 0.9957370765720581,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:14:14Z",
-      "set" : "2025-03-14T10:51:55Z"
+      "angle" : 1.6145650223535273,
+      "illumination" : 0.06365303765844227,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:35:00Z",
+      "set" : "2025-03-27T21:45:00Z"
     },
     "waypoint" : {
       "latitude" : -33.42628,
@@ -3726,13 +3726,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 0.8351801074559624,
-      "illumination" : 0.9957141498311795,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:16:52Z",
-      "set" : "2025-03-14T10:56:46Z"
+      "angle" : -4.920708156628781,
+      "illumination" : 0.06204280799018452,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:15:00Z",
+      "set" : "2025-03-27T21:16:00Z"
     },
     "waypoint" : {
       "latitude" : 18.50012,
@@ -3742,13 +3742,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 44.8781219548516,
-      "illumination" : 0.9802069599252312,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:14:33Z",
-      "set" : "2025-03-15T05:19:53Z"
+      "angle" : -52.725697466785924,
+      "illumination" : 0.07587845063385218,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:42:00Z",
+      "set" : "2025-03-27T14:44:00Z"
     },
     "waypoint" : {
       "latitude" : 43.84864,
@@ -3758,13 +3758,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -15.188839591274961,
-      "illumination" : 0.9877615677384854,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T10:37:49Z",
-      "set" : "2025-03-14T22:01:16Z"
+      "angle" : 11.47238980833443,
+      "illumination" : 0.037561796181671714,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T20:38:00Z",
+      "set" : "2025-03-28T08:29:00Z"
     },
     "waypoint" : {
       "latitude" : 37.56826,
@@ -3774,13 +3774,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 4.823472577380642,
-      "illumination" : 0.9865234705421666,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T12:00:34Z",
-      "set" : "2025-03-14T23:39:17Z"
+      "angle" : -3.285417203524026,
+      "illumination" : 0.035242682010065585,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T21:52:00Z",
+      "set" : "2025-03-28T10:15:00Z"
     },
     "waypoint" : {
       "latitude" : 1.28967,
@@ -3790,13 +3790,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 46.65747490448341,
-      "illumination" : 0.9804703351136114,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:00:14Z",
-      "set" : "2025-03-15T05:08:06Z"
+      "angle" : -54.376104791827515,
+      "illumination" : 0.07655112872815995,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:27:00Z",
+      "set" : "2025-03-27T14:34:00Z"
     },
     "waypoint" : {
       "latitude" : 42,
@@ -3806,13 +3806,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 45.8337058322423,
-      "illumination" : 0.9806048857996168,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:52:53Z",
-      "set" : "2025-03-15T05:00:12Z"
+      "angle" : -53.46698920019561,
+      "illumination" : 0.07683789956312209,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:20:00Z",
+      "set" : "2025-03-27T14:25:00Z"
     },
     "waypoint" : {
       "latitude" : 42.69751,
@@ -3822,13 +3822,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 9.293786560240537,
-      "illumination" : 0.9961937862325916,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:20:14Z",
-      "set" : "2025-03-14T09:53:49Z"
+      "angle" : -4.054651741551786,
+      "illumination" : 0.06694884609690305,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T07:14:00Z",
+      "set" : "2025-03-27T21:10:00Z"
     },
     "waypoint" : {
       "latitude" : -51.7,
@@ -3838,13 +3838,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 29.393168173970412,
-      "illumination" : 0.9798476592632301,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:33:56Z",
-      "set" : "2025-03-15T05:12:52Z"
+      "angle" : -37.25431064061549,
+      "illumination" : 0.07427610412048369,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:19:00Z",
+      "set" : "2025-03-27T14:18:00Z"
     },
     "waypoint" : {
       "latitude" : 59.33258,
@@ -3854,13 +3854,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 6.117269899207198,
-      "illumination" : 0.9959103520047464,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:54:06Z",
-      "set" : "2025-03-14T10:32:21Z"
+      "angle" : -5.096880179383302,
+      "illumination" : 0.06399268527241242,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:26:00Z",
+      "set" : "2025-03-27T21:15:00Z"
     },
     "waypoint" : {
       "latitude" : -19.03332,
@@ -3870,13 +3870,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -62.17105463241611,
-      "illumination" : 0.9908739824017043,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T06:49:32Z",
-      "set" : "2025-03-14T18:33:02Z"
+      "angle" : 68.53162890631752,
+      "illumination" : 0.045755690029451956,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T16:32:00Z",
+      "set" : "2025-03-28T05:13:00Z"
     },
     "waypoint" : {
       "latitude" : -18.14161,
@@ -3886,13 +3886,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 23.827044456592866,
-      "illumination" : 0.9976793521502084,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:57:27Z",
-      "set" : "2025-03-14T06:54:57Z"
+      "angle" : -31.87185007712904,
+      "illumination" : 0.06966433856772214,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T06:08:00Z",
+      "set" : "2025-03-27T15:57:00Z"
     },
     "waypoint" : {
       "latitude" : 62.00973,
@@ -3902,13 +3902,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -12.150570202486678,
-      "illumination" : 0.987504590243998,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T10:55:19Z",
-      "set" : "2025-03-14T22:24:43Z"
+      "angle" : 10.199220737462413,
+      "illumination" : 0.037129902940125914,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T20:52:00Z",
+      "set" : "2025-03-28T08:56:00Z"
     },
     "waypoint" : {
       "latitude" : 25.04776,
@@ -3918,13 +3918,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 29.105109626621967,
-      "illumination" : 0.9803675183955454,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:05:50Z",
-      "set" : "2025-03-15T04:46:03Z"
+      "angle" : -36.82561524920305,
+      "illumination" : 0.07541504684063521,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:53:00Z",
+      "set" : "2025-03-27T13:49:00Z"
     },
     "waypoint" : {
       "latitude" : 59.43696,
@@ -3934,13 +3934,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -64.27892913075661,
-      "illumination" : 0.99053088956348,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T07:16:24Z",
-      "set" : "2025-03-14T18:55:22Z"
+      "angle" : 64.73913891768545,
+      "illumination" : 0.044567203835891855,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T17:06:00Z",
+      "set" : "2025-03-28T05:29:00Z"
     },
     "waypoint" : {
       "latitude" : 1.3278,
@@ -3950,13 +3950,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 27.596636442305105,
-      "illumination" : 0.9839669631958019,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T14:40:27Z",
-      "set" : "2025-03-15T01:54:46Z"
+      "angle" : -32.22925026713567,
+      "illumination" : 0.03035737674803146,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T00:36:00Z",
+      "set" : "2025-03-28T12:31:00Z"
     },
     "waypoint" : {
       "latitude" : 41.26465,
@@ -3966,13 +3966,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 40.9548561366612,
-      "illumination" : 0.9822240778406283,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:22:25Z",
-      "set" : "2025-03-15T03:33:25Z"
+      "angle" : -47.08591727204318,
+      "illumination" : 0.027558154302818882,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:15:00Z",
+      "set" : "2025-03-28T14:13:00Z"
     },
     "waypoint" : {
       "latitude" : 41.69411,
@@ -3982,13 +3982,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -15.73868204043814,
-      "illumination" : 0.9950764963771939,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T00:27:30Z",
-      "set" : "2025-03-14T12:06:40Z"
+      "angle" : 12.045149791075406,
+      "illumination" : 0.05938739743818294,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:22:00Z",
+      "set" : "2025-03-27T22:30:00Z"
     },
     "waypoint" : {
       "latitude" : 14.0818,
@@ -3998,13 +3998,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 42.080513365824714,
-      "illumination" : 0.9827680704279467,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T15:51:08Z",
-      "set" : "2025-03-15T03:08:19Z"
+      "angle" : -47.102085332460256,
+      "illumination" : 0.0284074852198814,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:45:00Z",
+      "set" : "2025-03-28T13:47:00Z"
     },
     "waypoint" : {
       "latitude" : 35.69439,
@@ -4014,13 +4014,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 7.418789779966222,
-      "illumination" : 0.9959603139833495,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T22:48:13Z",
-      "set" : "2025-03-14T10:28:24Z"
+      "angle" : -11.458930330264915,
+      "illumination" : 0.06319114491868283,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T08:46:00Z",
+      "set" : "2025-03-27T20:47:00Z"
     },
     "waypoint" : {
       "latitude" : 18.21704,
@@ -4030,13 +4030,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 16.22913639891533,
-      "illumination" : 0.985465478397322,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T13:08:23Z",
-      "set" : "2025-03-15T00:34:23Z"
+      "angle" : -18.42428060030023,
+      "illumination" : 0.033065419998847934,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T23:04:00Z",
+      "set" : "2025-03-28T11:09:00Z"
     },
     "waypoint" : {
       "latitude" : 27.46609,
@@ -4046,13 +4046,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 47.38832476131707,
-      "illumination" : 0.9803561803596641,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:06:27Z",
-      "set" : "2025-03-15T05:14:52Z"
+      "angle" : -55.17548970240836,
+      "illumination" : 0.07631044466255421,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:32:00Z",
+      "set" : "2025-03-27T14:41:00Z"
     },
     "waypoint" : {
       "latitude" : 41.3275,
@@ -4062,13 +4062,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -25.469084639626665,
-      "illumination" : 0.9885281649599726,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T09:44:31Z",
-      "set" : "2025-03-14T21:10:18Z"
+      "angle" : 21.586600109581315,
+      "illumination" : 0.03926041769420657,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T19:45:00Z",
+      "set" : "2025-03-28T07:37:00Z"
     },
     "waypoint" : {
       "latitude" : 35.61488,
@@ -4078,13 +4078,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 55.45760756322165,
-      "illumination" : 0.9799514754774143,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:28:21Z",
-      "set" : "2025-03-15T05:44:28Z"
+      "angle" : -63.478875378248624,
+      "illumination" : 0.07563216360521102,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:48:00Z",
+      "set" : "2025-03-27T15:18:00Z"
     },
     "waypoint" : {
       "latitude" : 32.87519,
@@ -4094,13 +4094,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 51.09232236172992,
-      "illumination" : 0.9796704213494574,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:43:26Z",
-      "set" : "2025-03-15T05:55:32Z"
+      "angle" : -59.13542966752179,
+      "illumination" : 0.07488310925030561,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:05:00Z",
+      "set" : "2025-03-27T15:27:00Z"
     },
     "waypoint" : {
       "latitude" : 36.81897,
@@ -4110,13 +4110,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 0.2765226895706968,
-      "illumination" : 0.9864147877334528,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T12:07:39Z",
-      "set" : "2025-03-14T23:20:55Z"
+      "angle" : -4.971625734471955,
+      "illumination" : 0.03472372721532063,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T22:09:00Z",
+      "set" : "2025-03-28T09:49:00Z"
     },
     "waypoint" : {
       "latitude" : 47.90771,
@@ -4126,13 +4126,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 40.9220802680393,
-      "illumination" : 0.9794652013285478,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:54:23Z",
-      "set" : "2025-03-15T05:54:14Z"
+      "angle" : -48.94640880852918,
+      "illumination" : 0.07408353406555968,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:24:00Z",
+      "set" : "2025-03-27T15:17:00Z"
     },
     "waypoint" : {
       "latitude" : 47.14151,
@@ -4142,13 +4142,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 52.62334573094594,
-      "illumination" : 0.9800185852881396,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:24:44Z",
-      "set" : "2025-03-15T05:38:10Z"
+      "angle" : -60.60425642639931,
+      "illumination" : 0.07570290950736802,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:46:00Z",
+      "set" : "2025-03-27T15:09:00Z"
     },
     "waypoint" : {
       "latitude" : 35.89972,
@@ -4158,13 +4158,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 46.456231615237215,
-      "illumination" : 0.9797790297091027,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:37:37Z",
-      "set" : "2025-03-15T05:44:30Z"
+      "angle" : -54.45983295901073,
+      "illumination" : 0.07497369265952397,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:03:00Z",
+      "set" : "2025-03-27T15:12:00Z"
     },
     "waypoint" : {
       "latitude" : 41.90236,
@@ -4174,13 +4174,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 53.15811499689204,
-      "illumination" : 0.9833457548648006,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T15:17:23Z",
-      "set" : "2025-03-15T02:59:02Z"
+      "angle" : -50.02294501684035,
+      "illumination" : 0.029385473156417263,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T01:10:00Z",
+      "set" : "2025-03-28T13:37:00Z"
     },
     "waypoint" : {
       "latitude" : -4.61667,
@@ -4190,13 +4190,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 40.47775159230858,
-      "illumination" : 0.9799811780259724,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:26:45Z",
-      "set" : "2025-03-15T05:26:06Z"
+      "angle" : -48.38106788938143,
+      "illumination" : 0.0751931532334204,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:58:00Z",
+      "set" : "2025-03-27T14:47:00Z"
     },
     "waypoint" : {
       "latitude" : 48.20849,
@@ -4206,13 +4206,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 5.410261478217837,
-      "illumination" : 0.9863614419860134,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T12:11:07Z",
-      "set" : "2025-03-14T23:42:43Z"
+      "angle" : -6.203411444674384,
+      "illumination" : 0.0348330614219598,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T22:05:00Z",
+      "set" : "2025-03-28T10:17:00Z"
     },
     "waypoint" : {
       "latitude" : 17.96667,
@@ -4222,13 +4222,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 33.776282272709345,
-      "illumination" : 0.9805365988100201,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:56:37Z",
-      "set" : "2025-03-15T04:46:59Z"
+      "angle" : -41.445809551321794,
+      "illumination" : 0.07612145600998943,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:37:00Z",
+      "set" : "2025-03-27T13:58:00Z"
     },
     "waypoint" : {
       "latitude" : 54.68916,
@@ -4238,13 +4238,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 36.46270021404864,
-      "illumination" : 0.9802619832228692,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:11:34Z",
-      "set" : "2025-03-15T05:05:28Z"
+      "angle" : -44.24448149160281,
+      "illumination" : 0.07563721596206924,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:48:00Z",
+      "set" : "2025-03-27T14:21:00Z"
     },
     "waypoint" : {
       "latitude" : 52.22977,
@@ -4254,13 +4254,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -5.265818827333696,
-      "illumination" : 0.9954312836685253,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:48:48Z",
-      "set" : "2025-03-14T11:28:34Z"
+      "angle" : -1.0056986777556542,
+      "illumination" : 0.06012119441544789,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T10:04:00Z",
+      "set" : "2025-03-27T21:32:00Z"
     },
     "waypoint" : {
       "latitude" : 38.89511,
@@ -4270,13 +4270,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : -42.222658757628096,
-      "illumination" : 0.9907703495726234,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T06:57:42Z",
-      "set" : "2025-03-14T18:48:24Z"
+      "angle" : 50.05937146904899,
+      "illumination" : 0.04587160445378696,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T16:28:00Z",
+      "set" : "2025-03-28T05:37:00Z"
     },
     "waypoint" : {
       "latitude" : -41.28664,
@@ -4286,13 +4286,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 11.882691440237792,
-      "illumination" : 0.9861441945432388,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T12:25:10Z",
-      "set" : "2025-03-15T00:09:36Z"
+      "angle" : -8.485697681593562,
+      "illumination" : 0.03454423409007473,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T22:15:00Z",
+      "set" : "2025-03-28T10:47:00Z"
     },
     "waypoint" : {
       "latitude" : -12.15681,
@@ -4302,13 +4302,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 2.041589865116344,
-      "illumination" : 0.9957574851060368,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T23:11:53Z",
-      "set" : "2025-03-14T10:51:37Z"
+      "angle" : -5.325353502010584,
+      "illumination" : 0.06241858681726914,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T09:06:00Z",
+      "set" : "2025-03-27T21:15:00Z"
     },
     "waypoint" : {
       "latitude" : 12.1084,
@@ -4318,13 +4318,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 68.65448228634516,
-      "illumination" : 0.980710744195924,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T17:47:05Z",
-      "set" : "2025-03-15T05:40:43Z"
+      "angle" : -60.84741374868346,
+      "illumination" : 0.0786244375871874,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T02:39:00Z",
+      "set" : "2025-03-27T15:39:00Z"
     },
     "waypoint" : {
       "latitude" : -22.55941,
@@ -4334,13 +4334,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 64.73093425490724,
-      "illumination" : 0.9977311386313753,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-14T18:49:21Z",
-      "set" : "2025-03-14T06:29:49Z"
+      "angle" : -67.8610533964043,
+      "illumination" : 0.07345646884180573,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T04:39:00Z",
+      "set" : "2025-03-27T16:53:00Z"
     },
     "waypoint" : {
       "latitude" : 6.81667,
@@ -4350,13 +4350,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 81.16743182627945,
-      "illumination" : 0.9800837352319555,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:21:13Z",
-      "set" : "2025-03-15T05:58:05Z"
+      "angle" : -83.88924721577074,
+      "illumination" : 0.0765620105289565,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:27:00Z",
+      "set" : "2025-03-27T15:45:00Z"
     },
     "waypoint" : {
       "latitude" : 3.86667,
@@ -4366,13 +4366,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 42.32271275922601,
-      "illumination" : 0.9822191134479081,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T16:22:42Z",
-      "set" : "2025-03-15T03:35:10Z"
+      "angle" : -48.353088416552204,
+      "illumination" : 0.027550363786670307,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-28T02:16:00Z",
+      "set" : "2025-03-28T14:15:00Z"
     },
     "waypoint" : {
       "latitude" : 40.18111,
@@ -4382,13 +4382,13 @@
     }
   },
   {
-    "date" : "2025-03-14T23:21:10Z",
+    "date" : "2025-03-27T21:39:00Z",
     "lunarData" : {
-      "angle" : 42.85170975518381,
-      "illumination" : 0.9799920017765122,
-      "phase" : "Waning Gibbous",
-      "rise" : "2025-03-15T18:26:10Z",
-      "set" : "2025-03-15T05:28:43Z"
+      "angle" : -50.76849133125909,
+      "illumination" : 0.07531487240401735,
+      "phase" : "Waning Crescent",
+      "rise" : "2025-03-27T03:55:00Z",
+      "set" : "2025-03-27T14:52:00Z"
     },
     "waypoint" : {
       "latitude" : 45.81444,

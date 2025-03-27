@@ -30,9 +30,9 @@ struct SolarTests {
         let solars = try Solar.makeRange(from: date, at: coordinates, timeZone: TimeZone(identifier: "America/Denver")!, forDays: 3)
         
         try #require(solars.count == 3)
-        #expect(formatter.date(from: "2025-01-22T14:17:58Z") == solars[0].dawn.actual)
-        #expect(formatter.date(from: "2025-01-23T14:17:25Z") == solars[1].dawn.actual)
-        #expect(formatter.date(from: "2025-01-24T14:16:52Z") == solars[2].dawn.actual)
+        #expect(formatter.date(from: "2025-01-22T14:18:00Z") == solars[0].dawn.actual)
+        #expect(formatter.date(from: "2025-01-23T14:17:00Z") == solars[1].dawn.actual)
+        #expect(formatter.date(from: "2025-01-24T14:17:00Z") == solars[2].dawn.actual)
     }
     
     @Test
@@ -122,7 +122,7 @@ struct SolarTests {
         let solar = try Solar.make(date: Date(timeIntervalSince1970: 1737779072), coordinate: Constant.cupertino, timeZone: TimeZone(identifier: "America/Los_Angeles")!)
         
         let daylight = try #require(solar.daylight)
-        #expect(36453.0 == daylight.duration)
+        #expect(36420.0 == daylight.duration)
     }
     
     @Test
@@ -134,12 +134,12 @@ struct SolarTests {
             timeZone: TimeZone(identifier: "Arctic/Longyearbyen")!
         )
         
-        #expect("2025-04-17T23:27:37Z".toDate() == solar.dawn.actual)
+        #expect("2025-04-17T23:28:00Z".toDate() == solar.dawn.actual)
         #expect(nil == solar.dawn.astronomical)
         #expect(nil == solar.dawn.civil)
         #expect(nil == solar.dawn.nautical)
 
-        #expect("2025-04-17T22:20:01Z".toDate() == solar.dusk.actual)
+        #expect("2025-04-17T22:20:00Z".toDate() == solar.dusk.actual)
         #expect(nil == solar.dusk.astronomical)
         #expect(nil == solar.dusk.civil)
         #expect(nil == solar.dusk.nautical)

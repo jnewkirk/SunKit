@@ -104,12 +104,12 @@ struct DuskTests {
             timeZone: TimeZone(identifier: "Arctic/Longyearbyen")!
         )
         
-        #expect("2025-04-10T01:44:24Z".toDate() == solar.dawn.actual)
+        #expect("2025-04-10T01:44:00Z".toDate() == solar.dawn.actual)
         #expect(nil == solar.dawn.astronomical)
         #expect(nil == solar.dawn.civil)
         #expect(nil == solar.dawn.nautical)
         
-        #expect("2025-04-10T20:18:05Z".toDate() == solar.dusk.actual)
+        #expect("2025-04-10T20:18:00Z".toDate() == solar.dusk.actual)
         #expect(nil == solar.dusk.astronomical)
         #expect(nil == solar.dusk.civil)
         #expect(nil == solar.dusk.nautical)
