@@ -40,6 +40,17 @@ struct DawnTests {
     }
     
     @Test
+    func azimuth() throws {
+        for testLocation in testData {
+            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            
+            let azimuth = try #require(solar.dawn.actualAzimuth)
+            #expect(testLocation.solarData.sunriseAzimuth == azimuth.value,
+                    "Test Location: \(testLocation.waypoint.name)")
+        }
+    }
+    
+    @Test
     func astronomical() throws {
         for testLocation in testData {
             let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)

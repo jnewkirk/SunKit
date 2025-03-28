@@ -18,7 +18,9 @@ extension Solar {
         
     func solarData(_ date: Date, waypoint: Waypoint) -> SolarData {
         return SolarData(sunrise: self.dawn.actual,
+                         sunriseAzimuth: self.dawn.actualAzimuth?.value,
                          sunset: self.dusk.actual,
+                         sunsetAzimuth: self.dusk.actualAzimuth?.value,
                          daylight: self.daylight,
                          astronomicalDawn: self.dawn.astronomical,
                          astronomicalDusk: self.dusk.astronomical,

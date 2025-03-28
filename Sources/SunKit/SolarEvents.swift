@@ -8,8 +8,9 @@
 import Foundation
 
 public struct SolarEvents: Codable, Sendable {
-    public init(_ actual: Date?, nautical: Date?, astronomical: Date?, civil: Date?, goldenHour: DateInterval?, blueHour: DateInterval?, interval: DateInterval?) {
+    public init(_ actual: Date?, actualAzimuth: Measurement<UnitAngle>?, nautical: Date?, astronomical: Date?, civil: Date?, goldenHour: DateInterval?, blueHour: DateInterval?, interval: DateInterval?) {
         self.actual = actual
+        self.actualAzimuth = actualAzimuth
         self.nautical = nautical
         self.astronomical = astronomical
         self.civil = civil
@@ -20,6 +21,9 @@ public struct SolarEvents: Codable, Sendable {
     
     /// The actual solar event (e.g., the sunrise or sunset)
     public let actual: Date?
+    
+    /// The azimuth angle of the sun during the actual solar event
+    public let actualAzimuth: Measurement<UnitAngle>?
     
     /// The nauticaul dawn or dusk event
     public let nautical: Date?

@@ -10,7 +10,9 @@ import CoreLocation
 
 public struct SolarData: Codable, Sendable {
     public init(sunrise: Date?,
+                sunriseAzimuth: Double?,
                 sunset: Date?,
+                sunsetAzimuth: Double?,
                 daylight: DateInterval?,
                 astronomicalDawn: Date?,
                 astronomicalDusk: Date?,
@@ -26,7 +28,9 @@ public struct SolarData: Codable, Sendable {
                 eveningGoldenHour: DateInterval?,
                 eveningBlueHour: DateInterval?) {
         self.sunrise = sunrise
+        self.sunriseAzimuth = sunriseAzimuth
         self.sunset = sunset
+        self.sunsetAzimuth = sunsetAzimuth
         self.daylight = daylight
         self.astronomicalDawn = astronomicalDawn
         self.astronomicalDusk = astronomicalDusk
@@ -44,7 +48,9 @@ public struct SolarData: Codable, Sendable {
     }
     
     public let sunrise: Date?
+    public let sunriseAzimuth: Double?
     public let sunset: Date?
+    public let sunsetAzimuth: Double?
     public let daylight: DateInterval?
     public let astronomicalDawn: Date?
     public let nauticalDawn: Date?

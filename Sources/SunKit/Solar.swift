@@ -23,7 +23,10 @@ public struct Solar {
         let goldenHour = computeTwilights(julianDay: julianDay, today: today, coordinates: coordinates, zenith: Zenith.goldenHour)
         let solarAngle = computeSolarAngle(julianDay: julianDay, coordinates: coordinates)
         
-        return Solar(date, official, civil, astronomical, nautical, blueHour, goldenHour, solarAngle)
+        let sunriseAzimuth = computeAzimuth(date: official.rise, coordinates: coordinates)
+        let sunsetAzimuth = computeAzimuth(date: official.set, coordinates: coordinates)
+
+        return Solar(date, official, civil, astronomical, nautical, blueHour, goldenHour, solarAngle, sunriseAzimuth, sunsetAzimuth)
     }
     
     public static func riseAndSet(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) -> RiseSet {
@@ -70,9 +73,12 @@ public struct Solar {
                  _ nautical: RiseSet,
                  _ blueHour: RiseSet,
                  _ goldenHour: RiseSet,
-                 _ angle: Degree) {
+                 _ angle: Degree,
+                 _ sunriseAzimuth: Measurement<UnitAngle>?,
+                 _ sunsetAzimuth: Measurement<UnitAngle>?) {
         let sunrise = official.rise
         self.dawn = SolarEvents(sunrise,
+                                actualAzimuth: sunriseAzimuth,
                                 nautical: nautical.rise,
                                 astronomical: astronomical.rise,
                                 civil: civil.rise,
@@ -82,6 +88,7 @@ public struct Solar {
 
         let sunset = official.set
         self.dusk = SolarEvents(sunset,
+                                actualAzimuth: sunsetAzimuth,
                                 nautical: nautical.set,
                                 astronomical: astronomical.set,
                                 civil: civil.set,
@@ -105,6 +112,16 @@ public struct Solar {
     public let solarNoon: Date?
     public let daylight: DateInterval?
     public let angle: Double
+    
+    static func computeAzimuth(date: Date?, coordinates: GeographicCoordinates) -> Measurement<UnitAngle>? {
+        guard let date else { return nil }
+        
+        let julianDay = JulianDay(date)
+        let sun = Sun(julianDay: julianDay)
+        let horizontalCoordinates = sun.makeApparentHorizontalCoordinates(with: coordinates)
+        
+        return Measurement<UnitAngle>(value: horizontalCoordinates.northBasedAzimuth.value, unit: .degrees)
+    }
     
     static func computeTwilights(julianDay: JulianDay, today: DateInterval, coordinates: GeographicCoordinates, zenith: Zenith) -> RiseSet {
         let riseSetYesterday = Earth(julianDay: julianDay - 1).twilights(forSunAltitude: zenith.degree, coordinates: coordinates)
