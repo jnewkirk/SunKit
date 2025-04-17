@@ -265,8 +265,8 @@
       "civilDawn" : "2025-03-27T12:50:00Z",
       "civilDusk" : "2025-03-28T02:14:00Z",
       "daylight" : {
-        "duration" : 44880,
-        "start" : "2025-03-27T13:18:00Z"
+        "duration" : 44940,
+        "start" : "2025-03-27T13:17:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 660,
@@ -288,8 +288,8 @@
       "nauticalDusk" : "2025-03-28T02:46:00Z",
       "solarAngle" : 10.420523623997347,
       "solarNoon" : "2025-03-27T19:32:00Z",
-      "sunrise" : "2025-03-27T13:18:00Z",
-      "sunriseAzimuth" : 85.44346221284354,
+      "sunrise" : "2025-03-27T13:17:00Z",
+      "sunriseAzimuth" : 85.2801273860187,
       "sunset" : "2025-03-28T01:46:00Z",
       "sunsetAzimuth" : 274.47228532637774
     },
@@ -3103,7 +3103,7 @@
       "civilDawn" : "2025-03-28T02:05:00Z",
       "civilDusk" : "2025-03-28T15:10:00Z",
       "daylight" : {
-        "duration" : 44340,
+        "duration" : 44400,
         "start" : "2025-03-28T02:28:00Z"
       },
       "eveningBlueHour" : {
@@ -3128,8 +3128,8 @@
       "solarNoon" : "2025-03-28T08:38:00Z",
       "sunrise" : "2025-03-28T02:28:00Z",
       "sunriseAzimuth" : 86.07797119120494,
-      "sunset" : "2025-03-28T14:47:00Z",
-      "sunsetAzimuth" : 273.80148070889317
+      "sunset" : "2025-03-28T14:48:00Z",
+      "sunsetAzimuth" : 273.9086578328474
     },
     "waypoint" : {
       "latitude" : 25.27932,
@@ -5081,8 +5081,8 @@
       "civilDawn" : "2025-03-28T04:49:00Z",
       "civilDusk" : "2025-03-28T17:33:00Z",
       "daylight" : {
-        "duration" : 43320,
-        "start" : "2025-03-28T05:10:00Z"
+        "duration" : 43380,
+        "start" : "2025-03-28T05:09:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 480,
@@ -5104,8 +5104,8 @@
       "nauticalDusk" : "2025-03-28T17:57:00Z",
       "solarAngle" : -65.48389211562449,
       "solarNoon" : "2025-03-28T11:11:00Z",
-      "sunrise" : "2025-03-28T05:10:00Z",
-      "sunriseAzimuth" : 87.03342570706519,
+      "sunrise" : "2025-03-28T05:09:00Z",
+      "sunriseAzimuth" : 87.07186611189195,
       "sunset" : "2025-03-28T17:12:00Z",
       "sunsetAzimuth" : 273.23875367743705
     },
@@ -9123,8 +9123,8 @@
       "civilDawn" : "2025-03-27T10:04:00Z",
       "civilDusk" : "2025-03-27T22:46:00Z",
       "daylight" : {
-        "duration" : 43080,
-        "start" : "2025-03-27T10:26:00Z"
+        "duration" : 43140,
+        "start" : "2025-03-27T10:25:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 480,
@@ -9146,8 +9146,8 @@
       "nauticalDusk" : "2025-03-27T23:12:00Z",
       "solarAngle" : -34.386827578380064,
       "solarNoon" : "2025-03-27T16:25:00Z",
-      "sunrise" : "2025-03-27T10:26:00Z",
-      "sunriseAzimuth" : 87.39995590080764,
+      "sunrise" : "2025-03-27T10:25:00Z",
+      "sunriseAzimuth" : 87.4815566260358,
       "sunset" : "2025-03-27T22:24:00Z",
       "sunsetAzimuth" : 272.9884579563821
     },
@@ -9295,8 +9295,8 @@
       "civilDawn" : "2025-03-28T03:16:00Z",
       "civilDusk" : "2025-03-28T17:35:00Z",
       "daylight" : {
-        "duration" : 46560,
-        "start" : "2025-03-28T03:58:00Z"
+        "duration" : 46620,
+        "start" : "2025-03-28T03:57:00Z"
       },
       "eveningBlueHour" : {
         "duration" : 960,
@@ -9318,8 +9318,8 @@
       "nauticalDusk" : "2025-03-28T18:27:00Z",
       "solarAngle" : -21.60753860708447,
       "solarNoon" : "2025-03-28T10:26:00Z",
-      "sunrise" : "2025-03-28T03:58:00Z",
-      "sunriseAzimuth" : 82.40627552025614,
+      "sunrise" : "2025-03-28T03:57:00Z",
+      "sunriseAzimuth" : 82.190809316745,
       "sunset" : "2025-03-28T16:54:00Z",
       "sunsetAzimuth" : 277.7159437655901
     },
@@ -9424,7 +9424,7 @@
       "civilDawn" : "2025-03-28T02:21:00Z",
       "civilDusk" : "2025-03-28T15:48:00Z",
       "daylight" : {
-        "duration" : 45060,
+        "duration" : 45120,
         "start" : "2025-03-28T02:49:00Z"
       },
       "eveningBlueHour" : {
@@ -9449,8 +9449,8 @@
       "solarNoon" : "2025-03-28T09:05:00Z",
       "sunrise" : "2025-03-28T02:49:00Z",
       "sunriseAzimuth" : 84.94272902882278,
-      "sunset" : "2025-03-28T15:20:00Z",
-      "sunsetAzimuth" : 274.82294630780285
+      "sunset" : "2025-03-28T15:21:00Z",
+      "sunsetAzimuth" : 274.9896438420169
     },
     "waypoint" : {
       "latitude" : 41.69411,

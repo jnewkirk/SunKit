@@ -18,12 +18,23 @@ struct DawnTests {
     }
     
     @Test
-    func sunriseFromMake() throws {
+    func sunriseFromComputedProperty() throws {
         for testLocation in testData {
-            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
-            let dawn = try #require(solar.dawn)
-            #expect(testLocation.solarData.sunrise == dawn.actual,
+            let sunrise = try #require(solar.sunrise)
+            #expect(testLocation.solarData.sunrise == sunrise,
+                    "Test Location: \(testLocation.waypoint.name)")
+        }
+    }
+
+    @Test
+    func sunriseFromGetEvent() throws {
+        for testLocation in testData {
+            let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            
+            let sunrise = try #require(solar.getEvent(.sunrise))
+            #expect(testLocation.solarData.sunrise == sunrise,
                     "Test Location: \(testLocation.waypoint.name)")
         }
     }
@@ -38,13 +49,13 @@ struct DawnTests {
                     "Test Location: \(testLocation.waypoint.name)")
         }
     }
-    
+
     @Test
     func azimuth() throws {
         for testLocation in testData {
-            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
-            let azimuth = try #require(solar.dawn.actualAzimuth)
+            let azimuth = try #require(solar.sunriseAzimuth)
             #expect(testLocation.solarData.sunriseAzimuth == azimuth.value,
                     "Test Location: \(testLocation.waypoint.name)")
         }
@@ -53,10 +64,10 @@ struct DawnTests {
     @Test
     func astronomical() throws {
         for testLocation in testData {
-            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
-            
-            let dawn = try #require(solar.dawn)
-            #expect(testLocation.solarData.astronomicalDawn == dawn.astronomical,
+            let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+
+            let astronomicalDawn = try #require(solar.astronomicalDawn, "Test Location: \(testLocation.waypoint.name)")
+            #expect(testLocation.solarData.astronomicalDawn == astronomicalDawn,
                     "Test Location: \(testLocation.waypoint.name)")
         }
     }
@@ -64,10 +75,10 @@ struct DawnTests {
     @Test
     func civil() throws {
         for testLocation in testData {
-            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
-            
-            let dawn = try #require(solar.dawn)
-            #expect(testLocation.solarData.civilDawn == dawn.civil,
+            let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+
+            let civilDawn = try #require(solar.civilDawn)
+            #expect(testLocation.solarData.civilDawn == civilDawn,
                     "Test Location: \(testLocation.waypoint.name)")
         }
     }
@@ -75,10 +86,10 @@ struct DawnTests {
     @Test
     func nautical() throws {
         for testLocation in testData {
-            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
-            
-            let dawn = try #require(solar.dawn)
-            #expect(testLocation.solarData.nauticalDawn == dawn.nautical,
+            let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+
+            let nauticalDawn = try #require(solar.nauticalDawn)
+            #expect(testLocation.solarData.nauticalDawn == nauticalDawn,
                     "Test Location: \(testLocation.waypoint.name)")
         }
     }
@@ -86,10 +97,10 @@ struct DawnTests {
     @Test
     func blueHour() throws {
         for testLocation in testData {
-            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
-            let dawn = try #require(solar.dawn)
-            #expect(testLocation.solarData.morningBlueHour == dawn.blueHour,
+            let blueHourDawn = try #require(solar.blueHourDawn)
+            #expect(testLocation.solarData.morningBlueHour == blueHourDawn,
                     "Test Location: \(testLocation.waypoint.name)")
         }
     }
@@ -97,10 +108,10 @@ struct DawnTests {
     @Test
     func goldenHour() throws {
         for testLocation in testData {
-            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
-            let dawn = try #require(solar.dawn)
-            #expect(testLocation.solarData.morningGoldenHour == dawn.goldenHour,
+            let goldenHourDawn = try #require(solar.goldenHourDawn)
+            #expect(testLocation.solarData.morningGoldenHour == goldenHourDawn,
                     "Test Location: \(testLocation.waypoint.name)")
         }
     }
@@ -108,12 +119,12 @@ struct DawnTests {
     @Test
     func dawnInterval() throws {
         for testLocation in testData {
-            let solar = Solar.make(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
-            let dawn = try #require(solar.dawn)
-            
-            #expect(testLocation.solarData.astronomicalDawn == dawn.interval?.start,
+            let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
+            let interval = try #require(solar.getInterval(SolarInterval(from: .astronomicalDawn, to: .goldenHourEndDawn)))
+
+            #expect(testLocation.solarData.astronomicalDawn == interval.start,
                     "Test Location: \(testLocation.waypoint.name)")
-            #expect(testLocation.solarData.morningGoldenHour?.end == dawn.interval?.end,
+            #expect(testLocation.solarData.morningGoldenHour?.end == interval.end,
                     "Test Location: \(testLocation.waypoint.name)")
         }
     }
@@ -121,20 +132,20 @@ struct DawnTests {
     @Test
     func noSunrise() {
         // Svalbard
-        let solar = Solar.make(
+        let solar = Solar(
             date: "2025-12-14T04:00:00Z".toDate()!,
             coordinate: CLLocationCoordinate2D(latitude: 78.22745806736931, longitude: 15.77845128961993),
             timeZone: TimeZone(identifier: "Arctic/Longyearbyen")!
         )
         
-        #expect(nil == solar.dawn.actual)
-        #expect("2025-12-14T06:27:00Z".toDate() == solar.dawn.astronomical)
-        #expect(nil == solar.dawn.civil)
-        #expect("2025-12-14T09:38:00Z".toDate() == solar.dawn.nautical)
+        #expect(nil == solar.sunrise)
+        #expect("2025-12-14T06:27:00Z".toDate() == solar.astronomicalDawn)
+        #expect(nil == solar.civilDawn)
+        #expect("2025-12-14T09:38:00Z".toDate() == solar.nauticalDawn)
         
-        #expect(nil == solar.dusk.actual)
-        #expect("2025-12-14T15:13:00Z".toDate() == solar.dusk.astronomical)
-        #expect(nil == solar.dusk.civil)
-        #expect("2025-12-14T12:02:00Z".toDate() == solar.dusk.nautical)
+        #expect(nil == solar.sunset)
+        #expect("2025-12-14T15:13:00Z".toDate() == solar.astronomicalDusk)
+        #expect(nil == solar.civilDusk)
+        #expect("2025-12-14T12:02:00Z".toDate() == solar.nauticalDusk)
     }
 }

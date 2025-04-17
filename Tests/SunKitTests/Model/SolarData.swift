@@ -21,7 +21,6 @@ public struct SolarData: Codable, Sendable {
                 nauticalDawn: Date?,
                 nauticalDusk: Date?,
                 solarNoon: Date?,
-                solarMidnight: Date?,
                 solarAngle: Double,
                 morningBlueHour: DateInterval?,
                 morningGoldenHour: DateInterval?,
@@ -39,7 +38,6 @@ public struct SolarData: Codable, Sendable {
         self.nauticalDawn = nauticalDawn
         self.nauticalDusk = nauticalDusk
         self.solarNoon = solarNoon
-        self.solarMidnight = solarMidnight
         self.morningBlueHour = morningBlueHour
         self.morningGoldenHour = morningGoldenHour
         self.eveningGoldenHour = eveningGoldenHour
@@ -59,7 +57,6 @@ public struct SolarData: Codable, Sendable {
     public let civilDusk: Date?
     public let nauticalDusk: Date?
     public let astronomicalDusk: Date?
-    public let solarMidnight: Date?
     public let morningBlueHour: DateInterval?
     public let morningGoldenHour: DateInterval?
     public let eveningGoldenHour: DateInterval?

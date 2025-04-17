@@ -17,23 +17,22 @@ extension Solar {
     }
         
     func solarData(_ date: Date, waypoint: Waypoint) -> SolarData {
-        return SolarData(sunrise: self.dawn.actual,
-                         sunriseAzimuth: self.dawn.actualAzimuth?.value,
-                         sunset: self.dusk.actual,
-                         sunsetAzimuth: self.dusk.actualAzimuth?.value,
+        return SolarData(sunrise: self.sunrise,
+                         sunriseAzimuth: self.sunriseAzimuth?.value,
+                         sunset: self.sunset,
+                         sunsetAzimuth: self.sunsetAzimuth?.value,
                          daylight: self.daylight,
-                         astronomicalDawn: self.dawn.astronomical,
-                         astronomicalDusk: self.dusk.astronomical,
-                         civilDawn: self.dawn.civil,
-                         civilDusk: self.dusk.civil,
-                         nauticalDawn: self.dawn.nautical,
-                         nauticalDusk: self.dusk.nautical,
+                         astronomicalDawn: self.astronomicalDawn,
+                         astronomicalDusk: self.astronomicalDusk,
+                         civilDawn: self.civilDawn,
+                         civilDusk: self.civilDusk,
+                         nauticalDawn: self.nauticalDawn,
+                         nauticalDusk: self.nauticalDusk,
                          solarNoon: self.solarNoon,
-                         solarMidnight: nil,
                          solarAngle: self.angle,
-                         morningBlueHour: self.dawn.blueHour,
-                         morningGoldenHour: self.dawn.goldenHour,
-                         eveningGoldenHour: self.dusk.goldenHour,
-                         eveningBlueHour: self.dusk.blueHour)
+                         morningBlueHour: self.blueHourDawn,
+                         morningGoldenHour: self.goldenHourDawn,
+                         eveningGoldenHour: self.goldenHourDusk,
+                         eveningBlueHour: self.blueHourDusk)
     }
 }
