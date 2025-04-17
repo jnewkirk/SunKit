@@ -10,6 +10,7 @@ import CoreLocation
 import SwiftAA
 
 public struct Lunar {
+    // TODO: Get rid of make(), make makeRange() in line with Solar (midnight)
     public static func make(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) -> Lunar {
         let julianDay = JulianDay(date)
         let coordinates = GeographicCoordinates(CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))

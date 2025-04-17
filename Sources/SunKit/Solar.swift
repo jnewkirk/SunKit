@@ -10,6 +10,7 @@ import CoreLocation
 import SwiftAA
 
 public class Solar {
+    // TODO: Iterable for Solar => Solar? Iterable for RiseOrSet => RiseOrSet?
     public init(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) {
         self.date = date
         self.julianDay = JulianDay(date)
@@ -92,6 +93,7 @@ public class Solar {
         var solars: [Solar] = []
         
         for day in 0...(forDays - 1) {
+            // TODO: Should this be done from midnight (local) instead of the current time?
             let date = from.addingTimeInterval(60 * 60 * 24 * Double(day))
             solars.append(Solar(date: date, coordinate: at, timeZone: timeZone))
         }
