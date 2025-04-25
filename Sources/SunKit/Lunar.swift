@@ -48,12 +48,14 @@ public struct Lunar {
         return nextEvents
     }
     
+    /// Makes a range of Lunar objects, starting at midnight local of the date passed
     public static func makeRange(from: Date, at: CLLocationCoordinate2D, timeZone: TimeZone, forDays: Int = 7) -> [Lunar] {
         var lunars: [Lunar] = []
         
+        let midnightLocal = from.midnightLocal(timeZone: timeZone)
+        
         for day in 0...(forDays - 1) {
-            // TODO: Should this be done from midnight (local) instead of the current time?
-            let date = from.add(days: day)
+            let date = midnightLocal.add(days: day)
             lunars.append(Lunar(date: date, coordinate: at, timeZone: timeZone))
         }
         

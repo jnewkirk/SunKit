@@ -24,15 +24,25 @@ struct SolarTests {
     @Test
     func makeRange() throws {
         let formatter = ISO8601DateFormatter()
-        let date = try #require(formatter.date(from: "2025-01-22T07:00:00Z"))
-        let coordinates = CLLocationCoordinate2D(latitude: 36.148817, longitude: -107.980578)
+        let date = try #require(formatter.date(from: "2025-01-22T19:00:00Z"))
+        let coordinates = Constant.alienThrone
         
-        let solars = Solar.makeRange(from: date, at: coordinates, timeZone: TimeZone(identifier: "America/Denver")!, forDays: 3)
+        let solars = Solar.makeRange(from: date, at: coordinates, timeZone: Constant.mountainTimeZone, forDays: 3)
         
         try #require(solars.count == 3)
+
         #expect(formatter.date(from: "2025-01-22T14:18:00Z") == solars[0].sunrise)
         #expect(formatter.date(from: "2025-01-23T14:17:00Z") == solars[1].sunrise)
         #expect(formatter.date(from: "2025-01-24T14:17:00Z") == solars[2].sunrise)
+
+        #expect(formatter.date(from: "2025-01-23T00:27:00Z") == solars[0].sunset)
+        #expect(formatter.date(from: "2025-01-24T00:28:00Z") == solars[1].sunset)
+        #expect(formatter.date(from: "2025-01-25T00:29:00Z") == solars[2].sunset)
+        
+        // Angles based on midnight, not the current time
+        #expect(-72.66.rounded(toIncrement: 0.01) == solars[0].angle.rounded(toIncrement: 0.01))
+        #expect(-72.42.rounded(toIncrement: 0.01) == solars[1].angle.rounded(toIncrement: 0.01))
+        #expect(-72.18.rounded(toIncrement: 0.01) == solars[2].angle.rounded(toIncrement: 0.01))
     }
     
     @Test

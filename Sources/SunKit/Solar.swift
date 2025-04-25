@@ -89,12 +89,14 @@ public class Solar {
         return nil
     }
 
+    /// Makes a range of Solar objects, starting at midnight local of the date passed
     public static func makeRange(from: Date, at: CLLocationCoordinate2D, timeZone: TimeZone, forDays: Int = 7) -> [Solar] {
         var solars: [Solar] = []
         
+        let midnightLocal = from.midnightLocal(timeZone: timeZone)
+        
         for day in 0...(forDays - 1) {
-            // TODO: Should this be done from midnight (local) instead of the current time?
-            let date = from.add(days: day)
+            let date = midnightLocal.add(days: day)
             solars.append(Solar(date: date, coordinate: at, timeZone: timeZone))
         }
         

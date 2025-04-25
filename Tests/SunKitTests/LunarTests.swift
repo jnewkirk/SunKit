@@ -20,7 +20,7 @@ struct LunarTests {
     @Test func testLocationCount() throws {
         #expect(testDatum.count == 275)
     }
-
+    
     @Test
     func moonRiseFromMake() {
         for testData in testDatum {
@@ -104,5 +104,29 @@ struct LunarTests {
             #expect(testData.lunarData.phase == lunar.phase,
                     "Location: \(testData.waypoint.name)")
         }
+    }
+    
+    @Test
+    func makeRange() throws {
+        let formatter = ISO8601DateFormatter()
+        let date = try #require(formatter.date(from: "2025-01-22T19:00:00Z"))
+        let coordinates = Constant.alienThrone
+
+        let lunars = Lunar.makeRange(from: date, at: coordinates, timeZone: Constant.mountainTimeZone, forDays: 3)
+        
+        try #require(lunars.count == 3)
+        
+        #expect(formatter.date(from: "2025-01-22T08:13:00Z") == lunars[0].rise)
+        #expect(formatter.date(from: "2025-01-23T09:14:00Z") == lunars[1].rise)
+        #expect(formatter.date(from: "2025-01-24T10:16:00Z") == lunars[2].rise)
+
+        #expect(formatter.date(from: "2025-01-22T18:40:00Z") == lunars[0].set)
+        #expect(formatter.date(from: "2025-01-23T19:11:00Z") == lunars[1].set)
+        #expect(formatter.date(from: "2025-01-24T19:49:00Z") == lunars[2].set)
+
+        // Angles based on midnight, not the current time
+        #expect(-13.73.rounded(toIncrement: 0.01) == lunars[0].angle.rounded(toIncrement: 0.01))
+        #expect(-24.66.rounded(toIncrement: 0.01) == lunars[1].angle.rounded(toIncrement: 0.01))
+        #expect(-35.69.rounded(toIncrement: 0.01) == lunars[2].angle.rounded(toIncrement: 0.01))
     }
 }
