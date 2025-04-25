@@ -22,13 +22,13 @@ struct TestDataGenerator {
         
         for index in 0...29 {
             let currentDate = date.add(days: index)
-            let lunar = Lunar.make(date: currentDate, coordinate: firstWaypoint.coordinate, timeZone: firstWaypoint.timeZone)
+            let lunar = Lunar(date: currentDate, coordinate: firstWaypoint.coordinate, timeZone: firstWaypoint.timeZone)
             
             newLunarData.append(lunar.testLunarData(currentDate, waypoint: firstWaypoint))
         }
 
         for waypoint in waypoints.dropFirst() {
-            let lunar = Lunar.make(date: date, coordinate: waypoint.coordinate, timeZone: waypoint.timeZone)
+            let lunar = Lunar(date: date, coordinate: waypoint.coordinate, timeZone: waypoint.timeZone)
             
             newLunarData.append(lunar.testLunarData(date, waypoint: waypoint))
         }

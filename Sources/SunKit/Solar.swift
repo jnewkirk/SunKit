@@ -94,7 +94,7 @@ public class Solar {
         
         for day in 0...(forDays - 1) {
             // TODO: Should this be done from midnight (local) instead of the current time?
-            let date = from.addingTimeInterval(60 * 60 * 24 * Double(day))
+            let date = from.add(days: day)
             solars.append(Solar(date: date, coordinate: at, timeZone: timeZone))
         }
         

@@ -24,7 +24,7 @@ struct LunarTests {
     @Test
     func moonRiseFromMake() {
         for testData in testDatum {
-            let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            let lunar = Lunar(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
             #expect(testData.lunarData.rise == lunar.rise,
                     "Location: \(testData.waypoint.name)")
@@ -44,7 +44,7 @@ struct LunarTests {
     @Test
     func moonSetFromMake() {
         for testData in testDatum {
-            let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            let lunar = Lunar(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
             #expect(testData.lunarData.set == lunar.set,
                     "Location: \(testData.waypoint.name)")
@@ -64,7 +64,7 @@ struct LunarTests {
     @Test
     func angle() {
         for testData in testDatum {
-            let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            let lunar = Lunar(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
             #expect(testData.lunarData.angle == lunar.angle,
                     "Location: \(testData.waypoint.name)")
@@ -73,7 +73,7 @@ struct LunarTests {
     
     @Test
     func nextLunarEvents() {
-        let lunar = Lunar.make(date: "2025-03-08T00:58:00Z".toDate()!, coordinate: Constant.cupertino, timeZone: TimeZone(identifier: "America/Los_Angeles")!)
+        let lunar = Lunar(date: "2025-03-08T00:58:00Z".toDate()!, coordinate: Constant.cupertino, timeZone: TimeZone(identifier: "America/Los_Angeles")!)
         
         #expect(4 == lunar.nextEvents.count)
         #expect(LunarPhase.full == lunar.nextEvents[0].phase)
@@ -89,7 +89,7 @@ struct LunarTests {
     @Test
     func illumination() {
         for testData in testDatum {
-            let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            let lunar = Lunar(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
             #expect(testData.lunarData.illumination == lunar.illumination,
                     "Location: \(testData.waypoint.name)")
@@ -99,7 +99,7 @@ struct LunarTests {
     @Test
     func phase() {
         for testData in testDatum {
-            let lunar = Lunar.make(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
+            let lunar = Lunar(date: testData.date, coordinate: testData.waypoint.coordinate, timeZone: testData.waypoint.timeZone)
             
             #expect(testData.lunarData.phase == lunar.phase,
                     "Location: \(testData.waypoint.name)")

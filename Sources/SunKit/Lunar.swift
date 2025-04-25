@@ -10,38 +10,61 @@ import CoreLocation
 import SwiftAA
 
 public struct Lunar {
-    // TODO: Get rid of make(), make makeRange() in line with Solar (midnight)
-    public static func make(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) -> Lunar {
+    public init(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) {
         let julianDay = JulianDay(date)
         let coordinates = GeographicCoordinates(CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))
-        let moonToday = Moon(julianDay: julianDay)
+        moonToday = Moon(julianDay: julianDay)
         
-        let riseSet = riseAndSet(date: date, coordinate: coordinate, timeZone: timeZone)
-
-        var illumination: Double = 0.0
-        if let rise = riseSet.rise { illumination = Moon(julianDay: JulianDay(rise)).illuminatedFraction() }
-
+        let riseSet = Self.riseAndSet(date: date, coordinate: coordinate, timeZone: timeZone)
+        rise = riseSet.rise
+        set = riseSet.set
+        
+        if let rise { illumination = Moon(julianDay: JulianDay(rise)).illuminatedFraction() } else { illumination = 0.0 }
+        
         let moonAge = Self.moonAge(julianDay: julianDay)
-        let phase = Self.lunarPhase(moonAge: moonAge)
-
+        phase = Self.lunarPhase(moonAge: moonAge)
+        
         let equatorialCoordinates = moonToday.equatorialCoordinates
         let horizontalCoordinates = equatorialCoordinates.makeHorizontalCoordinates(for: coordinates, at: julianDay)
         
+        angle = horizontalCoordinates.altitude.value
+    }
+    
+    let moonToday: Moon
+    public let rise: Date?
+    public let set: Date?
+    public let angle: Double
+    public let illumination: Double
+    public let phase: LunarPhase
+    public var nextEvents: [LunarEvent] {
         var nextEvents: [LunarEvent] = []
+        
         nextEvents.append(LunarEvent(phase: LunarPhase.new, date: moonToday.time(of: MoonPhase.newMoon, mean: false).date.toNearestMinute()))
         nextEvents.append(LunarEvent(phase: LunarPhase.full, date: moonToday.time(of: MoonPhase.fullMoon, mean: false).date.toNearestMinute()))
         nextEvents.append(LunarEvent(phase: LunarPhase.firstQuarter, date: moonToday.time(of: MoonPhase.firstQuarter, mean: false).date.toNearestMinute()))
         nextEvents.append(LunarEvent(phase: LunarPhase.thirdQuarter, date: moonToday.time(of: MoonPhase.lastQuarter, mean: false).date.toNearestMinute()))
         nextEvents.sort { $0.date < $1.date }
-
-        return Lunar(riseSet.rise, riseSet.set, horizontalCoordinates.altitude.value, illumination, phase, nextEvents)
+        
+        return nextEvents
     }
-
+    
+    public static func makeRange(from: Date, at: CLLocationCoordinate2D, timeZone: TimeZone, forDays: Int = 7) -> [Lunar] {
+        var lunars: [Lunar] = []
+        
+        for day in 0...(forDays - 1) {
+            // TODO: Should this be done from midnight (local) instead of the current time?
+            let date = from.add(days: day)
+            lunars.append(Lunar(date: date, coordinate: at, timeZone: timeZone))
+        }
+        
+        return lunars;
+    }
+    
     public static func riseAndSet(date: Date = Date.now, coordinate: CLLocationCoordinate2D, timeZone: TimeZone) -> RiseSet {
         let julianDay = JulianDay(date)
         let coordinates = GeographicCoordinates(CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))
         let today = DateInterval(start: date.midnightLocal(timeZone: timeZone), duration: 60 * 60 * 24)
-
+        
         let moonToday = Moon(julianDay: julianDay)
         
         let riseSetYesterday = Moon(julianDay: julianDay - 1).riseTransitSetTimes(for: coordinates)
@@ -53,27 +76,6 @@ public struct Lunar {
         
         return RiseSet(rise: rise?.toNearestMinute(), set: set?.toNearestMinute())
     }
-    
-    private init(_ rise: Date?,
-                 _ set: Date?,
-                 _ angle: Double,
-                 _ illumination: Double,
-                 _ phase: LunarPhase,
-                 _ nextEvents: [LunarEvent]) {
-        self.rise = rise
-        self.set = set
-        self.angle = angle
-        self.illumination = illumination
-        self.phase = phase
-        self.nextEvents = nextEvents
-    }
-    
-    public let rise: Date?
-    public let set: Date?
-    public let angle: Double
-    public let illumination: Double
-    public let phase: LunarPhase
-    public let nextEvents: [LunarEvent]
     
     static func moonAge(julianDay: JulianDay) -> Double {
         // Known new moon date (January 6, 2000 at 18:14 UTC)
@@ -98,16 +100,5 @@ public struct Lunar {
         }
         
         return .waningCrescent
-    }
-    
-    public static func makeRange(from: Date, at: CLLocationCoordinate2D, timeZone: TimeZone, forDays: Int = 7) -> [Lunar] {
-        var lunars: [Lunar] = []
-        
-        for day in 0...(forDays - 1) {
-            let date = from.add(days: day)
-            lunars.append(Lunar.make(date: date, coordinate: at, timeZone: timeZone))
-        }
-        
-        return lunars;
     }
 }
