@@ -13,7 +13,7 @@ let package = Package(
             targets: ["SunKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/onekiloparsec/SwiftAA.git", from: "2.4.0")
+        .package(url: "https://github.com/jnewkirk/SwiftAA", from: "2.4.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
