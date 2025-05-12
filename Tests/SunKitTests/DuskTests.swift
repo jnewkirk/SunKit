@@ -148,4 +148,29 @@ struct DuskTests {
         #expect(nil == solar.civilDusk)
         #expect(nil == solar.nauticalDusk)
     }
+    
+    @Test
+    func AnchorageCrashingBug() throws {
+        let solar = Solar(
+            date: "2025-05-18T08:00:00Z".toDate()!,
+            coordinate: Constant.anchorage,
+            timeZone: Constant.alaskaTimeZone!
+        )
+        
+        #expect("2025-05-18T13:03:00Z".toDate() == solar.sunrise)
+        #expect(nil == solar.astronomicalDawn)
+        #expect("2025-05-18T11:48:00Z".toDate() == solar.civilDawn)
+        #expect(nil == solar.nauticalDawn)
+
+        #expect("2025-05-19T06:49:00Z".toDate() == solar.sunset)
+        #expect(nil == solar.astronomicalDusk)
+        #expect("2025-05-18T08:01:00Z".toDate() == solar.civilDusk)
+        #expect(nil == solar.nauticalDusk)
+        
+        let blueHourDawn = try #require(solar.blueHourDawn)
+        #expect("2025-05-18T11:48:00Z".toDate() == blueHourDawn.start)
+        #expect("2025-05-18T12:21:00Z".toDate() == blueHourDawn.end)
+        
+        #expect(nil == solar.blueHourDusk)
+    }
 }

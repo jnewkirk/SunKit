@@ -119,7 +119,7 @@ public class Solar {
         let start = getEvent(interval.from)
         let end = getEvent(interval.to)
         
-        guard let start, let end else { return nil }
+        guard let start, let end, start <= end else { return nil }
         
         return DateInterval(start: start, end: end)
     }
