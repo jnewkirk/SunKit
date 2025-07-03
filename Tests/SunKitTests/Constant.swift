@@ -16,7 +16,7 @@ struct Constant {
     
     static let alienThrone = CLLocationCoordinate2D(latitude: 36.148817, longitude: -107.980578)
     static let cupertino = CLLocationCoordinate2D(latitude: 37.322998, longitude: -122.032181)
-    static let longyearbyen = CLLocationCoordinate2D(latitude: 78.22745806736931, longitude: 15.77845128961993)
+    static let longyearbyen = CLLocationCoordinate2D(latitude: 78.22, longitude: 15.63)  // Imprecision here because we use data from https://www.timeanddate.com/sun/norway/longyearbyen?month=4&year=2025
     static let anchorage = CLLocationCoordinate2D(latitude: 61.218056, longitude: -149.900284)
     
     static let utcTimezone = TimeZone(identifier: "UTC")!

@@ -17,7 +17,7 @@ public enum LunarPhase: String, CaseIterable, Sendable, Codable {
     case waxingGibbous = "Waxing Gibbous"
     case firstQuarter = "First Quarter"
     case waxingCrescent = "Waxing Crescent"
-    
+
     public static func map(from phaseAngle: Degree) -> LunarPhase {
         print("phase angle: \(phaseAngle.value)")
         switch phaseAngle {

@@ -7,10 +7,10 @@
 
 import Foundation
 
-public enum RiseSetEnum : Sendable {
+public enum RiseSetEnum: Sendable {
     case rise
     case set
-    
+
     func value(of: RiseSet) -> Date? {
         switch self {
         case .rise:

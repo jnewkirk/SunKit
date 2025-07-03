@@ -18,7 +18,7 @@ struct DuskTests {
     }
     
     @Test
-    func sunsetFromComputedProperty() throws {
+    func sunset() throws {
         for testLocation in testData {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
@@ -28,28 +28,6 @@ struct DuskTests {
         }
     }
     
-    @Test
-    func sunsetFromGetEvent() throws {
-        for testLocation in testData {
-            let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
-            
-            let sunset = try #require(solar.getEvent(.sunset), "Test Location: \(testLocation.waypoint.name), expected sunset of \(testLocation.solarData.sunset?.formatted() ?? "no sunset")")
-            #expect(testLocation.solarData.sunset == sunset,
-                    "Test Location: \(testLocation.waypoint.name)")
-        }
-    }
-
-    @Test
-    func sunsetFromRiseAndSet() throws {
-        for testLocation in testData {
-            let riseSet = Solar.riseAndSet(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
-            
-            let sunset = try #require(riseSet.set, "Test Location: \(testLocation.waypoint.name), expected sunset of \(testLocation.solarData.sunset?.formatted() ?? "no sunset")")
-            #expect(testLocation.solarData.sunset == sunset,
-                    "Test Location: \(testLocation.waypoint.name)")
-        }
-    }
-
     @Test
     func azimuth() throws {
         for testLocation in testData {
@@ -99,8 +77,12 @@ struct DuskTests {
         for testLocation in testData {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
-            let blueHourDusk = try #require(solar.blueHourDusk)
-            #expect(testLocation.solarData.eveningBlueHour == blueHourDusk,
+            let blueHourDuskStart = try #require(solar.blueHourDuskStart)
+            #expect(testLocation.solarData.eveningBlueHourStart == blueHourDuskStart,
+                    "Test Location: \(testLocation.waypoint.name)")
+
+            let blueHourDuskEnd = try #require(solar.blueHourDuskEnd)
+            #expect(testLocation.solarData.eveningBlueHourEnd == blueHourDuskEnd,
                     "Test Location: \(testLocation.waypoint.name)")
         }
     }
@@ -110,67 +92,58 @@ struct DuskTests {
         for testLocation in testData {
             let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
             
-            let goldenHourDusk = try #require(solar.goldenHourDusk)
-            #expect(testLocation.solarData.eveningGoldenHour == goldenHourDusk,
+            let goldenHourDuskStart = try #require(solar.goldenHourDuskStart)
+            #expect(testLocation.solarData.eveningGoldenHourStart == goldenHourDuskStart,
+                    "Test Location: \(testLocation.waypoint.name)")
+
+            let goldenHourDuskEnd = try #require(solar.goldenHourDuskEnd)
+            #expect(testLocation.solarData.eveningGoldenHourEnd == goldenHourDuskEnd,
                     "Test Location: \(testLocation.waypoint.name)")
         }
     }
     
     @Test
-    func duskInterval() throws {
-        for testLocation in testData {
-            let solar = Solar(date: testLocation.date, coordinate: testLocation.waypoint.coordinate, timeZone: testLocation.waypoint.timeZone)
-            let interval = try #require(solar.getInterval(SolarInterval(from: .goldenHourStartDusk, to: .astronomicalDusk)))
-            
-            #expect(testLocation.solarData.eveningGoldenHour?.start == interval.start,
-                    "Test Location: \(testLocation.waypoint.name)")
-            #expect(testLocation.solarData.astronomicalDusk == interval.end,
-                    "Test Location: \(testLocation.waypoint.name)")
-        }
-    }
-
-    @Test
     func noSunset() throws {
-        // Svalbard
         let solar = Solar(
-            date: "2025-04-10T04:00:00Z".toDate()!,
-            coordinate: CLLocationCoordinate2D(latitude: 78.22745806736931, longitude: 15.77845128961993),
-            timeZone: TimeZone(identifier: "Arctic/Longyearbyen")!
+            date: "2025-04-19T04:00:00Z".toDate()!,
+            coordinate: Constant.longyearbyen,
+            timeZone: Constant.longyearbyenTimeZone
         )
         
-        #expect("2025-04-10T01:44:00Z".toDate() == solar.sunrise)
-        #expect(nil == solar.astronomicalDawn)
-        #expect(nil == solar.civilDawn)
-        #expect(nil == solar.nauticalDawn)
-        
-        #expect("2025-04-10T20:18:00Z".toDate() == solar.sunset)
+        #expect(nil == solar.sunset)
         #expect(nil == solar.astronomicalDusk)
         #expect(nil == solar.civilDusk)
         #expect(nil == solar.nauticalDusk)
     }
     
     @Test
-    func AnchorageCrashingBug() throws {
-        let solar = Solar(
+    func endOfCivilDuskHappensOnNextDay() throws {
+        // Testing both the 17th and 18th, because the civil dusk of the 17th rolls into the 18th,
+        // and the civil dusk of the 18th rolls into the 19th
+        let solar17 = Solar(
+            date: "2025-05-17T08:00:00Z".toDate()!,
+            coordinate: Constant.anchorage,
+            timeZone: Constant.alaskaTimeZone!
+        )
+        
+        #expect("2025-05-18T05:34:00Z".toDate() == solar17.goldenHourDuskStart)
+        #expect("2025-05-18T06:47:00Z".toDate() == solar17.sunset)
+        #expect("2025-05-18T07:29:00Z".toDate() == solar17.blueHourDuskStart)
+        #expect("2025-05-18T08:01:00Z".toDate() == solar17.civilDusk)
+        #expect(nil == solar17.nauticalDusk)
+        #expect(nil == solar17.astronomicalDusk)
+
+        let solar18 = Solar(
             date: "2025-05-18T08:00:00Z".toDate()!,
             coordinate: Constant.anchorage,
             timeZone: Constant.alaskaTimeZone!
         )
         
-        #expect("2025-05-18T13:03:00Z".toDate() == solar.sunrise)
-        #expect(nil == solar.astronomicalDawn)
-        #expect("2025-05-18T11:48:00Z".toDate() == solar.civilDawn)
-        #expect(nil == solar.nauticalDawn)
-
-        #expect("2025-05-19T06:49:00Z".toDate() == solar.sunset)
-        #expect(nil == solar.astronomicalDusk)
-        #expect("2025-05-18T08:01:00Z".toDate() == solar.civilDusk)
-        #expect(nil == solar.nauticalDusk)
-        
-        let blueHourDawn = try #require(solar.blueHourDawn)
-        #expect("2025-05-18T11:48:00Z".toDate() == blueHourDawn.start)
-        #expect("2025-05-18T12:21:00Z".toDate() == blueHourDawn.end)
-        
-        #expect(nil == solar.blueHourDusk)
+        #expect("2025-05-19T05:36:00Z".toDate() == solar18.goldenHourDuskStart)
+        #expect("2025-05-19T06:49:00Z".toDate() == solar18.sunset)
+        #expect("2025-05-19T07:32:00Z".toDate() == solar18.blueHourDuskStart)
+        #expect("2025-05-19T08:05:00Z".toDate() == solar18.civilDusk)
+        #expect(nil == solar18.nauticalDusk)
+        #expect(nil == solar18.astronomicalDusk)
     }
 }

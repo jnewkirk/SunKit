@@ -7,10 +7,10 @@
 
 import Foundation
 
-public struct SolarInterval : Sendable {
+public struct SolarInterval: Sendable {
     public let from: SolarEvent
     public let to: SolarEvent
-    
+
     public static var blueHourDawn: SolarInterval { SolarInterval(from: SolarEvent.civilDawn, to: SolarEvent.blueHourEndDawn) }
     public static var blueHourDusk: SolarInterval { SolarInterval(from: SolarEvent.blueHourStartDusk, to: SolarEvent.civilDusk) }
     public static var goldenHourDawn: SolarInterval { SolarInterval(from: SolarEvent.blueHourEndDawn, to: SolarEvent.goldenHourEndDawn) }

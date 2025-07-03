@@ -21,7 +21,6 @@ extension Solar {
                          sunriseAzimuth: self.sunriseAzimuth?.value,
                          sunset: self.sunset,
                          sunsetAzimuth: self.sunsetAzimuth?.value,
-                         daylight: self.daylight,
                          astronomicalDawn: self.astronomicalDawn,
                          astronomicalDusk: self.astronomicalDusk,
                          civilDawn: self.civilDawn,
@@ -30,9 +29,13 @@ extension Solar {
                          nauticalDusk: self.nauticalDusk,
                          solarNoon: self.solarNoon,
                          solarAngle: self.angle,
-                         morningBlueHour: self.blueHourDawn,
-                         morningGoldenHour: self.goldenHourDawn,
-                         eveningGoldenHour: self.goldenHourDusk,
-                         eveningBlueHour: self.blueHourDusk)
+                         morningBlueHourStart: self.blueHourDawnStart,
+                         morningBlueHourEnd: self.blueHourDawnEnd,
+                         morningGoldenHourStart: self.goldenHourDawnStart,
+                         morningGoldenHourEnd: self.goldenHourDawnEnd,
+                         eveningGoldenHourStart: self.goldenHourDuskStart,
+                         eveningGoldenHourEnd: self.goldenHourDuskEnd,
+                         eveningBlueHourStart: self.blueHourDuskStart,
+                         eveningBlueHourEnd: self.blueHourDuskEnd)
     }
 }

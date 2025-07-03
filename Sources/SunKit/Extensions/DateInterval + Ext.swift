@@ -14,14 +14,14 @@ extension DateInterval {
                 return Date(timeIntervalSince1970: Double(Int(date.timeIntervalSince1970)))
             }
         }
-        
+
         return nil
     }
-    
+
     internal init?(start: Date?, end: Date?) {
         guard let start, let end else { return nil }
 
-        if (start < end) {
+        if start < end {
             self.init(start: start, end: end)
         } else {
             self.init(start: end, end: start)
