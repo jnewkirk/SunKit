@@ -22,7 +22,7 @@ struct SolarTests {
     }
     
     @Test
-    func makeRange() throws {
+    func makeRangeOld() throws {
         let formatter = ISO8601DateFormatter()
         let date = try #require(formatter.date(from: "2025-01-22T19:00:00Z"))
         let coordinates = Constant.alienThrone
@@ -30,11 +30,11 @@ struct SolarTests {
         let solars = Solar.makeRange(from: date, at: coordinates, timeZone: Constant.mountainTimeZone, forDays: 3)
         
         try #require(solars.count == 3)
-
+        
         #expect(formatter.date(from: "2025-01-22T14:18:00Z") == solars[0].sunrise)
         #expect(formatter.date(from: "2025-01-23T14:17:00Z") == solars[1].sunrise)
         #expect(formatter.date(from: "2025-01-24T14:17:00Z") == solars[2].sunrise)
-
+        
         #expect(formatter.date(from: "2025-01-23T00:27:00Z") == solars[0].sunset)
         #expect(formatter.date(from: "2025-01-24T00:28:00Z") == solars[1].sunset)
         #expect(formatter.date(from: "2025-01-25T00:29:00Z") == solars[2].sunset)
@@ -64,7 +64,7 @@ struct SolarTests {
                     "location: \(testLocation.waypoint.name)")
         }
     }
-  
+    
     @Test
     func sunsetHappensInTheNextDay() {
         let solar = Solar(
@@ -77,7 +77,7 @@ struct SolarTests {
         #expect(nil == solar.astronomicalDawn)
         #expect(nil == solar.civilDawn)
         #expect(nil == solar.nauticalDawn)
-
+        
         #expect("2025-04-17T22:20:00Z".toDate() == solar.sunset)  // 12:20am local time the following day
         #expect(nil == solar.astronomicalDusk)
         #expect(nil == solar.civilDusk)
@@ -139,6 +139,88 @@ struct SolarTests {
             let result = Solar.nextRiseOrSet(date: "2025-07-18T04:00:00Z".toDate()!, coordinate: Constant.longyearbyen, timeZone: Constant.longyearbyenTimeZone)
             
             #expect(result == nil)
+        }
+    }
+    
+    struct makeRange {
+        @Test
+        func oneDay() throws {
+            let formatter = ISO8601DateFormatter()
+            let date = try #require(formatter.date(from: "2025-01-22T06:00:00Z"))
+            let interval = DateInterval(start: date, duration: 24 * 60 * 60)
+            let coordinates = Constant.alienThrone
+
+            let solunarEvents = Solar.makeRange(interval: interval, at: coordinates, events: Set(SolunarEventKind.allCases))
+
+            try #require(solunarEvents.count == 12)
+
+            #expect(formatter.date(from: "2025-01-22T12:49:00Z") == solunarEvents[0].date)
+            #expect(SolunarEventKind.astronomicalDawn == solunarEvents[0].kind)
+
+            #expect(formatter.date(from: "2025-01-22T13:19:00Z") == solunarEvents[1].date)
+            #expect(SolunarEventKind.nauticalDawn == solunarEvents[1].kind)
+
+            #expect(formatter.date(from: "2025-01-22T13:50:00Z") == solunarEvents[2].date)
+            #expect(SolunarEventKind.civilDawn == solunarEvents[2].kind)
+
+            #expect(formatter.date(from: "2025-01-22T14:01:00Z") == solunarEvents[3].date)
+            #expect(SolunarEventKind.blueHourDawnEnd == solunarEvents[3].kind)
+
+            #expect(formatter.date(from: "2025-01-22T14:18:00Z") == solunarEvents[4].date)
+            #expect(SolunarEventKind.sunrise == solunarEvents[4].kind)
+            #expect(114 == solunarEvents[4].azimuth.value.rounded())
+
+            #expect(formatter.date(from: "2025-01-22T14:56:00Z") == solunarEvents[5].date)
+            #expect(SolunarEventKind.goldenHourDawnEnd == solunarEvents[5].kind)
+
+            #expect(formatter.date(from: "2025-01-22T23:49:00Z") == solunarEvents[6].date)
+            #expect(SolunarEventKind.goldenHourDuskStart == solunarEvents[6].kind)
+
+            #expect(formatter.date(from: "2025-01-23T00:27:00Z") == solunarEvents[7].date)
+            #expect(SolunarEventKind.sunset == solunarEvents[7].kind)
+            #expect(246 == solunarEvents[7].azimuth.value.rounded())
+
+            #expect(formatter.date(from: "2025-01-23T00:44:00Z") == solunarEvents[8].date)
+            #expect(SolunarEventKind.blueHourDuskStart == solunarEvents[8].kind)
+
+            #expect(formatter.date(from: "2025-01-23T00:55:00Z") == solunarEvents[9].date)
+            #expect(SolunarEventKind.civilDusk == solunarEvents[9].kind)
+
+            #expect(formatter.date(from: "2025-01-23T01:26:00Z") == solunarEvents[10].date)
+            #expect(SolunarEventKind.nauticalDusk == solunarEvents[10].kind)
+
+            #expect(formatter.date(from: "2025-01-23T01:57:00Z") == solunarEvents[11].date)
+            #expect(SolunarEventKind.astronomicalDusk == solunarEvents[11].kind)
+        }
+        
+        @Test
+        func threeDays() throws {
+            let formatter = ISO8601DateFormatter()
+            let date = try #require(formatter.date(from: "2025-01-22T19:00:00Z"))
+            let interval = DateInterval(start: date, duration: 3 * 24 * 60 * 60)
+            let coordinates = Constant.alienThrone
+            
+            let solunarEvents = Solar.makeRange(interval: interval, at: coordinates, events: [.sunrise, .sunset])
+            
+            try #require(solunarEvents.count == 6)
+            
+            #expect(formatter.date(from: "2025-01-23T00:27:00Z") == solunarEvents[0].date)
+            #expect(SolunarEventKind.sunset == solunarEvents[0].kind)
+            
+            #expect(formatter.date(from: "2025-01-23T14:17:00Z") == solunarEvents[1].date)
+            #expect(SolunarEventKind.sunrise == solunarEvents[1].kind)
+            
+            #expect(formatter.date(from: "2025-01-24T00:28:00Z") == solunarEvents[2].date)
+            #expect(SolunarEventKind.sunset == solunarEvents[2].kind)
+            
+            #expect(formatter.date(from: "2025-01-24T14:17:00Z") == solunarEvents[3].date)
+            #expect(SolunarEventKind.sunrise == solunarEvents[3].kind)
+            
+            #expect(formatter.date(from: "2025-01-25T00:29:00Z") == solunarEvents[4].date)
+            #expect(SolunarEventKind.sunset == solunarEvents[4].kind)
+            
+            #expect(formatter.date(from: "2025-01-25T14:16:00Z") == solunarEvents[5].date)
+            #expect(SolunarEventKind.sunrise == solunarEvents[5].kind)
         }
     }
 }

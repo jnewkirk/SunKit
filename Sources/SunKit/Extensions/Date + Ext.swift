@@ -18,6 +18,10 @@ extension Date {
         Calendar.current.date(byAdding: .hour, value: hours, to: self) ?? self
     }
 
+    func add(minutes: Int) -> Date {
+        Calendar.current.date(byAdding: .minute, value: minutes, to: self) ?? self
+    }
+
     static let calendar: Calendar = {
         var calendar = Calendar(identifier: .gregorian)
         calendar.timeZone = Date.utcTimezone

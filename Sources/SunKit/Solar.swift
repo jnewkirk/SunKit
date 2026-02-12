@@ -98,6 +98,26 @@ public class Solar {
         return nil
     }
 
+    /// Makes a range of events that occur within the interval at that coordinate
+    public static func makeRange(interval: DateInterval, at: CLLocationCoordinate2D, events: Set<SolunarEventKind>) -> [SolunarEvent] {
+        let coordinates = GeographicCoordinates(CLLocation(latitude: at.latitude, longitude: at.longitude))
+        var results: [SolunarEvent] = []
+
+        for event in events {
+            getEvents(event.solarEvent, interval, coordinates, &results)
+        }
+
+        return results.sorted(by: { $0.date < $1.date })
+    }
+
+    static func getEvents(_ event: SolarEvent, _ interval: DateInterval, _ coordinates: GeographicCoordinates, _ results: inout [SolunarEvent]) {
+        var current = interval
+        while let eventDate = getEvent(event, interval: current, coordinates: coordinates) {
+            results.append(SolunarEvent(eventDate, event.kind, coordinates))
+            current = DateInterval(start: eventDate.add(minutes: 1), end: current.end)
+        }
+    }
+
     /// Makes a range of Solar objects, starting at midnight local of the date passed
     public static func makeRange(from: Date, at: CLLocationCoordinate2D, timeZone: TimeZone, forDays: Int = 7) -> [Solar] {
         var solars: [Solar] = []
