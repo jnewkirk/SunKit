@@ -1,7 +1,36 @@
 public enum SolunarEventKind: Sendable, CaseIterable {
-    case sunrise, sunset, civilDawn, civilDusk, astronomicalDawn, astronomicalDusk, nauticalDawn, nauticalDusk, blueHourDawnEnd, blueHourDuskStart, goldenHourDawnEnd, goldenHourDuskStart
+    case sunrise,
+         sunset,
+         civilDawn,
+         civilDusk,
+         astronomicalDawn,
+         astronomicalDusk,
+         nauticalDawn,
+         nauticalDusk,
+         blueHourDawnEnd,
+         blueHourDuskStart,
+         goldenHourDawnEnd,
+         goldenHourDuskStart,
+         moonrise,
+         galacticCenterVisibilityStart,
+         galacticCenterVisibilityEnd,
+         moonset
+    
+    public static let solarEvents: Set<SolunarEventKind> = [.sunrise, .sunset, .civilDawn, .civilDusk, .astronomicalDawn, .astronomicalDusk, .nauticalDawn, .nauticalDusk, .blueHourDawnEnd, .blueHourDuskStart, .goldenHourDawnEnd, .goldenHourDuskStart]
+    public static let lunarEvents: Set<SolunarEventKind> = [.moonrise, .galacticCenterVisibilityStart, .galacticCenterVisibilityEnd, .moonset]
+    
+    var riseSet: RiseSetEnum? {
+        switch self {
+        case .moonrise, .galacticCenterVisibilityStart:
+            return .rise
+        case .moonset, .galacticCenterVisibilityEnd:
+            return .set
+        default:
+            return nil
+        }
+    }
 
-    var solarEvent: SolarEvent {
+    var solarEvent: SolarEvent? {
         switch self {
         case .sunrise:
             return SolarEvent.sunrise
@@ -27,6 +56,8 @@ public enum SolunarEventKind: Sendable, CaseIterable {
             return SolarEvent.goldenHourEndDawn
         case .goldenHourDuskStart:
             return SolarEvent.goldenHourStartDusk
+        default:
+            return nil
         }
     }
 }

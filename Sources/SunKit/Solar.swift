@@ -99,15 +99,10 @@ public class Solar {
     }
 
     /// Makes a range of events that occur within the interval at that coordinate
-    public static func makeRange(interval: DateInterval, at: CLLocationCoordinate2D, events: Set<SolunarEventKind>) -> [SolunarEvent] {
-        let coordinates = GeographicCoordinates(CLLocation(latitude: at.latitude, longitude: at.longitude))
-        var results: [SolunarEvent] = []
-
+    internal static func makeRange(interval: DateInterval, at: GeographicCoordinates, events: Set<SolunarEventKind>, results: inout [SolunarEvent]) {
         for event in events {
-            getEvents(event.solarEvent, interval, coordinates, &results)
+            if let solarEvent = event.solarEvent { getEvents(solarEvent, interval, at, &results) }
         }
-
-        return results.sorted(by: { $0.date < $1.date })
     }
 
     static func getEvents(_ event: SolarEvent, _ interval: DateInterval, _ coordinates: GeographicCoordinates, _ results: inout [SolunarEvent]) {

@@ -1,3 +1,4 @@
+import CoreLocation
 import Foundation
 import SwiftAA
 
@@ -12,6 +13,16 @@ public struct SolunarEvent {
     public let kind: SolunarEventKind
     private let coordinates: GeographicCoordinates
     
+    public static func makeRange(interval: DateInterval, at: CLLocationCoordinate2D, events: Set<SolunarEventKind>) -> [SolunarEvent] {
+        var results: [SolunarEvent] = []
+        let coordinates = GeographicCoordinates(CLLocation(latitude: at.latitude, longitude: at.longitude))
+
+        Solar.makeRange(interval: interval, at: coordinates, events: events, results: &results)
+        Lunar.makeRange(interval: interval, at: coordinates, events: events, results: &results)
+
+        return results.sorted(by: { $0.date < $1.date })
+    }
+
     public var azimuth: Measurement<UnitAngle> {
         let julianDay = JulianDay(self.date)
         let sun = Sun(julianDay: julianDay)
