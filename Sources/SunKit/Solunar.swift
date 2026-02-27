@@ -80,13 +80,8 @@ struct Solunar {
             at: julianDay
         )
         let moonAltitude = moonHorizontalCoordinates.altitude.value
-        
-        // Standard refraction correction for moon: -34 arcminutes = -0.5667 degrees
-        let moonState: MoonState = moonAltitude > -0.5667 ? .risen : .set
-        
-        // Get moon illumination
+        let moonState: MoonState = moonAltitude > 0 ? .risen : .set
         let moonIllumination = moon.illuminatedFraction()
-        
         let moonAge = moonAge(julianDay: julianDay)
         let lunarPhase = lunarPhase(moonAge: moonAge)
         
