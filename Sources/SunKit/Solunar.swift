@@ -2,62 +2,6 @@ import Foundation
 import CoreLocation
 import SwiftAA
 
-struct SolunarStatus: Sendable {
-    public let magicHour: MagicHour?
-    public let moonIllumination: Double
-    public let moonPhase: LunarPhase
-    public let moonState: MoonState
-    public let solarState: SolarState
-}
-
-public enum MagicHour: Sendable, CaseIterable {
-    case goldenHour
-    case blueHour
-    
-    public static func from(altitude: Double) -> MagicHour? {
-        switch altitude {
-        case -6.0..<(-4.0):
-            return .blueHour
-        case -4.0..<(6.0):
-            return .goldenHour
-        default:
-            return nil
-        }
-    }}
-
-public enum MoonState: Sendable, CaseIterable {
-    case risen
-    case set
-}
-
-public enum SolarState: Sendable, CaseIterable {
-    case night
-    case astronomicalTwilight
-    case nauticalTwilight
-    case civilTwilight
-    case blueHourDawn
-    case blueHourDusk
-    case goldenHourDawn
-    case goldenHourDusk
-    case daylight
-    
-    /// Determines the sun's position based on its altitude angle in degrees and whether the sun is rising
-    public static func from(altitude: Double) -> SolarState {
-        switch altitude {
-        case ..<(-18.0):
-            return .night
-        case -18.0..<(-12.0):
-            return .astronomicalTwilight
-        case -12.0..<(-6.0):
-            return .nauticalTwilight
-        case -6.0..<(-0.833):
-            return .civilTwilight
-        default:
-            return .daylight
-        }
-    }
-}
-
 struct Solunar {
     public static func current(date: Date, coordinates: CLLocationCoordinate2D) -> SolunarStatus {
         let geoCoordinates = GeographicCoordinates(CLLocation(latitude: coordinates.latitude, longitude: coordinates.longitude))
