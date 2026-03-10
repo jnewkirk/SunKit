@@ -26,8 +26,7 @@ struct Solunar {
         let moonAltitude = moonHorizontalCoordinates.altitude.value
         let moonState: MoonState = moonAltitude > 0 ? .risen : .set
         let moonIllumination = moon.illuminatedFraction()
-        let moonAge = moonAge(julianDay: julianDay)
-        let lunarPhase = lunarPhase(moonAge: moonAge)
+        let lunarPhase = LunarPhase.current(julianDay: julianDay)
         
         return SolunarStatus(
             magicHour: MagicHour.from(altitude: sunAltitude),
@@ -36,30 +35,5 @@ struct Solunar {
             moonState: moonState,
             solarState: SolarState.from(altitude: sunAltitude)
         )
-    }
-    
-    static func moonAge(julianDay: JulianDay) -> Double {
-        // Known new moon date (January 6, 2000 at 18:14 UTC)
-        let knownNewMoonJD = 2451550.26
-        
-        var age = fmod(julianDay.value - knownNewMoonJD, Constant.synodicMonth)
-        if age < 0 {
-            age += Constant.synodicMonth
-        }
-        return age
-    }
-    
-    static func lunarPhase(moonAge: Double) -> LunarPhase {
-        if moonAge < Constant.lunarFirstQuarter {
-            return .waxingCrescent
-        }
-        if moonAge < Constant.lunarFull {
-            return .waxingGibbous
-        }
-        if moonAge < Constant.lunarThirdQuarter {
-            return .waningGibbous
-        }
-        
-        return .waningCrescent
     }
 }

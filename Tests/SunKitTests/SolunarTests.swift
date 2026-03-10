@@ -257,6 +257,42 @@ struct SolunarTests {
     
     struct MoonPhase {
         @Test
+        func full() {
+            let solunarStatus = Solunar.current(
+                date: "2026-04-02T00:11:00Z".toDate()!,
+                coordinates: Constant.puyallup
+            )
+            #expect(.full == solunarStatus.moonPhase)
+        }
+
+        @Test
+        func new() {
+            let solunarStatus = Solunar.current(
+                date: "2026-03-19T01:23:00Z".toDate()!,
+                coordinates: Constant.puyallup
+            )
+            #expect(.new == solunarStatus.moonPhase)
+        }
+
+        @Test
+        func firstQuarter() {
+            let solunarStatus = Solunar.current(
+                date: "2026-03-25T19:17:00Z".toDate()!,
+                coordinates: Constant.puyallup
+            )
+            #expect(.firstQuarter == solunarStatus.moonPhase)
+        }
+
+        @Test
+        func thirdQuarter() {
+            let solunarStatus = Solunar.current(
+                date: "2026-03-11T09:38:00Z".toDate()!,
+                coordinates: Constant.puyallup
+            )
+            #expect(.thirdQuarter == solunarStatus.moonPhase)
+        }
+
+        @Test
         func waxingGibbous() {
             let solunarStatus = Solunar.current(
                 date: "2026-02-27T21:10:00Z".toDate()!,
