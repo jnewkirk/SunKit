@@ -11,6 +11,7 @@ import CoreLocation
 
 struct Constant {
     static let testSolarDataFile = "testSolarData"
+    static let testSolunarDataFile = "testSolunarData"
     static let testLunarDataFile = "testLunarData"
     static let waypointsDataFile = "waypoints"
     

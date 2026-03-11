@@ -9,12 +9,15 @@ import Foundation
 
 public enum RiseSetEnum: Sendable {
     case rise
+    case transit
     case set
 
     func value(of: RiseSet) -> Date? {
         switch self {
         case .rise:
             return of.rise
+        case .transit:
+            return nil
         case .set:
             return of.set
         }

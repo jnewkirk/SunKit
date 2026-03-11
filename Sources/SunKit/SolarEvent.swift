@@ -1,10 +1,3 @@
-//
-//  SolarEventSpec.swift
-//  SunKit
-//
-//  Created by Jim Newkirk on 4/17/25.
-//
-
 import Foundation
 import SwiftAA
 
@@ -27,28 +20,28 @@ public struct SolarEvent: Sendable {
     internal static let astronomical = Measurement<UnitAngle>(value: TwilightSunAltitude.astronomical.rawValue.value, unit: .degrees)
 
     /// This marks the sunrise, when the sun is 0.833 degrees below the horizon and rising
-    public static let sunrise = SolarEvent(angle: Self.official, riseSet: .rise, kind: SolunarEventKind.sunrise)
+    public static let sunrise = SolarEvent(angle: Self.official, riseSet: .rise, kind: .sunrise)
 
     /// This marks the sunset, when the sun is 0.833 degrees below the horizing and setting
-    public static let sunset = SolarEvent(angle: Self.official, riseSet: .set, kind: SolunarEventKind.sunset)
+    public static let sunset = SolarEvent(angle: Self.official, riseSet: .set, kind: .sunset)
 
     /// This marks civil dawn, when the sun is 6.0 degrees below the horizon
-    public static let civilDawn = SolarEvent(angle: Self.civil, riseSet: .rise, kind: .civilDawn)
+    public static let civilDawn = SolarEvent(angle: Self.civil, riseSet: .rise, kind: .civilDawnStart)
 
     /// This marks civil dusk, when the sun is 6.0 degrees below the horizon
-    public static let civilDusk = SolarEvent(angle: Self.civil, riseSet: .set, kind: .civilDusk)
+    public static let civilDusk = SolarEvent(angle: Self.civil, riseSet: .set, kind: .civilDuskEnd)
 
     /// This marks nautical dawn, when the sun is 12.0 degrees below the horizon
-    public static let nauticalDawn = SolarEvent(angle: Self.nautical, riseSet: .rise, kind: .nauticalDawn)
+    public static let nauticalDawn = SolarEvent(angle: Self.nautical, riseSet: .rise, kind: .nauticalDawnStart)
 
     /// This marks nautical dusk, when the sun is 12.0 degrees below the horizon
-    public static let nauticalDusk = SolarEvent(angle: Self.nautical, riseSet: .set, kind: .nauticalDusk)
+    public static let nauticalDusk = SolarEvent(angle: Self.nautical, riseSet: .set, kind: .nauticalDuskEnd)
 
     /// This marks astronomical dawn, when the sun is 18.0 degrees below the horizon
-    public static let astronomicalDawn = SolarEvent(angle: Self.astronomical, riseSet: .rise, kind: .astronomicalDawn)
+    public static let astronomicalDawn = SolarEvent(angle: Self.astronomical, riseSet: .rise, kind: .astronomicalDawnStart)
 
     /// This marks astronomical dusk, when the sun is 18.0 degrees below the horizon
-    public static let astronomicalDusk = SolarEvent(angle: Self.astronomical, riseSet: .set, kind: .astronomicalDusk)
+    public static let astronomicalDusk = SolarEvent(angle: Self.astronomical, riseSet: .set, kind: .astronomicalDuskEnd)
 
     /// This marks the end of the blue hour for dawn (which started at civil dawn), when the sun is at 4.0 degrees below the horizon
     public static let blueHourEndDawn = SolarEvent(angle: Self.blueHour, riseSet: .rise, kind: .blueHourDawnEnd)

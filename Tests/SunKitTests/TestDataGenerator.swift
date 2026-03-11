@@ -1,10 +1,3 @@
-//
-//  TestDataGenerator.swift
-//  SunKit
-//
-//  Created by Jim Newkirk on 3/14/25.
-//
-
 import CoreLocation
 import SwiftAA
 import Testing
@@ -13,41 +6,25 @@ import Testing
 @Suite(.disabled())
 struct TestDataGenerator {
     @Test
-    func generateLunarData() {
+    func generateSolunarData() {
         let waypoints = Waypoint.load()
-        var newLunarData: [TestLunarData] = []
-        
-        let firstWaypoint = waypoints.first!
-        let date = "2025-03-28T00:48:00Z".toDate()!
-        
-        for index in 0...29 {
-            let currentDate = date.add(days: index)
-            let lunar = Lunar(date: currentDate, coordinate: firstWaypoint.coordinate, timeZone: firstWaypoint.timeZone)
-            
-            newLunarData.append(lunar.testLunarData(currentDate, waypoint: firstWaypoint))
-        }
-
-        for waypoint in waypoints.dropFirst() {
-            let lunar = Lunar(date: date, coordinate: waypoint.coordinate, timeZone: waypoint.timeZone)
-            
-            newLunarData.append(lunar.testLunarData(date, waypoint: waypoint))
-        }
-        
-        TestLunarData.save(newLunarData)
-    }
-    
-    @Test
-    func generateSolarData() {
-        let waypoints = Waypoint.load()
-        var newSolarData: [TestSolarData] = []
+        var newData: [TestSolunarData] = []
         let date = "2025-03-28T00:48:00Z".toDate()!
 
         for waypoint in waypoints {
-            let solar = Solar(date: date, coordinate: waypoint.coordinate, timeZone: waypoint.timeZone)
-            
-            newSolarData.append(solar.testSolarData(date, waypoint: waypoint))
+            let startDate = date.midnightLocal(timeZone: waypoint.timeZone)
+            let endDate = startDate.add(days: 1)
+            let solunarEvents = Solunar.getEvents(interval: DateInterval(start: startDate, end: endDate), coordinates: waypoint.coordinate, events: SolunarEventKind.allCases)
+
+            newData.append(solunarEvents.testSolunarData(date, waypoint))
         }
-        
-        TestSolarData.save(newSolarData)
+
+        TestSolunarData.save(newData)
+    }
+}
+
+extension Array where Element == SolunarEvent {
+    func testSolunarData(_ date: Date, _ waypoint: Waypoint) -> TestSolunarData {
+        return TestSolunarData(waypoint: waypoint, date: date, events: self)
     }
 }

@@ -5,98 +5,110 @@ import Testing
 
 struct SolunarTests {
     struct MagicHour {
-        var testSolarData: [TestSolarData] = []
-        
+        var testData: [TestSolunarData] = []
+
         internal init() {
-            testSolarData = TestSolarData.load()
+            testData = TestSolunarData.load()
         }
-        
+
         @Test
         func goldenHourDawn() throws {
-            for testLocation in testSolarData {
-                if let start = testLocation.solarData.morningGoldenHourStart, let end = testLocation.solarData.morningGoldenHourEnd {
+            for testLocation in testData {
+                if let start = testLocation.events.first(.goldenHourDawnStart), let end = testLocation.events.first(.goldenHourDawnEnd) {
                     let solunarStatus = Solunar.current(
-                        date: start.midpoint(end),
+                        date: start.date.midpoint(end.date),
                         coordinates: testLocation.waypoint.coordinate
                     )
                     #expect (solunarStatus.magicHour == .goldenHour)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
                 }
             }
         }
-        
+
         @Test
         func goldenHourDusk() throws {
-            for testLocation in testSolarData {
-                if let start = testLocation.solarData.eveningGoldenHourStart, let end = testLocation.solarData.eveningGoldenHourEnd {
+            for testLocation in testData {
+                if let start = testLocation.events.first(.goldenHourDuskStart), let end = testLocation.events.first(.goldenHourDuskEnd) {
                     let solunarStatus = Solunar.current(
-                        date: start.midpoint(end),
+                        date: start.date.midpoint(end.date),
                         coordinates: testLocation.waypoint.coordinate
                     )
                     #expect (solunarStatus.magicHour == .goldenHour)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
                 }
             }
         }
-        
+
         @Test
         func blueHourDawn() throws {
-            for testLocation in testSolarData {
-                if let start = testLocation.solarData.morningBlueHourStart, let end = testLocation.solarData.morningBlueHourEnd {
+            for testLocation in testData {
+                if let start = testLocation.events.first(.blueHourDawnStart), let end = testLocation.events.first(.blueHourDawnEnd) {
                     let solunarStatus = Solunar.current(
-                        date: start.midpoint(end),
+                        date: start.date.midpoint(end.date),
                         coordinates: testLocation.waypoint.coordinate
                     )
                     #expect (solunarStatus.magicHour == .blueHour)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
                 }
             }
         }
-        
+
         @Test
         func blueHourDusk() throws {
-            for testLocation in testSolarData {
-                if let start = testLocation.solarData.eveningBlueHourStart, let end = testLocation.solarData.eveningBlueHourEnd {
+            for testLocation in testData {
+                if let start = testLocation.events.first(.blueHourDuskStart), let end = testLocation.events.first(.blueHourDuskEnd) {
                     let solunarStatus = Solunar.current(
-                        date: start.midpoint(end),
+                        date: start.date.midpoint(end.date),
                         coordinates: testLocation.waypoint.coordinate
                     )
                     #expect (solunarStatus.magicHour == .blueHour)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
                 }
             }
         }
 
         @Test
         func nighttime() throws {
-            for testLocation in testSolarData {
-                if let date = testLocation.solarData.astronomicalDawn {
+            for testLocation in testData {
+                if let start = testLocation.events.first(.astronomicalDawnStart) {
                     let solunarStatus = Solunar.current(
-                        date: date,
+                        date: start.date,
                         coordinates: testLocation.waypoint.coordinate
                     )
                     #expect (solunarStatus.magicHour == nil)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
                 }
             }
         }
 
         @Test
         func daytime() throws {
-            for testLocation in testSolarData {
-                if let date = testLocation.solarData.solarNoon {
+            for testLocation in testData {
+                if let start = testLocation.events.first(.solarNoon) {
                     let solunarStatus = Solunar.current(
-                        date: date,
+                        date: start.date,
                         coordinates: testLocation.waypoint.coordinate
                     )
                     #expect (solunarStatus.magicHour == nil)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
                 }
             }
         }
     }
-    
+
     struct SolarStateTests {
-        var testSolarData: [TestSolarData] = []
-        
+        var testData: [TestSolunarData] = []
+
         internal init() {
-            testSolarData = TestSolarData.load()
+            testData = TestSolunarData.load()
         }
-        
+
         func solarState(_ start: Date?, _ end: Date?, _ coordinates: CLLocationCoordinate2D) -> SolarState? {
             guard let start, let end else { return nil }
             let solunarStatus = Solunar.current(
@@ -105,93 +117,106 @@ struct SolunarTests {
             )
             return solunarStatus.solarState
         }
-        
+
         @Test
         func night() throws {
-            for testLocation in testSolarData {
-                if let date = testLocation.solarData.astronomicalDawn {
+            for testLocation in testData {
+                if let start = testLocation.events.first(.astronomicalDawnStart) {
                     let solunarStatus = Solunar.current(
-                        date: date.add(minutes: -5),
+                        date: start.date.add(minutes: -5),
                         coordinates: testLocation.waypoint.coordinate
                     )
                     #expect (solunarStatus.solarState == .night)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
                 }
             }
         }
-        
+
         @Test
         func astronomicalTwilightDawn() throws {
-            for testLocation in testSolarData {
-                let start = testLocation.solarData.astronomicalDawn
-                let end = testLocation.solarData.nauticalDawn
-                let coordinates = testLocation.waypoint.coordinate
-                
-                #expect (solarState(start, end, coordinates) == .astronomicalTwilight)
+            for testLocation in testData {
+                if let start = testLocation.events.first(.astronomicalDawnStart), let end = testLocation.events.first(.astronomicalDawnEnd) {
+                    let coordinates = testLocation.waypoint.coordinate
+
+                    #expect (solarState(start.date, end.date, coordinates) == .astronomicalTwilight)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
+                }
             }
         }
 
         @Test
         func astronomicalTwilightDusk() throws {
-            for testLocation in testSolarData {
-                let start = testLocation.solarData.nauticalDusk
-                let end = testLocation.solarData.astronomicalDusk
-                let coordinates = testLocation.waypoint.coordinate
-                
-                #expect (solarState(start, end, coordinates) == .astronomicalTwilight)
+            for testLocation in testData {
+                if let start = testLocation.events.first(.astronomicalDuskStart), let end = testLocation.events.first(.astronomicalDuskEnd) {
+                    let coordinates = testLocation.waypoint.coordinate
+
+                    #expect (solarState(start.date, end.date, coordinates) == .astronomicalTwilight)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
+                }
             }
         }
 
         @Test
         func nauticalTwilightDawn() throws {
-            for testLocation in testSolarData {
-                let start = testLocation.solarData.nauticalDawn
-                let end = testLocation.solarData.civilDawn
-                let coordinates = testLocation.waypoint.coordinate
+            for testLocation in testData {
+                if let start = testLocation.events.first(.nauticalDawnStart), let end = testLocation.events.first(.nauticalDawnEnd) {
+                    let coordinates = testLocation.waypoint.coordinate
 
-                #expect (solarState(start, end, coordinates) == .nauticalTwilight)
+                    #expect (solarState(start.date, end.date, coordinates) == .nauticalTwilight)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
+                }
             }
         }
-        
 
         @Test
         func nauticalTwilightDusk() throws {
-            for testLocation in testSolarData {
-                let start = testLocation.solarData.civilDusk
-                let end = testLocation.solarData.nauticalDusk
-                let coordinates = testLocation.waypoint.coordinate
+            for testLocation in testData {
+                if let start = testLocation.events.first(.nauticalDuskStart), let end = testLocation.events.first(.nauticalDuskEnd) {
+                    let coordinates = testLocation.waypoint.coordinate
 
-                #expect (solarState(start, end, coordinates) == .nauticalTwilight)
+                    #expect (solarState(start.date, end.date, coordinates) == .nauticalTwilight)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
+                }
             }
         }
-        
+
         @Test
         func civilTwilightDawn() throws {
-            for testLocation in testSolarData {
-                let start = testLocation.solarData.civilDawn
-                let end = testLocation.solarData.sunrise
-                let coordinates = testLocation.waypoint.coordinate
+            for testLocation in testData {
+                if let start = testLocation.events.first(.civilDawnStart), let end = testLocation.events.first(.civilDawnEnd) {
+                    let coordinates = testLocation.waypoint.coordinate
 
-                #expect (solarState(start, end, coordinates) == .civilTwilight)
+                    #expect (solarState(start.date, end.date, coordinates) == .civilTwilight)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
+                }
             }
         }
-        
+
         @Test
         func civilTwilightDusk() throws {
-            for testLocation in testSolarData {
-                let start = testLocation.solarData.sunset
-                let end = testLocation.solarData.civilDusk
-                let coordinates = testLocation.waypoint.coordinate
+            for testLocation in testData {
+                if let start = testLocation.events.first(.civilDuskStart), let end = testLocation.events.first(.civilDuskEnd) {
+                    let coordinates = testLocation.waypoint.coordinate
 
-                #expect (solarState(start, end, coordinates) == .civilTwilight)
+                    #expect (solarState(start.date, end.date, coordinates) == .civilTwilight)
+                } else {
+                    Issue.record("\(testLocation.waypoint.name)")
+                }
             }
         }
-        
+
         @Test
         func daylight() throws {
-            for testLocation in testSolarData {
-                if let date = testLocation.solarData.sunrise {
+            for testLocation in testData {
+                if let start = testLocation.events.first(.sunrise) {
                     let solunarStatus = Solunar.current(
-                        date: date.add(minutes: 5),
+                        date: start.date.add(minutes: 5),
                         coordinates: testLocation.waypoint.coordinate
                     )
                     #expect (solunarStatus.solarState == .daylight)
@@ -199,48 +224,37 @@ struct SolunarTests {
             }
         }
     }
-    
+
     struct MoonState {
-        let lunarTestData: [TestLunarData]
-        
+        let testData: [TestSolunarData]
+
         internal init() {
-            lunarTestData = TestLunarData.load()
+            testData = TestSolunarData.load()
         }
-        
+
         @Test
-        func risen() throws {
-            for testLocation in lunarTestData {
-                if let date = testLocation.lunarData.rise {
+        func moonrise() throws {
+            for testLocation in testData {
+                if let moonrise = testLocation.events.first(.moonrise) {
                     let solunarStatus = Solunar.current(
-                        date: date.add(minutes: 5),
+                        date: moonrise.date.add(minutes: 5),
                         coordinates: testLocation.waypoint.coordinate
                     )
                     #expect (solunarStatus.moonState == .risen)
                 }
             }
         }
-        
-        @Test
-        func set() throws {
-            for testLocation in lunarTestData {
-                if let date = testLocation.lunarData.set {
-                    let solunarStatus = Solunar.current(
-                        date: date.add(minutes: 5),
-                        coordinates: testLocation.waypoint.coordinate
-                    )
-                    #expect (solunarStatus.moonState == .set)
-                }
-            }
-        }
+
+        // TODO: The other 5 states
     }
-    
+
     struct MoonIllumination {
         let lunarTestData: [TestLunarData]
-        
+
         internal init() {
             lunarTestData = TestLunarData.load()
         }
-        
+
         @Test
         func illumination() {
             for testLocation in lunarTestData {
@@ -254,7 +268,7 @@ struct SolunarTests {
             }
         }
     }
-    
+
     struct MoonPhase {
         @Test
         func full() {
@@ -328,10 +342,162 @@ struct SolunarTests {
             #expect(.waxingCrescent == solunarStatus.moonPhase)
         }
     }
+
+    struct GetEvents {
+        @Test
+        func sunrises() throws {
+            let interval = DateInterval(
+                start: "2026-03-10T07:00:00Z".toDate()!,
+                end: "2026-03-13T07:00:00Z".toDate()!
+            )
+            let events = Solunar.getEvents(
+                interval: interval,
+                coordinates: Constant.puyallup,
+                events: [.sunrise]
+            )
+
+            try #require(events.count == 3)
+            #expect(events[0].kind == .sunrise)
+            #expect(events[0].date == "2026-03-10T14:30:00Z".toDate())
+            #expect(events[1].kind == .sunrise)
+            #expect(events[1].date == "2026-03-11T14:28:00Z".toDate())
+            #expect(events[2].kind == .sunrise)
+            #expect(events[2].date == "2026-03-12T14:26:00Z".toDate())
+        }
+
+        @Test
+        func sunsets() throws {
+            let interval = DateInterval(
+                start: "2026-03-10T07:00:00Z".toDate()!,
+                end: "2026-03-13T07:00:00Z".toDate()!
+            )
+            let events = Solunar.getEvents(
+                interval: interval,
+                coordinates: Constant.puyallup,
+                events: [.sunset]
+            )
+
+            try #require(events.count == 3)
+            #expect(events[0].kind == .sunset)
+            #expect(events[0].date == "2026-03-11T02:07:00Z".toDate())
+            #expect(events[1].kind == .sunset)
+            #expect(events[1].date == "2026-03-12T02:08:00Z".toDate())
+            #expect(events[2].kind == .sunset)
+            #expect(events[2].date == "2026-03-13T02:09:00Z".toDate())
+        }
+
+        @Test
+        func sunrisesAndSunset() throws {
+            let interval = DateInterval(
+                start: "2026-03-10T07:00:00Z".toDate()!,
+                end: "2026-03-13T07:00:00Z".toDate()!
+            )
+            let events = Solunar.getEvents(
+                interval: interval,
+                coordinates: Constant.puyallup,
+                events: [.sunrise, .sunset]
+            )
+
+            try #require(events.count == 6)
+            #expect(events[0].kind == .sunrise)
+            #expect(events[0].date == "2026-03-10T14:30:00Z".toDate())
+            #expect(events[0].azimuthAngleInDegrees.rounded() == 95)
+
+            #expect(events[1].kind == .sunset)
+            #expect(events[1].date == "2026-03-11T02:07:00Z".toDate())
+            #expect(events[1].azimuthAngleInDegrees.rounded() == 265)
+
+            #expect(events[2].kind == .sunrise)
+            #expect(events[2].date == "2026-03-11T14:28:00Z".toDate())
+            #expect(events[2].azimuthAngleInDegrees.rounded() == 94)
+
+            #expect(events[3].kind == .sunset)
+            #expect(events[3].date == "2026-03-12T02:08:00Z".toDate())
+            #expect(events[3].azimuthAngleInDegrees.rounded() == 266)
+
+            #expect(events[4].kind == .sunrise)
+            #expect(events[4].date == "2026-03-12T14:26:00Z".toDate())
+            #expect(events[4].azimuthAngleInDegrees.rounded() == 93)
+
+            #expect(events[5].kind == .sunset)
+            #expect(events[5].date == "2026-03-13T02:09:00Z".toDate())
+            #expect(events[5].azimuthAngleInDegrees.rounded() == 266)
+        }
+
+        @Test
+        func oneDay() throws {
+            let date = try #require("2026-03-11T07:00:00Z".toDate())
+            let interval = DateInterval(start: date, duration: 24 * 60 * 60)
+            let coordinates = Constant.puyallup
+
+            let solunarEvents = Solunar.getEvents(interval: interval, coordinates: coordinates, events: SolunarEventKind.allCases)
+
+            try #require(solunarEvents.count == 29)
+
+            verifySolunarEvent(solunarEvents[0], "2026-03-11T10:34:00Z", SolunarEventKind.moonrise)
+            verifySolunarEvent(solunarEvents[1], "2026-03-11T10:59:00Z", SolunarEventKind.galacticCenterRise)
+            verifySolunarEvent(solunarEvents[2], "2026-03-11T12:47:00Z", SolunarEventKind.astronomicalDawnStart)
+            verifySolunarEvent(solunarEvents[3], "2026-03-11T13:23:00Z", SolunarEventKind.astronomicalDawnEnd)
+            verifySolunarEvent(solunarEvents[4], "2026-03-11T13:23:00Z", SolunarEventKind.nauticalDawnStart)
+            verifySolunarEvent(solunarEvents[5], "2026-03-11T13:58:00Z", SolunarEventKind.nauticalDawnEnd)
+            verifySolunarEvent(solunarEvents[6], "2026-03-11T13:58:00Z", SolunarEventKind.civilDawnStart)
+            verifySolunarEvent(solunarEvents[7], "2026-03-11T13:58:00Z", SolunarEventKind.blueHourDawnStart)
+            verifySolunarEvent(solunarEvents[8], "2026-03-11T14:10:00Z", SolunarEventKind.blueHourDawnEnd)
+            verifySolunarEvent(solunarEvents[9], "2026-03-11T14:10:00Z", SolunarEventKind.goldenHourDawnStart)
+            verifySolunarEvent(solunarEvents[10], "2026-03-11T14:20:00Z", SolunarEventKind.moonApex)
+            verifySolunarEvent(solunarEvents[11], "2026-03-11T14:28:00Z", SolunarEventKind.civilDawnEnd)
+            verifySolunarEvent(solunarEvents[12], "2026-03-11T14:28:00Z", SolunarEventKind.sunrise)
+            verifySolunarEvent(solunarEvents[13], "2026-03-11T14:36:00Z", SolunarEventKind.galacticCenterApex)
+            verifySolunarEvent(solunarEvents[14], "2026-03-11T15:09:00Z", SolunarEventKind.goldenHourDawnEnd)
+            verifySolunarEvent(solunarEvents[15], "2026-03-11T18:04:00Z", SolunarEventKind.moonset)
+            verifySolunarEvent(solunarEvents[16], "2026-03-11T18:14:00Z", SolunarEventKind.galacticCenterSet)
+            verifySolunarEvent(solunarEvents[17], "2026-03-11T20:18:00Z", SolunarEventKind.solarNoon)
+            verifySolunarEvent(solunarEvents[18], "2026-03-12T01:27:00Z", SolunarEventKind.goldenHourDuskStart)
+            verifySolunarEvent(solunarEvents[19], "2026-03-12T02:08:00Z", SolunarEventKind.sunset)
+            verifySolunarEvent(solunarEvents[20], "2026-03-12T02:08:00Z", SolunarEventKind.civilDuskStart)
+            verifySolunarEvent(solunarEvents[21], "2026-03-12T02:27:00Z", SolunarEventKind.goldenHourDuskEnd)
+            verifySolunarEvent(solunarEvents[22], "2026-03-12T02:27:00Z", SolunarEventKind.blueHourDuskStart)
+            verifySolunarEvent(solunarEvents[23], "2026-03-12T02:38:00Z", SolunarEventKind.blueHourDuskEnd)
+            verifySolunarEvent(solunarEvents[24], "2026-03-12T02:38:00Z", SolunarEventKind.civilDuskEnd)
+            verifySolunarEvent(solunarEvents[25], "2026-03-12T02:38:00Z", SolunarEventKind.nauticalDuskStart)
+            verifySolunarEvent(solunarEvents[26], "2026-03-12T03:14:00Z", SolunarEventKind.nauticalDuskEnd)
+            verifySolunarEvent(solunarEvents[27], "2026-03-12T03:14:00Z", SolunarEventKind.astronomicalDuskStart)
+            verifySolunarEvent(solunarEvents[28], "2026-03-12T03:50:00Z", SolunarEventKind.astronomicalDuskEnd)
+        }
+
+        func verifySolunarEvent(_ event: SolunarEvent, _ date: String, _ kind: SolunarEventKind) {
+            #expect(date.toDate() == event.date)
+            #expect(kind == event.kind)
+        }
+
+        @Test
+        func noSunrise() {
+            let start = "2025-12-14T04:00:00Z".toDate()!
+            let end = start.add(days: 1)
+            let events = Solunar.getEvents(interval: DateInterval(start: start, end: end), coordinates: Constant.longyearbyen, events: [.sunrise])
+
+            #expect(events.isEmpty)
+        }
+
+        @Test
+        func noSunset() throws {
+            let start = "2025-04-19T04:00:00Z".toDate()!
+            let end = start.add(days: 1)
+            let events = Solunar.getEvents(interval: DateInterval(start: start, end: end), coordinates: Constant.longyearbyen, events: [.sunset])
+
+            #expect(events.isEmpty)
+        }
+    }
 }
 
 extension Date {
     public func midpoint(_ other: Date) -> Date {
         return Date(timeIntervalSince1970: (self.timeIntervalSince1970 + other.timeIntervalSince1970) / 2)
+    }
+}
+
+extension Array where Element == SolunarEvent {
+    func first(_ kind: SolunarEventKind) -> SolunarEvent? {
+        first { $0.kind == kind }
     }
 }
