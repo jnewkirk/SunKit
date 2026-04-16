@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  SunKit
-//
-//  Created by Jim Newkirk on 2/11/25.
-//
-
 import Foundation
 
 extension String {

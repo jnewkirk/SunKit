@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  SunKit
-//
-//  Created by Jim Newkirk on 2/11/25.
-//
-
 import Foundation
 import SwiftAA
 
@@ -27,8 +20,9 @@ public enum LunarPhase: String, CaseIterable, Sendable, Codable {
     /// - First Quarter & Third Quarter: within ±5% of synodic month from exact moment
     /// - Otherwise: waxing/waning crescent or gibbous based on position in cycle
     public static func current(julianDay: JulianDay) -> LunarPhase {
-        let synodicMonth = Constant.synodicMonth
-        
+        // The synodic month (Moon cycle) is 29.53058867 days
+        let synodicMonth = 29.53058867
+
         // Get all four phase times, looking backwards to ensure we get the most recent cycle
         let searchMoon = Moon(julianDay: julianDay - 15)
         

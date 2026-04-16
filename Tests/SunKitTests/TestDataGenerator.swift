@@ -7,16 +7,16 @@ import Testing
 struct TestDataGenerator {
     @Test
     func generateSolunarData() {
-        let waypoints = Waypoint.load()
+        let locationDescriptors = LocationDescriptor.load()
         var newData: [TestSolunarData] = []
         let date = "2025-03-28T00:48:00Z".toDate()!
 
-        for waypoint in waypoints {
-            let startDate = date.midnightLocal(timeZone: waypoint.timeZone)
+        for locationDescriptor in locationDescriptors {
+            let startDate = date.midnightLocal(timeZone: locationDescriptor.timeZone)
             let endDate = startDate.add(days: 1)
-            let solunarEvents = Solunar.getEvents(interval: DateInterval(start: startDate, end: endDate), coordinates: waypoint.coordinate, events: SolunarEventKind.allCases)
+            let solunarEvents = Solunar.getEvents(interval: DateInterval(start: startDate, end: endDate), coordinates: locationDescriptor.coordinate, events: SolunarEventKind.allCases)
 
-            newData.append(solunarEvents.testSolunarData(date, waypoint))
+            newData.append(solunarEvents.testSolunarData(date, locationDescriptor))
         }
 
         TestSolunarData.save(newData)
@@ -24,7 +24,7 @@ struct TestDataGenerator {
 }
 
 extension Array where Element == SolunarEvent {
-    func testSolunarData(_ date: Date, _ waypoint: Waypoint) -> TestSolunarData {
-        return TestSolunarData(waypoint: waypoint, date: date, events: self)
+    func testSolunarData(_ date: Date, _ locationDescriptor: LocationDescriptor) -> TestSolunarData {
+        return TestSolunarData(locationDescriptor: locationDescriptor, date: date, events: self)
     }
 }

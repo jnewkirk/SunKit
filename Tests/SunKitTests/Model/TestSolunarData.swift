@@ -4,13 +4,13 @@ import CoreLocation
 @testable import SunKit
 
 final class TestSolunarData: Codable, Sendable {
-    internal init(waypoint: Waypoint, date: Date, events: [SolunarEvent]) {
-        self.waypoint = waypoint
+    internal init(locationDescriptor: LocationDescriptor, date: Date, events: [SolunarEvent]) {
+        self.locationDescriptor = locationDescriptor
         self.date = date
         self.events = events
     }
 
-    let waypoint: Waypoint
+    let locationDescriptor: LocationDescriptor
     let date: Date
     let events: [SolunarEvent]
 }

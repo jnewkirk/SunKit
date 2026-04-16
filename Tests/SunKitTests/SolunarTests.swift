@@ -17,11 +17,11 @@ struct SolunarTests {
                 if let start = testLocation.events.first(.goldenHourDawnStart), let end = testLocation.events.first(.goldenHourDawnEnd) {
                     let solunarStatus = Solunar.current(
                         date: start.date.midpoint(end.date),
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.magicHour == .goldenHour)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -32,11 +32,11 @@ struct SolunarTests {
                 if let start = testLocation.events.first(.goldenHourDuskStart), let end = testLocation.events.first(.goldenHourDuskEnd) {
                     let solunarStatus = Solunar.current(
                         date: start.date.midpoint(end.date),
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.magicHour == .goldenHour)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -47,11 +47,11 @@ struct SolunarTests {
                 if let start = testLocation.events.first(.blueHourDawnStart), let end = testLocation.events.first(.blueHourDawnEnd) {
                     let solunarStatus = Solunar.current(
                         date: start.date.midpoint(end.date),
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.magicHour == .blueHour)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -62,11 +62,11 @@ struct SolunarTests {
                 if let start = testLocation.events.first(.blueHourDuskStart), let end = testLocation.events.first(.blueHourDuskEnd) {
                     let solunarStatus = Solunar.current(
                         date: start.date.midpoint(end.date),
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.magicHour == .blueHour)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -77,11 +77,11 @@ struct SolunarTests {
                 if let start = testLocation.events.first(.astronomicalDawnStart) {
                     let solunarStatus = Solunar.current(
                         date: start.date,
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.magicHour == nil)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -92,11 +92,11 @@ struct SolunarTests {
                 if let start = testLocation.events.first(.solarNoon) {
                     let solunarStatus = Solunar.current(
                         date: start.date,
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.magicHour == nil)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -124,11 +124,11 @@ struct SolunarTests {
                 if let start = testLocation.events.first(.astronomicalDawnStart) {
                     let solunarStatus = Solunar.current(
                         date: start.date.add(minutes: -5),
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.solarState == .night)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -137,11 +137,11 @@ struct SolunarTests {
         func astronomicalTwilightDawn() throws {
             for testLocation in testData {
                 if let start = testLocation.events.first(.astronomicalDawnStart), let end = testLocation.events.first(.astronomicalDawnEnd) {
-                    let coordinates = testLocation.waypoint.coordinate
+                    let coordinates = testLocation.locationDescriptor.coordinate
 
                     #expect (solarState(start.date, end.date, coordinates) == .astronomicalTwilight)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -150,11 +150,11 @@ struct SolunarTests {
         func astronomicalTwilightDusk() throws {
             for testLocation in testData {
                 if let start = testLocation.events.first(.astronomicalDuskStart), let end = testLocation.events.first(.astronomicalDuskEnd) {
-                    let coordinates = testLocation.waypoint.coordinate
+                    let coordinates = testLocation.locationDescriptor.coordinate
 
                     #expect (solarState(start.date, end.date, coordinates) == .astronomicalTwilight)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -163,11 +163,11 @@ struct SolunarTests {
         func nauticalTwilightDawn() throws {
             for testLocation in testData {
                 if let start = testLocation.events.first(.nauticalDawnStart), let end = testLocation.events.first(.nauticalDawnEnd) {
-                    let coordinates = testLocation.waypoint.coordinate
+                    let coordinates = testLocation.locationDescriptor.coordinate
 
                     #expect (solarState(start.date, end.date, coordinates) == .nauticalTwilight)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -176,11 +176,11 @@ struct SolunarTests {
         func nauticalTwilightDusk() throws {
             for testLocation in testData {
                 if let start = testLocation.events.first(.nauticalDuskStart), let end = testLocation.events.first(.nauticalDuskEnd) {
-                    let coordinates = testLocation.waypoint.coordinate
+                    let coordinates = testLocation.locationDescriptor.coordinate
 
                     #expect (solarState(start.date, end.date, coordinates) == .nauticalTwilight)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -189,11 +189,11 @@ struct SolunarTests {
         func civilTwilightDawn() throws {
             for testLocation in testData {
                 if let start = testLocation.events.first(.civilDawnStart), let end = testLocation.events.first(.civilDawnEnd) {
-                    let coordinates = testLocation.waypoint.coordinate
+                    let coordinates = testLocation.locationDescriptor.coordinate
 
                     #expect (solarState(start.date, end.date, coordinates) == .civilTwilight)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -202,11 +202,11 @@ struct SolunarTests {
         func civilTwilightDusk() throws {
             for testLocation in testData {
                 if let start = testLocation.events.first(.civilDuskStart), let end = testLocation.events.first(.civilDuskEnd) {
-                    let coordinates = testLocation.waypoint.coordinate
+                    let coordinates = testLocation.locationDescriptor.coordinate
 
                     #expect (solarState(start.date, end.date, coordinates) == .civilTwilight)
                 } else {
-                    Issue.record("\(testLocation.waypoint.name)")
+                    Issue.record("\(testLocation.locationDescriptor.name)")
                 }
             }
         }
@@ -217,7 +217,7 @@ struct SolunarTests {
                 if let start = testLocation.events.first(.sunrise) {
                     let solunarStatus = Solunar.current(
                         date: start.date.add(minutes: 5),
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.solarState == .daylight)
                 }
@@ -238,7 +238,7 @@ struct SolunarTests {
                 if let moonrise = testLocation.events.first(.moonrise) {
                     let solunarStatus = Solunar.current(
                         date: moonrise.date.add(minutes: 5),
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.moonState == .risen)
                 }
@@ -251,7 +251,7 @@ struct SolunarTests {
                 if let moonset = testLocation.events.first(.moonset) {
                     let solunarStatus = Solunar.current(
                         date: moonset.date.add(minutes: 5),
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.moonState == .set)
                 }
@@ -272,7 +272,7 @@ struct SolunarTests {
                 if let rise = testLocation.events.first(.galacticCenterRise) {
                     let solunarStatus = Solunar.current(
                         date: rise.date.add(minutes: 5),
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.galacticCenterState == .risen)
                 }
@@ -285,30 +285,9 @@ struct SolunarTests {
                 if let set = testLocation.events.first(.galacticCenterSet) {
                     let solunarStatus = Solunar.current(
                         date: set.date.add(minutes: 5),
-                        coordinates: testLocation.waypoint.coordinate
+                        coordinates: testLocation.locationDescriptor.coordinate
                     )
                     #expect (solunarStatus.galacticCenterState == .set)
-                }
-            }
-        }
-    }
-
-    struct MoonIllumination {
-        let lunarTestData: [TestLunarData]
-
-        internal init() {
-            lunarTestData = TestLunarData.load()
-        }
-
-        @Test
-        func illumination() {
-            for testLocation in lunarTestData {
-                if let date = testLocation.lunarData.rise {
-                    let solunarStatus = Solunar.current(
-                        date: date,
-                        coordinates: testLocation.waypoint.coordinate
-                    )
-                    #expect((testLocation.lunarData.illumination * 100).rounded() == (solunarStatus.moonIllumination * 100).rounded())
                 }
             }
         }
@@ -322,6 +301,7 @@ struct SolunarTests {
                 coordinates: Constant.puyallup
             )
             #expect(.full == solunarStatus.moonPhase)
+            #expect(100 == (solunarStatus.moonIllumination * 100.0).rounded())
         }
 
         @Test
@@ -331,6 +311,7 @@ struct SolunarTests {
                 coordinates: Constant.puyallup
             )
             #expect(.new == solunarStatus.moonPhase)
+            #expect(0 == (solunarStatus.moonIllumination * 100.0).rounded())
         }
 
         @Test
@@ -340,6 +321,7 @@ struct SolunarTests {
                 coordinates: Constant.puyallup
             )
             #expect(.firstQuarter == solunarStatus.moonPhase)
+            #expect(50 == (solunarStatus.moonIllumination * 100.0).rounded())
         }
 
         @Test
@@ -349,6 +331,7 @@ struct SolunarTests {
                 coordinates: Constant.puyallup
             )
             #expect(.thirdQuarter == solunarStatus.moonPhase)
+            #expect(50 == (solunarStatus.moonIllumination * 100.0).rounded())
         }
 
         @Test
@@ -358,6 +341,7 @@ struct SolunarTests {
                 coordinates: Constant.puyallup
             )
             #expect(.waxingGibbous == solunarStatus.moonPhase)
+            #expect(85 == (solunarStatus.moonIllumination * 100.0).rounded())
         }
 
         @Test
@@ -367,6 +351,7 @@ struct SolunarTests {
                 coordinates: Constant.puyallup
             )
             #expect(.waningGibbous == solunarStatus.moonPhase)
+            #expect(98 == (solunarStatus.moonIllumination * 100.0).rounded())
         }
 
         @Test
@@ -376,6 +361,7 @@ struct SolunarTests {
                 coordinates: Constant.puyallup
             )
             #expect(.waningCrescent == solunarStatus.moonPhase)
+            #expect(36 == (solunarStatus.moonIllumination * 100.0).rounded())
         }
 
         @Test
@@ -385,6 +371,7 @@ struct SolunarTests {
                 coordinates: Constant.puyallup
             )
             #expect(.waxingCrescent == solunarStatus.moonPhase)
+            #expect(4 == (solunarStatus.moonIllumination * 100.0).rounded())
         }
     }
 

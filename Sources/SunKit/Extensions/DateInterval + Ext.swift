@@ -1,10 +1,3 @@
-//
-//  DateInterval + Ext.swift
-//  SunKit
-//
-//  Created by Jim Newkirk on 3/14/25.
-//
-
 import Foundation
 
 extension DateInterval {

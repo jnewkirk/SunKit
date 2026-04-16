@@ -1,14 +1,7 @@
-//
-//  Waypoint.swift
-//  SunKit
-//
-//  Created by Jim Newkirk on 3/14/25.
-//
-
 import Foundation
 import CoreLocation
 
-struct Waypoint: Codable {
+struct LocationDescriptor: Codable {
     let name: String
     let latitude: Double
     let longitude: Double
@@ -27,12 +20,12 @@ struct Waypoint: Codable {
     }
 }
 
-extension Waypoint {
-    static func load() -> [Waypoint] {
+extension LocationDescriptor {
+    static func load() -> [LocationDescriptor] {
         do {
-            let url = Bundle.module.url(forResource: Constant.waypointsDataFile, withExtension: "json")
+            let url = Bundle.module.url(forResource: Constant.locationDescriptorsDataFile, withExtension: "json")
             guard let url else {
-                debugPrint("url=nil for \(Constant.waypointsDataFile).json")
+                debugPrint("url=nil for \(Constant.locationDescriptorsDataFile).json")
                 return []
             }
             
@@ -40,10 +33,10 @@ extension Waypoint {
             decoder.dateDecodingStrategy = .iso8601
             
             let data = try Data(contentsOf: url)
-            let waypoints = try decoder.decode([Waypoint].self, from: data)
-            return waypoints
+            let descriptors = try decoder.decode([LocationDescriptor].self, from: data)
+            return descriptors
         } catch {
-            debugPrint("Cant load \(Constant.waypointsDataFile).json: \(error)")
+            debugPrint("Cant load \(Constant.locationDescriptorsDataFile).json: \(error)")
             return []
         }
     }

@@ -1,10 +1,3 @@
-//
-//  Date + Ext.swift
-//  SunKit
-//
-//  Created by Jim Newkirk on 2/25/25.
-//
-
 import Foundation
 
 extension Date {
@@ -12,10 +5,6 @@ extension Date {
 
     func add(days: Int) -> Date {
         Calendar.current.date(byAdding: .day, value: days, to: self) ?? self
-    }
-
-    func add(hours: Int) -> Date {
-        Calendar.current.date(byAdding: .hour, value: hours, to: self) ?? self
     }
 
     func add(minutes: Int) -> Date {

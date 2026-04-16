@@ -148,7 +148,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 36.148817,
       "longitude" : -107.980578,
       "name" : "Alien Throne",
@@ -304,7 +304,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 44.058174,
       "longitude" : -121.315308,
       "name" : "Bend, Oregon",
@@ -460,7 +460,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 37.331705,
       "longitude" : -122.030237,
       "name" : "Cupertino",
@@ -616,7 +616,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 41.878113,
       "longitude" : -87.629799,
       "name" : "Chicago",
@@ -772,7 +772,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 47.61477,
       "longitude" : -124.37644,
       "name" : "Forks, WA",
@@ -928,7 +928,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 32.215401,
       "longitude" : -80.747559,
       "name" : "Hilton Head",
@@ -1084,7 +1084,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 40.76078,
       "longitude" : -111.891045,
       "name" : "Salt Lake City, Utah",
@@ -1240,7 +1240,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 44.049019,
       "longitude" : -102.297943,
       "name" : "Wall, SD",
@@ -1396,7 +1396,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -27.61729,
       "longitude" : 32.03172,
       "name" : "Zimanga, South Africa",
@@ -1552,7 +1552,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 24.46667,
       "longitude" : 54.36667,
       "name" : "Abu Dhabi",
@@ -1708,7 +1708,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 9.05735,
       "longitude" : 7.48976,
       "name" : "Abuja",
@@ -1864,7 +1864,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 5.55602,
       "longitude" : -0.1969,
       "name" : "Accra",
@@ -2020,7 +2020,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -25.06597,
       "longitude" : -130.10147,
       "name" : "Adamstown",
@@ -2176,7 +2176,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 9.02497,
       "longitude" : 38.74689,
       "name" : "Addis Ababa",
@@ -2332,7 +2332,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 36.7525,
       "longitude" : 3.04197,
       "name" : "Algiers",
@@ -2488,7 +2488,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -19.05952,
       "longitude" : -169.91867,
       "name" : "Alofi",
@@ -2644,7 +2644,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 31.95522,
       "longitude" : 35.94503,
       "name" : "Amman",
@@ -2800,7 +2800,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 52.37403,
       "longitude" : 4.88969,
       "name" : "Amsterdam",
@@ -2956,7 +2956,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 42.50779,
       "longitude" : 1.52109,
       "name" : "Andorra la Vella",
@@ -3112,7 +3112,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 39.91987,
       "longitude" : 32.85427,
       "name" : "Ankara",
@@ -3268,7 +3268,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -18.91433,
       "longitude" : 47.53098,
       "name" : "Antananarivo",
@@ -3424,7 +3424,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -13.83333,
       "longitude" : -171.76666,
       "name" : "Apia",
@@ -3580,7 +3580,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 37.95,
       "longitude" : 58.38333,
       "name" : "Ashgabat",
@@ -3736,7 +3736,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 15.33333,
       "longitude" : 38.93333,
       "name" : "Asmara",
@@ -3892,7 +3892,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 51.1801,
       "longitude" : 71.44598,
       "name" : "Astana",
@@ -4048,7 +4048,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -25.30066,
       "longitude" : -57.63591,
       "name" : "Asunci??n",
@@ -4204,7 +4204,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 37.97945,
       "longitude" : 23.71622,
       "name" : "Athens",
@@ -4360,7 +4360,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -21.20778,
       "longitude" : -159.775,
       "name" : "Avarua",
@@ -4516,7 +4516,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 33.34058,
       "longitude" : 44.40088,
       "name" : "Baghdad",
@@ -4672,7 +4672,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 40.37767,
       "longitude" : 49.89201,
       "name" : "Baku",
@@ -4828,7 +4828,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 12.65,
       "longitude" : -8,
       "name" : "Bamako",
@@ -4984,7 +4984,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 4.94029,
       "longitude" : 114.94806,
       "name" : "Bandar Seri Begawan",
@@ -5140,7 +5140,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 13.75,
       "longitude" : 100.51667,
       "name" : "Bangkok",
@@ -5296,7 +5296,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 4.36122,
       "longitude" : 18.55496,
       "name" : "Bangui",
@@ -5452,7 +5452,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 13.45274,
       "longitude" : -16.57803,
       "name" : "Banjul",
@@ -5608,7 +5608,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 17.29484,
       "longitude" : -62.7261,
       "name" : "Basseterre",
@@ -5764,7 +5764,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 15.99854,
       "longitude" : -61.72548,
       "name" : "Basse-Terre",
@@ -5920,7 +5920,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 39.9075,
       "longitude" : 116.39723,
       "name" : "Beijing",
@@ -6076,7 +6076,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 33.88894,
       "longitude" : 35.49442,
       "name" : "Beirut",
@@ -6232,7 +6232,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 44.80401,
       "longitude" : 20.46513,
       "name" : "Belgrade",
@@ -6388,7 +6388,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 17.25,
       "longitude" : -88.76667,
       "name" : "Belmopan",
@@ -6544,7 +6544,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 52.52437,
       "longitude" : 13.41053,
       "name" : "Berlin",
@@ -6700,7 +6700,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 46.94809,
       "longitude" : 7.44744,
       "name" : "Bern",
@@ -6856,7 +6856,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 42.87306,
       "longitude" : 74.60028,
       "name" : "Bishkek",
@@ -7012,7 +7012,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 11.85,
       "longitude" : -15.58333,
       "name" : "Bissau",
@@ -7168,7 +7168,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 4.60971,
       "longitude" : -74.08175,
       "name" : "Bogot?�",
@@ -7324,7 +7324,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -15.77972,
       "longitude" : -47.92972,
       "name" : "Bras??lia",
@@ -7480,7 +7480,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 48.14816,
       "longitude" : 17.10674,
       "name" : "Bratislava",
@@ -7636,7 +7636,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -4.2669,
       "longitude" : 15.28327,
       "name" : "Brazzaville",
@@ -7792,7 +7792,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 13.1,
       "longitude" : -59.61667,
       "name" : "Bridgetown",
@@ -7948,7 +7948,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 50.85045,
       "longitude" : 4.34878,
       "name" : "Brussels",
@@ -8104,7 +8104,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 44.43225,
       "longitude" : 26.10626,
       "name" : "Bucure�?ti",
@@ -8260,7 +8260,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 47.49801,
       "longitude" : 19.03991,
       "name" : "Budapest",
@@ -8416,7 +8416,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -34.61315,
       "longitude" : -58.37723,
       "name" : "Buenos Aires",
@@ -8572,7 +8572,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -3.37611,
       "longitude" : 29.36,
       "name" : "Bujumbura",
@@ -8728,7 +8728,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 30.06263,
       "longitude" : 31.24967,
       "name" : "Cairo",
@@ -8884,7 +8884,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -35.28346,
       "longitude" : 149.12807,
       "name" : "Canberra",
@@ -9040,7 +9040,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 10.5,
       "longitude" : -66.91667,
       "name" : "Caracas",
@@ -9196,7 +9196,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 13.9957,
       "longitude" : -61.00614,
       "name" : "Castries",
@@ -9357,7 +9357,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 4.93333,
       "longitude" : -52.33333,
       "name" : "Cayenne",
@@ -9513,7 +9513,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 18.3419,
       "longitude" : -64.9307,
       "name" : "Charlotte Amalie",
@@ -9669,7 +9669,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 47.00556,
       "longitude" : 28.8575,
       "name" : "Chi�?in��u",
@@ -9825,7 +9825,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 21.46122,
       "longitude" : -71.14188,
       "name" : "Cockburn Town",
@@ -9981,7 +9981,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 6.93194,
       "longitude" : 79.84778,
       "name" : "Colombo",
@@ -10137,7 +10137,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 9.53795,
       "longitude" : -13.67729,
       "name" : "Conakry",
@@ -10293,7 +10293,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 55.67594,
       "longitude" : 12.56553,
       "name" : "Copenhagen",
@@ -10449,7 +10449,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 14.6937,
       "longitude" : -17.44406,
       "name" : "Dakar",
@@ -10605,7 +10605,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 33.5102,
       "longitude" : 36.29128,
       "name" : "Damascus",
@@ -10761,7 +10761,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 23.7104,
       "longitude" : 90.40744,
       "name" : "Dhaka",
@@ -10917,7 +10917,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -8.55861,
       "longitude" : 125.57361,
       "name" : "Dili",
@@ -11073,7 +11073,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 11.58767,
       "longitude" : 43.14468,
       "name" : "Djibouti",
@@ -11229,7 +11229,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -6.17486,
       "longitude" : 35.73792,
       "name" : "Dodoma",
@@ -11385,7 +11385,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 25.27932,
       "longitude" : 51.52245,
       "name" : "Doha",
@@ -11541,7 +11541,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 54.15,
       "longitude" : -4.48333,
       "name" : "Douglas",
@@ -11697,7 +11697,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 53.34399,
       "longitude" : -6.26719,
       "name" : "Dublin",
@@ -11853,7 +11853,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 38.53575,
       "longitude" : 68.77905,
       "name" : "Dushanbe",
@@ -12009,7 +12009,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -10.42172,
       "longitude" : 105.67912,
       "name" : "Flying Fish Cove",
@@ -12165,7 +12165,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 14.60892,
       "longitude" : -61.07334,
       "name" : "Fort-de-France",
@@ -12321,7 +12321,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 8.484,
       "longitude" : -13.22994,
       "name" : "Freetown",
@@ -12477,7 +12477,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -8.52425,
       "longitude" : 179.19417,
       "name" : "Funafuti",
@@ -12633,7 +12633,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -24.65451,
       "longitude" : 25.90859,
       "name" : "Gaborone",
@@ -12789,7 +12789,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 19.28692,
       "longitude" : -81.36706,
       "name" : "George Town",
@@ -12945,7 +12945,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 6.80448,
       "longitude" : -58.15527,
       "name" : "Georgetown",
@@ -13101,7 +13101,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 36.14474,
       "longitude" : -5.35257,
       "name" : "Gibraltar",
@@ -13257,7 +13257,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -54.28111,
       "longitude" : -36.5092,
       "name" : "Grytviken",
@@ -13413,7 +13413,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 14.64072,
       "longitude" : -90.51327,
       "name" : "Guatemala City",
@@ -13569,7 +13569,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 17.89618,
       "longitude" : -62.84978,
       "name" : "Gustavia",
@@ -13725,7 +13725,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 21.0245,
       "longitude" : 105.84117,
       "name" : "H?� N��?i",
@@ -13881,7 +13881,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 13.47417,
       "longitude" : 144.74778,
       "name" : "Hag?�t?�a",
@@ -14037,7 +14037,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 32.29149,
       "longitude" : -64.77797,
       "name" : "Hamilton",
@@ -14193,7 +14193,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -17.82935,
       "longitude" : 31.05389,
       "name" : "Harare",
@@ -14349,7 +14349,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 23.13302,
       "longitude" : -82.38304,
       "name" : "Havana",
@@ -14505,7 +14505,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 60.16952,
       "longitude" : 24.93545,
       "name" : "Helsinki",
@@ -14661,7 +14661,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 22.28552,
       "longitude" : 114.15769,
       "name" : "Hong Kong",
@@ -14817,7 +14817,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -9.43333,
       "longitude" : 159.95,
       "name" : "Honiara",
@@ -14973,7 +14973,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 33.72148,
       "longitude" : 73.04329,
       "name" : "Isl��m��b��d",
@@ -15129,7 +15129,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -6.21462,
       "longitude" : 106.84513,
       "name" : "Jakarta",
@@ -15285,7 +15285,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -15.93872,
       "longitude" : -5.71675,
       "name" : "Jamestown",
@@ -15441,7 +15441,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 34.52813,
       "longitude" : 69.17233,
       "name" : "Kabul",
@@ -15597,7 +15597,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 0.31628,
       "longitude" : 32.58219,
       "name" : "Kampala",
@@ -15753,7 +15753,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 27.70169,
       "longitude" : 85.3206,
       "name" : "Kathmandu",
@@ -15909,7 +15909,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 15.54665,
       "longitude" : 32.53361,
       "name" : "Khartoum",
@@ -16065,7 +16065,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 50.45466,
       "longitude" : 30.5238,
       "name" : "Kiev",
@@ -16221,7 +16221,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -1.94995,
       "longitude" : 30.05885,
       "name" : "Kigali",
@@ -16382,7 +16382,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -29.05459,
       "longitude" : 167.96628,
       "name" : "Kingston",
@@ -16538,7 +16538,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 17.99702,
       "longitude" : -76.79358,
       "name" : "Kingston",
@@ -16694,7 +16694,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 13.15872,
       "longitude" : -61.22475,
       "name" : "Kingstown",
@@ -16850,7 +16850,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -4.32459,
       "longitude" : 15.32146,
       "name" : "Kinshasa",
@@ -17006,7 +17006,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 3.1412,
       "longitude" : 101.68653,
       "name" : "Kuala Lumpur",
@@ -17162,7 +17162,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 29.36972,
       "longitude" : 47.97833,
       "name" : "Kuwait",
@@ -17318,7 +17318,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -16.5,
       "longitude" : -68.15,
       "name" : "La Paz",
@@ -17474,7 +17474,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 0.38333,
       "longitude" : 9.45,
       "name" : "Libreville",
@@ -17630,7 +17630,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -13.98333,
       "longitude" : 33.78333,
       "name" : "Lilongwe",
@@ -17786,7 +17786,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -12.04318,
       "longitude" : -77.02824,
       "name" : "Lima",
@@ -17942,7 +17942,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 38.71667,
       "longitude" : -9.13333,
       "name" : "Lisbon",
@@ -18098,7 +18098,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 46.05108,
       "longitude" : 14.50513,
       "name" : "Ljubljana",
@@ -18254,7 +18254,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 6.13748,
       "longitude" : 1.21227,
       "name" : "Lom??",
@@ -18410,7 +18410,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 51.50853,
       "longitude" : -0.12574,
       "name" : "London",
@@ -18566,7 +18566,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -8.83833,
       "longitude" : 13.23444,
       "name" : "Luanda",
@@ -18722,7 +18722,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -15.40809,
       "longitude" : 28.28636,
       "name" : "Lusaka",
@@ -18878,7 +18878,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 49.61167,
       "longitude" : 6.13,
       "name" : "Luxembourg",
@@ -19034,7 +19034,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 22.20056,
       "longitude" : 113.54611,
       "name" : "Macau",
@@ -19190,7 +19190,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 40.4165,
       "longitude" : -3.70256,
       "name" : "Madrid",
@@ -19351,7 +19351,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 7.08971,
       "longitude" : 171.38027,
       "name" : "Majuro",
@@ -19507,7 +19507,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 3.75,
       "longitude" : 8.78333,
       "name" : "Malabo",
@@ -19663,7 +19663,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 4.1748,
       "longitude" : 73.50888,
       "name" : "Male",
@@ -19819,7 +19819,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -12.77944,
       "longitude" : 45.22722,
       "name" : "Mamoudzou",
@@ -19975,7 +19975,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 12.13282,
       "longitude" : -86.2504,
       "name" : "Managua",
@@ -20136,7 +20136,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 26.21536,
       "longitude" : 50.5832,
       "name" : "Manama",
@@ -20292,7 +20292,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 14.6042,
       "longitude" : 120.9822,
       "name" : "Manila",
@@ -20448,7 +20448,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -25.96528,
       "longitude" : 32.58917,
       "name" : "Maputo",
@@ -20604,7 +20604,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 60.09726,
       "longitude" : 19.93481,
       "name" : "Mariehamn",
@@ -20760,7 +20760,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 18.06667,
       "longitude" : -63.08333,
       "name" : "Marigot",
@@ -20916,7 +20916,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -29.31667,
       "longitude" : 27.48333,
       "name" : "Maseru",
@@ -21072,7 +21072,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -13.28163,
       "longitude" : -176.17453,
       "name" : "Mat?�'utu",
@@ -21228,7 +21228,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -26.31667,
       "longitude" : 31.13333,
       "name" : "Mbabane",
@@ -21384,7 +21384,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 19.42847,
       "longitude" : -99.12766,
       "name" : "Mexico City",
@@ -21540,7 +21540,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 53.9,
       "longitude" : 27.56667,
       "name" : "Minsk",
@@ -21696,7 +21696,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 2.03711,
       "longitude" : 45.34375,
       "name" : "Mogadishu",
@@ -21852,7 +21852,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 43.73333,
       "longitude" : 7.41667,
       "name" : "Monaco",
@@ -22008,7 +22008,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 6.30054,
       "longitude" : -10.7969,
       "name" : "Monrovia",
@@ -22164,7 +22164,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -34.83346,
       "longitude" : -56.16735,
       "name" : "Montevideo",
@@ -22320,7 +22320,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -11.70216,
       "longitude" : 43.25506,
       "name" : "Moroni",
@@ -22476,7 +22476,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 55.75222,
       "longitude" : 37.61556,
       "name" : "Moscow",
@@ -22632,7 +22632,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 23.61333,
       "longitude" : 58.59333,
       "name" : "Muscat",
@@ -22788,7 +22788,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -1.28333,
       "longitude" : 36.81667,
       "name" : "Nairobi",
@@ -22944,7 +22944,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 25.05823,
       "longitude" : -77.34306,
       "name" : "Nassau",
@@ -23100,7 +23100,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 19.745,
       "longitude" : 96.12972,
       "name" : "Nay Pyi Taw",
@@ -23256,7 +23256,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 12.11058,
       "longitude" : 15.03479,
       "name" : "N'Djamena",
@@ -23412,7 +23412,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 28.63576,
       "longitude" : 77.22445,
       "name" : "New Delhi",
@@ -23568,7 +23568,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 7.50043,
       "longitude" : 134.62355,
       "name" : "Ngerulmud",
@@ -23724,7 +23724,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 13.5125,
       "longitude" : 2.11178,
       "name" : "Niamey",
@@ -23880,7 +23880,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 35.16667,
       "longitude" : 33.36667,
       "name" : "Nicosia",
@@ -24036,7 +24036,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 18.10033,
       "longitude" : -15.94975,
       "name" : "Nouakchott",
@@ -24197,7 +24197,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -22.27631,
       "longitude" : 166.4572,
       "name" : "Noum??a",
@@ -24353,7 +24353,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -21.13333,
       "longitude" : -175.2,
       "name" : "Nuku`alofa",
@@ -24494,7 +24494,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 64.18347,
       "longitude" : -51.72157,
       "name" : "Nuuk",
@@ -24650,7 +24650,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 12.52398,
       "longitude" : -70.02703,
       "name" : "Oranjestad",
@@ -24806,7 +24806,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 59.91273,
       "longitude" : 10.74609,
       "name" : "Oslo",
@@ -24962,7 +24962,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 45.41117,
       "longitude" : -75.69812,
       "name" : "Ottawa",
@@ -25118,7 +25118,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 12.36423,
       "longitude" : -1.53834,
       "name" : "Ouagadougou",
@@ -25274,7 +25274,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -14.27806,
       "longitude" : -170.7025,
       "name" : "Pago Pago",
@@ -25435,7 +25435,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 6.92477,
       "longitude" : 158.16109,
       "name" : "Palikir - National Government Center",
@@ -25596,7 +25596,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 8.9936,
       "longitude" : -79.51973,
       "name" : "Panam?�",
@@ -25752,7 +25752,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -17.53333,
       "longitude" : -149.56667,
       "name" : "Papeete",
@@ -25908,7 +25908,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 5.86638,
       "longitude" : -55.16682,
       "name" : "Paramaribo",
@@ -26064,7 +26064,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 48.85341,
       "longitude" : 2.3488,
       "name" : "Paris",
@@ -26220,7 +26220,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 18.026,
       "longitude" : -63.04582,
       "name" : "Philipsburg",
@@ -26376,7 +26376,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 11.56245,
       "longitude" : 104.91601,
       "name" : "Phnom Penh",
@@ -26532,7 +26532,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 16.70555,
       "longitude" : -62.21292,
       "name" : "Plymouth",
@@ -26688,7 +26688,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 42.44111,
       "longitude" : 19.26361,
       "name" : "Podgorica",
@@ -26844,7 +26844,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -20.16194,
       "longitude" : 57.49889,
       "name" : "Port Louis",
@@ -27000,7 +27000,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -9.44314,
       "longitude" : 147.17972,
       "name" : "Port Moresby",
@@ -27156,7 +27156,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 18.53917,
       "longitude" : -72.335,
       "name" : "Port-au-Prince",
@@ -27312,7 +27312,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -49.35,
       "longitude" : 70.21667,
       "name" : "Port-aux-Fran??ais",
@@ -27468,7 +27468,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 10.66617,
       "longitude" : -61.51657,
       "name" : "Port-of-Spain",
@@ -27624,7 +27624,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 6.49646,
       "longitude" : 2.60359,
       "name" : "Porto-Novo",
@@ -27785,7 +27785,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -17.73381,
       "longitude" : 168.32188,
       "name" : "Port-Vila",
@@ -27941,7 +27941,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 50.08804,
       "longitude" : 14.42076,
       "name" : "Praha",
@@ -28097,7 +28097,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 14.92148,
       "longitude" : -23.50868,
       "name" : "Praia",
@@ -28253,7 +28253,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -25.74486,
       "longitude" : 28.18783,
       "name" : "Pretoria",
@@ -28409,7 +28409,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 42.67272,
       "longitude" : 21.16688,
       "name" : "Pristina",
@@ -28565,7 +28565,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 39.03385,
       "longitude" : 125.75432,
       "name" : "Pyongyang",
@@ -28721,7 +28721,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -0.22985,
       "longitude" : -78.52495,
       "name" : "Quito",
@@ -28877,7 +28877,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 34.01325,
       "longitude" : -6.83255,
       "name" : "Rabat",
@@ -29018,7 +29018,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 64.13548,
       "longitude" : -21.89541,
       "name" : "Reykjav??k",
@@ -29174,7 +29174,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 56.946,
       "longitude" : 24.10589,
       "name" : "Riga",
@@ -29330,7 +29330,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 24.68773,
       "longitude" : 46.72185,
       "name" : "Riyadh",
@@ -29486,7 +29486,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 18.41667,
       "longitude" : -64.61667,
       "name" : "Road Town",
@@ -29642,7 +29642,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 41.89474,
       "longitude" : 12.4839,
       "name" : "Roma",
@@ -29803,7 +29803,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 15.30174,
       "longitude" : -61.38808,
       "name" : "Roseau",
@@ -29959,7 +29959,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 0.33654,
       "longitude" : 6.72732,
       "name" : "S?�o Tom??",
@@ -30115,7 +30115,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 12.05644,
       "longitude" : -61.74849,
       "name" : "Saint George's",
@@ -30271,7 +30271,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 49.18333,
       "longitude" : -2.1,
       "name" : "Saint Helier",
@@ -30427,7 +30427,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 17.11667,
       "longitude" : -61.85,
       "name" : "Saint John�??s",
@@ -30583,7 +30583,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 49.45981,
       "longitude" : -2.53527,
       "name" : "Saint Peter Port",
@@ -30739,7 +30739,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -20.88231,
       "longitude" : 55.4504,
       "name" : "Saint-Denis",
@@ -30895,7 +30895,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 46.76544,
       "longitude" : -56.16949,
       "name" : "Saint-Pierre",
@@ -31051,7 +31051,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 9.93333,
       "longitude" : -84.08333,
       "name" : "San Jos??",
@@ -31207,7 +31207,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 18.46633,
       "longitude" : -66.10572,
       "name" : "San Juan",
@@ -31363,7 +31363,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 43.93333,
       "longitude" : 12.45,
       "name" : "San Marino",
@@ -31519,7 +31519,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 13.68935,
       "longitude" : -89.18718,
       "name" : "San Salvador",
@@ -31675,7 +31675,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 15.35472,
       "longitude" : 44.20667,
       "name" : "Sanaa",
@@ -31831,7 +31831,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -33.42628,
       "longitude" : -70.56656,
       "name" : "Santiago",
@@ -31987,7 +31987,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 18.50012,
       "longitude" : -69.98857,
       "name" : "Santo Domingo",
@@ -32143,7 +32143,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 43.84864,
       "longitude" : 18.35644,
       "name" : "Sarajevo",
@@ -32299,7 +32299,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 37.56826,
       "longitude" : 126.97783,
       "name" : "Seoul",
@@ -32455,7 +32455,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 1.28967,
       "longitude" : 103.85007,
       "name" : "Singapore",
@@ -32611,7 +32611,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 42,
       "longitude" : 21.43333,
       "name" : "Skopje",
@@ -32767,7 +32767,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 42.69751,
       "longitude" : 23.32415,
       "name" : "Sofia",
@@ -32923,7 +32923,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -51.7,
       "longitude" : -57.85,
       "name" : "Stanley",
@@ -33079,7 +33079,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 59.33258,
       "longitude" : 18.0649,
       "name" : "Stockholm",
@@ -33235,7 +33235,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -19.03332,
       "longitude" : -65.26274,
       "name" : "Sucre",
@@ -33391,7 +33391,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -18.14161,
       "longitude" : 178.44149,
       "name" : "Suva",
@@ -33532,7 +33532,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 62.00973,
       "longitude" : -6.77164,
       "name" : "T??rshavn",
@@ -33688,7 +33688,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 25.04776,
       "longitude" : 121.53185,
       "name" : "Taipei",
@@ -33844,7 +33844,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 59.43696,
       "longitude" : 24.75353,
       "name" : "Tallinn",
@@ -34005,7 +34005,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 1.3278,
       "longitude" : 172.97696,
       "name" : "Tarawa",
@@ -34161,7 +34161,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 41.26465,
       "longitude" : 69.21627,
       "name" : "Tashkent",
@@ -34317,7 +34317,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 41.69411,
       "longitude" : 44.83368,
       "name" : "Tbilisi",
@@ -34473,7 +34473,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 14.0818,
       "longitude" : -87.20681,
       "name" : "Tegucigalpa",
@@ -34629,7 +34629,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 35.69439,
       "longitude" : 51.42151,
       "name" : "Tehr��n",
@@ -34785,7 +34785,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 18.21704,
       "longitude" : -63.05783,
       "name" : "The Valley",
@@ -34941,7 +34941,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 27.46609,
       "longitude" : 89.64191,
       "name" : "Thimphu",
@@ -35097,7 +35097,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 41.3275,
       "longitude" : 19.81889,
       "name" : "Tirana",
@@ -35253,7 +35253,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 35.61488,
       "longitude" : 139.5813,
       "name" : "Tokyo",
@@ -35409,7 +35409,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 32.87519,
       "longitude" : 13.18746,
       "name" : "Tripoli",
@@ -35565,7 +35565,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 36.81897,
       "longitude" : 10.16579,
       "name" : "Tunis",
@@ -35721,7 +35721,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 47.90771,
       "longitude" : 106.88324,
       "name" : "Ulaanbaatar",
@@ -35877,7 +35877,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 47.14151,
       "longitude" : 9.52154,
       "name" : "Vaduz",
@@ -36033,7 +36033,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 35.89972,
       "longitude" : 14.51472,
       "name" : "Valletta",
@@ -36189,7 +36189,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 41.90236,
       "longitude" : 12.45332,
       "name" : "Vatican City",
@@ -36345,7 +36345,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -4.61667,
       "longitude" : 55.45,
       "name" : "Victoria",
@@ -36501,7 +36501,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 48.20849,
       "longitude" : 16.37208,
       "name" : "Vienna",
@@ -36657,7 +36657,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 17.96667,
       "longitude" : 102.6,
       "name" : "Vientiane",
@@ -36813,7 +36813,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 54.68916,
       "longitude" : 25.2798,
       "name" : "Vilnius",
@@ -36969,7 +36969,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 52.22977,
       "longitude" : 21.01178,
       "name" : "Warsaw",
@@ -37125,7 +37125,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 38.89511,
       "longitude" : -77.03637,
       "name" : "Washington, D. C.",
@@ -37286,7 +37286,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -41.28664,
       "longitude" : 174.77557,
       "name" : "Wellington",
@@ -37442,7 +37442,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -12.15681,
       "longitude" : 96.82251,
       "name" : "West Island",
@@ -37598,7 +37598,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 12.1084,
       "longitude" : -68.93354,
       "name" : "Willemstad",
@@ -37754,7 +37754,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : -22.55941,
       "longitude" : 17.08323,
       "name" : "Windhoek",
@@ -37910,7 +37910,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 6.81667,
       "longitude" : -5.28333,
       "name" : "Yamoussoukro",
@@ -38066,7 +38066,7 @@
         "kind" : 2300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 3.86667,
       "longitude" : 11.51667,
       "name" : "Yaound??",
@@ -38222,7 +38222,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 40.18111,
       "longitude" : 44.51361,
       "name" : "Yerevan",
@@ -38378,7 +38378,7 @@
         "kind" : 1300
       }
     ],
-    "waypoint" : {
+    "locationDescriptor" : {
       "latitude" : 45.81444,
       "longitude" : 15.97798,
       "name" : "Zagreb",

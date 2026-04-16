@@ -133,4 +133,3 @@ extension SolunarEventKind {
         .galacticCenterSet
     ]
 }
-

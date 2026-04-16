@@ -90,11 +90,6 @@ struct Solunar {
         }
     }
     
-    private static func getEvent(_ event: SolarEvent, interval: DateInterval, coordinates: GeographicCoordinates) -> Date? {
-        let degrees = event.angle.converted(to: .degrees).value
-        return computeRiseSet(riseSet: event.riseSet, degree: Degree(degrees), interval: interval, coordinates: coordinates)
-    }
-    
     private static func computeRiseSet(riseSet: RiseTransitSetState, degree: Degree, interval: DateInterval, coordinates: GeographicCoordinates) -> Date? {
         let intervalJulianDay = JulianDay(interval.start)
         

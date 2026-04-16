@@ -14,7 +14,6 @@ public struct SolunarEvent : Codable, Sendable {
         self.azimuthAngleInDegrees = horizontalCoordinates.northBasedAzimuth.value
     }
 
-    // TODO: This should have an angle, useful for sunrise/sunset/moonrise/moonset/galatic center
     public let date: Date
     public let kind: SolunarEventKind
     public let azimuthAngleInDegrees: Double
