@@ -1,4 +1,4 @@
-struct SolunarStatus: Sendable {
+public struct SolunarStatus: Sendable {
     public let magicHour: MagicHour?
     public let moonIllumination: Double
     public let moonPhase: LunarPhase

@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Constant {
+struct Constant {
     static var calendar: Calendar {
         var calendar = Calendar(identifier: .gregorian)
         calendar.timeZone = Constant.utcTimezone

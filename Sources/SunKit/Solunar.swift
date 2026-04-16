@@ -2,7 +2,7 @@ import Foundation
 import CoreLocation
 import SwiftAA
 
-struct Solunar {
+public struct Solunar {
     public static func current(date: Date, coordinates: CLLocationCoordinate2D) -> SolunarStatus {
         let geoCoordinates = GeographicCoordinates(CLLocation(latitude: coordinates.latitude, longitude: coordinates.longitude))
         let julianDay = JulianDay(date)
