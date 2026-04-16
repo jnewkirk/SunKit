@@ -1,18 +1,11 @@
-//
-//  RiseSetEnum.swift
-//  SunKit
-//
-//  Created by Jim Newkirk on 4/17/25.
-//
-
 import Foundation
 
-public enum RiseSetEnum: Sendable {
+public enum RiseTransitSetState: Sendable {
     case rise
     case transit
     case set
 
-    func value(of: RiseSet) -> Date? {
+    func value(of: RiseTransitSet) -> Date? {
         switch self {
         case .rise:
             return of.rise

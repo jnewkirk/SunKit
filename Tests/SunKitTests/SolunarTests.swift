@@ -225,7 +225,7 @@ struct SolunarTests {
         }
     }
 
-    struct MoonState {
+    struct MoonStateTests {
         let testData: [TestSolunarData]
 
         internal init() {
@@ -245,7 +245,52 @@ struct SolunarTests {
             }
         }
 
-        // TODO: The other 5 states
+        @Test
+        func moonset() throws {
+            for testLocation in testData {
+                if let moonset = testLocation.events.first(.moonset) {
+                    let solunarStatus = Solunar.current(
+                        date: moonset.date.add(minutes: 5),
+                        coordinates: testLocation.waypoint.coordinate
+                    )
+                    #expect (solunarStatus.moonState == .set)
+                }
+            }
+        }
+    }
+
+    struct GalacticCenterStateTests {
+        let testData: [TestSolunarData]
+
+        internal init() {
+            testData = TestSolunarData.load()
+        }
+
+        @Test
+        func galacticCenterRise() throws {
+            for testLocation in testData {
+                if let rise = testLocation.events.first(.galacticCenterRise) {
+                    let solunarStatus = Solunar.current(
+                        date: rise.date.add(minutes: 5),
+                        coordinates: testLocation.waypoint.coordinate
+                    )
+                    #expect (solunarStatus.galacticCenterState == .risen)
+                }
+            }
+        }
+
+        @Test
+        func galacticCenterSet() throws {
+            for testLocation in testData {
+                if let set = testLocation.events.first(.galacticCenterSet) {
+                    let solunarStatus = Solunar.current(
+                        date: set.date.add(minutes: 5),
+                        coordinates: testLocation.waypoint.coordinate
+                    )
+                    #expect (solunarStatus.galacticCenterState == .set)
+                }
+            }
+        }
     }
 
     struct MoonIllumination {

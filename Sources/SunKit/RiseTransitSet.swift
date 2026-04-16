@@ -1,6 +1,6 @@
 import Foundation
 
-struct RiseSet {
+struct RiseTransitSet {
     public let rise: Date?
     public let transit: Date?
     public let set: Date?

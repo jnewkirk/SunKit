@@ -27,13 +27,13 @@ struct LunarCalculator : SolunarCalculator {
         }
     }
 
-    static func galacticCenterRiseSet(interval: DateInterval, coordinates: GeographicCoordinates) -> RiseSet {
+    static func galacticCenterRiseSet(interval: DateInterval, coordinates: GeographicCoordinates) -> RiseTransitSet {
         let julianDay = JulianDay(interval.start).midnight
 
         // Sagittarius A* (Galactic Center) fixed coordinates (J2000)
         // RA: 17h 45m 40s, Dec: -29° 00' 28"
-        let rightAscension = Hour(17 + 45.0/60.0 + 40.0/3600.0)   // 17.761111 hours
-        let declination = Degree(-29 - 0/60.0 - 28.0/3600.0)      // -29.007778 degrees
+        let rightAscension = Hour(.plus, 17, 45, 40)   // 17.761111 hours
+        let declination = Degree(.minus, 29, 0, 28)    // -29.007778 degrees
 
         // Create fixed equatorial coordinates for Sagittarius A*
         let galacticCenter = EquatorialCoordinates(alpha: rightAscension, delta: declination)
@@ -87,10 +87,10 @@ struct LunarCalculator : SolunarCalculator {
             riseSetTomorrow.isSetValid ? riseSetTomorrow.setTime.date : nil
         ])
 
-        return RiseSet(rise: rise?.toNearestMinute(), transit: transit?.toNearestMinute(), set: set?.toNearestMinute())
+        return RiseTransitSet(rise: rise?.toNearestMinute(), transit: transit?.toNearestMinute(), set: set?.toNearestMinute())
     }
 
-    private static func moonRiseAndSet(interval: DateInterval, coordinates: GeographicCoordinates) -> RiseSet {
+    private static func moonRiseAndSet(interval: DateInterval, coordinates: GeographicCoordinates) -> RiseTransitSet {
         let julianDay = JulianDay(interval.start)
 
         let moonToday = Moon(julianDay: julianDay)
@@ -103,7 +103,7 @@ struct LunarCalculator : SolunarCalculator {
         let transit = interval.inDateInterval(dates: [riseSetYesterday.transitTime?.date, riseSetToday.transitTime?.date, riseSetTomorrow.transitTime?.date])
         let set = interval.inDateInterval(dates: [riseSetYesterday.setTime?.date, riseSetToday.setTime?.date, riseSetTomorrow.setTime?.date])
 
-        return RiseSet(rise: rise?.toNearestMinute(), transit: transit?.toNearestMinute(), set: set?.toNearestMinute())
+        return RiseTransitSet(rise: rise?.toNearestMinute(), transit: transit?.toNearestMinute(), set: set?.toNearestMinute())
     }
 }
 

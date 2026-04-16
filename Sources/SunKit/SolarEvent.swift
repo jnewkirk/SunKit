@@ -2,14 +2,14 @@ import Foundation
 import SwiftAA
 
 public struct SolarEvent: Sendable {
-    internal init(angle: Measurement<UnitAngle>, riseSet: RiseSetEnum, kind: SolunarEventKind) {
+    internal init(angle: Measurement<UnitAngle>, riseSet: RiseTransitSetState, kind: SolunarEventKind) {
         self.angle = angle
         self.riseSet = riseSet
         self.kind = kind
     }
 
     internal let angle: Measurement<UnitAngle>
-    internal let riseSet: RiseSetEnum
+    internal let riseSet: RiseTransitSetState
     internal let kind: SolunarEventKind
 
     internal static let goldenHour = Measurement<UnitAngle>(value: 6.0, unit: .degrees)

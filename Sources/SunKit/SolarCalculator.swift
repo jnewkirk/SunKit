@@ -2,13 +2,13 @@ import Foundation
 import SwiftAA
 
 struct SolarCalculator : SolunarCalculator {
-    private init(_ angle: Measurement<UnitAngle>, _ riseSet: RiseSetEnum) {
+    private init(_ angle: Measurement<UnitAngle>, _ riseSet: RiseTransitSetState) {
         self.angle = angle
         self.riseSet = riseSet
     }
 
     let angle: Measurement<UnitAngle>
-    let riseSet: RiseSetEnum
+    let riseSet: RiseTransitSetState
     var degrees: Degree { Degree(angle.converted(to: .degrees).value) }
 
     public func calculate(interval: DateInterval, coordinates: GeographicCoordinates) -> Date? {

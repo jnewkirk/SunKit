@@ -24,7 +24,21 @@ struct Solunar {
             at: julianDay
         )
         let moonAltitude = moonHorizontalCoordinates.altitude.value
-        let moonState: MoonState = moonAltitude > 0 ? .risen : .set
+        let moonState: LunarState = moonAltitude > 0 ? .risen : .set
+        
+        // Galactic Center calculations
+        // RA: 17h 45m 40.04s, Dec: -29° 00' 28.1" (J2000)
+        let galacticCenterEquatorialCoordinates = EquatorialCoordinates(
+            alpha: Hour(.plus, 17, 45, 40),
+            delta: Degree(.minus, 29, 0, 28)
+        )
+        let galacticCenterHorizontalCoordinates = galacticCenterEquatorialCoordinates.makeHorizontalCoordinates(
+            for: geoCoordinates,
+            at: julianDay
+        )
+        let galacticCenterAltitude = galacticCenterHorizontalCoordinates.altitude.value
+        let galacticCenterState: LunarState = galacticCenterAltitude > -0.5667 ? .risen : .set
+        
         let moonIllumination = moon.illuminatedFraction()
         let lunarPhase = LunarPhase.current(julianDay: julianDay)
         
@@ -33,7 +47,8 @@ struct Solunar {
             moonIllumination: moonIllumination,
             moonPhase: lunarPhase,
             moonState: moonState,
-            solarState: SolarState.from(altitude: sunAltitude)
+            solarState: SolarState.from(altitude: sunAltitude),
+            galacticCenterState: galacticCenterState
         )
     }
     
@@ -80,13 +95,13 @@ struct Solunar {
         return computeRiseSet(riseSet: event.riseSet, degree: Degree(degrees), interval: interval, coordinates: coordinates)
     }
     
-    private static func computeRiseSet(riseSet: RiseSetEnum, degree: Degree, interval: DateInterval, coordinates: GeographicCoordinates) -> Date? {
+    private static func computeRiseSet(riseSet: RiseTransitSetState, degree: Degree, interval: DateInterval, coordinates: GeographicCoordinates) -> Date? {
         let intervalJulianDay = JulianDay(interval.start)
         
         return computeRiseSet(riseSet: riseSet, julianDay: intervalJulianDay, interval: interval, coordinates: coordinates, degree: degree)
     }
     
-    private static func computeRiseSet(riseSet: RiseSetEnum, julianDay: JulianDay, interval: DateInterval, coordinates: GeographicCoordinates, degree: Degree) -> Date? {
+    private static func computeRiseSet(riseSet: RiseTransitSetState, julianDay: JulianDay, interval: DateInterval, coordinates: GeographicCoordinates, degree: Degree) -> Date? {
         let riseSetYesterday = Earth(julianDay: julianDay - 1).twilights(forSunAltitude: degree, coordinates: coordinates)
         let riseSetToday = Earth(julianDay: julianDay).twilights(forSunAltitude: degree, coordinates: coordinates)
         let riseSetTomorrow = Earth(julianDay: julianDay + 1).twilights(forSunAltitude: degree, coordinates: coordinates)
