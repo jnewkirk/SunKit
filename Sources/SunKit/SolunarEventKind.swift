@@ -51,7 +51,15 @@ public enum SolunarEventKind: Int, Codable, Sendable, CaseIterable {
 
     galacticCenterApex = 2400,
 
-    galacticCenterSet = 2500
+    galacticCenterSet = 2500,
+
+    newMoon = 2600,
+
+    firstQuarter = 2700,
+
+    fullMoon = 2800,
+
+    lastQuarter = 2900
 }
 
 extension SolunarEventKind {
@@ -95,6 +103,14 @@ extension SolunarEventKind {
             return LunarCalculator.galacticCenterApex
         case .galacticCenterSet:
             return LunarCalculator.galacticCenterSet
+        case .newMoon:
+            return MoonPhaseCalculator.newMoon
+        case .firstQuarter:
+            return MoonPhaseCalculator.firstQuarter
+        case .fullMoon:
+            return MoonPhaseCalculator.fullMoon
+        case .lastQuarter:
+            return MoonPhaseCalculator.lastQuarter
         }
     }
 
@@ -131,5 +147,12 @@ extension SolunarEventKind {
         .galacticCenterRise,
         .galacticCenterApex,
         .galacticCenterSet
+    ]
+
+    public static let moonPhaseEvents: [SolunarEventKind] = [
+        .newMoon,
+        .firstQuarter,
+        .fullMoon,
+        .lastQuarter
     ]
 }

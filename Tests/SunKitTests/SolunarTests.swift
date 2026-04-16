@@ -325,12 +325,12 @@ struct SolunarTests {
         }
 
         @Test
-        func thirdQuarter() {
+        func lastQuarter() {
             let solunarStatus = Solunar.current(
                 date: "2026-03-11T09:38:00Z".toDate()!,
                 coordinates: Constant.puyallup
             )
-            #expect(.thirdQuarter == solunarStatus.moonPhase)
+            #expect(.lastQuarter == solunarStatus.moonPhase)
             #expect(50 == (solunarStatus.moonIllumination * 100.0).rounded())
         }
 
@@ -372,6 +372,19 @@ struct SolunarTests {
             )
             #expect(.waxingCrescent == solunarStatus.moonPhase)
             #expect(4 == (solunarStatus.moonIllumination * 100.0).rounded())
+        }
+
+        @Test
+        func monthFullOfPhases() {
+            let date = "2026-04-16T00:00:00Z".toDate()!
+            let interval = DateInterval(start: date, end: date.add(days: 30))
+            let phases = Solunar.getEvents(interval: interval, coordinates: Constant.puyallup, events: SolunarEventKind.moonPhaseEvents)
+
+            #expect(4 == phases.count)
+            phases[0].verifySolunarEvent("2026-04-17T11:53:00Z", SolunarEventKind.newMoon)
+            phases[1].verifySolunarEvent("2026-04-24T02:33:00Z", SolunarEventKind.firstQuarter)
+            phases[2].verifySolunarEvent("2026-05-01T17:24:00Z", SolunarEventKind.fullMoon)
+            phases[3].verifySolunarEvent("2026-05-09T21:12:00Z", SolunarEventKind.lastQuarter)
         }
     }
 
@@ -461,8 +474,10 @@ struct SolunarTests {
             let date = try #require("2026-03-11T07:00:00Z".toDate())
             let interval = DateInterval(start: date, duration: 24 * 60 * 60)
             let coordinates = Constant.puyallup
+            var eventKinds = SolunarEventKind.solarEvents
+            eventKinds.append(contentsOf: SolunarEventKind.lunarEvents)
 
-            let solunarEvents = Solunar.getEvents(interval: interval, coordinates: coordinates, events: SolunarEventKind.allCases)
+            let solunarEvents = Solunar.getEvents(interval: interval, coordinates: coordinates, events: eventKinds)
 
             try #require(solunarEvents.count == 29)
 
@@ -531,5 +546,12 @@ extension Date {
 extension Array where Element == SolunarEvent {
     func first(_ kind: SolunarEventKind) -> SolunarEvent? {
         first { $0.kind == kind }
+    }
+}
+
+extension SolunarEvent {
+    func verifySolunarEvent(_ date: String, _ kind: SolunarEventKind) {
+        #expect(date.toDate() == self.date)
+        #expect(kind == self.kind)
     }
 }

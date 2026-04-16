@@ -4,7 +4,7 @@ import SwiftAA
 public enum LunarPhase: String, CaseIterable, Sendable, Codable {
     case new = "New Moon"
     case waningCrescent = "Waning Crescent"
-    case thirdQuarter = "Third Quarter"
+    case lastQuarter = "Last Quarter"
     case waningGibbous = "Waning Gibbous"
     case full = "Full Moon"
     case waxingGibbous = "Waxing Gibbous"
@@ -51,7 +51,7 @@ public enum LunarPhase: String, CaseIterable, Sendable, Codable {
             return .firstQuarter
         }
         if lastDistance <= quarterThreshold {
-            return .thirdQuarter
+            return .lastQuarter
         }
         
         // Not in a major phase window, determine crescent vs gibbous
@@ -62,7 +62,7 @@ public enum LunarPhase: String, CaseIterable, Sendable, Codable {
             (.new, newMoonTime.value),
             (.firstQuarter, firstQuarterTime.value),
             (.full, fullMoonTime.value),
-            (.thirdQuarter, lastQuarterTime.value)
+            (.lastQuarter, lastQuarterTime.value)
         ]
         
         // Find the most recent phase before current time
@@ -80,7 +80,7 @@ public enum LunarPhase: String, CaseIterable, Sendable, Codable {
             return .waxingGibbous
         case .full:
             return .waningGibbous
-        case .thirdQuarter:
+        case .lastQuarter:
             return .waningCrescent
         default:
             return .waxingCrescent
