@@ -32,11 +32,7 @@ struct LunarCalculator : SolunarCalculator {
 
         // Sagittarius A* (Galactic Center) fixed coordinates (J2000)
         // RA: 17h 45m 40s, Dec: -29° 00' 28"
-        let rightAscension = Hour(.plus, 17, 45, 40)   // 17.761111 hours
-        let declination = Degree(.minus, 29, 0, 28)    // -29.007778 degrees
-
-        // Create fixed equatorial coordinates for Sagittarius A*
-        let galacticCenter = EquatorialCoordinates(alpha: rightAscension, delta: declination)
+        let galacticCenter = Constant.galacticCenter
 
         // Standard altitude for stars and planets
         let apparentRiseSetAltitude = Degree(-0.5667)  // -34 arcminutes

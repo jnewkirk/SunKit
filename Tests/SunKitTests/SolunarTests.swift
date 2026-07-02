@@ -387,6 +387,31 @@ struct SolunarTests {
             phases[3].verifySolunarEvent("2026-05-09T21:12:00Z", SolunarEventKind.lastQuarter)
         }
     }
+    
+    struct AzimuthTests {
+        let interval = DateInterval(
+            start: "2026-03-11T07:00:00Z".toDate()!,
+            end:   "2026-03-12T07:00:00Z".toDate()!
+        )
+
+        @Test
+        func galacticCenterAzimuths() throws {
+            let events = Solunar.getEvents(interval: interval, coordinates: Constant.puyallup, events: [.galacticCenterRise, .galacticCenterApex, .galacticCenterSet])
+            try #require(events.count == 3)
+            #expect(events[0].azimuthAngleInDegrees.rounded() == 134)
+            #expect(events[1].azimuthAngleInDegrees.rounded() == 180)
+            #expect(events[2].azimuthAngleInDegrees.rounded() == 225)
+        }
+
+        @Test
+        func moonAzimuths() throws {
+            let events = Solunar.getEvents(interval: interval, coordinates: Constant.puyallup, events: [.moonrise, .moonApex, .moonset])
+            try #require(events.count == 3)
+            #expect(events[0].azimuthAngleInDegrees.rounded() == 134)
+            #expect(events[1].azimuthAngleInDegrees.rounded() == 180)
+            #expect(events[2].azimuthAngleInDegrees.rounded() == 225)
+        }
+    }
 
     struct GetEvents {
         @Test
