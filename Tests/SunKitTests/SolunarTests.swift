@@ -411,6 +411,18 @@ struct SolunarTests {
             #expect(events[1].azimuthAngleInDegrees.rounded() == 180)
             #expect(events[2].azimuthAngleInDegrees.rounded() == 225)
         }
+        
+        @Test
+        func galacticCenterAzimuthsBendOR() throws {
+            let interval = DateInterval(
+                start: "2026-07-02T07:00:00Z".toDate()!,
+                end:   "2026-07-03T07:00:00Z".toDate()!
+            )
+            let events = Solunar.getEvents(interval: interval, coordinates: Constant.bend, events: [.galacticCenterRise, .galacticCenterApex])
+            try #require(events.count == 2)
+            #expect(events[0].azimuthAngleInDegrees.rounded() == 180)   // apex  2026-07-02T07:08Z
+            #expect(events[1].azimuthAngleInDegrees.rounded() == 132)   // rise  2026-07-03T03:11Z
+        }
     }
 
     struct GetEvents {
