@@ -30,9 +30,7 @@ struct LunarCalculator : SolunarCalculator {
     static func galacticCenterRiseSet(interval: DateInterval, coordinates: GeographicCoordinates) -> RiseTransitSet {
         let julianDay = JulianDay(interval.start).midnight
 
-        // Sagittarius A* (Galactic Center) fixed coordinates (J2000)
-        // RA: 17h 45m 40s, Dec: -29° 00' 28"
-        let galacticCenter = Constant.galacticCenter
+        let galacticCenter = Constant.precessedGalacticCenter(on: julianDay)
 
         // Standard altitude for stars and planets
         let apparentRiseSetAltitude = Degree(-0.5667)  // -34 arcminutes

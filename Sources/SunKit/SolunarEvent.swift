@@ -20,7 +20,7 @@ public struct SolunarEvent : Codable, Sendable {
             equatorialCoordinates = Moon(julianDay: julianDay).equatorialCoordinates
 
         case .galacticCenterRise, .galacticCenterApex, .galacticCenterSet:
-                equatorialCoordinates = Constant.galacticCenter
+            equatorialCoordinates = Constant.precessedGalacticCenter(on: julianDay)
 
         default:
             equatorialCoordinates = Sun(julianDay: julianDay).equatorialCoordinates

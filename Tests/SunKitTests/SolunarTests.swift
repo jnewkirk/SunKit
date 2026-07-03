@@ -421,7 +421,7 @@ struct SolunarTests {
             let events = Solunar.getEvents(interval: interval, coordinates: Constant.bend, events: [.galacticCenterRise, .galacticCenterApex])
             try #require(events.count == 2)
             #expect(events[0].azimuthAngleInDegrees.rounded() == 180)   // apex  2026-07-02T07:08Z
-            #expect(events[1].azimuthAngleInDegrees.rounded() == 132)   // rise  2026-07-03T03:11Z
+            #expect(events[1].azimuthAngleInDegrees.rounded() == 131)   // rise  2026-07-03T03:11Z
         }
     }
 
@@ -519,7 +519,7 @@ struct SolunarTests {
             try #require(solunarEvents.count == 29)
 
             verifySolunarEvent(solunarEvents[0], "2026-03-11T10:34:00Z", SolunarEventKind.moonrise)
-            verifySolunarEvent(solunarEvents[1], "2026-03-11T10:59:00Z", SolunarEventKind.galacticCenterRise)
+            verifySolunarEvent(solunarEvents[1], "2026-03-11T11:01:00Z", SolunarEventKind.galacticCenterRise)
             verifySolunarEvent(solunarEvents[2], "2026-03-11T12:47:00Z", SolunarEventKind.astronomicalDawnStart)
             verifySolunarEvent(solunarEvents[3], "2026-03-11T13:23:00Z", SolunarEventKind.astronomicalDawnEnd)
             verifySolunarEvent(solunarEvents[4], "2026-03-11T13:23:00Z", SolunarEventKind.nauticalDawnStart)
@@ -531,10 +531,10 @@ struct SolunarTests {
             verifySolunarEvent(solunarEvents[10], "2026-03-11T14:20:00Z", SolunarEventKind.moonApex)
             verifySolunarEvent(solunarEvents[11], "2026-03-11T14:28:00Z", SolunarEventKind.civilDawnEnd)
             verifySolunarEvent(solunarEvents[12], "2026-03-11T14:28:00Z", SolunarEventKind.sunrise)
-            verifySolunarEvent(solunarEvents[13], "2026-03-11T14:36:00Z", SolunarEventKind.galacticCenterApex)
+            verifySolunarEvent(solunarEvents[13], "2026-03-11T14:38:00Z", SolunarEventKind.galacticCenterApex)
             verifySolunarEvent(solunarEvents[14], "2026-03-11T15:09:00Z", SolunarEventKind.goldenHourDawnEnd)
             verifySolunarEvent(solunarEvents[15], "2026-03-11T18:04:00Z", SolunarEventKind.moonset)
-            verifySolunarEvent(solunarEvents[16], "2026-03-11T18:14:00Z", SolunarEventKind.galacticCenterSet)
+            verifySolunarEvent(solunarEvents[16], "2026-03-11T18:16:00Z", SolunarEventKind.galacticCenterSet)
             verifySolunarEvent(solunarEvents[17], "2026-03-11T20:18:00Z", SolunarEventKind.solarNoon)
             verifySolunarEvent(solunarEvents[18], "2026-03-12T01:27:00Z", SolunarEventKind.goldenHourDuskStart)
             verifySolunarEvent(solunarEvents[19], "2026-03-12T02:08:00Z", SolunarEventKind.sunset)

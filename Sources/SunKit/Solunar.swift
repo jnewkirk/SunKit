@@ -26,7 +26,7 @@ public struct Solunar {
         let moonAltitude = moonHorizontalCoordinates.altitude.value
         let moonState: LunarState = moonAltitude > 0 ? .risen : .set
         
-        let galacticCenterEquatorialCoordinates = Constant.galacticCenter
+        let galacticCenterEquatorialCoordinates = Constant.precessedGalacticCenter(on: julianDay)
         let galacticCenterHorizontalCoordinates = galacticCenterEquatorialCoordinates.makeHorizontalCoordinates(
             for: geoCoordinates,
             at: julianDay
